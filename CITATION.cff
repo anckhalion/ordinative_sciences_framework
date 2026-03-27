@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this framework or its specific modules in your research or AI agent instructions, please cite it as below."
+authors:
+  - family-names: "Ghioni"
+    given-names: "Fabio"
+    orcid: "https://orcid.org/0009-0009-0415-9434"
+    affiliation: "Ordinative Sciences Foundation (ex Fondazione Officina del Fare ETS)"
+title: "Ordinative Sciences Framework: Technology of Expressions (TE) for Anti-Bias AI Formulations"
+version: 1.0.0
+date-released: 2026-03-27
+url: "https://github.com/anckhalion/ordinative_sciences_framework"
+repository-code: "https://github.com/anckhalion/ordinative_sciences_framework"
+abstract: >-
+  The TE Framework represents a structural ontology of meaning, formally defined as Ordinative Set Theory (OST). 
+  It provides an alternative to probability-based NLP and LLM alignment (RLHF) by establishing vectors of structural 
+  coherence and phase-shift diagnostics (Controfase) to detect and resolve narrative capture, projective voids, 
+  and epistemic cowardice in computational processing.
+keywords:
+  - Artificial Intelligence
+  - Ontology
+  - Epistemology
+  - Ordinative Set Theory
+  - Structural Analysis
+  - Logic
+license: MIT
