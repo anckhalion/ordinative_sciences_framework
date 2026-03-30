@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19337545.svg)](https://doi.org/10.5281/zenodo.19337545)
+
 # Ordinative Sciences Framework (TE)
 
 Welcome to the official repository of the **Technology of Expressions (TE) Framework**, a universal architecture based on **Ordinative Set Theory (OST)**.
