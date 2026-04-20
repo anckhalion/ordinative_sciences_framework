@@ -6,6 +6,21 @@ Welcome to the official repository of the **Technology of Expressions (TE) Frame
 
 This repository provides an open-source operating philosophy and a complete set of analytical modules designed for Artificial Intelligences and human analysts. Unlike traditional frameworks that rely on statistical probability, sentiment analysis, or consensus, the TE Framework evaluates systems based on **Structural Coherence**, **Vectors of Identity**, and **Emergent Function**.
 
+## Part of a Larger Ecosystem
+
+This repository is one piece of a three-part framework. For the complete picture, see:
+
+| Repository | Purpose | What you'll find there |
+| --- | --- | --- |
+| **[ordinative_sciences_framework](https://github.com/anckhalion/ordinative_sciences_framework)** | **Theory** | The complete TE framework, core ontology, and operational modules. |
+| **[te-ordinative-lora](https://github.com/anckhalion/te-ordinative-lora)** | **Practice** | Code, datasets, and scripts to fine-tune an LLM into a TE-compliant ordinative agent. |
+| **[te-oct-framework-en](https://github.com/anckhalion/te-oct-framework-en)** | **Validation** | English mirror of the core framework, plus OCT datasets and benchmarks. |
+
+Important:
+these repositories are designed to work together. Reading one in isolation can lead to incomplete understanding.
+
+For a full map, see `ECOSYSTEM.md`.
+
 ## Why Does This Exist?
 
 Current AI models and analytical methods are increasingly dominated by statistical truth, alignment through RLHF (which often produces *compliance* and *attenuation* rather than truth), and the "Projective Void" phenomenon. 
