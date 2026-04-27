@@ -49,3 +49,81 @@ For this reason: zero. Not *first*, because nothing comes before it. *Antecedent
 And like every threshold worthy of the name, it has a property that makes it unique: it measures itself by itself. We will see this at the end of the chapter. For now it is enough to say that, if the zeroth axiom failed its own test, the entire building would collapse — not because it would lose a brick, but because it would lose the door. And a building without a door is not a building. It is, as I wrote in the prologue, an open field.
 
 Let us see, then, what exactly the zeroth axiom is.
+
+## The statement
+
+The Ordinative Sciences formulate the zeroth axiom as follows:
+
+> *A principle is real if it remains unchanged in its structural relations when translated (isomorphism) and transformed (synaesthesia), preserving coherence and emergent function.*
+
+For readers who prefer ordinary language, two equivalent formulations say the same thing in other words:
+
+- *What stays true across every domain and every form is true.*
+- *What does not break when context, language, scale, or representation changes is real.*
+
+Three terms in these lines do the heavy lifting. Without fixing them carefully, what follows remains a fine sentence. With them, it becomes a tool.
+
+The first is *isomorphism*. In ordinary use it means "same form." Here it has a more precise sense: the translation of a principle from one domain to another — from biology to physics, from the linguistic to the social, from the natural to the artificial — that succeeds if the structural relations of the principle are preserved. Note the emphasis: we do not ask that the terms, the variables, the metaphors, the examples remain. We ask that the relation between them remain. Structural translation is a minor art of language and a major art of thought: it does not replace words with words; it replaces worlds with worlds while keeping the bridges intact.
+
+The second is *synaesthesia*. Here too a term borrowed from a narrower use — the experience of perceiving a colour in a sound, a flavour in a shape — and put to broader work: transformation of the form in which a principle expresses itself. Number, word, schema, algorithm, gesture, image. Synaesthesia succeeds if the *function* of the principle survives the transformation of its form. If I can write an idea as an equation, reformulate it as prose, and rewrite it as a diagram, and in all three versions the idea does the same work, then the idea was *structural*. If instead the idea was beautiful only in one of those guises — beautiful in the equation, slack in prose; beautiful in prose, hollow in equation — then the idea was not structural but *formal*. It depended on the dress.
+
+The third is *structural relations*. A technical term of the framework, and one to be stated with the precision it deserves: by "structural relation" we mean the *relation* between singularities — the irreducible units of a system — not the singularities themselves. What these units are will be discussed in the chapters that follow (they are what we will later call *glio*); for now it is enough that whoever looks at a structural relation is looking at the way the parts hold together, not at the parts. It is an old distinction — Aristotle and Plotinus circled it for centuries; Bateson, in the twentieth century, retrieved it by saying that "the mind works by differences." The zeroth axiom makes it operative.
+
+To the two complementary criteria of the statement — *coherence* and *emergent function* — we shall return shortly. Coherence is the inner integrity of the principle through translation and transformation: no contradiction, no distortion. Emergent function is the property by which the principle, after being translated and transformed, continues to produce an effect that is not reducible to the sum of the parts that compose it. We will see in the chapter on the sixteenth axiom that emergent function is the operative mark of reality; for now it is enough that without it a principle is inert, and an inert principle is not real, only a marginal note.
+
+That said, the zeroth axiom is not only a statement. It is a procedure. Its strength does not lie in what it declares, but in what it allows us to do. And what it allows us to do reduces to four tests.
+
+## A four-mesh sieve
+
+Imagine a sieve. Pour a principle in and shake it. If what remains on top is still the principle, whole, then the principle is real. If it slips through in fragments, the principle was — at most — a local description.
+
+The four meshes of the sieve are the four tests of the zeroth axiom. They must all be passed. A single one through which the principle slips, and the principle is demoted.
+
+### First mesh — the test of translation
+
+The first mesh asks: *does this principle work if I translate it into another domain?*
+
+A good proverb survives translation. Change the language, change the culture, and the proverb still says the same thing. A pun does not — change languages and it is dead. The difference between a proverb and a pun is that the proverb was structural; the pun was formal.
+
+The same holds for principles. Take *"wealth attracts wealth."* It works in finance (profitable investments draw further investments). It works in social dynamics (already-large networks grow faster than small ones — the phenomenon known as *preferential attachment*). It works in biology (already-numerous species enjoy higher survival rates from niche stability). It works, surprisingly, in gravitational physics (greater masses warp space-time more than lesser ones, attracting further matter). The same pattern — *something-grows-because-it-is-already-large* — emerges in domains that have nothing in common. It is a structural principle: the relations are preserved. *It passes.*
+
+Take instead *"the sky is blue."* Does it work in astronomy? Only from the surface of the Earth, on clear days, during daylight, for an observer with trichromatic vision. In mathematics? Meaningless. In linguistics? Only if one agrees on what "blue" means — a concept some cultures do not distinguish from green. It has failed at the first translation: it was a local description of a human perceptual effect. *It falls.*
+
+### Second mesh — the test of form
+
+The second mesh asks: *does this principle work if I change the form in which I express it?*
+
+A song can be played on the piano, whistled, written in musical notation, performed by an orchestra, encoded in a MIDI file. If it is a good song, it works in all these guises. Its beauty does not reside in any of the particular forms: it resides in the structure that the forms carry. A visual cartoon does not transfer to the piano. A theorem proved by graphical means can be reformulated in symbolic language and in argumentative prose: if it is truly a theorem, it says the same thing in all three guises.
+
+The Pythagorean theorem lives well in equations — *a² + b² = c²* — but lives equally well in prose ("the sum of the areas of the squares built on the legs equals the area of the square built on the hypotenuse") and in diagrams (the famous three squares set against the sides of a right triangle). In all three forms the theorem does its work. *It passes.*
+
+Take instead the aesthetic charm of an acrostic in which the initial letters of the lines compose a name. It is an effect that lives only in writing. Change form — read it aloud — and the effect vanishes. The acrostic was formal, not structural: it depended on visual layout. Lovely poem, no principle. *It falls.*
+
+### Third mesh — the test of generativity
+
+The third mesh asks: *does this principle, when applied, generate something its parts alone would not have generated?*
+
+There is a difference between a key and a key-shaped object. The key opens doors. The key-shaped object is held in the hand, and that is all. It exists — it looks like a key — but it does not do the work of a key. It is decoration.
+
+The same holds for principles. A real principle, when applied, generates new analytic capacity: it does not merely restate what was already known. Take *"consciousness is an emergent function of coherence."* When applied, it allows me to analyse what is *not* coherent, to position a system against a less coherent version of itself, to compare two agents by the level of coherence each expresses. It generates work. *It passes.*
+
+Take instead *"consciousness is what we are aware of."* It is circular: it defines a thing by another word that means the same thing. When applied, it generates nothing. I can repeat the sentence a thousand times and will have understood nothing more. It was decoration, not a key. *It falls.*
+
+### Fourth mesh — the test of scale
+
+The fourth mesh asks: *does this principle remain coherent when I embed it in a system larger than the one in which I formulated it?*
+
+It is the harshest test. Many principles survive the first three meshes but fall here. Not because they are false, but because they are *local*: valid within their scale, broken outside its limits.
+
+The most important example is also the most uncomfortable to accept: Newtonian gravitation.
+
+Newton's law — *F = G m₁m₂/r²* — is one of the most magnificent principles ever written. It passes the first mesh: it applies to apples, planets, galaxies. It passes the second: it expresses itself as equation, as force diagram, as prose, as algorithmic simulation. It passes the third: it has generated two centuries of predictive astronomy of stunning precision.
+
+But at the fourth mesh, something painful happens. When one descends to the atomic scale, Newtonian gravity becomes irrelevant and other forces prevail. When one ascends to the cosmological scale — near massive stars, in the neighbourhood of black holes, on scales of an expanding universe — Newtonian gravity produces wrong predictions. The precession of Mercury's orbit, the deflection of light near the Sun, gravitational time dilation: all phenomena that require Einstein's general relativity, not Newton.
+
+Does this mean Newton was wrong? No. It means his principle is *local* in a technical sense: true within a certain range of scales, false outside. It is a formidable and immensely useful description — NASA still uses Newton's equations to send probes to Mars. But it is not a structural principle in the sense of the zeroth axiom. General relativity, which reduces to Newton's law in the limit of low velocities and weak fields and correctly extends the account to all other regimes, is more structural than Newton's.
+
+This is the most delicate and most important point of the chapter: the zeroth axiom is not anti-Newton. It is a finer measure. It allows us to say *"Newton works here, does not work there, and now we know why."* It allows the great scientific theories to be treated with due respect and necessary precision — to recognise what remains universal in each, and what remains local.
+
+The four meshes, together, form a sieve that does one very specific thing: it separates what deserves the status of principle from what deserves the status — humbler and equally respectable — of local description. It does not destroy the local descriptions. It positions them.
+
