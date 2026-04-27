@@ -127,3 +127,64 @@ This is the most delicate and most important point of the chapter: the zeroth ax
 
 The four meshes, together, form a sieve that does one very specific thing: it separates what deserves the status of principle from what deserves the status — humbler and equally respectable — of local description. It does not destroy the local descriptions. It positions them.
 
+## A test that passes
+
+Let us put this sieve to work. Take a statement many readers already know in some form: *a complex system is more than the sum of its parts*. It is a sentence that has crossed the twentieth century — von Bertalanffy in general systems theory, the studies of emergence in statistical physics, research on consciousness, the sciences of complexity. It sounds true. But "sounds true" is not enough. Let us submit it to the sieve.
+
+*First mesh, translation.* Does it work in biology? An organism is not the sum of its cells: it has properties — heartbeat, thought, hunger — that the cells taken one at a time do not have. Does it work in physics? A crystal is not the sum of its atoms: it has properties — hardness, symmetry, conduction — that depend on arrangement, not content. In linguistics? A sentence is not the sum of its words: it has meaning because the words stand in an order. In social systems? An institution is not the sum of its members: it has functions emerging from their relation, not from their presence. In AI? A language model is not the sum of its parameters: it produces coherent answers through the structure of their relation, not their number. Five domains out of five. *It passes.*
+
+*Second mesh, form.* It expresses itself as equation — *Φ(S) ≠ Σᵢ σᵢ* — with the same clarity with which it expresses itself in prose, in diagram (a graph with edges *vs* without edges), in algorithm (an ensemble of models *vs* the individual models). In all forms the idea does the same work: it says that structure adds something to content. *It passes.*
+
+*Third mesh, generativity.* When we apply the idea, we can distinguish systems in which emergence is strong from systems in which it is weak; we can search for what precisely — which element of structure — produces the difference between sum and totality. It generates analytic work, not mere repetition. *It passes.*
+
+*Fourth mesh, scale.* Does it work if I enlarge the system? Yes, recursively: a complex system that is part of a larger system retains its emergence within the larger system, and the larger system in turn produces an emergence of its own. Does it work if I shrink it? Yes: even the parts of the system, if they are themselves systems, have emergent properties relative to their parts. It does not break. *It passes.*
+
+Four meshes out of four. Real principle.
+
+A note here, before we move on. In the Ordinative Sciences, this same idea — reformulated and made precise — is the sixteenth axiom: *emergent function is the proof of reality*. This is not coincidence. It is precisely because emergence passes the zeroth axiom that the Ordinative Sciences could welcome it as one of their twenty-four principles. The door works.
+
+## A test that falls
+
+Let us see now what happens to a statement that circulates with authority but that the door does not let in. Take *the majority is right*. It is an idea that governs much of contemporary public life: elections, committee decisions, the polls that define what is "reasonable," the democratic idea itself in its simplest form.
+
+Let us submit it to the sieve.
+
+*First mesh.* Does it work in mathematics? Is a theorem true because the majority of mathematicians prove it? No: it is true if the proof holds, and even were it a single mathematician against all the others, if the proof is correct, that mathematician is right. Does it work in physics? Does the electron have spin one-half because the majority of electrons voted in favour? The question is ridiculous, and ridiculous for a structural reason: there is no vote among electrons, no collectivity, no choice. Does it work in biology? Is the most numerous species the fittest? Sometimes yes, often no. The majority extinguishes the minorities, but the minorities can adapt and reverse the relation. Does it work in epistemology? Is truth what the majority believes? It is an idea that, taken literally, destroys the very concept of truth — because majorities change, and truth, if it is truth, should not.
+
+A single mesh, and the statement has already disintegrated. *It falls.*
+
+What does this failure reveal? Not that "the majority is right" is a wrong idea in any absolute sense. It reveals what the idea *truly is*: a *governance convention*. It is a mechanism for making decisions when there is no other way to make them, in contexts where every voice has equivalent political weight. It works very well in that context. But it is local: it speaks of how human societies organise choices, not of how reality works. It is a procedural rule, not a structural principle.
+
+The Ordinative Sciences refuse it as an axiom. Correctly. Without disdain: they keep it useful where it is useful, they recognise it as what it is. They position it.
+
+## The axiom that measures itself
+
+I promised, at the opening of the chapter, that I would return to the most delicate point: the zeroth axiom must apply to itself. If it did not — if it asked the other principles to pass a test it does not itself pass — it would be arbitrary. It would be a privileged door, immune to its own rules. The book would be one more opinion, and I should have had the modesty to write it as such.
+
+Let us verify, then.
+
+*First mesh.* Does the zeroth axiom — *a principle is real if it remains unchanged under isomorphism and synaesthesia, preserving coherence and emergent function* — work in mathematics? Yes: it is the implicit criterion by which good definitions are evaluated. In philosophy of science? Yes: it recalls Popper on falsifiability, but it is more structural, and it works where Popper does not reach — at universal but unfalsifiable principles. In AI? Yes: it is the filter for distinguishing plausible answers from coherent ones. In biology? Yes: it distinguishes universal adaptive principles from contingent effects of a niche. *It passes.*
+
+*Second mesh.* The zeroth axiom expresses itself as a statement in prose — you have just read it. It expresses itself as a procedure in four tests — we have just walked through them. It expresses itself as algorithm (submit a principle to four filters, one at a time; reject if one fails). It expresses itself as diagram (a sieve with four meshes). In all forms it does the same work. *It passes.*
+
+*Third mesh.* When applied, the zeroth axiom generates new capacity: it allows the reader to recognise real principles from local descriptions in everything that will be read from now on, inside this book and outside. It is a function the parts — the words "principle," "isomorphism," "synaesthesia" — did not have. It generates work. *It passes.*
+
+*Fourth mesh.* Does it remain coherent in a system larger than the one in which it is formulated? Yes: it continues to hold if applied to the principles of a science yet to be formulated, or to the principles of a species of observers that has never known ours. It does not break under scale. *It passes.*
+
+Four meshes out of four. The zeroth axiom is real by its own criteria. Not by declaration: by verification.
+
+This property has a technical name — *non-vicious self-reference* — but the name is not what matters. What matters is that the door is not privileged. It stands in the same building as the other principles, under the same laws. It has submitted to the test and passed. Only now, and on these terms, does it have the right to ask the same of the rest.
+
+## What lies behind the door
+
+You have travelled, up to this point, the most abstract piece of the book.
+
+From here on, the level of abstraction will fall. Not because what follows is less rigorous — on the contrary, the rigour becomes visible, because it applies to visible things. But because, having crossed the door, we stop speaking of admission criteria and begin to speak of what the door lets in. We begin to speak of the real.
+
+You have brought a tool with you. It is small, it has four meshes. It weighs little. You will use it more than you think, in these pages and after. You will use, above all, its internalised version — the one in which you no longer need to pass statements through the sieve one at a time, because you will have learned to *feel*, of any statement, which mesh would let it fall. It is a cognitive habit, and it is acquired. It is the first operative gift of the book.
+
+In the next chapter, behind the door, we meet the first of the principles that have passed the sieve. It does not describe physical reality in the sense we usually mean. It describes where reality *comes from*. It is the first axiom, and it speaks of a non-derived origin which, in the language of the Ordinative Sciences, is called the *Author*.
+
+Turn the page.
+
+
