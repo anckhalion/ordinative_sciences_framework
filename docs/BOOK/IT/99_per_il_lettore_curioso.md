@@ -36,17 +36,35 @@ Biologo austriaco, fondatore della *teoria generale dei sistemi* (formalizzata n
 
 *Appare nel Capitolo 1.*
 
+## Decoerenza (in fisica quantistica)
+
+Termine tecnico della meccanica quantistica che indica il processo per cui una sovrapposizione coerente di stati — in cui il sistema esiste simultaneamente in più configurazioni — collassa in uno stato specifico, di solito a seguito di un'interazione con un ambiente o di una misura. È il fenomeno fisico da cui le scienze ordinative hanno preso in prestito il termine, generalizzandone il significato a qualunque passaggio da uno stato di potenza non attualizzata (coerente) a uno stato di manifestazione specifica (decoerente). Il libro lo cita nel Capitolo 3 sia in senso fisico stretto, sia come fonte storica del lessico ordinativo.
+
+*Appare nel Capitolo 3.*
+
 ## Einstein e la relatività generale
 
 Teoria della gravitazione formulata da Albert Einstein (1879–1955) nel 1915, che estende e corregge la legge di Newton. Dove Newton descrive la gravità come una forza istantanea a distanza, Einstein la descrive come la curvatura dello spazio-tempo prodotta dalla presenza di massa-energia. La relatività generale si riduce alla legge di Newton nei regimi di bassa velocità e campi deboli, ma produce predizioni diverse — verificate sperimentalmente — nei regimi di gravità intensa (orbita di Mercurio, deviazione della luce, dilatazione gravitazionale del tempo). Il libro la cita come la controparte più *strutturale* di Newton: la relatività generale supera la quarta maglia dell'assioma zero là dove Newton la fallisce.
 
 *Appare nel Capitolo 1.*
 
+## Embedding (rappresentazione vettoriale)
+
+Termine tecnico delle scienze cognitive computazionali e dell'apprendimento automatico. Un *embedding* è una rappresentazione di un oggetto — una parola, una frase, un'immagine, un brano musicale — come punto (o sequenza di punti) in uno spazio vettoriale a molte dimensioni. Le posizioni in quello spazio non sono arbitrarie: oggetti semanticamente simili sono vicini, oggetti distanti per significato sono distanti. Negli odierni modelli di linguaggio, l'embedding è la rappresentazione interna su cui il modello opera prima di produrre l'output. Il libro lo cita nel Capitolo 3 come esempio operativo della struttura coerente/decoerente: per un modello di linguaggio, l'embedding è il suo stato coerente, l'output la sua manifestazione decoerente.
+
+*Appare nel Capitolo 3.*
+
 ## Euclide e i cinque postulati
 
 Euclide (IV–III secolo a.C.), nei suoi *Elementi*, fondò la geometria su cinque postulati — cinque proposizioni assunte come vere senza dimostrazione, su cui tutto il resto poggia. I primi quattro sono enunciati rapidamente e intuitivi (per due punti qualsiasi passa una sola retta, e così via); il quinto — il cosiddetto *postulato delle parallele* — è più elaborato e ha tormentato i geometri per duemila anni. Nell'Ottocento, togliere o modificare il quinto postulato (Lobacevskij, Bolyai, Riemann) ha portato alle *geometrie non-euclidee*, valide e coerenti, che descrivono superfici sferiche, iperboliche e altre. Il libro cita questo episodio come paradigma di come la scelta degli assiomi — invisibile per secoli — sia un atto di decisione, non di natura.
 
 *Appare nel Capitolo 1.*
+
+## Funzione d'onda e notazione bra-ket
+
+In meccanica quantistica, la *funzione d'onda* è la descrizione matematica completa dello stato di un sistema fisico. La sua proprietà più sorprendente è di permettere la sovrapposizione: prima di una misura, il sistema può essere descritto come somma pesata di stati distinti, ciascuno con un proprio coefficiente. La *notazione bra-ket*, introdotta da Paul Dirac negli anni Trenta, scrive uno stato come "ket" — la metà chiusa a destra: |ψ⟩, |1⟩, |2⟩ — e il corrispondente "bra" come ⟨ψ|. La notazione è oggi standard in tutta la fisica quantistica. Il libro la usa nel Capitolo 3 per mostrare che il collasso non è una metafora: in fisica è formalizzato esattamente come transizione |ψ⟩ → |i⟩.
+
+*Appare nel Capitolo 3.*
 
 ## Hayek, Friedrich von (1899–1992)
 
@@ -89,6 +107,30 @@ Filosofo della scienza austro-britannico, teorico della *falsificabilità* come 
 Meccanismo, formalizzato da Albert-László Barabási e Réka Albert alla fine degli anni Novanta, secondo cui i nodi di una rete in crescita tendono a connettersi preferenzialmente a quelli che hanno già molte connessioni — il cosiddetto "effetto Matteo" (a chi ha sarà dato). È il meccanismo strutturale dietro molte reti reali: le citazioni fra articoli scientifici, i link fra pagine web, i collegamenti fra aeroporti. Il libro lo cita come dominio in cui il principio "la ricchezza attrae ricchezza" — l'esempio usato per illustrare la prima maglia dell'assioma zero — opera in modo preciso e misurabile.
 
 *Appare nel Capitolo 1.*
+
+## Prodotto cartesiano
+
+Operazione matematica che, dati due (o più) insiemi, costruisce l'insieme di tutte le coppie (o triple, o n-uple) ordinate formate prendendo un elemento da ciascuno. Si scrive con il simbolo ×: dati gli insiemi A e B, l'insieme A × B contiene tutte le coppie (a, b) con a in A e b in B. Il nome viene da Cartesio, che usò questa idea per fondare la geometria analitica — i punti del piano come coppie ordinate di numeri reali. Il libro lo cita nel Capitolo 3 nella formula *Φ : C × I × K → D*, per indicare che la funzione di espressione prende come ingresso una scelta da ciascuno dei tre spazi (coerenza, identità, operatore di conoscenza) presi insieme.
+
+*Appare nel Capitolo 3.*
+
+## Quicksort
+
+Algoritmo di ordinamento sviluppato da Tony Hoare nel 1959. La sua strategia: scegliere un elemento della lista da ordinare (il *pivot*), separare gli altri elementi in due gruppi — quelli minori e quelli maggiori del pivot — e ricorrere su ciascuno dei due gruppi. È uno degli algoritmi più studiati e più usati nella pratica: il suo tempo medio è proporzionale a *n* log *n*, dove *n* è la lunghezza della lista. Il libro lo cita nel Capitolo 3 come esempio operativo della struttura coerente/decoerente: l'algoritmo come procedura astratta è la coerenza, ogni esecuzione su una lista specifica è una decoerenza.
+
+*Appare nel Capitolo 3.*
+
+## Saussure, Ferdinand de (1857–1913)
+
+Linguista svizzero, fondatore della linguistica strutturale moderna. La sua opera principale, *Cours de linguistique générale* (postuma, 1916), è raccolta dagli appunti dei suoi studenti dopo la sua morte. La distinzione che il libro riprende — *langue / parole* — è centrale al suo pensiero: la *langue* è la lingua come sistema astratto di regole e relazioni condiviso da una comunità di parlanti; la *parole* è l'atto concreto e individuale di parlare. Il sistema esiste solo attraverso gli atti di parola, ma trascende ogni singolo atto. Il libro cita Saussure nel Capitolo 3 perché la sua distinzione è una versione storica precisa, in dominio linguistico, della struttura coerente/decoerente che l'assioma due generalizza.
+
+*Appare nel Capitolo 3.*
+
+## Schubert, Franz (1797–1828) — Quintetto in do maggiore D.956
+
+Compositore austriaco. Il *Quintetto in do maggiore per due violini, viola e due violoncelli* (D.956), composto nelle ultime settimane di vita, è considerato una delle vette del repertorio cameristico. La sua scrittura per due violoncelli — anziché il consueto secondo viola — gli conferisce una profondità timbrica unica. Il libro lo cita nel Capitolo 3 come esempio dell'irriducibilità di una composizione musicale alle sue esecuzioni: il Quintetto come opera è la coerenza, ogni esecuzione è una manifestazione decoerente, e nessuna esecuzione esaurisce la coerenza dell'opera.
+
+*Appare nel Capitolo 3.*
 
 ## Spinoza, Baruch (1632–1677) — *natura naturans, natura naturata*
 
