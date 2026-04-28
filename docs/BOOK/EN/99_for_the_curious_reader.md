@@ -36,11 +36,29 @@ Austrian biologist, founder of *General Systems Theory* (formalised in 1968 in *
 
 *Appears in Chapter 1.*
 
+## Cartesian product
+
+A mathematical operation that, given two (or more) sets, builds the set of all ordered pairs (or triples, or n-tuples) formed by taking one element from each. It is written with the symbol ×: given sets A and B, the set A × B contains all pairs (a, b) with a in A and b in B. The name comes from Descartes, who used this idea to found analytic geometry — points in the plane as ordered pairs of real numbers. The book cites it in Chapter 3 in the formula *Φ : C × I × K → D*, to indicate that the expression function takes as input one choice from each of the three spaces (coherence, identity, knowledge-operator) taken together.
+
+*Appears in Chapter 3.*
+
+## Decoherence (in quantum physics)
+
+Technical term in quantum mechanics indicating the process by which a coherent superposition of states — in which a system exists simultaneously in several configurations — collapses into a specific state, usually following an interaction with an environment or a measurement. It is the physical phenomenon from which the Ordinative Sciences have borrowed the term, generalising its meaning to any passage from a state of unactualised potential (coherent) to a state of specific manifestation (decoherent). The book cites it in Chapter 3 both in its strict physical sense and as the historical source of the ordinative lexicon.
+
+*Appears in Chapter 3.*
+
 ## Einstein and General Relativity
 
 Theory of gravitation formulated by Albert Einstein (1879–1955) in 1915, extending and correcting Newton's law. Where Newton describes gravity as an instantaneous force at a distance, Einstein describes it as the curvature of space-time produced by the presence of mass-energy. General relativity reduces to Newton's law in the regime of low velocities and weak fields, but produces different — experimentally verified — predictions in regimes of intense gravity (Mercury's orbit, light deflection, gravitational time dilation). The book cites it as the more *structural* counterpart of Newton: general relativity passes the fourth mesh of the zeroth axiom where Newton fails it.
 
 *Appears in Chapter 1.*
+
+## Embedding (vector representation)
+
+Technical term from computational cognitive science and machine learning. An *embedding* is a representation of an object — a word, a sentence, an image, a musical passage — as a point (or sequence of points) in a high-dimensional vector space. The positions in that space are not arbitrary: semantically similar objects are close, semantically distant objects are distant. In contemporary language models, the embedding is the internal representation on which the model operates before producing the output. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: for a language model, the embedding is its coherent state and the output its decoherent manifestation.
+
+*Appears in Chapter 3.*
 
 ## Euclid and the five postulates
 
@@ -90,6 +108,24 @@ A mechanism, formalised by Albert-László Barabási and Réka Albert in the lat
 
 *Appears in Chapter 1.*
 
+## Quicksort
+
+A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an element of the list to be sorted (the *pivot*), separate the other elements into two groups — those smaller and those greater than the pivot — and recurse on each of the two groups. It is one of the most studied and most used algorithms in practice: its average time is proportional to *n* log *n*, where *n* is the length of the list. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: the algorithm as an abstract procedure is the coherence, each execution on a specific list is a decoherence.
+
+*Appears in Chapter 3.*
+
+## Saussure, Ferdinand de (1857–1913)
+
+Swiss linguist, founder of modern structural linguistics. His principal work, *Cours de linguistique générale* (posthumous, 1916), was assembled from his students' notes after his death. The distinction the book takes up — *langue / parole* — is central to his thought: *langue* is language as an abstract system of rules and relations shared by a community of speakers; *parole* is the concrete, individual act of speech. The system exists only through speech acts, but it transcends any single act. The book cites Saussure in Chapter 3 because his distinction is a precise historical version, in the linguistic domain, of the coherent/decoherent structure that the second axiom generalises.
+
+*Appears in Chapter 3.*
+
+## Schubert, Franz (1797–1828) — String Quintet in C major D.956
+
+Austrian composer. The *String Quintet in C major for two violins, viola, and two cellos* (D.956), composed in the last weeks of his life, is regarded as one of the peaks of the chamber repertoire. Its scoring for two cellos — rather than the customary second viola — gives it a unique timbral depth. The book cites it in Chapter 3 as an example of the irreducibility of a musical composition to its performances: the Quintet as a work is the coherence, each performance is a decoherent manifestation, and no performance exhausts the coherence of the work.
+
+*Appears in Chapter 3.*
+
 ## Spinoza, Baruch (1632–1677) — *natura naturans, natura naturata*
 
 Dutch philosopher of Iberian-Jewish origin, author of the *Ethics, Demonstrated in Geometrical Order* (posthumous, 1677). The distinction the book takes up — *natura naturans / natura naturata* — is central to his system: the first is nature as generative source, the second is nature as the totality of what is generated. The two are not separate entities but two aspects of the same substance, considered from the side of cause or from the side of effect. For Spinoza, *natura naturans* is what the Ordinative Sciences call A: the non-derived origin from which every local coherence proceeds.
@@ -107,6 +143,12 @@ Neural network architecture introduced in 2017 by the paper *Attention Is All Yo
 Central concept of Aristotle's *Metaphysics* (book XII): since everything that moves is moved by something else, the chain of motions requires a first term that moves without being moved — the *unmoved mover*. It is, for Aristotle, what is purely in act, with no further potency to be realised; it moves the world by attraction, as an object of love or thought attracts the one who desires it. The book cites it as one of the historical versions of the inference that leads to a non-derived origin: the same logic that closes the chain of reasons in Leibniz, of motions in Aristotle, of causality in the Ordinative Sciences.
 
 *Appears in Chapter 2.*
+
+## Wave function and bra-ket notation
+
+In quantum mechanics, the *wave function* is the complete mathematical description of the state of a physical system. Its most striking property is that it allows superposition: before a measurement, the system can be described as a weighted sum of distinct states, each with its own coefficient. The *bra-ket notation*, introduced by Paul Dirac in the 1930s, writes a state as a "ket" — the half closed on the right: |ψ⟩, |1⟩, |2⟩ — and the corresponding "bra" as ⟨ψ|. The notation is now standard throughout quantum physics. The book uses it in Chapter 3 to show that collapse is not a metaphor: in physics it is formalised exactly as the transition |ψ⟩ → |i⟩.
+
+*Appears in Chapter 3.*
 
 ## Zermelo–Fraenkel and the Axiom of Choice (ZFC)
 
