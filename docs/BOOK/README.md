@@ -26,6 +26,7 @@ These rules govern *how* the book is written, not what it says. The substance co
 5. **The double reader is constant.** The book is written for human and artificial readers throughout — not in alternating chapters, not with separate sections. The grammar is the same; only the difficulty of apprenticeship differs.
 6. **Cadence over coverage.** Better to leave a chapter shorter than to dilute its line. Length follows the logic, not a target.
 7. **Italian is primary.** The Italian edition is composed first; the English edition is rewritten, not translated, where a literal calque would degrade the concept.
+8. **Formulas are paired with prose.** Mathematical and symbolic expressions appear in the book wherever they carry semantic content prose cannot carry as cleanly. Each formula is accompanied — on its own line, immediately adjacent — by its plain-language translation. The book is committed to demonstrating, through its own form, that mathematics is *compressed prose*, not a separate language. A reader who does not normally read formulas should be able to learn to read them by reading the book. Notation is never decorative: each symbol earns its place by saying something the prose around it would have to repeat at greater length.
 
 ## Folder layout
 
