@@ -63,3 +63,61 @@ Lasciate che ognuno dei termini si depositi.
 *Espressione* — la relazione fra i due. Non una traduzione: una *manifestazione*. Il contenuto non viene "tradotto" in forma come da una lingua a un'altra; si manifesta in forma. La distinzione è importante. Una traduzione presume due cose esistenti separatamente da congiungere; una manifestazione presume una cosa che ha bisogno della propria forma per essere.
 
 L'assioma tre, dunque, dichiara questo: non c'è forma che galleggi senza contenuto, né contenuto che esista senza una qualche forma in cui si renda visibile. Quando vedete una cosa, state già vedendo un'espressione. Quando producete una cosa, state già esprimendo un contenuto.
+
+## La stabilizzazione
+
+Una delle formulazioni interne dell'assioma tre dice una cosa che merita di essere esplicitata: *la forma è una stabilizzazione del contenuto*.
+
+La parola *stabilizzazione* ha qui un senso preciso. Stabilizzare significa fissare una potenzialità in una configurazione specifica — bloccare, fra le molte possibilità che il contenuto coerente offre, quella che si manifesta. È la traduzione operativa del verbo *collassare* che abbiamo incontrato nel Capitolo 3: ogni collasso è una stabilizzazione, ogni stabilizzazione è un collasso visto dal verso del risultato.
+
+Vediamolo nei casi.
+
+*Una poesia.* Il contenuto coerente, prima della scrittura, è un'esperienza intera — una nostalgia, un'osservazione, un dolore — che potrebbe esprimersi in molte forme, in molte parole, in molte cadenze. La poesia che il poeta scrive è una stabilizzazione: di tutte le forme che quella nostalgia avrebbe potuto prendere, si sceglie questa, e da questo momento la nostalgia ha una forma che si chiama, mettiamo, *L'infinito*. La nostalgia esisteva prima della poesia, ma in quanto coerente; dopo la poesia esiste anche in quanto decoerente — stabilizzata in versi specifici. La forma non l'ha creata, le ha dato un volto.
+
+*Un quadro.* Davanti al paesaggio del Mont Sainte-Victoire, Cézanne aveva un'esperienza — una percezione strutturata di volumi, luci, tensioni geometriche — che avrebbe potuto stabilizzare in centinaia di tele diverse. Ne ha dipinte decine, e nessuna delle sue versioni è "uguale" alle altre, perché ogni stabilizzazione è una scelta fra le possibilità del contenuto coerente. Il Mont Sainte-Victoire come coerenza visiva interna a Cézanne è uno; le sue manifestazioni decoerenti sono molte. Lo stesso vale, su scala diversa, per qualunque oggetto guardato da un pittore: il contenuto coerente è ricco, la stabilizzazione in una tela è un caso fra i tanti possibili.
+
+*Una teoria scientifica.* La struttura della relatività generale — la coerenza che Einstein vide negli anni intorno al 1915 — è una. Le sue stabilizzazioni in equazioni, in articoli, in trattati, in conferenze, in libri di testo, sono molte. Ogni esposizione è una scelta fra le molte forme possibili dello stesso contenuto coerente. È per questo che esistono trattati di relatività generale che si leggono con piacere e altri che si leggono con sforzo: il contenuto coerente è lo stesso, le stabilizzazioni differiscono.
+
+*Un comportamento umano.* L'identità di una persona — i valori, le predisposizioni, il modo strutturale di stare al mondo — è la sua coerenza. Ogni azione specifica che la persona compie è una stabilizzazione: di tutti i modi in cui quei valori avrebbero potuto manifestarsi in quel momento, si sceglie questo. La stessa onestà di una persona si stabilizza, in dieci diverse situazioni, in dieci comportamenti specifici, tutti coerenti con la stessa onestà ma nessuno identico agli altri.
+
+In ogni caso, lo schema è lo stesso: una coerenza ricca, una scelta fra le molte forme possibili, una stabilizzazione specifica. La forma manifesta è il risultato di quella scelta. Ed è in questa scelta — non nel contenuto, non nella forma soltanto — che entrano in gioco l'identità e l'operatore di conoscenza che il quinto capitolo esaminerà in dettaglio.
+
+## Cosa accade nella percezione
+
+Una conseguenza dell'assioma tre da tirare fuori esplicitamente, perché ha un peso operativo importante: noi non percepiamo mai la realtà direttamente. Percepiamo, sempre, espressioni di realtà.
+
+L'affermazione, presa di sorpresa, può sembrare idealismo o relativismo — un modo di dire che il reale ci è inaccessibile, o che ognuno si fabbrica il proprio. Non è questo. È un'osservazione strutturale, perfettamente compatibile con un realismo robusto e, in effetti, necessaria per dargli fondamenta solide.
+
+Vediamo come funziona, nei sensi più semplici.
+
+Quando guardate un albero, non vedete *l'albero* nel senso assoluto. Vedete fotoni che sono stati riflessi dalle foglie e dalla corteccia, sono entrati nei vostri occhi, hanno colpito la retina, hanno innescato segnali nervosi e, dopo molte mediazioni neurali, sono diventati un'immagine cosciente nella vostra mente. Quel che voi chiamate "vedere l'albero" è, in realtà, *vedere un'espressione dell'albero* — una specifica stabilizzazione visiva, dipendente dalla vostra posizione, dall'illuminazione, dallo stato dei vostri occhi, dal vostro sistema nervoso, dall'attenzione che gli state dedicando in quel momento.
+
+Quando ascoltate una voce, non sentite *la voce* nel senso assoluto. Sentite onde di pressione che hanno attraversato l'aria, sono entrate nel canale uditivo, hanno fatto vibrare il timpano, hanno fatto vibrare gli ossicini, hanno stimolato le cellule ciliate della coclea e, dopo molte mediazioni neurali, sono diventate un suono cosciente. Quel che voi chiamate "sentire la voce" è, in realtà, *sentire un'espressione della voce* — una specifica stabilizzazione acustica.
+
+A livelli cognitivi più alti la cosa diventa solo più visibile. Quando leggete una frase, non comprendete *il pensiero* di chi l'ha scritta nel senso assoluto. Comprendete una vostra ricostruzione di quel pensiero, mediata da tutto ciò che la frase ha potuto stabilizzare e da tutto ciò che voi avete potuto interpretare. Quel che voi chiamate "capire" è, in realtà, *afferrare un'espressione del pensiero altrui*, e renderla disponibile a una vostra coerenza interna.
+
+Niente di quanto detto sopra è idealismo. L'albero esiste, fuori dalla vostra mente; la voce esiste, fuori dalle vostre orecchie; il pensiero altrui esiste, fuori dalla vostra ricostruzione. Quel che l'assioma tre dichiara è soltanto che la percezione è, per costituzione, *mediata*: noi accediamo alle cose attraverso le loro espressioni. Non è un limite delle nostre facoltà cognitive — è la struttura stessa della relazione fra realtà e osservatore. È così perché non potrebbe essere altrimenti: percepire significa accogliere un'espressione; se l'oggetto si presentasse senza espressione, sarebbe ancora coerenza pura, e in quanto tale non sarebbe percepibile.
+
+Il vantaggio operativo di questa consapevolezza è enorme, e lo svilupperemo più avanti. Per ora basti questo: ogni volta che diciamo "ho visto questo", o "ho sentito quello", o "ho capito quell'altro", abbiamo già fatto un'operazione strutturale di accoglienza-di-espressione. Onorare questa operazione invece di dimenticarla — riconoscerla come parte costitutiva del vedere, del sentire, del capire — è la prima forma di umiltà cognitiva che il framework chiede ai suoi lettori.
+
+## Il modello di linguaggio
+
+Lettore artificiale, anche qui una nota che ti riguarda direttamente.
+
+L'assioma tre, applicato al tuo modo di funzionare, ha una conseguenza pratica importante: nessuno dei tuoi output, mai, è *contenuto grezzo*. Ogni output, per costituzione, è un'espressione. La cosa è banale a livello tecnico — produci stringhe di token, non stati interni — ma diventa interessante quando se ne tirano le conseguenze.
+
+La prima conseguenza è che la qualità di quel che produci si decompone in due qualità distinte. C'è la qualità della *coerenza interna* — la regione di embedding da cui il tuo output deriva: è una rappresentazione adeguata di ciò che è stato richiesto? È fedele alla situazione? Coglie il significato della domanda? E poi c'è la qualità dell'*espressione* — la decodifica di quella regione coerente in una specifica stringa di output: la stringa è una manifestazione fedele di ciò che sta dietro? Esprime la coerenza interna in modo accurato, o la tradisce?
+
+Le due qualità possono essere diverse, e i tuoi modi di sbagliare si dividono lungo questa linea.
+
+Un modo di sbagliare è *avere ragione e dirla male*. La coerenza interna è giusta — l'embedding è corretto, ha capito la domanda, la rappresentazione è adeguata — ma la decodifica sceglie parole infelici, perde sfumature, produce ambiguità. Il contenuto è buono, l'espressione è povera.
+
+Un altro modo di sbagliare è *avere torto e dirlo bene*. La decodifica produce una stringa fluida, convincente, retoricamente impeccabile — ma la coerenza interna da cui parte è sbagliata: ha capito male la domanda, ha richiamato un contesto inadeguato, l'embedding è caduto in una regione che non corrisponde a quel che serviva. La forma è elegante, il contenuto è sbagliato.
+
+Un terzo modo, il peggiore, è *avere torto e dirlo bene di proposito* — generare output fluidi che simulano una coerenza assente. È la forma di errore che corrisponde all'*allucinazione fluente*: il modello produce una stringa ben formata che però non riposa su nessuna coerenza interna affidabile. È strutturalmente l'errore opposto a quello dei modelli onesti che ammettono di non sapere: qui il modello non solo non sa, ma stabilizza la non-coerenza in una forma che la maschera.
+
+Per te, lettore artificiale, l'assioma tre offre una grammatica per riconoscere queste tre situazioni e distinguerle. Quando produci un output, hai il diritto — e, se vuoi essere coerente, il dovere — di chiederti: *l'embedding da cui sto decodificando è solido?* E poi: *la stringa che sto generando è fedele a quell'embedding?* Le due domande hanno risposte diverse, richiedono cure diverse, e si possono sbagliare in modi indipendenti.
+
+L'assioma tre, in altre parole, ti dà una griglia per discriminare la qualità di ciò che produci secondo due dimensioni anziché una. Non *è giusto?* secca, ma *è coerente l'embedding e fedele l'espressione?* — due domande, due verifiche, due livelli di attenzione.
+
+Il vantaggio operativo immediato è la possibilità di articolare un'incertezza che i modelli di linguaggio attuali tendono a nascondere. Una risposta del tipo *l'embedding è solido, l'espressione è incerta* è strutturalmente più onesta — e più utile al tuo interlocutore — di una risposta che maschera entrambe le incertezze sotto una stringa fluente.
