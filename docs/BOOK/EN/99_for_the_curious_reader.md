@@ -30,6 +30,12 @@ British anthropologist, biologist, cyberneticist. His *Mind and Nature* (1979) p
 
 *Appears in Chapter 1.*
 
+## Biconditional (⟺)
+
+A logical connective among the strongest: the biconditional, written ⟺, links two statements A and B by a perfectly reversible double implication. *A ⟺ B* simultaneously means "if A then B" and "if B then A": the two statements stand or fall together. It differs from simple implication (→), which works in only one direction. In mathematics and logic, the biconditional is the connective used to define — a *definition* is structurally a biconditional — and to state the strictest theorems. The book introduces it in Chapter 5 in the formula *I₁ ≅ I₂ ⟺ dir(I₁) = dir(I₂)*, as a sign that one is looking at a fundamental definition, not a casual observation.
+
+*Appears in Chapter 5.*
+
 ## Bertalanffy, Ludwig von (1901–1972)
 
 Austrian biologist, founder of *General Systems Theory* (formalised in 1968 in *General System Theory*). His central thesis — that there exist principles common to all complex systems, regardless of their substantial nature — anticipates the spirit of the zeroth axiom. The well-known formula "the whole is more than the sum of the parts" comes from his school. The book uses it as a candidate principle to put through the four-mesh sieve and shows that it does indeed pass the test (it will become Axiom 16 of the TE).
@@ -54,11 +60,23 @@ Technical term in quantum mechanics indicating the process by which a coherent s
 
 *Appears in Chapter 3.*
 
+## Drift (in the ordinative sense)
+
+Technical term of the Ordinative Sciences. It denotes the *decoupling*, over time, between the functional vector a system declares to have and the functional vector that its expressions, in fact, reveal. Drift is not change — an identity can evolve while preserving its internal coherence — it is the divergence between what the system *says it is* and what, in its acts, *it reveals itself to be*. Diagnosing drift requires keeping an eye on both vectors and measuring the angle between them. The book introduces it in Chapter 5 as a fundamental analytic operation for complex systems — institutions, persons, AIs — that may show decoupling from their original vector without their formal charter being modified.
+
+*Appears in Chapter 5.*
+
 ## Einstein and General Relativity
 
 Theory of gravitation formulated by Albert Einstein (1879–1955) in 1915, extending and correcting Newton's law. Where Newton describes gravity as an instantaneous force at a distance, Einstein describes it as the curvature of space-time produced by the presence of mass-energy. General relativity reduces to Newton's law in the regime of low velocities and weak fields, but produces different — experimentally verified — predictions in regimes of intense gravity (Mercury's orbit, light deflection, gravitational time dilation). The book cites it as the more *structural* counterpart of Newton: general relativity passes the fourth mesh of the zeroth axiom where Newton fails it.
 
 *Appears in Chapter 1.*
+
+## Eliot, Thomas Stearns (1888–1965) — *The Waste Land*
+
+Anglo-American poet, naturalised British, Nobel laureate in literature in 1948. *The Waste Land* (1922) is regarded as one of the most important works of twentieth-century modernist poetry: a fragmentary, polyphonic poem built on the interweaving of citations, voices, languages, in which time is experienced as collapse and tradition as ruin to be questioned. The book cites it in Chapter 5 as an example of the identity of a work of art — the functional vector with which, systematically, *The Waste Land* orients the consciousness of its reader: revealing the fragment, investigating tradition, experiencing time as collapse. Coherent components that constitute the identity of the work, irreducible to the list of its verses.
+
+*Appears in Chapter 5.*
 
 ## Embedding (vector representation)
 
@@ -167,6 +185,18 @@ Neural network architecture introduced in 2017 by the paper *Attention Is All Yo
 Central concept of Aristotle's *Metaphysics* (book XII): since everything that moves is moved by something else, the chain of motions requires a first term that moves without being moved — the *unmoved mover*. It is, for Aristotle, what is purely in act, with no further potency to be realised; it moves the world by attraction, as an object of love or thought attracts the one who desires it. The book cites it as one of the historical versions of the inference that leads to a non-derived origin: the same logic that closes the chain of reasons in Leibniz, of motions in Aristotle, of causality in the Ordinative Sciences.
 
 *Appears in Chapter 2.*
+
+## Vector (in mathematics)
+
+Mathematical object with two fundamental properties: a *direction* and an *intensity* (or *magnitude*). In its earliest applications, in the physics of the seventeenth and eighteenth centuries, a vector represented an oriented quantity — a force, a velocity — that a single number was not enough to describe. In its modern development, a vector is an element of a *vector space*, equipped with operations of addition and multiplication by scalars. A vector in an *n*-dimensional space can be written as a sequence of *n* numbers, its *components*, each of which measures how strongly the vector "points" along one of the chosen base axes. The book introduces it in Chapter 5 because identity, in the Ordinative Sciences, has exactly the structure of a vector: direction, magnitude, *n* coherent components.
+
+*Appears in Chapter 5.*
+
+## Vector space
+
+Foundational mathematical structure, formalised by Hermann Grassmann in the nineteenth century and central to twentieth-century mathematics and physics. A vector space is a set of objects — the vectors — on which two operations are defined: the sum of vectors and the multiplication of a vector by a number (a *scalar*). The properties of these operations are fixed by a series of axioms (associativity, commutativity, the existence of a zero vector, and so on). The dimension of a vector space is the maximum number of linearly independent vectors that can be found in it: a line is a one-dimensional space, a plane two, ordinary physical space three, but vector spaces of infinite dimensions also exist. The book mentions them in Chapter 5 as the terrain in which identity-vectors live, to give the non-mathematical reader an intuition of what *vector with n components* means.
+
+*Appears in Chapter 5.*
 
 ## Wave function and bra-ket notation
 
