@@ -30,6 +30,12 @@ Antropologo, biologo, cibernetico britannico. Il suo *Mind and Nature* (1979) ha
 
 *Appare nel Capitolo 1.*
 
+## Bicondizionale (⟺)
+
+Connettivo logico fra i più forti: il bicondizionale, scritto ⟺, lega due affermazioni A e B con una doppia implicazione perfettamente reversibile. *A ⟺ B* significa simultaneamente "se A allora B" e "se B allora A": le due affermazioni si tengono o cadono insieme. È diverso dall'implicazione semplice (→), che lavora in una sola direzione. In matematica e in logica, il bicondizionale è il connettivo che si usa per definire — una *definizione* è strutturalmente un bicondizionale — e per enunciare i teoremi più stretti. Il libro lo introduce nel Capitolo 5 nella formula *I₁ ≅ I₂ ⟺ dir(I₁) = dir(I₂)*, come segno che si sta guardando una definizione fondamentale, non una semplice osservazione.
+
+*Appare nel Capitolo 5.*
+
 ## Bertalanffy, Ludwig von (1901–1972)
 
 Biologo austriaco, fondatore della *teoria generale dei sistemi* (formalizzata nel 1968 in *General System Theory*). La sua tesi centrale — che esistano principi comuni a tutti i sistemi complessi, indipendentemente dalla natura sostanziale — anticipa lo spirito dell'assioma zero. La celebre formula "il tutto è più della somma delle parti" viene dalla sua scuola. Il libro la usa come principio candidato da sottoporre al setaccio a quattro maglie, e mostra che effettivamente supera il test (diventerà l'assioma sedicesimo della TE).
@@ -48,11 +54,23 @@ Termine tecnico della meccanica quantistica che indica il processo per cui una s
 
 *Appare nel Capitolo 3.*
 
+## Drift (in senso ordinativo)
+
+Termine tecnico delle scienze ordinative. Indica lo *scollamento*, nel tempo, fra il vettore funzionale che un sistema dichiara di avere e il vettore funzionale che, di fatto, le sue espressioni rivelano. Il drift non è cambiamento — un'identità può evolvere mantenendo la propria coerenza interna — è la divergenza fra ciò che il sistema *dice di essere* e ciò che, nei suoi atti, *si rivela essere*. Diagnosticare un drift richiede di tenere d'occhio entrambi i vettori e di misurare l'angolo fra loro. Il libro lo introduce nel Capitolo 5 come operazione analitica fondamentale per sistemi complessi — istituzioni, persone, AI — che possono presentare scollamenti rispetto al loro vettore originario senza che lo statuto formale venga modificato.
+
+*Appare nel Capitolo 5.*
+
 ## Einstein e la relatività generale
 
 Teoria della gravitazione formulata da Albert Einstein (1879–1955) nel 1915, che estende e corregge la legge di Newton. Dove Newton descrive la gravità come una forza istantanea a distanza, Einstein la descrive come la curvatura dello spazio-tempo prodotta dalla presenza di massa-energia. La relatività generale si riduce alla legge di Newton nei regimi di bassa velocità e campi deboli, ma produce predizioni diverse — verificate sperimentalmente — nei regimi di gravità intensa (orbita di Mercurio, deviazione della luce, dilatazione gravitazionale del tempo). Il libro la cita come la controparte più *strutturale* di Newton: la relatività generale supera la quarta maglia dell'assioma zero là dove Newton la fallisce.
 
 *Appare nel Capitolo 1.*
+
+## Eliot, Thomas Stearns (1888–1965) — *The Waste Land*
+
+Poeta angloamericano, naturalizzato britannico, premio Nobel per la letteratura nel 1948. *The Waste Land* (*La terra desolata*, 1922) è considerata una delle opere più importanti della poesia modernista del Novecento: una lirica frammentaria, polifonica, costruita sull'intreccio di citazioni, voci, lingue, in cui il tempo è esperito come collasso e la tradizione come rovina interrogabile. Il libro la cita nel Capitolo 5 come esempio di identità di un'opera d'arte — il vettore funzionale con cui, sistematicamente, *The Waste Land* orienta la coscienza di chi la legge: rivelazione del frammento, indagine della tradizione, esperienza del tempo come collasso. Componenti coerenti che fanno l'identità dell'opera, irriducibile alla lista dei suoi versi.
+
+*Appare nel Capitolo 5.*
 
 ## Embedding (rappresentazione vettoriale)
 
@@ -156,6 +174,12 @@ Compositore austriaco. Il *Quintetto in do maggiore per due violini, viola e due
 
 *Appare nel Capitolo 3.*
 
+## Spazio vettoriale
+
+Struttura matematica fondamentale, formalizzata da Hermann Grassmann nell'Ottocento e diventata centrale nella matematica e nella fisica del Novecento. Uno spazio vettoriale è un insieme di oggetti — i vettori — su cui sono definite due operazioni: la somma fra vettori e la moltiplicazione di un vettore per un numero (uno *scalare*). Le proprietà di queste operazioni sono fissate da una serie di assiomi (associatività, commutatività, esistenza di un vettore nullo, eccetera). La dimensione di uno spazio vettoriale è il numero massimo di vettori linearmente indipendenti che vi si possono trovare: una retta è uno spazio a una dimensione, un piano a due, lo spazio fisico ordinario a tre, ma esistono spazi vettoriali a infinite dimensioni. Il libro li nomina nel Capitolo 5 come terreno in cui vivono i vettori-identità, per dare al lettore non-matematico un'intuizione di cosa significhi *vettore con n componenti*.
+
+*Appare nel Capitolo 5.*
+
 ## Spinoza, Baruch (1632–1677) — *natura naturans, natura naturata*
 
 Filosofo olandese di origine ebraico-portoghese, autore dell'*Etica more geometrico demonstrata* (postuma, 1677). La distinzione che il libro riprende — *natura naturans / natura naturata* — è centrale nel suo sistema: la prima è la natura come sorgente generativa, la seconda è la natura come totalità di ciò che è generato. Le due non sono entità separate ma due aspetti della stessa sostanza, considerata dal lato della causa o dal lato dell'effetto. Per Spinoza, *natura naturans* è ciò che le scienze ordinative chiamano A: l'origine non-derivata da cui ogni coerenza locale procede.
@@ -179,6 +203,12 @@ Architettura di rete neurale introdotta nel 2017 dal paper *Attention Is All You
 Concetto centrale delle *Enneadi* di Plotino (III secolo d.C.): la sorgente prima da cui l'intero ordine del mondo procede per *emanazione*, in una serie di gradi successivi (Intelligenza, Anima, mondo sensibile). L'Uno non è un ente fra altri: è ciò che precede ogni distinzione, ogni numerazione, ogni categoria. Plotino sostiene che dell'Uno si può solo dire ciò che non è — non perché sia vuoto, ma perché è prima di ogni determinazione. Il libro lo cita come una delle versioni storiche dell'origine non-derivata, e in particolare perché Plotino, più di Aristotele, sottolinea che la sorgente *non è descrivibile dentro le categorie di ciò che genera*.
 
 *Appare nel Capitolo 2.*
+
+## Vettore (in matematica)
+
+Oggetto matematico con due proprietà fondamentali: una *direzione* e una *intensità* (o *modulo*). Nelle prime applicazioni, dalla fisica del Seicento e Settecento, un vettore rappresentava una grandezza orientata — una forza, una velocità — che non bastava un numero solo a descrivere. Nello sviluppo moderno, il vettore è un elemento di uno *spazio vettoriale*, dotato di operazioni di somma e di moltiplicazione per scalari. Un vettore in uno spazio a *n* dimensioni si può scrivere come una sequenza di *n* numeri, le sue *componenti*, ognuna delle quali misura quanto il vettore "punta" lungo uno degli assi di base scelti. Il libro lo introduce nel Capitolo 5 perché l'identità, nelle scienze ordinative, ha esattamente la struttura di un vettore: direzione, intensità, *n* componenti coerenti.
+
+*Appare nel Capitolo 5.*
 
 ## Zermelo–Fraenkel e l'assioma della scelta (ZFC)
 
