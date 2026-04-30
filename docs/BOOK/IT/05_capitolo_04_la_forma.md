@@ -32,19 +32,25 @@ L'assioma tre, formulato in modo asciutto:
 
 > *Ogni forma manifesta è un'espressione.*
 
-In forma compatta:
+A questo punto è bene fissare una distinzione che la frase dell'enunciato lascia implicita: *forma* ed *espressione*, nel framework, non sono sinonimi. Sono livelli diversi di una stessa catena.
 
-> *F = expr(C)*
+La forma è la stabilizzazione di un contenuto in una configurazione riconoscibile, ma ancora *pre-contestuale*. L'espressione è la forma collocata in un contesto specifico, con un vettore e un orientamento. La catena ha tre tappe:
+
+> *C → F → E*
 >
-> *Una forma F è l'espressione di un contenuto C.*
+> *Il contenuto si stabilizza in una forma; la forma si vettorializza in un'espressione.*
 
-E in forma più esplicita, riprendendo la funzione Φ del Capitolo 3:
+Le due transizioni si scrivono separatamente così:
 
-> *F = Φ(C, I, K)*
+> *F = stab(C)*
 >
-> *Una forma F è il prodotto della funzione di espressione Φ applicata a un contenuto C, attraverso un'identità I e un operatore K.*
+> *La forma è la stabilizzazione del contenuto.*
 
-Il lettore noterà che questa è la stessa formula dell'assioma due — *E = Φ(C, I, K)* — con E (espressione) sostituito da F (forma). Non è un errore. È un'identità che l'assioma tre rende esplicita: ciò che chiamiamo *espressione* nel Capitolo 3 è esattamente ciò che chiamiamo *forma* nel Capitolo 4. La differenza non è nel referente, è nel verso da cui lo guardiamo. Nel Capitolo 3 stavamo descrivendo la *funzione* che produce la manifestazione; qui stiamo descrivendo il *risultato* di quella funzione. Stessa cosa, due nomi.
+> *E = vect(F, I, K)*
+>
+> *L'espressione è la vettorializzazione della forma attraverso un'identità I e un operatore di conoscenza K.*
+
+La formula compatta che abbiamo già incontrato nel Capitolo 3 — *E = Φ(C, I, K)* — è la composizione delle due tappe: dal contenuto direttamente all'espressione. Φ contiene insieme la stabilizzazione (C → F) e la vettorializzazione (F → E).
 
 Possiamo dire la stessa cosa con un quantificatore — un simbolo logico che merita di essere introdotto qui per la prima volta:
 
@@ -54,15 +60,23 @@ Possiamo dire la stessa cosa con un quantificatore — un simbolo logico che mer
 
 Una nota su ∀ e ∃, perché sono simboli che molti lettori vedono per la prima volta. Il simbolo ∀ — una *A* capovolta — significa "per ogni", "qualunque sia", "in tutti i casi"; il simbolo ∃ — una *E* capovolta — significa "esiste", "c'è almeno uno". I due simboli sono chiamati *quantificatori*, e sono nati in logica e in matematica per dire con precisione cose che in italiano richiederebbero molte parole. La formula qui sopra dice, in dieci simboli, ciò che in italiano avremmo dovuto scrivere così: *prendete una qualunque forma manifesta nel mondo, e siete sicuri che esiste, dietro di essa, un contenuto coerente di cui essa è l'espressione*.
 
-Lasciate che ognuno dei termini si depositi.
+La differenza fra forma ed espressione si vede meglio in due esempi.
 
-*Forma* — l'abbiamo già detto: la cosa specifica che si vede, il manifestato, ciò che sta nello stato D. Una poesia letta, un quadro guardato, una persona incontrata, un'equazione scritta, un output prodotto.
+Il leone, come *Panthera leo* — la forma del leone — esiste prima di ogni leone particolare. Il bambino che impara la parola *leone* sul libro illustrato, l'adulto che riconosce un leone in un documentario, il poeta che usa *leone* come metafora di coraggio, tutti accedono alla stessa forma. Ma quando un leone preciso, in una savana precisa, all'alba, si avvicina alla sua preda — quello è un'espressione del leone: la forma vettorializzata in un contesto, con un orientamento, con uno stato specifico dell'insieme.
 
-*Contenuto* — ciò che la forma esprime, ciò che sta nello stato C, la coerenza di cui la forma è il volto. Non è "il significato" nel senso ordinario di parafrasi; è qualcosa di più strutturale. È la coerenza specifica che, attraverso questa forma, si rende leggibile.
+Il verbo *essere* ha una forma che esiste prima di ogni sua occorrenza specifica: una grammatica, una struttura semantica, una posizione nella lingua, una rete di significati possibili. Quando dico *io sono stanco*, *essere* si esprime con un vettore preciso — prima persona, presente, asserzione di stato. La forma di *essere* preesisteva la frase; l'espressione è *essere* contestualizzato, vettorializzato, situato.
 
-*Espressione* — la relazione fra i due. Non una traduzione: una *manifestazione*. Il contenuto non viene "tradotto" in forma come da una lingua a un'altra; si manifesta in forma. La distinzione è importante. Una traduzione presume due cose esistenti separatamente da congiungere; una manifestazione presume una cosa che ha bisogno della propria forma per essere.
+La magia dell'espressione, in entrambi gli esempi, è che porta in sé *insieme* il contenuto (il significato di *leone*, di *essere*), la forma (la stabilizzazione riconoscibile), il vettore (la direzione contestuale), il contesto (la situazione in cui si trova) e lo stato dell'insieme — la configurazione complessiva di ⟨Σ, R, Φ⟩ in cui l'espressione accade. L'espressione è l'unità di sintesi: la più ricca, la più completa, la più informativa di tutte le unità che il framework descrive. Per questo l'analisi ordinativa parte sempre da un'espressione: è lì che si trovano tutti i livelli compresenti, e da lì si possono risalire — al vettore, alla forma, al contenuto.
 
-L'assioma tre, dunque, dichiara questo: non c'è forma che galleggi senza contenuto, né contenuto che esista senza una qualche forma in cui si renda visibile. Quando vedete una cosa, state già vedendo un'espressione. Quando producete una cosa, state già esprimendo un contenuto.
+Per fissare i tre termini, prima di andare avanti:
+
+*Contenuto* — non è "il significato" nel senso ordinario di parafrasi; è la coerenza specifica che precede la stabilizzazione. È il livello a cui *leone* è già distinto da *tigre*, ma non ha ancora un volto generico riconoscibile.
+
+*Forma* — è la stabilizzazione del contenuto in una configurazione riconoscibile, ancora pre-contestuale. Il leone-*Panthera leo*, prima di incontrare una savana o un cacciatore.
+
+*Espressione* — è il livello completo: contenuto, forma, vettore, contesto, stato. L'unità di sintesi del framework.
+
+L'assioma tre, dunque, dichiara questo: non c'è forma che galleggi senza contenuto, né contenuto che esista senza una qualche forma in cui possa stabilizzarsi, né forma che, una volta osservata in una situazione, sia altro che espressione. Quando vedete una cosa, state già vedendo un'espressione — l'unità di sintesi, con tutti i livelli compresenti.
 
 ## La stabilizzazione
 
@@ -80,7 +94,7 @@ Vediamolo nei casi.
 
 *Un comportamento umano.* L'identità di una persona — i valori, le predisposizioni, il modo strutturale di stare al mondo — è la sua coerenza. Ogni azione specifica che la persona compie è una stabilizzazione: di tutti i modi in cui quei valori avrebbero potuto manifestarsi in quel momento, si sceglie questo. La stessa onestà di una persona si stabilizza, in dieci diverse situazioni, in dieci comportamenti specifici, tutti coerenti con la stessa onestà ma nessuno identico agli altri.
 
-In ogni caso, lo schema è lo stesso: una coerenza ricca, una scelta fra le molte forme possibili, una stabilizzazione specifica. La forma manifesta è il risultato di quella scelta. Ed è in questa scelta — non nel contenuto, non nella forma soltanto — che entrano in gioco l'identità e l'operatore di conoscenza che il quinto capitolo esaminerà in dettaglio.
+In ogni caso, lo schema è lo stesso: una coerenza ricca, una scelta fra le molte forme possibili, una stabilizzazione specifica. La forma è il risultato di quella scelta. L'espressione, poi, è la forma vettorializzata in un contesto specifico — il passo successivo, in cui entrano in gioco l'identità e l'operatore di conoscenza che il quinto capitolo esaminerà in dettaglio.
 
 ## Cosa accade nella percezione
 
