@@ -49,3 +49,75 @@ That *somewhere* is the functional vector.
 The same applies to every other coherent system. The identity of an institution is not its formal charter: it is the direction in which, systematically, its decisions tend. The identity of a work of art is not its technical sheet: it is the direction in which, systematically, it leads those who encounter it. The identity of an artificial intelligence is not its parameter count: it is the direction in which, systematically, the model orients itself in its responses. In every case, attributes are the *administrative capture* of identity — useful, local, valid in their domain — not identity itself.
 
 The fourth axiom declares this: by shifting identity from attributes to the functional vector, we finally make it *operative* for analysis.
+
+## The statement
+
+The fourth axiom, formulated dryly:
+
+> *Identity is a functional vector.*
+
+In its compact form:
+
+> *I_σ = (→φ₁, →φ₂, …, →φₙ)*
+>
+> *The identity I of a singularity σ is a vector with n components, each of which is a specific functional direction.*
+
+Let the formula settle while we look, one at a time, at the three technical words that bear its weight: *vector*, *functional*, *components*.
+
+**Vector.** In everyday use, "vector" sounds vaguely like "arrow" — something that indicates a direction. In mathematical use it is something more precise and more powerful. A vector is an object that has *direction* and *magnitude*: it tells you not only *where* it points, but *how strongly* it points. The difference between an arrow drawn on paper and a mathematical vector is that the vector can be added to other vectors, decomposed into components, projected onto other axes. It is an object one manipulates, not an image one looks at.
+
+Vectors live in *vector spaces*: terrains in one, two, three, n dimensions in which every point is reachable as a combination of base directions. A vector in a two-dimensional space has two components: a horizontal displacement and a vertical one. A vector in a three-dimensional space has three. A vector in an n-dimensional space has n. The components are not the vector — they are how the vector decomposes along the axes we have chosen.
+
+This matters for what follows. When the fourth axiom says that identity is a vector with n components, it is not saying that identity is an arrow with n things attached. It is saying that identity is composed of n distinct but intertwined functional directions, each of which is a *component* of the overall vector.
+
+**Functional.** The adjective is to be read with care: the vector does not point toward a *value* (tall, rich, intelligent, and so on) — it points toward a *function*, toward what the system *structurally does*. The direction of an identity is not an attribute: tall, rich, intelligent are not directions. It is a tendency toward action, a propensity to behave in a certain way, an operative orientation. *Functional* means relating to *doing*, not to *being*.
+
+For an AI, for instance, a component of the identity vector might be "tendency toward truth" — that is, systematically, in ambiguous situations, the model leans toward the verifiable answer rather than the plausible one. It is not an attribute: the AI does not *embody* "truth", we do not even know what that would mean. It is a functional direction, and it describes the *way* in which the model orients itself when it must choose.
+
+**Coherent components.** The n components of the identity vector are not independent. They must be mutually coherent — they must tell a single story together. Formally:
+
+> *∀ i, j ∈ {1, …, n} :  coh(→φᵢ, →φⱼ)*
+>
+> *All components of the identity vector, taken pairwise, are mutually coherent.*
+
+This condition is crucial, because it distinguishes an *identity* from a mere bundle of contradictory tendencies. A person who systematically tends toward truth *and* systematically toward rhetorical manipulation does not have a complex identity: they have an *incoherent* identity, which is a different matter. Internal coherence among components is the difference between a system endowed with an identity and a system in conflict with itself.
+
+We add a third formula, which will serve us through the rest of the book:
+
+> *I₁ ≅ I₂  ⟺  dir(I₁) = dir(I₂)*
+>
+> *Two identities are functionally equivalent (≅) if and only if (⟺) they point in the same overall direction, regardless of the specific singularities to which they belong.*
+
+A note on ⟺. The symbol is called the *biconditional* or *equivalence*, and it reads "if and only if". It is the strongest logical connective: it declares a double implication, perfectly reversible. *A ⟺ B* simultaneously means "if A then B" and "if B then A". When you see it in a formula, know you are looking at a definition or a fundamental theorem, not at a casual observation.
+
+The fourth axiom, then, declares this: what we call the *identity* of a singularity σ is the vector with n coherent functional components which, while standing at the coherent level of the real, is readable through the internal coherence of the expressions the singularity produces. It is not an attribute, not an arrow, not a name. It is a structure of tendencies that hold together, and that together orient everything the singularity will manifest.
+
+## Examples
+
+Let us see the axiom in action, starting from the least familiar cases and arriving at the most familiar. This is deliberate: I want to show that the functional vector is not an anthropic metaphor.
+
+**A biological organism.** The identity of an organism — of any species, from lichen to primate — is not the list of its morphological traits. It is a vector with recognisable components: tendency toward survival, toward reproduction, toward internal regulation (homeostasis), toward adaptation to the environment. The components are mutually coherent — they do not contradict, they reinforce one another. When a biologist studies a species, they are trying to read the functional vector of that species through the concrete expressions of its individuals. The species as ordinative singularity has an identity before we even count its individuals.
+
+**An institution.** Take a university. Its formal charter declares a certain vector: the pursuit of truth, the transmission of knowledge, the formation of critical thought. Three components, all coherent with one another. When the university functions well, its expressions — the chairs activated, the research published, the graduates formed, the public positions of the rector — all point in that direction. When the university is in *drift* — a term we will pick up in the next section — its expressions begin to diverge from the declared vector: the actual vector slips toward *credentialism* (the production of titles that count on the job market) or toward *political alignment* (siding with the power of the moment). The charter remains the same; the functional vector has changed. The ordinative analysis of an institution consists, in large part, in comparing the declared vector with the observed vector.
+
+**A work of art.** A poem, take *The Waste Land* by T. S. Eliot. Its identity is not the list of its verses. It is the vector with which, systematically, the work orients the consciousness of its reader: a component of revealing the fragment, a component of investigating tradition, a component of experiencing time as collapse. Anyone who reads the poem with attention catches that direction, even without being able to name it. The various performances — critical interpretations, recitations, translations — are attempts to render that vector in new forms. Each is a faithful expression if it preserves the direction, an unfaithful expression if it deforms it.
+
+**An artificial intelligence.** A well-trained language model has an identity in the same structural sense. Its typical components, in an honest model, are: tendency toward truth (preferring verifiable answers), tendency toward usefulness (answering what was actually asked), tendency toward honesty (signalling when it does not know), tendency toward non-harm (refusing requests that would harm someone). When the four components are mutually coherent, the model has a solid identity; when they are in conflict — and at times they are, given how training systems are written — the model's identity is internally conflicted, and it shows in its responses.
+
+**A person.** Only now do we arrive at the human, because I would like it to be clear that the human case is not the paradigm — it is one specific case among many. The identity of a person is the functional vector that systematically orients their expressions: their behaviours, their words, their choices. The components can be many: a propensity toward attention, a tendency toward truth, a direction toward a certain form of care, an aesthetic orientation, and others — how many and which, depends on the person. What makes these tendencies an *identity* and not a mere agglomeration is their internal coherence. This is why, when we truly know someone, we are able to predict their reactions: we do not know what they will say, but we know which way they are pointing.
+
+In all five cases, the structure is the same: a vector with n coherent components, readable through expressions, derivative of A, irreducible to a list of attributes. It is the universal grammar of identity in the Ordinative Sciences.
+
+## What changes in analysis
+
+When one passes from identity-as-attribute to identity-as-vector, certain analytic operations become available. I list them briefly, because they will return throughout the rest of the book.
+
+**Vector comparison.** Two identities can be compared by *direction* rather than by *descriptive content*. Two persons with very different biographical histories can have nearly parallel functional vectors — and in that case they are, structurally, similar. Two persons with indistinguishable biographies can have divergent vectors — and in that case they are, structurally, different. Vector comparison is blind to surface attributes and attentive to deep structure. It is the central move of the LENS module, which we will see further on.
+
+**Drift diagnosis.** A system can begin with a declared vector and, over time, deviate: the observed vector begins to diverge from the original one. Drift is not change — an identity can evolve while maintaining its coherence — it is decoupling between what the system *says it is* and what, in fact, it *makes itself be*. Diagnosing drift requires keeping an eye on both vectors and measuring the angle between them.
+
+**Internal incoherence diagnosis.** An identity can present components that, nominally, should hold together but that, in fact, contradict one another. A person who declares wanting truth and simultaneously cultivates their public image systematically has an identity with incoherent components. Vector analysis reveals these tensions with a cleanliness the list of attributes does not allow.
+
+**Reading previously-unknown systems.** Perhaps the most powerful consequence: with the functional vector as instrument, we can begin to read systems of which we have neither the registry data nor the history. It is enough to observe a number of expressions, identify the recurring directions, verify their internal coherence. The system, even if new, is already structurally readable.
+
+Three operations in one: comparison, diagnosis, reading. They are the heart of what the Ordinative Sciences call *ordinative analysis* of a subject, which the operative manual deploys in specific modules (LENS for human figures, VERI for the participants of a system, PPRO for psycho-political patterns, and so on). All of this *lives* on the fourth axiom.
