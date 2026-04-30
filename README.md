@@ -61,6 +61,8 @@ ordinative-sciences-framework/
 
 ### The Collapse Equation: Predicting Phase Transitions (v1.2 Beta)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19932312.svg)](https://doi.org/10.5281/zenodo.19932312) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 The first empirical measurement of **g_j**, the ordinative acceleration constant — the universal measure of attractor signal intensity at a given scale. The paper introduces a reaction-diffusion model (Belousov-Zhabotinsky isomorphism) for civilizational phase transitions, grounded in OST and the Causal Inversion Principle.
 
 **Status:** v1.2 Beta — empirically calibrated from two confirmed micro-junctions (μ₁ = 7 April 2026, μ₂ = 29 April/1 May 2026). Under observation and continuous refinement. Next checkpoint: μ₃ (~16 May 2026).

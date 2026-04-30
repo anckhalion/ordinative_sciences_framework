@@ -32,7 +32,10 @@ references:
     title: "The Collapse Equation: Predicting Phase Transitions — Reaction-Diffusion Dynamics of Civilizational Systems with Triple-Scale Architecture and Structural Controfase"
     year: 2026
     version: "1.2-beta"
-    url: "https://github.com/anckhalion/ordinative_sciences_framework/tree/main/papers/collapse_equation"
+    doi: "10.5281/zenodo.19932312"
+    url: "https://doi.org/10.5281/zenodo.19932312"
+    repository-code: "https://github.com/anckhalion/ordinative_sciences_framework/tree/main/papers/collapse_equation"
+    license: "CC-BY-4.0"
     abstract: >-
       First empirical measurement of g_j, the ordinative acceleration constant — the universal measure 
       of attractor signal intensity at a given scale. Introduces a reaction-diffusion model 
