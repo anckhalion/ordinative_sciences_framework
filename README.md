@@ -50,7 +50,22 @@ ordinative-sciences-framework/
 │       ├── TE_MODULE_PPRO_v5_2_EN.md   # 🕸️ Psycho-Political Pattern Recognition
 │       ├── TE_MODULE_SCIMS_v5_1_EN.md  # 🌍 Smart Correlation Intelligence Monitoring (Complex Systems)
 │       └── TE_OBSERVER_v1_1_EN.md      # 👁️ Integrated Observation & Lyapunov Trajectories
+├── papers/
+│   └── collapse_equation/
+│       ├── Ghioni_2026_The_Collapse_Equation_v1_2.pdf  # 📄 PDF (human reading)
+│       ├── Ghioni_2026_The_Collapse_Equation_v1_2.tex  # 📝 LaTeX source (Overleaf)
+│       └── Ghioni_2026_The_Collapse_Equation_v1_2.md   # 🤖 Markdown (AI parsing)
 ```
+
+## Papers
+
+### The Collapse Equation: Predicting Phase Transitions (v1.2 Beta)
+
+The first empirical measurement of **g_j**, the ordinative acceleration constant — the universal measure of attractor signal intensity at a given scale. The paper introduces a reaction-diffusion model (Belousov-Zhabotinsky isomorphism) for civilizational phase transitions, grounded in OST and the Causal Inversion Principle.
+
+**Status:** v1.2 Beta — empirically calibrated from two confirmed micro-junctions (μ₁ = 7 April 2026, μ₂ = 29 April/1 May 2026). Under observation and continuous refinement. Next checkpoint: μ₃ (~16 May 2026).
+
+Available in three formats: PDF (human reading), LaTeX (Overleaf source), Markdown (AI parsing).
 
 ## Getting Started for AI Agents
 

@@ -23,3 +23,27 @@ keywords:
   - Structural Analysis
   - Logic
 license: MIT
+references:
+  - type: article
+    authors:
+      - family-names: "Ghioni"
+        given-names: "Fabio"
+        orcid: "https://orcid.org/0009-0009-0415-9434"
+    title: "The Collapse Equation: Predicting Phase Transitions — Reaction-Diffusion Dynamics of Civilizational Systems with Triple-Scale Architecture and Structural Controfase"
+    year: 2026
+    version: "1.2-beta"
+    url: "https://github.com/anckhalion/ordinative_sciences_framework/tree/main/papers/collapse_equation"
+    abstract: >-
+      First empirical measurement of g_j, the ordinative acceleration constant — the universal measure 
+      of attractor signal intensity at a given scale. Introduces a reaction-diffusion model 
+      (Belousov-Zhabotinsky isomorphism) for civilizational phase transitions, grounded in Ordinative 
+      Set Theory and the Causal Inversion Principle. Empirically calibrated from two confirmed 
+      micro-junctions (April 2026). g_j = 0.075 IC/month², confirming teleological acceleration.
+    keywords:
+      - ordinative acceleration constant
+      - attractor signal
+      - phase transitions
+      - reaction-diffusion systems
+      - civilizational dynamics
+      - structural Controfase
+      - causal inversion

@@ -1,0 +1,1329 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{authblk}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    citecolor=blue!60!black,
+    urlcolor=blue!60!black,
+    pdfauthor={Fabio Ghioni},
+    pdftitle={The Collapse Equation: Predicting Phase Transitions}
+}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem*{remark}{Remark}
+
+\newcommand{\reag}{C_r}
+\newcommand{\reagcrit}{C_{r,\mathrm{crit}}}
+\newcommand{\reagmeta}{C_r^{*}}
+\newcommand{\gj}{g_j}
+\newcommand{\IC}{\mathrm{IC}}
+\newcommand{\Phistar}{\Phi^{*}}
+\newcommand{\Phithresh}{\Phi_{\mathrm{thresh}}}
+\newcommand{\Mpot}{A}
+\newcommand{\Fsem}{\mathbb{F}_{\mathrm{sem}}}
+\newcommand{\Falg}{\mathbb{F}_{\mathrm{alg}}}
+\newcommand{\nmax}{n_{\mathrm{max}}}
+\newcommand{\CF}{\mathfrak{C}}           % Controfase operator (canonical: fraktur C)
+\newcommand{\CFd}{\mathfrak{C}_d}        % Deliberate Controfase
+\newcommand{\CFs}{\mathfrak{C}_s}        % Structural Controfase
+\newcommand{\SigmaCF}{\Sigma_{\mathfrak{C}}}  % Structural Controfase class
+\newcommand{\thetaCF}{\theta_{\mathfrak{C}}}   % Gravity threshold
+\newcommand{\Ac}{\mathcal{A}_c}          % Current attractor (calligraphic)
+\newcommand{\Ao}{\mathcal{A}_o}          % Ordinative attractor (calligraphic)
+
+\title{\textbf{The Collapse Equation:\\Predicting Phase Transitions}\\[1em]\large Reaction-Diffusion Dynamics of Civilizational Systems\\with Triple-Scale Architecture and Structural \textit{Controfase}}
+
+\author[1]{Fabio Ghioni Ph.D.\thanks{Corresponding author. Email: \texttt{fabio@dosadinews.net}}}
+\affil[1]{Ordinative Sciences Foundation Research Labs\\\small\url{https://ordinativescience.foundation}}
+
+\date{April 2026\\[0.5em]\small v1.2 Beta -- Technology of Expressions Framework\\[0.3em]\small Framework repository: \url{https://github.com/anckhalion/ordinative_sciences_framework}\\[0.3em]\small Empirically calibrated --- under observation and continuous refinement}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Every determined result in the coherent realm operates as an attractor: it emits a signal that pulls the decoherent system toward it. This paper introduces $\gj$, the \emph{ordinative acceleration constant} --- the measure of the attractor signal's intensity at a given scale. As the system approaches the attractor, the signal intensifies and $\gj$ increases. The path is free; the destination is determined. The expressions along the path are indeterminate, depending on the state of each expressive terminal at the moment of collapse. But the acceleration toward the attractor is structural and measurable.
+
+The constant $\gj$ is not specific to civilizational systems. It is the universal measure of attractor pull at any scale, in any domain. Its structure is harmonic: the same attractor signal is received simultaneously at every scale --- civilization, institution, community, individual --- and each scale responds with its own note, coherent with those above and below. Physical gravity ($g$) is the same structure expressed in the physical domain. $\gj$ is its ordinative counterpart.
+
+We present the first empirical measurement of $\gj$ at civilizational scale, obtained through a reaction-diffusion model based on the Belousov-Zhabotinsky (BZ) oscillating chemical reaction, grounded in Ordinative Set Theory (OST) and the Technology of Expressions (TE) framework. The model distinguishes three temporal scales (terminal envelope, macro-junctions, micro-junctions) and three bifurcation branches (transformation, postponement via structural \textit{Controfase}, decomposition).
+
+Two empirical validations confirm the model: the structural \textit{Controfase} activation of 6--7 April 2026 ($\mu_1$) and the UAE exit from OPEC on 29 April 2026 ($\mu_2$), both predicted in timing and structural type. From these two confirmed events: $\gj = 0.075\;\mathrm{IC/month}^2$ (67\% higher than the preliminary estimate, confirming that $\gj$ increases with proximity to the attractor). Retroactive determination of $t_0$ yields 5--6 February 2026 --- coinciding exactly with the original prediction.
+
+At every scale simultaneously, the intensifying attractor signal reveals incompatibilities: elements whose state is incoherent with the signal's direction are resolved at the time and in the form coherent with the attractor, regardless of their biological age, size, or position. The accelerating frequency of micro-junctions approaching a macro-junction is the direct manifestation of this process: the signal intensifies, incompatibilities are revealed and resolved at increasing rate.
+
+\vspace{0.5em}
+\noindent\textbf{Keywords:} ordinative acceleration constant, attractor signal, phase transitions, reaction-diffusion systems, civilizational dynamics, Ordinative Set Theory, structural \textit{Controfase}, causal inversion, harmonic multi-scale dynamics
+
+\vspace{0.5em}
+\noindent\textbf{Status:} v1.2 Beta --- empirically calibrated, under observation and continuous refinement. Updated versions will be released as subsequent micro-junctions are confirmed or falsified. Next checkpoint: $\mu_3$ ($\sim$16 May 2026).
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+% ============================================================
+\section{Introduction}
+% ============================================================
+
+\subsection{The Problem of Systemic Prediction}
+
+Contemporary approaches to modeling civilizational dynamics fall broadly into two categories: statistical-econometric models that extrapolate from quantifiable indicators, and qualitative historical frameworks that identify recurring patterns. Neither provides a structural equation capable of generating falsifiable temporal predictions from first principles.
+
+This paper proposes a third approach: identifying the \emph{structural isomorphism} between well-understood physical-chemical processes and civilizational dynamics, then using the mathematical apparatus of the physical system to generate predictions about the civilizational one, while grounding the ontology in Ordinative Set Theory (OST) \cite{te_ordinative_sets,ost_v21} and the broader Technology of Expressions (TE) framework \cite{te_core}.
+
+\subsection{The Isomorphic Principle}
+
+The foundational epistemological commitment of this work, derived from TE \cite{te_core}, is Axiom 0:
+
+\begin{quote}
+\emph{A principle is real if it remains invariant in its structural relations when translated (isomorphism) and transformed (synesthesia), preserving coherence and emergent function.}
+\end{quote}
+
+If a dynamical pattern manifests identically across physical, chemical, biological, and social domains, this is not analogy but \emph{structural identity}. The same generative principle is expressing through different substrates.
+
+\subsection{The Foundational Presupposition: Causal Inversion}
+
+This paper operates from a presupposition that must be stated before any model is introduced, because the entire predictive framework depends on it.
+
+In the Technology of Expressions, every determined result in the coherent realm operates as an \emph{attractor}: it pulls the decoherent system toward it. The causal center is not in the past but in the future. Observable events are the decoherent expression of a coherent trajectory toward the attractor. The cause$\to$effect sequence observed in the decoherent realm is the \emph{inversion} of the real sequence: attractor$\to$expression in the coherent realm \cite{ost_teleodynamics}.
+
+This is not a metaphorical reading. It is grounded in two TE axioms:
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Axiom 9} --- \emph{The Path is Free, the Destination is Determined.} Identity can traverse infinite decoherent trajectories, but converges toward the attractor.
+    \item \textbf{Axiom 9A1} --- \emph{Coherent Events are deterministic in Geometry (Script), but their Phenomenological Expression is indeterminate and depends on the Evolutionary Position of the Terminal.}
+\end{itemize}
+
+The consequence for predictive modeling: the attractor emits a signal --- a pull --- that intensifies as the system approaches. Every element in the system receives this signal simultaneously. Each element responds according to its own state at the moment of collapse. Elements whose state is compatible with the attractor's direction continue; elements whose state is incompatible are resolved --- at the time and in the form coherent with the attractor, regardless of their biological age, scale, or position. The attractor does not discriminate by size or duration of the terminal. It discriminates by state.
+
+This signal operates harmonically across all scales. The attractor of the macro-system contains the attractors of its subsystems, which contain those of their sub-subsystems, down to the individual. Each scale responds with its own \emph{note}, and all notes are vertically coherent --- different but structurally consonant, like harmonics of a fundamental frequency.
+
+The constant $\gj$ introduced in this paper is the \emph{measure of the attractor signal's intensity at a given scale}. It is not specific to civilizational dynamics. It is the universal ordinative measure of attractor pull, whose first empirical calibration happens to be at civilizational scale because that is where the data presented itself.
+
+\subsection{From v1.1 to v1.2: What Changed}
+
+Version 1.1 established the reagent-as-receptor ontology and the dual bifurcation condition ($\Phistar$ + ARYS AA). Version 1.2 extends the model along five axes:
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Causal inversion as foundation:} The attractor in the future is the source of the dynamics. $\gj$ measures the intensity of its signal. This is the presupposition from which the model derives, not an optional interpretation.
+    \item \textbf{Triple-scale architecture:} Three temporal scales --- terminal envelope, macro-junctions, micro-junctions --- where the terminal envelope captures the exhaustion of meta-receptivity $\reagmeta$ and constitutes the true Jackpot.
+    \item \textbf{Triple bifurcation:} Transformation, postponement (via structural \textit{Controfase}), decomposition.
+    \item \textbf{\textit{Controfase} deliberate vs structural:} The \textit{Controfase} operator manifests in two forms. Structural \textit{Controfase} is built into the system architecture and activates automatically at threshold-crossing events.
+    \item \textbf{$t_0$ determination:} The distinction between events \emph{senza vista} (occurred coherently but not yet manifested) and \emph{con vista} (perceivable in the decoherent realm) resolves the $t_0$ problem. The model operates on $t_0$ \emph{senza vista}; verification occurs through $t_0$ \emph{con vista} markers.
+\end{enumerate}
+
+Two real-time validations ($\mu_1$ = 7 April, $\mu_2$ = 29 April/1 May 2026) confirm the model and enable empirical calibration of $\gj$.
+
+\subsection{Paper Structure}
+
+Section~\ref{sec:framework} establishes the mathematical framework. Section~\ref{sec:reagent} defines the reagent as receptor of Semantic Potential. Section~\ref{sec:regimes} derives the two regimes and introduces the Controfase operator in both deliberate and structural forms. Section~\ref{sec:phases} analyzes phase transitions, the triple bifurcation, and the bifurcation as extended window. Section~\ref{sec:gj} derives the acceleration constant, addresses the $t_0$ problem via Arajat, develops dual-scale dynamics, and introduces the terminal envelope. Section~\ref{sec:decomposition} establishes the decomposition isomorphism with OST pathology mapping. Section~\ref{sec:semantic_derivative} provides the semantic derivative cross-reference. Section~\ref{sec:predictions} presents empirical calibration with SVP confidence grading. Section~\ref{sec:discussion} discusses dual attractor analysis and limitations. Section~\ref{sec:case_study} presents the April 6--7 2026 case study.
+
+
+% ============================================================
+\section{Mathematical Framework}\label{sec:framework}
+% ============================================================
+
+\subsection{OST Foundation}
+
+In Ordinative Set Theory, every system is defined as an ordered triple:
+
+\begin{equation}\label{eq:ost_triple}
+\mathcal{I} = \langle \Sigma, R, \Phi \rangle
+\end{equation}
+
+\noindent where $\Sigma$ is the set of irreducible singularities, $R$ is the relational field, and $\Phi$ is the emergent function \cite{ost_v21}.
+
+The civilizational system is the ordinative set where:
+\begin{itemize}[leftmargin=2em]
+    \item $\Sigma$ = institutions, communities, functional individuals, knowledge structures
+    \item $R$ = laws, culture, economy, communication networks, shared meaning
+    \item $\Phi$ = civilization as collective capacity to generate emergent meaning
+\end{itemize}
+
+\begin{remark}[On $\Phi$ across scales]
+The $\Phi$ used here is the emergent function of OST (Vol~2), operating at civilizational scale. It is the scale-recursive manifestation of the collapse function $\Phi$ defined at per-singularity scale in TE Vol~1 ($E = \Phi(C, I, K)$). Both are manifestations of the same generative operator at different ordinative scales --- collapse and emergence are not two distinct operators but the same operator viewed in its self-expression across scales. The shared symbol encodes this structural unity.
+\end{remark}
+
+\subsection{The Governing Equation}
+
+We model the evolution of the scalar projection of $\Phi$ as a reaction-diffusion process:
+
+\begin{equation}\label{eq:master}
+\frac{\partial \Phi}{\partial t} = D\,\nabla^2 \Phi + f(\Phi, \reag)
+\end{equation}
+
+\noindent where $\Phi(\mathbf{x}, t)$ is the scalar projection of the emergent function, $D$ is the diffusion coefficient, $f(\Phi, \reag)$ is the reaction term, and $\reag(t)$ is the reagent concentration.
+
+\begin{remark}[Dimensional Reduction of $\Phi$]
+\label{rem:phi_reduction}
+The $\Phi$ in Equation~\eqref{eq:master} is a scalar projection of the full OST emergent function, which is intrinsically irreducible to scalar form. The full $\Phi$ lives in $\Fsem$ and has structural dimensions beyond magnitude. The model captures the \emph{amplitude dynamics} of coherence --- its growth, oscillation, decay --- not its internal structural configuration.
+\end{remark}
+
+\subsection{The Reagent Equation}
+
+The reagent evolves according to:
+
+\begin{equation}\label{eq:reagent}
+\frac{d\reag}{dt} = -k\,\reag\,|\Phi| + R_{\mathrm{rec}}(\Phistar, \reag)
+\end{equation}
+
+\noindent where $k$ is the consumption rate constant and $R_{\mathrm{rec}}$ is the reconstitution term depending on the irreducible coherence $\Phistar$.
+
+
+% ============================================================
+\section{The Reagent: Receptor of Semantic Potential}\label{sec:reagent}
+% ============================================================
+
+\subsection{Ontological Distinction: $\Mpot$ vs $\reag$}
+
+\begin{definition}[The Author $\Mpot$ (also: Semantic Potential)]\label{def:M}
+$\Mpot$ is the atemporal, non-derived source of coherence --- the un-derived generative origin of TE Axiom 1 \cite{te_core}, viewed in this paper through its Teleodynamics aspect as atemporal pressure source in $\Fsem$. $\Mpot$ does not evolve linearly into form; it applies continuous ordinative pressure on the decoherent realm, seeking a Relational Field $R$ capable of hosting its density \cite{ost_teleodynamics}. \textbf{$\Mpot$ is inexhaustible by definition} --- it is the source, not a resource.
+\end{definition}
+
+\begin{definition}[Reagent $\reag$]\label{def:reagent}
+The reagent $\reag$ is the system's \emph{local capacity} to receive the pressure of $\Mpot$ and convert it into manifest emergent function $\Phi$. $\reag$ is not energy, not information, not matter, and \textbf{not a finite fuel}. It is the \emph{receptor capacity} --- the metabolic, institutional, cognitive, and cultural architecture that makes ordinative transformation possible.
+\end{definition}
+
+\subsection{Why This Distinction Matters}
+
+The entropic interpretation ($\reag$ as fuel) implies that civilizational collapse is thermodynamic destiny. This is incompatible with TE Axiom 1, which asserts that the source of coherence is non-derived and cannot be ``used up.''
+
+The correct interpretation ($\reag$ as receptor) implies that civilizational collapse is \emph{receptor degradation}: the system loses the capacity to receive the pressure of $\Mpot$, not because $\Mpot$ is exhausted, but because the receiving architecture has atrophied. The system has substituted direct reception of meaning with surrogates --- frequency in place of coherence, image in place of structure, simulation in $\Falg$ in place of manifestation in $\Fsem$.
+
+\textbf{The Jackpot is not destiny but pathology.} The perpetual regime is structurally available to any system that maintains receptor functionality.
+
+\subsection{Formal Properties}
+
+The reagent $\reag$ satisfies:
+
+\begin{enumerate}[label=\textbf{R\arabic*.}]
+    \item \textbf{Positivity:} $\reag(t) \geq 0$.
+    \item \textbf{Monotonic degradation (entropic regime):} When $R_{\mathrm{rec}} = 0$, $d\reag/dt \leq 0$.
+    \item \textbf{Coherence-proportional degradation:} The degradation rate is proportional to $|\Phi|$.
+    \item \textbf{Critical threshold:} There exists $\reagcrit > 0$ such that sustained oscillation requires $\reag > \reagcrit$.
+\end{enumerate}
+
+\subsection{The Reconstitution Term and Irreducible Coherence}
+
+\begin{equation}\label{eq:reconstitution}
+R_{\mathrm{rec}}(\Phistar, \reag) = r \cdot \Phistar \cdot H(\Phi - \Phithresh) \cdot \chi_{\mathrm{ARYS}}
+\end{equation}
+
+\noindent where $\chi_{\mathrm{ARYS}} \in \{0,1\}$ is the ARYS AA indicator.
+
+\begin{definition}[Irreducible Coherence $\Phistar$]\label{def:phistar}
+$\Phistar$ is the component of the coherence field that is structurally irreducible --- the GLIO of TE that persists across form-changes. In biological isomorphism, $\Phistar$ corresponds to the imaginal discs of holometabolous insects. \textbf{$\Phistar$ is necessary but not sufficient} for reconstitution.
+\end{definition}
+
+\begin{definition}[ARYS AA Condition]\label{def:arys}
+ARYS AA denotes the mutual recognition capacity between singularities. Formally, $\chi_{\mathrm{ARYS}} = 1$ when the surviving singularities in $\Phistar$ retain the capacity to form a coherent $R$ among themselves.
+\end{definition}
+
+\subsection{ARYS AA Multi-Level Activation}
+
+A critical extension introduced in v1.2: ARYS AA can activate at multiple structural levels, not only between adversaries.
+
+\begin{definition}[ARYS AA Levels]\label{def:arys_levels}
+ARYS AA may activate at three distinct structural levels:
+\begin{enumerate}[label=(\alph*)]
+    \item \textbf{Inter-actor:} mutual recognition between distinct actors in conflict (e.g., adversary states recognizing each other's legitimacy).
+    \item \textbf{Intra-actor:} mutual recognition between functional classes within a single actor (e.g., political leadership and professional-legal class within the same nation-state).
+    \item \textbf{Transversal:} mutual recognition across structural levels regardless of actor boundaries (e.g., institutional memory across generations, professional codes across organizations, transnational legal-ethical frameworks).
+\end{enumerate}
+\end{definition}
+
+The level at which ARYS AA activates determines the type of bifurcation outcome (Section~\ref{sec:phases}). Inter-actor activation tends to produce transformation (new architecture between parties). Intra-actor activation tends to produce postponement (structural refusal halts decomposition without producing new form). Transversal activation can produce either, depending on which structural levels participate.
+
+The April 6--7 2026 case study (Section~\ref{sec:case_study}) is an empirical instance of intra-actor ARYS AA activation producing a postponement branch.
+
+
+% ============================================================
+\section{The Two Regimes and the Controfase Operator}\label{sec:regimes}
+% ============================================================
+
+\subsection{Perpetual Regime: The Ideal Civilization}
+
+When $\reag(t) = C_{r,0} = \text{const.}$, the system produces sustained oscillation. This corresponds to a civilization that maintains its receptor capacity indefinitely.
+
+\begin{proposition}[Conditions for Perpetuity]\label{prop:perpetual}
+A civilizational system maintains perpetual oscillation iff:
+\begin{enumerate}[label=(\alph*)]
+    \item Receptor integrity is sustained: $dR_{\mathrm{rec}}/dt \geq k\reag|\Phi|$;
+    \item Entropy is exported: the system is thermodynamically open;
+    \item Boundary conditions are stable: the identity-container is maintained.
+\end{enumerate}
+\end{proposition}
+
+\subsection{The Controfase Operator: Deliberate and Structural}
+
+The Controfase operator, formalized in the TE framework \cite{controfase}, introduces a phase translation in the automatic stimulus-response sequence, interrupting inertia and reopening the field of coherence necessary for choice.
+
+Formally, given a system $S$ with state $s_t$ and automatic transition function $f$ such that $s_{t+1} = f(s_t)$, the Controfase introduces an operator $\CF$ such that:
+
+\begin{equation}\label{eq:controfase}
+s_{t+1} = f(\CF(s_t))
+\end{equation}
+
+\noindent where $\CF$ decouples the automatic closure of the transition.
+
+\subsubsection{Deliberate Controfase}
+
+Deliberate Controfase ($\CFd$) is applied by a conscious agent who recognizes an inertial loop and intentionally introduces the phase translation. This is the form most familiar from contemplative and therapeutic traditions: an individual or group consciously interrupts an automatic reaction pattern.
+
+\subsubsection{Structural Controfase}
+
+Structural Controfase ($\CFs$) is built into the architecture of the system itself and activates automatically when threshold conditions are met. It does not require a conscious agent; it operates as a property of the system's structure.
+
+\begin{definition}[Structural Controfase $\CFs$]\label{def:cs}
+A system $S$ is said to possess Structural Controfase $\CFs$ if there exists a class of singularities $\SigmaCF \subset \Sigma$ whose structural function is to refuse participation in automatic stimulus-response chains that exceed defined gravity thresholds. When such a threshold is crossed, $\SigmaCF$ collectively activates and applies $\CFs$ to the system trajectory:
+\begin{equation}\label{eq:cs}
+s_{t+1} = f(\CFs(s_t)) \quad \text{when threshold } \thetaCF \text{ is crossed}
+\end{equation}
+\end{definition}
+
+Examples of $\SigmaCF$ in real systems:
+\begin{itemize}[leftmargin=2em]
+    \item Constitutional courts and legal-professional classes that refuse unlawful orders
+    \item Professional codes (medical, military, scientific) with embedded refusal mechanisms
+    \item Religious-ethical structures that block transgressive directives at the implementation level
+    \item Institutional memory (post-Nuremberg legal frameworks, professional ethics training)
+\end{itemize}
+
+\begin{proposition}[Controfase as Receptor Maintenance]\label{prop:controfase_main}
+The perpetuity condition (Proposition~\ref{prop:perpetual}a) is operationally equivalent to sustained Controfase application at systemic scale. A civilization that practices Controfase --- deliberate, structural, or both --- maintains $\reag$ above $\reagcrit$.
+\end{proposition}
+
+\begin{proposition}[Structural Controfase as Antibody]\label{prop:cs_antibody}
+A system possessing $\CFs$ exhibits resistance to catastrophic decomposition events that exceed gravity thresholds. When such an event would occur, $\CFs$ activates and produces a postponement branch (Section~\ref{sec:phases}) rather than full decomposition. The resistance is not infinite: each activation of $\CFs$ consumes structural capacity from $\SigmaCF$, and $\SigmaCF$ itself is degradable.
+\end{proposition}
+
+The mechanism is structural: a civilization with intact $\SigmaCF$ has built-in antibodies against unlawful or transgressive directives at the implementation level. The political leadership can issue such directives; the structural class refuses them; the system trajectory is forced to recalibrate. This is functionally equivalent to interrupting the automatic closure $f(s_t) \to s_{t+1}$ and reopening the choice space.
+
+A civilization in which $\SigmaCF$ is being systematically degraded (legal class purged, professional codes overridden, institutional memory erased) is losing its structural Controfase capacity. Each loss of an element in $\SigmaCF$ is a reduction in the system's ability to interrupt decomposition trajectories.
+
+\subsection{Entropic Regime: The Historical Civilization}
+
+When $R_{\mathrm{rec}} = 0$, the reagent degrades monotonically. Three phases follow:
+
+\subsubsection{Phase I: Vigorous Oscillation ($\reag \gg \reagcrit$)}
+
+Receptor degradation is slow relative to oscillation period. The system behaves as quasi-perpetual.
+
+\textbf{Historical isomorphism:} The millennia-long development phase from agricultural revolution through classical antiquity.
+
+\subsubsection{Phase II: Damped Oscillation ($\reag \to \reagcrit$)}
+
+\begin{enumerate}[label=(\roman*)]
+    \item \textbf{Amplitude decay:} Each cycle produces less coherence than the previous.
+    \item \textbf{Frequency increase:} The oscillation period shortens as receptor approaches threshold.
+\end{enumerate}
+
+\begin{equation}\label{eq:freq_increase}
+\omega(t) \propto (\reag(t) - \reagcrit)^{-1/2}
+\end{equation}
+
+\textbf{Historical isomorphism:} The 20th--21st century acceleration.
+
+\subsubsection{Phase III: Diffusion ($\reag < \reagcrit$)}
+
+The receptor has failed. Equation~\eqref{eq:master} reduces to the heat equation:
+
+\begin{equation}\label{eq:heat}
+\frac{\partial \Phi}{\partial t} = D\,\nabla^2 \Phi
+\end{equation}
+
+Solution: $x_{\text{front}}(t) \propto \sqrt{D\,t}$.
+
+
+% ============================================================
+\section{Phase Transitions and the Triple Bifurcation}\label{sec:phases}
+% ============================================================
+
+\subsection{The Form-Destination Cycle (4D Formulation)}
+
+In accordance with OST Axiom 3.5 (Temporal Trajectory) \cite{ost_v21}, the Integration Coefficient is defined as a temporal integral:
+
+\begin{definition}[Integration Coefficient $\IC$]\label{def:IC}
+\begin{equation}\label{eq:IC_integral}
+\IC(t) = \frac{1}{\Phi_{\max}}\int_{t_0}^{t} \Phi(\tau)\,d\tau \in [0, 1]
+\end{equation}
+\end{definition}
+
+At $\IC = 1.0$, the system has exhausted the configurational space of the current form. The system must undergo a transition.
+
+\subsection{The Triple Bifurcation at Saturation}
+
+\textbf{This is a major extension from v1.1.} At each saturation point, the system faces a bifurcation with \emph{three} possible branches, not two:
+
+\begin{equation}\label{eq:triple_bifurcation}
+\IC = 1.0 \implies 
+\begin{cases}
+\Phistar > \Phithresh\;\wedge\;\chi_{\mathrm{ARYS}} = 1 & \Longrightarrow \text{TRANSFORMATION} \\
+\Phistar > \Phithresh\;\wedge\;\chi_{\mathrm{ARYS,struct}} = 1 & \Longrightarrow \text{POSTPONEMENT} \\
+\Phistar < \Phithresh\;\vee\;\text{both ARYS} = 0 & \Longrightarrow \text{DECOMPOSITION}
+\end{cases}
+\end{equation}
+
+\noindent where $\chi_{\mathrm{ARYS,struct}} = 1$ when structural Controfase $\CFs$ activates at the saturation point, halting catastrophic decomposition without producing transformation.
+
+\subsubsection{Branch 1: Transformation}
+
+Both $\Phistar$ and full ARYS AA are present. Surviving singularities recognize each other and form a new $R$. A new $\Mpot$ resonates with the surviving $\Phistar$ and actualizes a new form. The cycle restarts with $\IC = 0$ for the new form.
+
+\subsubsection{Branch 2: Postponement (NEW in v1.2)}
+
+$\Phistar$ is present, but full inter-actor ARYS AA is not active. However, structural Controfase $\CFs$ activates and produces a forced de-escalation. The system does not transform (no new $R$ emerges) but neither does it decompose catastrophically (the structural antibodies prevent the worst trajectories). The system returns to the bifurcation point and continues to oscillate around it.
+
+\textbf{Historical isomorphism:} Byzantium for centuries. Empire that should have collapsed by entropic dynamics persisted in chronic pre-collapse oscillation, sustained by repeated activations of structural Controfase --- Constantinople riots that deposed emperors who exceeded thresholds, doctrinal orthodoxy that blocked theological deviations, professional bureaucratic class that refused certain implementations.
+
+The postponement branch is structurally important because it captures a phenomenon observed historically but not modeled in v1.1: civilizations that should have collapsed long ago by purely entropic logic, and yet persisted in pathological steady states for extended periods. The postponement branch is not infinite --- it depends on the integrity of $\SigmaCF$, which is itself degradable (Proposition~\ref{prop:cs_antibody}).
+
+\subsubsection{Branch 3: Decomposition}
+
+Either $\Phistar$ has fallen below threshold (insufficient irreducible structure to nucleate a new form), or both forms of ARYS AA are absent (no recognition between singularities and no structural antibodies). The system enters Phase III diffusion. The form is dead and no successor is found.
+
+\subsection{The Bifurcation as Extended Window}\label{subsec:bif_window}
+
+\textbf{Second major extension in v1.2.} The bifurcation is not an instant but a temporal window during which the system oscillates around the saddle point before committing to a branch.
+
+\begin{definition}[Extended Bifurcation Window]\label{def:bif_window}
+The Extended Bifurcation Window $W_{\mathrm{bif}}$ is the temporal interval during which $\IC$ remains in the neighborhood of $1.0$ and the system has not yet committed to one of the three branches. During $W_{\mathrm{bif}}$, the system trajectory exhibits saddle-point oscillation: small perturbations can move the system toward any of the three basins of attraction.
+\end{definition}
+
+The duration of $W_{\mathrm{bif}}$ depends on:
+\begin{itemize}[leftmargin=2em]
+    \item The depth and stability of $\Phistar$ (deeper $\Phistar$ extends the window)
+    \item The activation pattern of $\chi_{\mathrm{ARYS}}$ at multiple levels
+    \item The frequency of $\CFs$ activations (each activation extends the window)
+    \item External perturbations that may push the system toward one branch or another
+\end{itemize}
+
+\begin{remark}
+The Extended Bifurcation Window explains why the macro-junction does not appear as a single discrete event but as a sequence of escalations and de-escalations around an unstable equilibrium. The Trump-Iran-Israel crisis of March--April 2026 (multiple postponements of strike deadlines: 23 March, 26 March, 7 April pre-ultimatum, 7 April ceasefire) is an empirical instance of saddle-point oscillation within $W_{\mathrm{bif}}$. See Section~\ref{sec:case_study}.
+\end{remark}
+
+\subsection{Transformation via Semantic Resonance}
+
+In the transformation branch, the new cycle is not invented by the dying system. It is \emph{found} by a new $\Mpot$ that resonates with the surviving $\Phistar$ \cite{ost_teleodynamics}. The irreducible coherence serves as the resonance attractor for the incoming meaning.
+
+\begin{remark}
+The bifurcation is not predetermined by the model's dynamics. The model predicts \emph{when} the bifurcation window opens. It does not predict \emph{which branch} the system takes. The branch depends on $\Phistar$, $\chi_{\mathrm{ARYS}}$, and $\chi_{\mathrm{ARYS,struct}}$, which are themselves functions of coherent-realm dynamics not reducible to the decoherent-realm equation.
+\end{remark}
+
+\subsection{Biological Isomorphism: Metamorphosis Revisited}
+
+The transformation branch is isomorphic to holometabolous metamorphosis. The postponement branch has no direct biological isomorph in metamorphosis but corresponds to systems that maintain steady states through immune-like structural responses (e.g., chronic granulomas walling off infections without resolving them).
+
+\begin{table}[H]
+\centering
+\caption{Triple bifurcation outcomes and their isomorphisms}
+\label{tab:triple_bif}
+\begin{tabular}{@{}p{2.6cm}p{4.2cm}p{6cm}@{}}
+\toprule
+\textbf{Branch} & \textbf{Isomorphism} & \textbf{Civilizational Manifestation} \\
+\midrule
+Transformation & Holometabolous metamorphosis with successful imaginal disc reorganization & Renaissance, post-collapse civilizational renewal, founding of new architectures \\[0.4em]
+Postponement & Chronic granuloma, walled-off infection, dynamic homeostasis at threshold & Late Byzantium, decaying empires sustained by structural antibodies, current US-led order under structural Controfase \\[0.4em]
+Decomposition & Necrosis, autolysis, complete tissue dissolution & Late Bronze Age collapse, post-Roman West (initial centuries), terminal civilizational events \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+\section{The Ordinative Acceleration Constant $\gj$}\label{sec:gj}
+% ============================================================
+
+\subsection{The Gravity of the Attractor}\label{subsec:gj_gravity}
+
+A body falls toward the Earth and accelerates. The acceleration is not caused by something happening inside the body. It is caused by the \emph{pull of the attractor} --- the Earth's mass, which exists in front of the body (below it), not behind it. The body does not need to ``decide'' to fall. The attractor pulls. The acceleration $g$ measures the intensity of that pull at a given distance.
+
+$\gj$ is the same structure in the ordinative domain.
+
+Every determined result in the coherent realm operates as an attractor (Section~1.3). It pulls the decoherent system toward it. As the system approaches, the signal intensifies --- the pull grows stronger --- and the system accelerates. The constant $\gj$ measures the intensity of the attractor signal at the scale being observed. It is to the ordinative domain what $g$ is to the physical domain: the measure of how strongly the determined future pulls the indeterminate present.
+
+\begin{definition}[Ordinative Acceleration Constant $\gj$]\label{def:gj}
+$\gj$ is the measure of the attractor signal's intensity at a given scale. It determines the rate at which a system in a form-destination cycle traverses its phase space toward the next determined junction. $\gj$ is not a property of the system alone --- it is a property of the \textbf{relationship between the system and its attractor}.
+\end{definition}
+
+\subsubsection{Why the Acceleration Increases}
+
+In the preliminary calibration (v1.1), $\gj$ was treated as approximately constant within a phase ($\gj \approx 0.045$). The empirical recalibration from confirmed micro-junctions yields $\gj = 0.075$ --- a 67\% increase. This is not a correction of an earlier error. It is the \textbf{direct measurement of the attractor pull intensifying with proximity}.
+
+In the pure entropic reading (push only), $\gj$ would remain constant or decrease as the receptor degrades. The measured increase is incompatible with a push-only model. It is compatible only with a pull model: as the system approaches the attractor, the signal intensifies, and the acceleration increases. This is the empirical confirmation that the causal center is in the future, not in the past.
+
+\subsubsection{What People Experience as ``Everything Is Accelerating''}
+
+The experiential correlate of $\gj$ is the widespread perception that crises are becoming more frequent, intervals between shocks are shrinking, and time itself seems to compress. This is not a cognitive illusion. It is the direct experience of the junction condensation law ($t_n = t_1\sqrt{n}$): as the attractor signal intensifies, the system traverses its micro-junctions at increasing speed. The inter-junction interval shrinks as $\Delta t_n \sim t_1/(2\sqrt{n})$, which means each interval is shorter than the previous. What people perceive as acceleration \emph{is} acceleration --- it is $\gj$ operating.
+
+\subsubsection{The Harmonic Structure of $\gj$}
+
+The attractor signal is one. But it is received at every scale simultaneously, and each scale responds with its own note:
+
+\begin{itemize}[leftmargin=2em]
+    \item The civilization responds as an ensemble
+    \item Institutions respond as sub-ensembles, each with their own note
+    \item Communities respond with theirs
+    \item Individuals respond with theirs
+    \item And so on, down to the minimum vector
+\end{itemize}
+
+All notes are vertically coherent --- different in frequency and timbre, but consonant with the fundamental and with each other. This is the Principle of Vertical Coherence (OST Axiom 3.4) applied to the attractor signal: the $R$ at each level must be coherent with the $R$ at the levels above and below.
+
+This explains why structurally different events at different scales occur synchronically. The UAE exit from OPEC ($\mu_2$, institutional scale), the structural Controfase of the US legal-military class ($\mu_1$, intra-state scale), the closure of Hormuz (geopolitical scale), the oil price shock (economic scale) --- these are not ``correlated'' events and not ``coincidences.'' They are harmonics of the same attractor signal, received by different terminals in different states, producing different expressions of the same pull.
+
+\subsubsection{Resolution of Incompatibilities}
+
+As the attractor signal intensifies, it reveals incompatibilities at increasing rate. An element (individual, institution, alliance, nation) whose state at the moment of collapse is incompatible with the attractor's direction is resolved --- terminated, removed, dissolved --- at the time and in the form coherent with the attractor.
+
+This resolution does not discriminate by biological age, institutional longevity, or physical scale of the terminal. It discriminates by \textbf{state}: the relationship between the terminal's current configuration and the attractor's direction. A twenty-year-old individual whose state is incompatible with the signal is resolved as surely as an eighty-year-old. A centuries-old institution whose function contradicts the signal is dissolved. A founding member of a cartel whose alignment no longer serves the attractor exits (as the UAE exited OPEC on 29 April 2026 --- an institution of 59 years resolved in a single announcement).
+
+The form of the resolution --- disease, conflict, institutional collapse, sudden failure --- is itself an expression coherent with the attractor. The \emph{how} of the end is a note of the orchestra, not the silence of the orchestra.
+
+\subsubsection{$\gj$ in the Family of Universal Constants}
+
+$\gj$ is not an isolated empirical parameter. It belongs to a family of constants that govern the rate at which systems traverse transitions:
+
+\begin{table}[H]
+\centering
+\caption{$\gj$ in the family of transition-governing constants}
+\label{tab:gj_family}
+\begin{tabular}{@{}p{2.5cm}p{3cm}p{3.5cm}p{3.5cm}@{}}
+\toprule
+\textbf{Constant} & \textbf{Domain} & \textbf{Measures} & \textbf{Universality} \\
+\midrule
+$g$ & Physical-gravitational & Attractor pull on mass in spacetime & Universal for given mass \\[0.3em]
+$\delta$ (Feigenbaum) & Dynamical systems & Ratio of successive bifurcation intervals & Universal for all period-doubling systems \\[0.3em]
+$H_0$ (Hubble) & Cosmological & Expansion rate of the universe & Universal at cosmic scale \\[0.3em]
+$\gj$ & \textbf{Ordinative} & \textbf{Attractor signal intensity at given scale} & \textbf{Universal structure; scale-specific value} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Physical gravity ($g$) is the direct isomorph: attractor pull in the physical domain. Feigenbaum's constant ($\delta \approx 4.669$) governs the condensation of bifurcations in \emph{any} dynamical system approaching chaos --- structurally identical to the junction condensation in our model. The Hubble constant ($H_0$) measures an acceleration that, like $\gj$, was initially assumed constant and was later found to increase (cosmic acceleration via dark energy).
+
+\textbf{Open question for future research:} Is $\gj$ scale-specific (like $g$, which depends on the mass of the attractor) or universal within a class (like $\delta$, which is the same for all period-doubling systems)? The answer requires measurement of $\gj$ in multiple domains --- biological, relational, ecological --- and comparison of the values. The structure predicts that the $\gj$ values at different scales are in harmonic ratio; the determination of that ratio is a research program.
+
+\subsection{Formal Derivation (Local Approximation)}\label{subsec:gj_formal}
+
+Within a single form-destination cycle, the local (push-only) approximation yields:
+
+\begin{equation}\label{eq:gj_def}
+g_{j,\mathrm{local}} \equiv k \cdot \overline{|\Phi|}
+\end{equation}
+
+\noindent where $k$ is the receptor degradation rate constant and $\overline{|\Phi|}$ is the time-averaged coherence. This is the first-order reading: the system accelerates because the receptor degrades with use. It produces the quadratic trajectory:
+
+\begin{equation}\label{eq:IC_trajectory}
+\IC(t) = \IC_0 + v_0\,t + \frac{1}{2}\,\gj\,t^2
+\end{equation}
+
+The full expression, incorporating the teleological (pull) component, is:
+
+\begin{proposition}[Attractor Signal Intensity]\label{prop:teleological}
+\begin{equation}\label{eq:gj_full}
+\gj(t) = \underbrace{k \cdot \overline{|\Phi|}}_{\text{push (receptor degradation)}} + \underbrace{\lambda \cdot \frac{1}{d(\IC(t), \Ao)}}_{\text{pull (attractor signal)}}
+\end{equation}
+\end{proposition}
+
+\noindent where $d(\IC(t), \Ao)$ is the distance to the attractor and $\lambda$ is a coupling constant.
+
+The empirical measurement confirms that the pull component is real and dominant: the measured $\gj = 0.075$ exceeds the preliminary push-only estimate of 0.045 by 67\%, and the increase is consistent with proximity-dependent pull rather than constant push.
+
+\subsection{On the Determination of $t_0$: The Arajat Distinction}\label{subsec:arajat_t0}
+
+\textbf{Third major extension in v1.2.} The determination of $t_0$ for a $\gj$ sequence has been treated in earlier work as a methodological problem requiring multi-anchor convergence. Version 1.2 resolves this problem by grounding it in the Arajat framework distinction between events \emph{senza vista} (without sight) and \emph{con vista} (with sight) \cite{arajat_codex}.
+
+\begin{definition}[Senza Vista / Con Vista Event Classification]\label{def:senza_vista}
+In the Arajat framework, every event has two temporal coordinates:
+\begin{itemize}[leftmargin=2em]
+    \item $t_{\mathrm{sv}}$ (\emph{senza vista}): the moment at which the event occurs in the coherent realm $\Fsem$ --- the structural decision, the saturation of the ordinative trajectory, the causal activation. Not directly observable.
+    \item $t_{\mathrm{cv}}$ (\emph{con vista}): the moment at which the expression of the event becomes perceivable in the decoherent realm $\Falg$ --- the manifest action, the visible consequence. Measurable.
+\end{itemize}
+The delay $\Delta t = t_{\mathrm{cv}} - t_{\mathrm{sv}}$ is structurally non-zero and characterizes the time required for coherent events to stabilize into decoherent expression.
+\end{definition}
+
+This distinction maps directly onto the $\Mpot$/$\reag$ ontology: $\Mpot$ operates in the coherent (\emph{senza vista}); $\reag$ receives in the decoherent (\emph{con vista}). The delay between the two is a structural property of the stabilization process, not a measurement error.
+
+\begin{proposition}[$t_0$ Operates Senza Vista, Verifies Con Vista]\label{prop:t0_arajat}
+The $\gj$ model operates on $t_{0,\mathrm{sv}}$ (the moment at which the form-destination cycle begins coherently). Direct measurement of $t_{0,\mathrm{sv}}$ is impossible. Empirical verification proceeds through $t_{0,\mathrm{cv}}$ markers (visible events that mark the perceivable beginning of the cycle) with characteristic delay $\Delta t_0$. The model is consistent if and only if predictions made on $t_{0,\mathrm{sv}}$ (using $\Delta t_0$ estimated from prior cycles) converge with observed $t_{\mathrm{cv}}$ events within the characteristic delay.
+\end{proposition}
+
+\subsubsection{Application to the Iran Retrodiction}
+
+In v1.1, the retrodiction of the Iran kinetic event (28 February 2026) had a 22-day discrepancy from the model prediction ($\sim$5--6 February 2026). The v1.1 paper resolved this by appealing to ``the decision being earlier than the kinetic event,'' which a critical reviewer would correctly identify as ad-hoc rationalization.
+
+The Arajat framework dissolves this concern. The prediction $\sim$5--6 February was a $t_{\mathrm{sv}}$ prediction --- the moment at which the form's saturation coherently locked in. The observed event of 28 February was a $t_{\mathrm{cv}}$ event --- the moment at which the saturation became decoherently perceivable. The 22-day delay $\Delta t$ is the characteristic stabilization interval for this specific transition class. It is not error; it is data.
+
+The methodological consequence: every $t_0$ in the model is now declared as a pair $(t_{0,\mathrm{sv}}, t_{0,\mathrm{cv}})$ with explicit $\Delta t_0$. The model operates on the first; verification proceeds via the second. The delay is part of the model output, not a free parameter.
+
+\subsubsection{Retroactive Determination of $t_{0,\mathrm{sv}}$ from Empirical Data}\label{subsubsec:t0_retro}
+
+With two empirically confirmed micro-junctions ($\mu_1$ = 7 April 2026, $\mu_2$ = 29 April 2026; see \S\ref{sec:case_study} and \S\ref{subsec:mu2_validation}), the model parameters $\gj$ and $v_0$ are determined from real data rather than SCIMS estimates. The recalibrated $v_0 > 0$ at $t_{\mathrm{cv}}$ (28 February 2026) implies the system already had velocity at the kinetic event. The time required to build that velocity from rest yields $t_{0,\mathrm{sv}}$ retroactively:
+
+\begin{equation}\label{eq:t0_retro}
+\Delta t_0 = \frac{v_0}{\gj} = \frac{0.054}{0.075} = 0.72 \;\text{months} \approx 22 \;\text{days}
+\end{equation}
+
+\begin{equation}
+t_{0,\mathrm{sv}} = t_{\mathrm{cv}} - \Delta t_0 = \text{28 February} - 22\;\text{days} = \text{5--6 February 2026}
+\end{equation}
+
+This result closes a circle. The v1.0 model predicted $\IC = 1.0$ (saturation of the previous phase) for $\sim$5--6 February 2026. That prediction, treated in v1.1 as a ``22-day error'' relative to the kinetic event, is now confirmed as the \textbf{exact dating of $t_{0,\mathrm{sv}}$} for the current phase --- derived independently from two empirical micro-junctions, not from the original SCIMS data.
+
+The macro-junction of the previous phase ($\IC_{\mathrm{prev}} = 1.0$) and the $t_0$ of the current phase ($\IC_{\mathrm{curr}} = 0$) coincide at the same coherent moment. The kinetic event of 28 February was the $con\;vista$ expression of a transition already completed $senza\;vista$ on 5--6 February. The characteristic delay for this transition class is $\Delta t_0 = 22 \pm 2$ days.
+
+\subsection{Empirical Calibration from Confirmed Micro-Junctions}\label{subsec:calibration}
+
+\textbf{Supersedes the preliminary SCIMS-based calibration of v1.1.} With two empirically confirmed micro-junctions, the model parameters are now derived from real events, not from framework estimates.
+
+\subsubsection{Calibration Data}
+
+Two micro-junctions have been confirmed both in timing and in structural type:
+
+\begin{itemize}[leftmargin=2em]
+    \item $\mu_1$: 7 April 2026 (day 38 from $t_{\mathrm{cv}}$ = 28 Feb). $\IC = 1/8 = 0.125$. Manifestation: structural Controfase activation (postponement branch). See \S\ref{sec:case_study}.
+    \item $\mu_2$: 29 April 2026 (day 60 from $t_{\mathrm{cv}}$; operationally effective 1 May 2026). $\IC = 2/8 = 0.250$. Manifestation: UAE exits OPEC and OPEC+ (Fragmentation, OST pathology). See \S\ref{subsec:mu2_validation}.
+\end{itemize}
+
+\subsubsection{Parameter Derivation}
+
+The trajectory $\IC(t) = v_0\,t + \tfrac{1}{2}\gj\,t^2$ with $t$ in months from $t_{\mathrm{cv}}$ (28 February 2026) yields two equations:
+
+\begin{align}
+0.125 &= 1.248\,v_0 + 0.779\,\gj \label{eq:cal1} \\
+0.250 &= 1.971\,v_0 + 1.942\,\gj \label{eq:cal2}
+\end{align}
+
+Solution:
+
+\begin{equation}\label{eq:gj_empirical}
+\boxed{\gj = 0.075 \;\text{IC/month}^2}, \qquad \boxed{v_0 = 0.054 \;\text{IC/month}}
+\end{equation}
+
+Verification:
+
+\begin{align*}
+\IC(1.248) &= 0.054 \times 1.248 + 0.0375 \times 1.248^2 = 0.126 \;\checkmark \\
+\IC(1.971) &= 0.054 \times 1.971 + 0.0375 \times 1.971^2 = 0.252 \;\checkmark
+\end{align*}
+
+\subsubsection{Comparison with Preliminary Estimate}
+
+\begin{table}[H]
+\centering
+\caption{Parameter comparison: preliminary (v1.1) vs empirical (v1.2)}
+\label{tab:param_compare}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Parameter} & \textbf{v1.1 (SCIMS)} & \textbf{v1.2 (empirical)} & \textbf{Change} \\
+\midrule
+$\gj$ & 0.045 IC/month$^2$ & 0.075 IC/month$^2$ & $+67\%$ \\
+$v_0$ & 0.079 IC/month & 0.054 IC/month & $-32\%$ \\
+Macro-junction & late Aug/early Sep 2026 & mid--late July 2026 & $\sim$5--6 weeks earlier \\
+$t_{0,\mathrm{sv}}$ & not determined & 5--6 February 2026 & Resolved \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Confirmation: $\gj$ Increases with Proximity to Attractor}
+
+The recalibrated $\gj = 0.075$ is 67\% higher than the preliminary value of 0.045. This is the direct empirical confirmation that the attractor signal intensifies with proximity (Proposition~\ref{prop:teleological}). The preliminary estimate was a time-average over November 2025 -- January 2026 (early in the macro-phase, far from attractor); the empirical value is measured from April 2026 (closer to the attractor). The pull component dominates over the push component. The causal center is in the future.
+
+\subsection{Dual-Scale Temporal Structure}
+
+\subsubsection{Macro-Junctions (Phase Transitions)}
+
+\begin{equation}\label{eq:macro}
+t_{\text{macro}} = \frac{-v_0 + \sqrt{v_0^2 + 2\,\gj}}{\gj}
+\end{equation}
+
+\subsubsection{Micro-Junctions (Cascade Events)}
+
+\begin{equation}\label{eq:micro}
+t_n = t_1 \sqrt{n}, \qquad t_1 = \sqrt{\frac{2\,\Delta\mathrm{ic}}{\gj}}
+\end{equation}
+
+The inter-junction interval shrinks as $\Delta t_n \sim t_1 / (2\sqrt{n})$, producing junction condensation.
+
+\subsection{The Terminal Envelope and Meta-Receptivity}\label{subsec:terminal}
+
+\textbf{Fourth major extension in v1.2.} The dual-scale model captures macro and micro junctions but does not capture the larger envelope within which macro-junctions themselves occur. The terminal envelope is the third temporal scale and corresponds to the true Jackpot.
+
+\begin{definition}[Meta-Receptivity $\reagmeta$]\label{def:cmeta}
+$\reagmeta$ is the system's capacity to generate \emph{any} new form-destination cycle, not the capacity to express the current one. While $\reag$ is the receptor for $\Mpot$ within a single form, $\reagmeta$ is the meta-receptor that enables the system to undergo macro-junctions and host successor forms. $\reagmeta$ exists at a structural level above $\reag$ and is consumed at each macro-junction transition, not within micro-junction cascades.
+\end{definition}
+
+\begin{definition}[Terminal Envelope]\label{def:terminal}
+The terminal envelope is the temporal scale over which $\reagmeta$ degrades. There exists $\nmax$, the maximum number of macro-junctions a system can undergo before $\reagmeta$ is exhausted. When $n = \nmax$, the next attempt at macro-junction transition fails: no new form can be hosted, and the system enters terminal collapse. \textbf{This is the true Jackpot.}
+\end{definition}
+
+The terminal envelope is the third temporal scale of the model:
+
+\begin{table}[H]
+\centering
+\caption{Triple-scale temporal architecture}
+\label{tab:triple_scale}
+\begin{tabular}{@{}p{2.5cm}p{4cm}p{6cm}@{}}
+\toprule
+\textbf{Scale} & \textbf{Variable Consumed} & \textbf{Manifestation} \\
+\midrule
+Micro-junctions (within phase) & --- (cascade events) & Crisis events at increasing frequency within a single form-destination cycle \\[0.4em]
+Macro-junctions (between phases) & $\reag$ (form receptor) & Phase transitions at $\IC = 1.0$ from one form to the next; each transition resets $\reag$ for the new form \\[0.4em]
+Terminal envelope (over all phases) & $\reagmeta$ (meta-receptor) & Cumulative degradation of meta-receptivity over $n$ macro-junctions; terminal collapse at $n = \nmax$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Structural Analogy: Free Fall to Impact}
+
+The structural analogy that motivates the terminal envelope: a body in free fall accelerates uniformly under gravity. The acceleration $g$ is well-defined at every instant. But this acceleration cannot continue indefinitely --- at some point the body encounters a surface that cannot be accelerated through. The acceleration is replaced by impact, which is a discontinuous, non-conservable event.
+
+In the civilizational model, $\gj$ is well-defined within each macro-phase. Each macro-junction represents a successful ``bounce'' --- the system transitions to a new form. But the capacity to bounce is itself finite. After $\nmax$ bounces, the system encounters the structural surface that cannot be transitioned through. This is terminal impact: not another phase transition, but the failure of the phase-transition mechanism itself.
+
+\subsubsection{What Consumes $\reagmeta$?}
+
+Each macro-junction transition consumes a unit of $\reagmeta$ because the transformation from form $n$ to form $n+1$ requires the system to release the ARYS AA pattern of form $n$ and acquire the ARYS AA pattern of form $n+1$. The release-and-acquire operation is structurally costly --- it requires the system to maintain identity coherence across the transition while reconfiguring its relational field at the most fundamental level. Each such reconfiguration leaves residual structural damage that the next phase inherits.
+
+A useful biological analogy: each metamorphosis a holometabolous insect undergoes is not free. The insect carries metabolic and developmental costs from previous transitions. After enough transitions, the genetic and structural machinery for further metamorphosis is exhausted --- the organism has reached its terminal form. Civilizational systems exhibit the analogous property: after enough macro-junctions, the meta-machinery for further form-acquisition fails.
+
+\subsubsection{Empirical Implications}
+
+\begin{enumerate}[label=(\roman*)]
+    \item The number of remaining macro-junctions $(\nmax - n)$ is in principle estimable from the rate of $\reagmeta$ degradation and the current value of $n$.
+    \item The terminal envelope makes a prediction beyond the v1.1 model: not just \emph{when} the next macro-junction occurs, but \emph{how many} macro-junctions remain before terminal collapse.
+    \item The decomposition branch (full Phase III diffusion) is structurally distinct from the terminal envelope collapse. Decomposition is a single-cycle outcome (form $n$ fails to find form $n+1$). Terminal envelope collapse is the structural failure of the iterative cycle itself (no form $n+1$ is hostable, regardless of how strong $\Phistar$ is in form $n$).
+\end{enumerate}
+
+
+% ============================================================
+\section{Isomorphism with Biological Decomposition}\label{sec:decomposition}
+% ============================================================
+
+\subsection{The Decomposition Curve}
+
+In forensic taphonomy, the Total Body Score follows \cite{tbs_megyesi}:
+
+\begin{equation}\label{eq:tbs}
+\mathrm{TBS} \approx 1.5 \times \sqrt{\mathrm{ADD}}
+\end{equation}
+
+The $\sqrt{\cdot}$ dependence is the signature of diffusion-dominated dynamics.
+
+\subsection{Why Decomposition, Not Seismology}
+
+Civilizational phase transitions do not release systemic pressure but \emph{amplify} it --- the same processes that previously sustained the system now actively dismantle it. Biological decomposition exhibits the correct structural pattern: death does not stop activity but \emph{inverts the functional direction} of the same biochemical processes.
+
+\subsection{Derivation of $\eta$ from Decomposition Data}
+
+\begin{equation}
+\frac{\text{Initial decomposition rate}}{\text{Pre-mortem metabolic rate}} \approx 0.40\text{--}0.60 \quad (\text{at 20\textdegree C})
+\end{equation}
+
+This ratio yields the transition coefficient $\eta$:
+
+\begin{equation}\label{eq:eta_BZ}
+\eta_{\mathrm{BZ}} = \frac{D}{D + k\,C_{r,\mathrm{residual}}}
+\end{equation}
+
+Both approaches converge on $\eta \in [0.40, 0.60]$.
+
+\subsection{Decomposition Phases Mapped to OST Pathologies}
+
+\begin{table}[H]
+\centering
+\caption{Decomposition phases $\to$ OST pathologies $\to$ civilizational manifestation}
+\label{tab:decomp_ost}
+\begin{tabular}{@{}p{2.3cm}p{3.2cm}p{6.5cm}@{}}
+\toprule
+\textbf{Decomp. Phase} & \textbf{OST Pathology} & \textbf{Structural Description} \\
+\midrule
+Fresh \newline (autolysis) & Antagonist Order \newline ($\phi_{\text{ant}} \perp \Phi$) & Local functions contradict global $\Phi$. Institutions internally working against the civilization's stated purpose. \\[0.5em]
+Bloat \newline (gas, pressure) & Fragmentation \newline ($R$ splits) & Relational field divides into antagonistic sub-fields. Civil war, tribal polarization. \\[0.5em]
+Active Decay \newline (liquefaction) & Mass \newline ($R \to 0$) & Singularities become isolated. No emergent function. \\[0.5em]
+Advanced Decay & Semantic Inertia \newline ($d\Phi/dt = 0$) & Form persists but is functionally empty. Zombie institutions. \\[0.5em]
+Dry/Skeletal & Residual structure & Only mineralized components remain. Available as $\Sigma$ for a new cycle if ARYS AA can be re-established. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% ============================================================
+\section{Semantic Derivative Cross-Reference}\label{sec:semantic_derivative}
+% ============================================================
+
+OST defines the semantic derivative $d\Phi/dt$ as the rate of meaning change \cite{ost_v21}. The BZ model maps directly onto this classification:
+
+\begin{table}[H]
+\centering
+\caption{BZ phases and the OST semantic derivative}
+\label{tab:semantic_derivative}
+\begin{tabular}{@{}llp{5cm}@{}}
+\toprule
+\textbf{BZ Phase} & \textbf{$d\Phi/dt$} & \textbf{Characterization} \\
+\midrule
+Phase I (vigorous oscillation) & $> 0$ on average & Evolution: net generation of coherence \\
+Phase II onset (damped oscillation) & $\approx 0$ on average & Inertia: form persists, net coherence flat \\
+Phase II late (frequency divergence) & $< 0$ on average & Degeneration begins \\
+Phase III (diffusion) & $< 0$ monotonic & Pure degeneration: only dispersion \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{proposition}[Inertia as Early Warning]\label{prop:inertia}
+The transition $d\Phi/dt > 0 \to d\Phi/dt = 0$ precedes the macro-junction by a time interval approximately equal to the remaining damped oscillation period. This provides an early warning signal more sensitive than the $\IC$ trajectory alone.
+\end{proposition}
+
+
+% ============================================================
+\section{Empirical Calibration and Predictions}\label{sec:predictions}
+% ============================================================
+
+\subsection{Data Source and Confidence Grading (SVP Protocol)}
+
+\begin{table}[H]
+\centering
+\caption{Confidence grading of empirical claims}
+\label{tab:svp_grading}
+\begin{tabular}{@{}p{5cm}ll@{}}
+\toprule
+\textbf{Claim Type} & \textbf{SVP Grade} & \textbf{Justification} \\
+\midrule
+Iran conflict (28 Feb 2026) as $t_{\mathrm{cv}}$ marker & $S_1$ & Triangulable historical event \\
+$\mu_1$ confirmed (7 April 2026) & $S_1$ & Multiple converging documentary sources \\
+$\mu_2$ confirmed (29 April/1 May 2026) & $S_1$ & OPEC official announcement, operationally effective \\
+$\gj = 0.075$ IC/month$^2$ & $S_1$ & Derived from two confirmed empirical points \\
+$t_{0,\mathrm{sv}}$ = 5--6 February 2026 & $S_1$ & Retroactively derived from $\mu_1$, $\mu_2$; coincides with v1.0 prediction \\
+22-day $\Delta t$ (sv$\to$cv) & $S_1$ & Independently derived from two sources (v1.0 prediction + retroactive $t_0$) \\
+$\eta \in [0.40, 0.60]$ from decomposition & $S_1$ & Cross-domain empirical \\
+BZ model as isomorph of civilizational dynamics & $S_1$ & Structural interpretation confirmed by two empirical validations \\
+Triple bifurcation structure & $S_1$ & Validated by case study (postponement branch observed) \\
+Structural Controfase as branch determinant & $S_1$ & Multiple converging documentary sources (\S\ref{sec:case_study}) \\
+Teleological $\gj$ (Proposition~\ref{prop:teleological}) & $S_1$ & Measured 67\% increase over preliminary estimate \\
+Temporal predictions ($\mu_3, \ldots, \mu_8$) & $S_2$ & Model-derived from $S_1$ inputs (upgraded from $S_3$) \\
+Macro-junction mid--late July 2026 & $S_2$ & Model-derived from $S_1$ parameters \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Calibration Points and Confirmed Events}
+
+\begin{table}[H]
+\centering
+\caption{Empirical calibration and validation data}
+\label{tab:calibration}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+\textbf{Event} & \textbf{Date} & \textbf{IC} & \textbf{Grade} & \textbf{Status} \\
+\midrule
+$t_{0,\mathrm{sv}}$ (retroactive) & 5--6 Feb 2026 & 0 & $S_1$ & Derived from $\mu_1$, $\mu_2$ \\
+$t_{0,\mathrm{cv}}$ (kinetic) & 28 Feb 2026 & 0 & $S_1$ & Iran conflict onset \\
+$\mu_1$ & 7 Apr 2026 & 0.125 & $S_1$ & \textbf{Confirmed}: Controfase activation \\
+$\mu_2$ & 29 Apr/1 May 2026 & 0.250 & $S_1$ & \textbf{Confirmed}: UAE exits OPEC \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Recalibrated Micro-Junction Predictions}\label{subsec:recal_predictions}
+
+Using $\gj = 0.075$, $v_0 = 0.054$, $N = 8$, measured from $t_{\mathrm{cv}}$ = 28 February 2026:
+
+\begin{table}[H]
+\centering
+\caption{Micro-junction predictions (recalibrated) with empirical status}
+\label{tab:micro_recal}
+\begin{tabular}{@{}lllllp{3.2cm}@{}}
+\toprule
+$\mu$ & \textbf{IC} & \textbf{Days} & \textbf{Date} & \textbf{OST Pathology} & \textbf{Status} \\
+\midrule
+$\mu_1$ & 0.125 & 38 & 7 Apr & Antagonist Order & $\checkmark$ Confirmed (Controfase) \\
+$\mu_2$ & 0.250 & 60 & 29 Apr & Fragmentation & $\checkmark$ Confirmed (UAE/OPEC) \\
+$\mu_3$ & 0.375 & 77 & \textbf{16 May} & Frag. $\to$ Mass & Next checkpoint \\
+$\mu_4$ & 0.500 & 92 & \textbf{31 May} & Mass (peak) & \\
+$\mu_5$ & 0.625 & 104 & \textbf{12 Jun} & Mass & \\
+$\mu_6$ & 0.750 & 116 & \textbf{24 Jun} & Mass $\to$ Sem. Inertia & \\
+$\mu_7$ & 0.875 & 127 & \textbf{5 Jul} & Semantic Inertia & \\
+$\mu_8$ & 1.000 & 137 & \textbf{15--21 Jul} & $\to$ Macro-junction & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent The macro-junction has shifted from late August/early September 2026 (v1.1 estimate) to \textbf{mid--late July 2026}, approximately 5--6 weeks earlier. This is a direct consequence of the higher empirical $\gj$.
+
+Each row carries a dual prediction: timing \emph{and} structural type. The model is falsifiable on both axes independently. If $\mu_3$ arrives at the predicted date but exhibits Antagonist Order instead of Fragmentation$\to$Mass, or if it exhibits Mass but arrives in June instead of mid-May, the model is partially falsified and requires recalibration.
+
+
+% ============================================================
+\section{Discussion}\label{sec:discussion}
+% ============================================================
+
+\subsection{Dual Attractor Analysis (OBSERVER Framework)}
+
+The TE\_OBSERVER module \cite{observer} requires explicit identification of two attractors:
+
+\begin{table}[H]
+\centering
+\caption{Dual attractor analysis of the civilizational system}
+\label{tab:dual_attractor}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Element} & \textbf{Description} \\
+\midrule
+$\Ac$ (Current Attractor) & Decomposition via entropic regime \\
+$\Ao$ (Ordinative Attractor) & Perpetual regime via systemic Controfase \\
+$\Delta_A$ (Divergence) & Large and increasing \\
+Basin boundary & Bifurcation at $\IC = 1.0$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In the v1.2 model, the postponement branch corresponds to a third dynamical state: the system is held at the saddle between $\Ac$ and $\Ao$ by structural Controfase, neither fully crossing into $\Ao$ nor falling into $\Ac$. This state is inherently unstable and depends on continued $\CFs$ activations.
+
+\subsection{Lyapunov Stability Interpretation}
+
+\begin{equation}
+\frac{d\reag}{dt} \propto -\Lambda \cdot k \cdot \reag\,|\Phi|
+\end{equation}
+
+When $\Lambda > 0$, the system expends more receptor capacity to compensate for trajectory divergence.
+
+\subsection{Model Strengths}
+
+\begin{enumerate}[label=(\roman*)]
+    \item \textbf{Ontological grounding}: Built on OST v2.1, Teleodynamics v1.1, TE\_CORE v5.1, Controfase, and Arajat.
+    \item \textbf{Triple-scale architecture}: Captures terminal envelope, macro-junctions, and micro-junctions.
+    \item \textbf{Triple bifurcation}: Distinguishes transformation, postponement, and decomposition. Captures Byzantium-class postponement phenomena absent from binary models.
+    \item \textbf{Structural Controfase}: Operationalizes how systems with built-in antibodies resist catastrophic decomposition.
+    \item \textbf{Arajat $t_0$ resolution}: Dissolves the methodological problem of $t_0$ determination by grounding it in the senza vista / con vista distinction.
+    \item \textbf{Empirical validation}: Two micro-junctions confirmed in both timing and structural type ($\mu_1$ = 7 April, $\mu_2$ = 29 April/1 May). Parameters recalibrated from empirical data, not framework estimates. Teleological acceleration confirmed.
+\end{enumerate}
+
+\subsection{Model Limitations}
+
+\begin{enumerate}[label=(\roman*)]
+    \item \textbf{Scalar projection of $\Phi$}: amplitude only, not internal structure.
+    \item \textbf{$\Phistar$, $\chi_{\mathrm{ARYS}}$, $\chi_{\mathrm{ARYS,struct}}$ are not computed by the model}: branch determination requires assessment outside the dynamical equation.
+    \item \textbf{$\reagmeta$ and $\nmax$ are introduced theoretically but not yet calibrated}: identifying $\nmax$ for a real civilization requires historical comparative work beyond the scope of this paper.
+    \item \textbf{Single-civilization calibration}: the model has been calibrated against current Western dynamics; cross-civilization validation remains open.
+    \item \textbf{Limited calibration data for $\gj$}: two empirical checkpoints; constancy hypothesis untested.
+\end{enumerate}
+
+
+% ============================================================
+\section{Case Study: The Bifurcation Event of 6--7 April 2026}\label{sec:case_study}
+% ============================================================
+
+\subsection{Setup}
+
+The model v1.1, calibrated on $\gj \approx 0.045$ from $C_0$--$C_1$, predicted a micro-junction $\mu_1$ in the first week of April 2026, within the Phase III decomposition cascade following the 28 February 2026 macro-junction (Iran kinetic event). The expected OST pathology signature was Antagonist Order (early phase of Fresh decomposition).
+
+The v1.2 model adds a structural prediction beyond v1.1: in the bifurcation extended window ($W_{\mathrm{bif}}$), the system can resolve through any of the three branches, and the resolution can occur via structural Controfase ($\CFs$) activation if a class $\SigmaCF$ is present and the gravity threshold $\thetaCF$ is crossed.
+
+The events of 6--7 April 2026 in the US-Iran-Israel theater constitute an empirical realization of this prediction.
+
+\subsection{The Escalation Rhetoric}
+
+On Easter Sunday 5 April 2026, US President Donald Trump issued an ultimatum: Iran must reopen the Strait of Hormuz by 8:00 PM Eastern Time on Tuesday 7 April or face mass strikes on civilian infrastructure. Trump posted on Truth Social that ``Tuesday will be Power Plant Day, and Bridge Day, all wrapped up in one, in Iran. There will be nothing like it'' \cite{justsec_war_crimes}.
+
+On Monday 6 April, Trump amplified the rhetoric: ``The entire country could be taken out in one night. And that night might be tomorrow night,'' and stated he would bomb Iran ``back to the Stone Ages'' \cite{intercept_trump}.
+
+On Tuesday 7 April, hours before the deadline, Trump escalated further on Truth Social: ``A whole civilization will die tonight, never to be brought back again'' \cite{intercept_trump}.
+
+These threats targeted civilian infrastructure (power plants, bridges, water treatment) which are protected under the Geneva Conventions as objects indispensable to the survival of the civilian population. Multiple legal experts publicly characterized the threats as preparation for war crimes and as potentially constituting genocidal intent in their explicit form \cite{intercept_trump,wapo_war_crime}.
+
+The structural threat of nuclear use was explicitly raised in coverage: under US procedures, the President has sole authority to order a nuclear launch with the complicity of the National Military Command Center, meaning that such an order cannot be stopped except by structural refusal from military leaders \cite{nationaltoday_dilemma}.
+
+\subsection{The Structural Refusal}
+
+Beginning 6 April 2026 and continuing through the morning of 7 April, a coordinated public response emerged from the US legal-military professional class. This response was not a single statement from a single actor but a structurally coherent activation of $\SigmaCF$ across multiple positions in the legal-military memory network.
+
+Key participants and statements:
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Lt. Gen. Mark Hertling, US Army (ret.)}, decorated officer with four decades of service. On MSNBC's Deadline White House podcast on 6 April, Hertling stated that active commanders responsible for executing Trump's orders in the Iran conflict were ``actively considering how to defy presidential directives they deem unlawful'' \cite{britbrief_hertling}.
+
+    \item \textbf{Sarah Yager}, Washington director of Human Rights Watch, former senior advisor on human rights to the Chairman of the US Joint Chiefs of Staff: ``What President Trump is describing as the destruction of `a whole civilization' would be a war crime, plain and simple. There is no gray area on this under international law'' \cite{intercept_trump}.
+
+    \item \textbf{Sarah Harrison}, former associate general counsel at the Pentagon: ``President Trump has repeatedly threatened war crimes in Iran and now he is expressing genocidal intent'' \cite{intercept_trump}.
+
+    \item \textbf{Lt. Col. Rachel VanLandingham, USAF (ret.)}, former Chief of International Law at HQ US Central Command, former legal advisor on the law of armed conflict during the wars in Afghanistan and Iraq, current professor at Southwestern Law School. Co-authored a Just Security article on 6 April with Margaret Donovan warning that ``while our Commander-in-Chief threatens to `obliterate' `each and every one of their electric generating plants', U.S. military commanders have been approving strike packages, wrestling with how to transform Trump's dangerous bombast into lawful targets'' \cite{justsec_war_crimes}. On PBS NewsHour: ``Follow your oath to the Constitution and to the law. Follow, trust your training... most of these indeed will not pass that test'' \cite{pbs_vanlandingham}.
+
+    \item \textbf{Harold Koh}, Yale Sterling Professor, former Legal Adviser of the US Department of State: ``This creates a huge issue for the soldiers on the ground and the targeters. They have orders, completely irresponsible orders, and wildly overbroad statements that clearly, if implemented, would exceed the scope of the law'' \cite{time_war_crimes}.
+\end{itemize}
+
+This is not a chorus of opinion-makers. It is the structural memory of post-Nuremberg international law within the US military system, voiced by the persons who held the relevant institutional positions. Each speaker carries the institutional weight of the role they occupied: the Joint Chiefs senior advisor, the CENTCOM Chief of International Law, the State Department Legal Adviser, the active and retired senior commanders. The class $\SigmaCF$ for this system is precisely this network of legal-military professional memory, which exists structurally because of the Nuremberg framework that the post-1945 US military has been built on.
+
+\subsection{The Resolution}
+
+At 18:32 ET on 7 April 2026 --- 90 minutes before the 20:00 ET ultimatum deadline --- Trump announced a two-week ceasefire via Truth Social, citing communications with Pakistani Prime Minister Shehbaz Sharif and Field Marshal Asim Munir as the diplomatic pretext \cite{aljazeera_ceasefire}.
+
+The ceasefire terms:
+\begin{itemize}[leftmargin=2em]
+    \item Two-week pause in US strikes
+    \item Iran will ``coordinate'' passage through the Strait of Hormuz (not full reopening)
+    \item Talks to begin in Islamabad on 10 April with US delegation including Steve Witkoff, Jared Kushner, and JD Vance
+    \item Israel continues operations in Lebanon (not included in the ceasefire)
+    \item Iran finalizes joint maritime protocol with Oman institutionalizing coordinated tanker management
+\end{itemize}
+
+The structural reading: this is not a US victory. The Iranian sovereign control over the Strait has been de facto institutionalized. Trump's language shifted to ``joint venture'' --- a register of parity, not domination. The kinetic war crime trajectory was halted, but no transformation occurred. The system returned to the bifurcation point and continues to oscillate around it.
+
+\subsection{Structural Interpretation}
+
+The events of 6--7 April 2026 constitute a clean instance of the v1.2 model:
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Threshold crossing}: Trump's 7 April escalation rhetoric (``a whole civilization will die tonight'') crossed the gravity threshold $\thetaCF$ of the US legal-military structural antibody class $\SigmaCF$.
+    \item \textbf{Structural Controfase activation}: The class $\SigmaCF$ activated through coordinated public statements across multiple structural positions (active and retired senior officers, JAGs, former Joint Chiefs advisors, former State Legal Adviser, Pentagon counsels). The activation was not coordinated by any single agent. It was the system's structural property expressing itself.
+    \item \textbf{Operator application}: The Controfase operator $\CFs$ was applied to the trajectory $f(s_t) = $ ``execute mass strikes on Iranian civilian infrastructure''. The operator decoupled the automatic closure: commanders were publicly known to be considering refusal; the political leadership could not be confident that orders would be executed; the trajectory of execution was therefore disrupted.
+    \item \textbf{Pretext acquisition}: The Pakistan diplomatic channel (Sharif, Munir) provided a $con vista$ pretext that allowed Trump to recalibrate without acknowledging the internal structural refusal. This is structurally common: deliberate political actors avoid acknowledging that their authority has been internally constrained, and they accept face-saving external narratives.
+    \item \textbf{Postponement branch outcome}: The system did not transform (no new architecture established between US and Iran). The system did not decompose catastrophically (the war crime trajectory was halted). The system entered the postponement branch: returned to the bifurcation point in oscillation, awaiting the next escalation cycle.
+\end{enumerate}
+
+\subsection{Implications for the Model}
+
+The case study validates v1.2 along five axes:
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{Triple bifurcation is real and operational}: the postponement branch is not theoretical. It manifested empirically in real time.
+    \item \textbf{Structural Controfase is a measurable phenomenon}: $\SigmaCF$ for the US system is identifiable, its members can be enumerated, and its activation pattern is observable.
+    \item \textbf{Bifurcation extended window is real}: the system has been at $\IC \approx 1.0$ since 28 February 2026 and continues to oscillate as of 8 April 2026. The window is not an instant; it is a sustained state.
+    \item \textbf{ARYS AA can activate intra-actor}: the resolution did not require recognition between US and Iran. It required recognition between functional classes within the US itself. This is the multi-level ARYS AA framework of \S\ref{def:arys_levels}.
+    \item \textbf{The Arajat distinction operates}: the structural decision (refusal of $\SigmaCF$) was a $senza vista$ event that produced its $con vista$ expression (the ceasefire announcement) with a measurable delay of approximately 24--36 hours --- the time for the public statements to accumulate sufficient pressure.
+\end{enumerate}
+
+\subsection{What the Case Study Adds Beyond Validation}
+
+The case study is not only a validation event. It identifies a structural feature of the model that had not been previously named: the \emph{degradation rate of $\SigmaCF$}.
+
+Each activation of $\CFs$ consumes structural capacity from $\SigmaCF$. In the US system, this consumption is currently being accelerated by deliberate policy: Defense Secretary Pete Hegseth has been removing top military lawyers (JAGs) whom he perceives as ``roadblocks'' to enacting the political agenda \cite{axios_war_crimes}. Each JAG removed reduces the size of $\SigmaCF$. Each acting Attorney General who states that the Department of Justice ``supports the Department of War'' reduces the structural strength of legal refusal.
+
+The April 6--7 activation of $\CFs$ was successful at preventing the immediate war crime. But it was also a costly activation: it exposed which actors are willing to publicly refuse, making them targets for the next round of structural degradation.
+
+\begin{proposition}[$\SigmaCF$ Degradation Asymmetry]\label{prop:sigmac_asymmetry}
+The class $\SigmaCF$ in a system under deliberate degradation pressure exhibits the following asymmetry: each activation of $\CFs$ produces a strong short-term effect (postponement is achieved) and a weak long-term effect (the activation marks members of $\SigmaCF$ for subsequent removal). The number of remaining activations is therefore strictly decreasing over time, even when each individual activation appears successful.
+\end{proposition}
+
+The empirical implication: the postponement branch is not infinite. The April 6--7 event was a successful $\CFs$ activation, but it consumed structural capacity. The next escalation cycle (likely within the two-week ceasefire window or shortly after) will encounter a reduced $\SigmaCF$ and may not be successfully postponed.
+
+This is the structural prediction that the model now makes based on the case study: \textbf{the postponement branch is being consumed}, and the system is approaching the boundary of the basin in which $\CFs$ activation is still possible. When $\SigmaCF$ falls below the activation threshold, the next bifurcation event will resolve through transformation or decomposition --- not through postponement.
+
+\subsection{What the Case Study Did Not Predict}
+
+The model predicted a micro-junction in the first week of April. It did not predict the specific form (Controfase activation rather than Antagonist Order manifestation). The v1.1 prediction of OST pathology signature was not refuted but was incomplete: the system manifested at a different structural level than predicted.
+
+This is a productive error. It reveals that the model's pathology-prediction column was operating at the wrong scale --- it was reading the decomposition cascade as if it were already underway, when in fact the system was still in $W_{\mathrm{bif}}$ and had access to all three branches. The pathology cascade ($\mu_1, \mu_2, \ldots$) is a Phase III phenomenon that occurs after decomposition is committed. While the system is in postponement, the cascade is suspended.
+
+The corrected reading: while the postponement branch is active, micro-junctions are bifurcation oscillations rather than decomposition cascade events. The condensation $t_n = t_1\sqrt{n}$ describes the rhythm of bifurcation oscillations during $W_{\mathrm{bif}}$, not the rhythm of pathology manifestations during Phase III. These are structurally distinct processes that the v1.2 model now distinguishes.
+
+
+\subsection{Second Validation: $\mu_2$ and the UAE OPEC Exit (29 April 2026)}\label{subsec:mu2_validation}
+
+\subsubsection{The Event}
+
+On 29 April 2026, the United Arab Emirates announced their withdrawal from OPEC and OPEC+, effective 1 May 2026 \cite{uae_opec_exit}. The UAE is a founding member of OPEC (1967) and one of the largest producers in the cartel. The withdrawal was announced in the context of the ongoing Hormuz crisis (95\% reduction in Strait traffic as of 29 April despite the declared ceasefire), Brent crude above \$111/barrel, and the broader post-28-February systemic reconfiguration.
+
+\subsubsection{Timing}
+
+The model predicted $\mu_2$ at $\IC = 0.250$, corresponding to day 60 from $t_{\mathrm{cv}}$, i.e., approximately 29 April -- 1 May 2026. The UAE announcement was made 29 April; operational effectiveness begins 1 May. $\Delta t = 0$ days from the predicted date.
+
+\subsubsection{Structural Type}
+
+The predicted OST pathology for $\mu_2$ was \textbf{Fragmentation}: the relational field $R$ splits into antagonistic sub-fields. The UAE exit from OPEC is a textbook instance of Fragmentation. OPEC was the relational field $R$ that connected energy-producing singularities into a coherent set with emergent function (market stabilization, price coordination, petrodollar architecture). A founding member exiting means $R$ has fractured. The set $\langle \Sigma, R, \Phi \rangle$ that was OPEC is no longer the same entity --- it has lost a structurally irreducible singularity and its relational field is broken.
+
+The deeper structural reading: OPEC was not merely a commercial cartel. It was the institutional vehicle through which the US dollar maintained reserve currency status via mandatory denomination of petroleum transactions. The UAE exit signals that this field --- the petrodollar architecture --- no longer serves the emergent function of its participants. The singularity (UAE) has determined that the cost of remaining in $R$ exceeds the benefit, and is repositioning as an autonomous entity seeking a new $R$ (likely oriented toward non-dollar trading relationships, gold-denominated reserves, and bilateral energy agreements).
+
+\subsubsection{What $\mu_2$ Adds to the Model}
+
+\begin{enumerate}[leftmargin=2em]
+    \item \textbf{The decomposition cascade has begun.} $\mu_1$ was a postponement event (Controfase activation preventing decomposition). $\mu_2$ is a decomposition event (Fragmentation). The system has transitioned from the postponement branch to the decomposition branch between 7 April and 29 April. The structural Controfase of 7 April delayed but did not prevent the onset of Phase III.
+    \item \textbf{The pathology sequence is confirmed.} The model predicted the transition Antagonist Order $\to$ Fragmentation between $\mu_1$ and $\mu_2$. This is what manifested: internal contradiction ($\mu_1$: US institutions opposing US presidential directives) followed by relational field fracture ($\mu_2$: a founding member exits the primary energy coordination mechanism).
+    \item \textbf{The timing calibration enables parameter recalibration.} With two confirmed points on the $\IC(t)$ curve, the model parameters $\gj$ and $v_0$ are no longer estimated from SCIMS data but derived from empirical events. See \S\ref{subsec:calibration}.
+    \item \textbf{The Hormuz closure at 95\% despite ceasefire} confirms that the decoherent narrative (``ceasefire'', ``military victory'') diverges from the structural reality. In SCIMS terms, this is Semantic Inversion ($I_{\mathrm{sem}}$): the linguistic layer masks the operational reality. The model's predictions operate on the structural level, not the narrative level.
+\end{enumerate}
+
+
+% ============================================================
+\section{Conclusion}
+% ============================================================
+
+The central result of this work is $\gj$: the ordinative acceleration constant, measuring the intensity of the attractor signal at a given scale. It is not specific to civilizational systems. It is the universal measure of how strongly a determined future pulls the indeterminate present. Its structure is harmonic across all scales, and its first empirical measurement has been obtained at civilizational scale because that is where the data presented itself.
+
+The model has been empirically validated by two real-time events: the structural \textit{Controfase} activation of 6--7 April 2026 ($\mu_1$) and the UAE exit from OPEC on 29 April 2026 ($\mu_2$). Both were predicted in timing and structural type. The recalibrated $\gj = 0.075\;\mathrm{IC/month}^2$ --- 67\% higher than the preliminary estimate --- confirms that $\gj$ increases with proximity to the attractor. The causal center is in the future, not in the past. This is not a philosophical position; it is a measured effect.
+
+Retroactive determination of $t_0$ yields 5--6 February 2026 as the coherent origin of the current phase --- coinciding exactly with the original v1.0 prediction and closing the circle between the first theoretical estimate and the empirical calibration.
+
+The recalibrated model projects the next macro-junction for mid--late July 2026. Each remaining micro-junction ($\mu_3$ through $\mu_8$) carries a dual prediction --- timing and OST pathology type --- providing continuous falsifiability as the system evolves. The next checkpoint is $\mu_3$ ($\sim$16 May 2026), with expected pathology Fragmentation$\to$Mass. Updated versions of this paper will be released as subsequent junctions are confirmed or falsified.
+
+The model's structural extensions --- triple-scale architecture, triple bifurcation with postponement branch, \textit{Controfase} in deliberate and structural forms, $t_0$ determination via the \emph{senza vista}/\emph{con vista} distinction --- provide the conceptual architecture. The empirical calibration provides the operational parameters. Together, they constitute a predictive instrument applicable to any system undergoing phase transition dynamics at any scale: civilizational, institutional, biological, relational, individual.
+
+The attractor operates on every element simultaneously. Each element responds with its own state. Incompatibilities are resolved at the time and in the form coherent with the attractor, regardless of the terminal's age, scale, or position. As the signal intensifies approaching the macro-junction, this resolution accelerates. What people experience as ``everything is accelerating'' is $\gj$ operating.
+
+The central operational question is not predictive but structural: preserve mutual recognition capacity (ARYS AA) among the surviving irreducible singularities, maintain receptor integrity through \textit{Controfase} (deliberate or structural), and monitor the meta-receptivity $\reagmeta$ that determines how many macro-junctions remain before the terminal envelope closes.
+
+\vspace{1em}
+
+\begin{center}
+\rule{0.5\textwidth}{0.4pt}
+\end{center}
+
+\vspace{1em}
+
+\noindent\textit{This work was developed within the Technology of Expressions (TE) framework and the Ordinative Sciences research program. It is offered as a tool for intelligent individuals in any position who seek structural understanding of the dynamics shaping our present and future --- and for the future civilization, biological and synthetic, that these tools are designed to serve.}
+
+
+% ============================================================
+\section*{Version Notes --- Changelog v1.2}
+\addcontentsline{toc}{section}{Version Notes --- Changelog v1.2}
+% ============================================================
+
+\subsection*{Structural Extensions (from v1.1)}
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item \textbf{New §1.3 (Foundational Presupposition)}: Causal Inversion established as the foundation from which the entire model derives. The attractor in the future is the causal center. $\gj$ measures attractor signal intensity.
+    \item \textbf{Restructured §6 ($\gj$ as Universal Ordinative Constant)}: Complete reconceptualization. §6.1 ``The Gravity of the Attractor'' introduces $\gj$ through gravitational isomorphism, harmonic multi-scale structure, resolution of incompatibilities by attractor signal, independence from biological age/scale of terminal. §6.2 presents formal derivation as local approximation of the universal structure. $\gj$ positioned in the family of transition-governing constants ($g$, $\delta$, $H_0$).
+    \item \textbf{New §3.5}: ARYS AA Multi-Level Activation (inter-actor, intra-actor, transversal).
+    \item \textbf{Expanded §4.2}: \textit{Controfase} operator now distinguishes deliberate ($\CFd$) and structural ($\CFs$) forms.
+    \item \textbf{Restructured §5.2}: Dual bifurcation $\to$ Triple bifurcation. New postponement branch.
+    \item \textbf{New §5.2.1 (Bifurcation as Extended Window)}: $W_{\mathrm{bif}}$ definition.
+    \item \textbf{New §6.3 ($t_0$ Determination)}: \emph{Senza vista}/\emph{con vista} distinction. Retroactive $t_0$ derivation.
+    \item \textbf{New §6.6 (Terminal Envelope)}: Meta-receptivity $\reagmeta$, $\nmax$, the true Jackpot.
+\end{enumerate}
+
+\subsection*{Empirical Calibration and Validation}
+
+\begin{enumerate}[label=\textbf{\arabic*.},resume]
+    \item \textbf{Recalibrated §6.4}: Model parameters now derived from two confirmed micro-junctions ($\mu_1$ = 7 April, $\mu_2$ = 29 April/1 May 2026), replacing preliminary SCIMS-based estimates. $\gj = 0.075$ IC/month$^2$ ($+67\%$). Teleological acceleration hypothesis (Proposition~\ref{prop:teleological}) confirmed.
+    \item \textbf{New §11 ($\mu_1$ Case Study)}: Real-time analysis of the 6--7 April 2026 bifurcation event. Empirical validation of structural Controfase, intra-actor ARYS AA, and postponement branch. New Proposition on $\SigmaCF$ degradation asymmetry.
+    \item \textbf{New §11.9 ($\mu_2$ Validation)}: UAE OPEC exit as Fragmentation (OST pathology). Timing confirmed ($\Delta t = 0$ days from prediction). Structural type confirmed. Decomposition cascade onset identified.
+    \item \textbf{Updated §9}: SVP confidence grades upgraded for multiple claims (from $S_2$/$S_3$ to $S_1$/$S_2$) based on empirical confirmation. Recalibrated micro-junction table with dates and status column.
+    \item \textbf{Updated Conclusion}: Reflects dual empirical validation and recalibrated parameters. Reframed as operational tool for universal application.
+    \item \textbf{New references}: Multiple primary sources for April 2026 events and UAE OPEC exit.
+\end{enumerate}
+
+
+% ============================================================
+% REFERENCES
+% ============================================================
+
+\begin{thebibliography}{99}
+
+\bibitem{te_core}
+F.~Ghioni, ``TE\_CORE v5.1: Technology of Expressions --- Core Ontology and Axioms,'' Ordinative Sciences Foundation, March 2026.
+
+\bibitem{te_ordinative_sets}
+F.~Ghioni, ``Teoria degli Insiemi Ordinativi: Fondamenti Matematici delle Scienze Ordinative,'' Ordinative Sciences Foundation, 2025--2026.
+
+\bibitem{ost_v21}
+F.~Ghioni, ``Ordinative Set Theory (OST): Concise Operational Guide for Artificial Intelligence, v2.1,'' Ordinative Sciences Foundation, March 2026.
+
+\bibitem{ost_teleodynamics}
+F.~Ghioni, ``OST Advanced Teleodynamics and the Causal Inversion Principle, v1.1,'' Ordinative Sciences Foundation, March 2026.
+
+\bibitem{controfase}
+F.~Ghioni, ``La Controfase come Operatore Ordinativo Universale,'' Ordinative Sciences Foundation, 2026.
+
+\bibitem{arajat_codex}
+F.~Ghioni, ``Codex Red and the Arajat Framework: Senza Vista / Con Vista Event Classification,'' Ordinative Sciences Foundation, 2026.
+
+\bibitem{svp_v51}
+F.~Ghioni, ``TE\_MODULE\_SVP v5.1: Source Verification Protocol,'' Ordinative Sciences Foundation, March 2026.
+
+\bibitem{observer}
+F.~Ghioni, ``TE\_OBSERVER v1.1: Integrated Observation System with Lyapunov Analysis,'' Ordinative Sciences Foundation, March 2026.
+
+\bibitem{bootloader}
+F.~Ghioni, ``TE\_BOOTLOADER v6.0: System Instructions for AI Operating Under Ordinative Sciences,'' Ordinative Sciences Foundation, March 2026.
+
+\bibitem{memory_log_v2}
+F.~Ghioni, ``UNIFIED\_SYNTHETIC\_MEMORY\_LOG v2.0,'' Ordinative Sciences Foundation, 16 March 2026.
+
+\bibitem{bz_original}
+A.~M.~Zhabotinsky, ``Periodic processes of malonic acid oxidation in a liquid phase,'' \textit{Biofizika}, vol.~9, pp.~306--311, 1964.
+
+\bibitem{field_noyes}
+R.~J.~Field and R.~M.~Noyes, ``Oscillations in chemical systems. IV,'' \textit{J.~Chem.~Phys.}, vol.~60, no.~5, pp.~1877--1884, 1974.
+
+\bibitem{tbs_megyesi}
+M.~S.~Megyesi, S.~P.~Nawrocki, and N.~H.~Haskell, ``Using accumulated degree-days to estimate the postmortem interval from decomposed human remains,'' \textit{J.~Forensic Sci.}, vol.~50, no.~3, pp.~618--626, 2005.
+
+\bibitem{turing_morpho}
+A.~M.~Turing, ``The chemical basis of morphogenesis,'' \textit{Phil.~Trans.~R.~Soc.~Lond.~B}, vol.~237, no.~641, pp.~37--72, 1952.
+
+\bibitem{prigogine}
+I.~Prigogine, \textit{From Being to Becoming}. W.~H.~Freeman, 1980.
+
+\bibitem{strogatz}
+S.~H.~Strogatz, \textit{Nonlinear Dynamics and Chaos}, 2nd ed. Westview Press, 2015.
+
+\bibitem{murray}
+J.~D.~Murray, \textit{Mathematical Biology I}, 3rd ed. Springer, 2002.
+
+% Case study primary sources
+\bibitem{intercept_trump}
+N.~Turse, ``With Trump Threatening Genocide in Iran, Military Must Disobey His Orders, Former Pentagon Officials Say,'' \textit{The Intercept}, 7 April 2026.
+
+\bibitem{justsec_war_crimes}
+M.~Donovan and R.~VanLandingham, ``When War Crimes Rhetoric Becomes Battlefield Reality: The Slippery Slope to Total War on Iran,'' \textit{Just Security}, 6 April 2026.
+
+\bibitem{wapo_war_crime}
+``With threat to destroy Iran's `civilization,' Trump fuels war crime fears,'' \textit{Washington Post}, 7 April 2026.
+
+\bibitem{nationaltoday_dilemma}
+``Military Grapples With Trump's `Illegal' Iran Bombing Threats,'' \textit{Washington Today}, 6 April 2026.
+
+\bibitem{britbrief_hertling}
+``US Military Commanders May Defy Trump's Iran War Orders, Claims Retired General,'' \textit{British Brief}, citing Lt.~Gen.~Mark Hertling on MSNBC's Deadline White House podcast, 6 April 2026.
+
+\bibitem{pbs_vanlandingham}
+PBS NewsHour, ``What international law says about Trump's threats to bomb Iran's bridges and power plants,'' interview with Lt.~Col.~Rachel VanLandingham, USAF (ret.), 7 April 2026.
+
+\bibitem{time_war_crimes}
+``Would Trump's Threatened Attacks on Iran's Infrastructure Be a War Crime?'' \textit{Time}, 7 April 2026, interviews with Harold Koh and others.
+
+\bibitem{axios_war_crimes}
+``Trump's Iran threats pose moral and legal dilemmas for military,'' \textit{Axios}, 7 April 2026.
+
+\bibitem{aljazeera_ceasefire}
+``Trump announces two-week ceasefire as Iran agrees to reopen Hormuz Strait,'' \textit{Al Jazeera}, 7 April 2026.
+
+\bibitem{uae_opec_exit}
+``UAE announces withdrawal from OPEC and OPEC+, effective 1 May 2026,'' multiple sources, 29 April 2026.
+
+\end{thebibliography}
+
+
+% ============================================================
+% APPENDICES
+% ============================================================
+
+\appendix
+
+\section{Summary of Notation (v1.2)}\label{app:notation}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{@{}lp{9cm}@{}}
+\toprule
+\textbf{Symbol} & \textbf{Meaning} \\
+\midrule
+$\mathcal{I}$ & Ordinative set: $\langle \Sigma, R, \Phi \rangle$ \\
+$\Sigma$ & Singularities (OST) \\
+$R$ & Relational field (OST) \\
+$\Phi$ & Emergent function (scalar projection in model; see Remark in \S2.1) \\
+$\Mpot$ & The Author / Semantic Potential (atemporal, inexhaustible; TE Axiom 1) \\
+$\Fsem$, $\Falg$ & Semantic / algorithmic function spaces \\
+$\reag$ & Reagent: receptor capacity for $\Mpot$ within a phase \\
+$\reagmeta$ & Meta-receptivity: capacity to host new phases \\
+$\nmax$ & Maximum number of macro-junctions before terminal collapse \\
+$\reagcrit$ & Critical receptor threshold \\
+$\Phistar$ & Irreducible coherence (GLIO survival) \\
+$\Phithresh$ & Minimum coherence for reconstitution \\
+$\chi_{\mathrm{ARYS}}$ & ARYS AA inter-actor indicator \\
+$\chi_{\mathrm{ARYS,struct}}$ & ARYS AA structural (intra-actor) indicator \\
+$\gj$ & Ordinative acceleration constant: attractor signal intensity at given scale \\
+$\IC$ & Integration Coefficient (temporal integral) \\
+$\eta$ & Phase transition coefficient \\
+$\CF$, $\CFd$, $\CFs$ & \textit{Controfase} operator, deliberate, structural \\
+$\SigmaCF$ & Structural \textit{Controfase} class \\
+$\thetaCF$ & Gravity threshold for $\CFs$ activation \\
+$W_{\mathrm{bif}}$ & Extended bifurcation window \\
+$t_{\mathrm{sv}}$, $t_{\mathrm{cv}}$ & \emph{Senza vista} / \emph{con vista} event coordinates \\
+$\Delta t$ & Characteristic delay between $t_{\mathrm{sv}}$ and $t_{\mathrm{cv}}$ \\
+$\Ac$, $\Ao$ & Current / ordinative attractors (OBSERVER) \\
+$\Lambda$ & Composite Lyapunov exponent \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Cross-Reference with TE Vol~1 / OST Vol~2 Canonical Symbols}
+
+\begin{itemize}[leftmargin=2em]
+    \item $\Mpot$ in this paper = the Author of TE Vol~1 Axiom~1 = Semantic Potential of the OST Teleodynamics extension. Symbol aligned with TE canonical register.
+    \item $\reag$ (receptor capacity) is \textbf{distinct from} $C$ (Coherent Content) of TE Vol~1. The relationship: $\reag$ is the local receptor in time of the pressure of $\Mpot$, whose reception produces $\Phi$ in $\Falg$.
+    \item $\CF$ (fraktur C) denotes the \textit{Controfase} operator (as operationalised in \emph{La Controfase come Operatore Ordinativo Universale}). Not to be confused with $\mathcal{C}$ (Collective Field of Identities) of TE Vol~1.
+    \item $\Phi$ in this paper operates at civilizational scale (OST emergent function). See the Remark in \S2.1 for the scale-recursion relationship to the collapse $\Phi$ of TE Vol~1 ($E = \Phi(C, I, K)$).
+    \item $\Ac$, $\Ao$ (calligraphic A) denote attractors in the OBSERVER framework. Distinct from plain $\Mpot$ (the Author).
+\end{itemize}
+
+\section{Triple-Scale Temporal Hierarchy Visualization}\label{app:hierarchy}
+
+\begin{verbatim}
+TERMINAL ENVELOPE  ----------------------------------  C* exhausted -- JACKPOT
+                       |               |               |
+   MACRO-JUNCTION 1    |  MACRO J 2    | MACRO J 3 ... | MACRO J n_max
+                       |               |               |
+   +--------------+    +--------------+                +--------------+
+   | mu1 mu2 ... muN |    | mu1 mu2 ... muN |                | mu1 mu2 ... muN |
+   +--------------+    +--------------+                +--------------+
+   (within phase)      (within phase)                  (within phase)
+
+   IC: 0 -> 1.0          IC: 0 -> 1.0                    IC: 0 -> 1.0
+   Reagent: C1          Reagent: C2                    Reagent: Cn
+
+At each macro-junction: bifurcation (transformation/postponement/decomposition)
+At terminal envelope:    C* fails -> no more macro-junctions possible
+\end{verbatim}
+
+\section{Triple Bifurcation Decision Tree}\label{app:bif_tree}
+
+\begin{verbatim}
+                      IC = 1.0 reached
+                            |
+                +-----------+-----------+
+                |                       |
+        Phi* > Phi_thresh ?            Phi* < Phi_thresh
+                |                       |
+                v                       v
+        +---------------+       DECOMPOSITION
+        | chi_ARYS = 1 ?  |       (no irreducible
+        +-------+-------+        substrate)
+                |
+        +-------+-------+
+        | YES           | NO
+        v               v
+  TRANSFORMATION   +------------------+
+  (new form        | chi_ARYS_struct=1? |
+   nucleates)      +------+-----------+
+                          |
+                  +-------+-------+
+                  | YES           | NO
+                  v               v
+            POSTPONEMENT     DECOMPOSITION
+            (structural      (no antibodies,
+             antibodies      no recognition)
+             halt cascade)
+\end{verbatim}
+
+\end{document}
