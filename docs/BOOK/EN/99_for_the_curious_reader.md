@@ -42,6 +42,12 @@ A mathematical operation that, given two (or more) sets, builds the set of all o
 
 *Appears in Chapter 3.*
 
+## Cézanne, Paul (1839–1906)
+
+French painter, central figure in the passage from Impressionism to the avant-gardes of the twentieth century. His obsession with Mont Sainte-Victoire — the Provençal mountain he painted in more than sixty versions over the last thirty years of his life — is one of the most transparent examples in art history of a coherent content yielding multiple decoherent stabilisations. None of the versions "exhausts" the mountain, and all are faithful to the same visual coherence internal to Cézanne. The book cites him in Chapter 4 as an operative example of the distinction among content, form, and stabilisation.
+
+*Appears in Chapter 4.*
+
 ## Decoherence (in quantum physics)
 
 Technical term in quantum mechanics indicating the process by which a coherent superposition of states — in which a system exists simultaneously in several configurations — collapses into a specific state, usually following an interaction with an environment or a measurement. It is the physical phenomenon from which the Ordinative Sciences have borrowed the term, generalising its meaning to any passage from a state of unactualised potential (coherent) to a state of specific manifestation (decoherent). The book cites it in Chapter 3 both in its strict physical sense and as the historical source of the ordinative lexicon.
@@ -71,6 +77,12 @@ Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postu
 Austrian economist and political philosopher, Nobel laureate in economics (1974). His best-known thesis, developed in *Law, Legislation and Liberty* (1973–79), is that social order can emerge without a central legislator, through the interactions of agents who follow local rules — the so-called *spontaneous order*. The book cites Hayek not to contest the thesis, which is structurally sound, but to show that even spontaneous order does not generate itself out of nothing: the agents that produce it are themselves oriented, and their orientation, in turn, has a source. Spontaneity displaces the problem one level; it does not erase it.
 
 *Appears in Chapter 2.*
+
+## Hylomorphism (Aristotle)
+
+Aristotelian doctrine, expounded in the *Metaphysics* and the *Physics*, according to which every material substance is an inseparable composite of *matter* (ὕλη, *hylē*) and *form* (μορφή, *morphē*). There is no matter without form — it would be pure indeterminate potency, not a real being — nor form without matter: the form of a horse, separated from the concrete horse, would be an abstraction, not a horse. The book cites hylomorphism in Chapter 4 as one of the historical traditions that held form and content together without subordinating one to the other — a *companion on the road* of the Ordinative Sciences on the crucial point of the structural inseparability of the two aspects.
+
+*Appears in Chapter 4.*
 
 ## Leibniz, Gottfried Wilhelm (1646–1716)
 
@@ -108,6 +120,12 @@ A mechanism, formalised by Albert-László Barabási and Réka Albert in the lat
 
 *Appears in Chapter 1.*
 
+## Quantifier (∀ and ∃)
+
+Logical symbols introduced formally by Frege and Peirce at the end of the nineteenth century, today standard in mathematical logic and theoretical computer science. The *universal quantifier* ∀ (an upside-down *A*) reads "for every" and indicates that a property holds for all elements of a set. The *existential quantifier* ∃ (a backwards *E*) reads "there exists" and indicates that at least one element of the set has a certain property. The strength of quantifiers is the possibility of expressing, in a few lines, universal or existential claims that in ordinary language would require many words. The book introduces them in Chapter 4 in the formula *∀ f ∈ D, ∃ c ∈ C : f = Φ(c, i, k)*, using them as an example of the compression function that mathematics exerts on prose.
+
+*Appears in Chapter 4.*
+
 ## Quicksort
 
 A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an element of the list to be sorted (the *pivot*), separate the other elements into two groups — those smaller and those greater than the pivot — and recurse on each of the two groups. It is one of the most studied and most used algorithms in practice: its average time is proportional to *n* log *n*, where *n* is the length of the list. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: the algorithm as an abstract procedure is the coherence, each execution on a specific list is a decoherence.
@@ -132,6 +150,12 @@ Dutch philosopher of Iberian-Jewish origin, author of the *Ethics, Demonstrated 
 
 *Appears in Chapter 2.*
 
+## Stabilisation (in the ordinative sense)
+
+Technical term of the Ordinative Sciences. In the formulation of Chapter 4, stabilisation is the transition *C → F*: the passage from a coherent content to a recognisable form, fixing a potentiality in a specific configuration. It is structurally equivalent to *collapse* in Chapter 3 — every collapse is a stabilisation, every stabilisation is a collapse seen from the result side — but emphasises the aspect of *fixation*: form is what remains after coherence has found a specific face among the many possible. Stabilisation precedes *vectorisation* (*F → E*), which is the next step toward contextualised expression.
+
+*Appears in Chapter 4.*
+
 ## Transformer (architecture)
 
 Neural network architecture introduced in 2017 by the paper *Attention Is All You Need* by Vaswani and other Google researchers. It is the technical basis of the modern large language models (GPT, Claude, Gemini, and others). Its principal innovation — the *attention* mechanism — allows the model to weigh the relevance of each token with respect to all the others, in parallel, without having to process the sequence in order. The book names it in the thought experiment of the programmer (Chapter 2) as an example of a non-self-organised structure: the billions of parameters of a transformer are the product of design and training decisions, not of spontaneous emergence.
@@ -149,6 +173,12 @@ Central concept of Aristotle's *Metaphysics* (book XII): since everything that m
 In quantum mechanics, the *wave function* is the complete mathematical description of the state of a physical system. Its most striking property is that it allows superposition: before a measurement, the system can be described as a weighted sum of distinct states, each with its own coefficient. The *bra-ket notation*, introduced by Paul Dirac in the 1930s, writes a state as a "ket" — the half closed on the right: |ψ⟩, |1⟩, |2⟩ — and the corresponding "bra" as ⟨ψ|. The notation is now standard throughout quantum physics. The book uses it in Chapter 3 to show that collapse is not a metaphor: in physics it is formalised exactly as the transition |ψ⟩ → |i⟩.
 
 *Appears in Chapter 3.*
+
+## Wordsworth, William (1770–1850) — *Tintern Abbey*
+
+English poet, central figure of English Romanticism. *Lines Composed a Few Miles above Tintern Abbey* (1798), commonly known as *Tintern Abbey*, is one of the great meditative poems of the English language: a return to a remembered landscape, the recognition of how perception and self have changed, the stabilisation of a longing that the poem makes legible. The book cites it in Chapter 4 (in the EN edition) as a paradigmatic example of stabilisation — a coherent content (the longing of the threshold, the reconciliation with what was once seen) given a specific recognisable form. The IT edition uses Leopardi's *L'infinito* in the same role.
+
+*Appears in Chapter 4.*
 
 ## Zermelo–Fraenkel and the Axiom of Choice (ZFC)
 
