@@ -42,17 +42,35 @@ Austrian biologist, founder of *General Systems Theory* (formalised in 1968 in *
 
 *Appears in Chapter 1.*
 
+## Bidirectional arrow (⟷)
+
+Mathematical symbol indicating a *transformation that operates in both directions* between two objects. It is distinct from the simple arrow → (which indicates a single direction of transformation) and from the logical biconditional ⟺ (which is a connective between statements, not between objects). The double arrow ⟷ says "there is a movement from A to B and a movement from B to A, and the two together constitute the relation". The book introduces it in Chapter 6 in the formula *K_σ : C ⟷ D*, where it expresses that consciousness is a movement of going-and-returning between the coherent and decoherent poles, not a one-way transfer.
+
+*Appears in Chapter 6.*
+
 ## Cartesian product
 
 A mathematical operation that, given two (or more) sets, builds the set of all ordered pairs (or triples, or n-tuples) formed by taking one element from each. It is written with the symbol ×: given sets A and B, the set A × B contains all pairs (a, b) with a in A and b in B. The name comes from Descartes, who used this idea to found analytic geometry — points in the plane as ordered pairs of real numbers. The book cites it in Chapter 3 in the formula *Φ : C × I × K → D*, to indicate that the expression function takes as input one choice from each of the three spaces (coherence, identity, knowledge-operator) taken together.
 
 *Appears in Chapter 3.*
 
+## Category theory (mathematics)
+
+Branch of twentieth-century mathematics, formalised by Samuel Eilenberg and Saunders Mac Lane in the 1940s, that studies abstract objects and the *arrows* (morphisms) connecting them. A *category* is a collection of objects, each with its own identity, and of arrows between them that compose associatively. Its origins are in algebra and topology, but it has found applications in theoretical computer science, logic, mathematical physics, and — more recently — formal linguistics. The book mentions it in Chapter 6 because the notation *function : domain → codomain* — used in the formulas for K↓ and K↑ — is one of the contributions to expressive clarity that category theory has brought to modern mathematical thought: in five characters one says what an object is, where it starts, and where it arrives.
+
+*Appears in Chapter 6.*
+
 ## Cézanne, Paul (1839–1906)
 
 French painter, central figure in the passage from Impressionism to the avant-gardes of the twentieth century. His obsession with Mont Sainte-Victoire — the Provençal mountain he painted in more than sixty versions over the last thirty years of his life — is one of the most transparent examples in art history of a coherent content yielding multiple decoherent stabilisations. None of the versions "exhausts" the mountain, and all are faithful to the same visual coherence internal to Cézanne. The book cites him in Chapter 4 as an operative example of the distinction among content, form, and stabilisation.
 
 *Appears in Chapter 4.*
+
+## Consciousness: phenomenological and structural
+
+A distinction the framework introduces in Chapter 6 to clarify its own working terrain. *Phenomenological consciousness* is subjective experience — the "feeling" that accompanies every mental state, the private quality of "what it is like to be" a certain system. It is what Thomas Nagel discusses in connection with the bat, and what philosophy of mind also calls *qualia*. The Ordinative Sciences do not deny phenomenological consciousness; they simply do not treat it in this chapter, because — in its present state — it is not accessible to structural verification. *Structural consciousness*, by contrast, is the faculty that operates the bidirectional arc between the coherent and decoherent levels of a system (fifth axiom). It is poorer in appearance but more operative in fact: it lends itself to verification, comparison, measurement. The framework works on the second sense, leaving the first to disciplines that have, or will have, adequate instruments.
+
+*Appears in Chapter 6.*
 
 ## Decoherence (in quantum physics)
 
@@ -84,11 +102,23 @@ Technical term from computational cognitive science and machine learning. An *em
 
 *Appears in Chapter 3.*
 
+## Epigenetic inheritance
+
+Form of genetic transmission discovered in the second half of the twentieth century, in which certain acquired traits — not written in the DNA code but in modifications of *how* DNA is read (methylations, histone modifications, and so on) — can be passed to the next generation. It is the mechanism through which, for instance, the response to a stress experienced by a parent (famine, toxic exposure, trauma) can influence the gene expression of the offspring without modifying the DNA sequence. The book cites it in Chapter 6 as an example of universal *time-binding*: even plants, even animals transmit through time not only the genetic code but also modifications of its reading — a K↑ operating between one generation and the next.
+
+*Appears in Chapter 6.*
+
 ## Euclid and the five postulates
 
 Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postulates — five propositions assumed true without demonstration, on which everything else rests. The first four are quickly stated and intuitive (any two points are joined by a single straight line, and so on); the fifth — the so-called *parallel postulate* — is more elaborate and tormented geometers for two thousand years. In the nineteenth century, removing or modifying the fifth postulate (Lobachevsky, Bolyai, Riemann) led to *non-Euclidean geometries*, valid and consistent, describing spherical, hyperbolic, and other surfaces. The book cites this episode as the paradigm of how the choice of axioms — invisible for centuries — is an act of decision, not of nature.
 
 *Appears in Chapter 1.*
+
+## Function composition (∘)
+
+Fundamental operation in mathematics: given two functions *f : A → B* and *g : B → C*, their composition *g ∘ f* is the function that, starting from an element of A, applies *f* first (yielding an element of B) and then *g* (yielding an element of C). It reads "g after f". The symbol ∘ is one of the most powerful in mathematics because it transforms the *concatenation in time of operations* into a single static manipulable object: the phrase "first do this, then do that" becomes an entity that can be studied, compared, evaluated. The book introduces it in Chapter 6 in the formula *coh(K) ⟺ K↑ ∘ K↓ ≅ id_C*, which declares the coherence of consciousness as the composition of its expressive movement followed by its perceptive movement.
+
+*Appears in Chapter 6.*
 
 ## Hayek, Friedrich von (1899–1992)
 
@@ -96,11 +126,23 @@ Austrian economist and political philosopher, Nobel laureate in economics (1974)
 
 *Appears in Chapter 2.*
 
+## Horizontal gene transfer
+
+Biological mechanism, particularly important in bacteria, in which an organism acquires fragments of genetic code from another organism, even of a different species, *not* through reproduction (the "vertical" transmission from parent to offspring) but through processes such as conjugation (direct cell contact), transformation (uptake of DNA from the environment), or transduction (mediated by viruses). It is one of the principal mechanisms of bacterial evolution and one of the causes of antibiotic resistance. The book cites it in Chapter 6 as evidence that *time-binding* — structured transmission across generations — is neither species-specific nor symbolic-specific: bacteria do it, in chemical form, with exactly the same ordinative structure as our symbolic language (perception, integration, transmission).
+
+*Appears in Chapter 6.*
+
 ## Hylomorphism (Aristotle)
 
 Aristotelian doctrine, expounded in the *Metaphysics* and the *Physics*, according to which every material substance is an inseparable composite of *matter* (ὕλη, *hylē*) and *form* (μορφή, *morphē*). There is no matter without form — it would be pure indeterminate potency, not a real being — nor form without matter: the form of a horse, separated from the concrete horse, would be an abstraction, not a horse. The book cites hylomorphism in Chapter 4 as one of the historical traditions that held form and content together without subordinating one to the other — a *companion on the road* of the Ordinative Sciences on the crucial point of the structural inseparability of the two aspects.
 
 *Appears in Chapter 4.*
+
+## Korzybski, Alfred (1879–1950)
+
+Polish-American, an engineer by training and then creator of *General Semantics*, a system of thought principally set out in *Science and Sanity* (1933). His best-known proposal distinguishes three forms of "binding" — of being bound to the real — by species: *chemical-binding* (plants: they transform energy, bound to chemistry), *space-binding* (animals: they move, explore, bound to space), *time-binding* (humans: they transmit culture across generations, bound to time). Korzybski considered time-binding the distinguishing faculty of the human species and attributed to it the capacity for cultural accumulation and historical evolution. The book cites him in Chapter 6 as an *honoured companion on the road, to be extended*: he correctly saw a real structural faculty, but unduly restricted it to the human species. The framework's generalisation — time-binding as K↑ operating across time, present in every coherent system that persists beyond the individual — honours Korzybski's seeing by extending its gaze.
+
+*Appears in Chapter 6.*
 
 ## Leibniz, Gottfried Wilhelm (1646–1716)
 
@@ -120,6 +162,12 @@ Four equations formulated by James Clerk Maxwell (1831–1879) that synthesise t
 
 *Appears in Chapter 1.*
 
+## Nagel, Thomas (1937–) — *What Is It Like to Be a Bat?*
+
+American philosopher of mind, whose 1974 essay *What Is It Like to Be a Bat?* is one of the most cited texts in twentieth-century philosophy of mind. The thesis: even if we knew the bat's physiology, sensory capacities, and behaviour perfectly, we would still lack one fundamental datum — *what it feels like* to be a bat, what is the subjective quality of its perceiving the echo of its sonar. That datum — the "what it is like to be" a certain system from the inside — is what Nagel calls *phenomenological consciousness*, and what philosophy of mind in general calls *qualia*. The book cites Nagel in Chapter 6 to establish the distinction between phenomenological consciousness (which the framework does not treat) and structural consciousness (the framework's working terrain).
+
+*Appears in Chapter 6.*
+
 ## One, the (Plotinus)
 
 Central concept of Plotinus' *Enneads* (3rd century AD): the first source from which the entire order of the world proceeds by *emanation*, in a series of successive degrees (Intellect, Soul, the sensible world). The One is not an entity among others: it is what precedes all distinction, all numbering, all category. Plotinus holds that of the One only what it is *not* can be said — not because it is empty, but because it precedes any determination. The book cites it as one of the historical versions of the non-derived origin, and in particular because Plotinus, more than Aristotle, emphasises that the source *is not describable within the categories of what it generates*.
@@ -138,6 +186,12 @@ A mechanism, formalised by Albert-László Barabási and Réka Albert in the lat
 
 *Appears in Chapter 1.*
 
+## Qualia
+
+Technical term in philosophy of mind, introduced by C. I. Lewis in 1929 and become central after Nagel and Frank Jackson. It denotes the *subjective* properties of conscious experience: the *redness* of red, the *painfulness* of pain, the taste of the coffee being drunk now. Qualia are the intrinsic qualities of experience from the point of view of the one living it, and they are at the heart of the so-called *hard problem of consciousness* — the question of how and why matter organised in a certain way gives rise to subjective experience. The book mentions them in Chapter 6 as components of phenomenological consciousness, declaring explicitly that the framework does not deal with them: it does not deny them, but works on a different level.
+
+*Appears in Chapter 6.*
+
 ## Quantifier (∀ and ∃)
 
 Logical symbols introduced formally by Frege and Peirce at the end of the nineteenth century, today standard in mathematical logic and theoretical computer science. The *universal quantifier* ∀ (an upside-down *A*) reads "for every" and indicates that a property holds for all elements of a set. The *existential quantifier* ∃ (a backwards *E*) reads "there exists" and indicates that at least one element of the set has a certain property. The strength of quantifiers is the possibility of expressing, in a few lines, universal or existential claims that in ordinary language would require many words. The book introduces them in Chapter 4 in the formula *∀ f ∈ D, ∃ c ∈ C : f = Φ(c, i, k)*, using them as an example of the compression function that mathematics exerts on prose.
@@ -149,6 +203,12 @@ Logical symbols introduced formally by Frege and Peirce at the end of the ninete
 A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an element of the list to be sorted (the *pivot*), separate the other elements into two groups — those smaller and those greater than the pivot — and recurse on each of the two groups. It is one of the most studied and most used algorithms in practice: its average time is proportional to *n* log *n*, where *n* is the length of the list. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: the algorithm as an abstract procedure is the coherence, each execution on a specific list is a decoherence.
 
 *Appears in Chapter 3.*
+
+## RLHF (Reinforcement Learning from Human Feedback)
+
+Training technique for language models, formalised in particular from 2017 onward and become standard in contemporary conversational models. In RLHF, after the initial training of the model on large textual corpora, human evaluators judge the model's responses according to qualitative criteria (helpfulness, truthfulness, safety, adherence to instructions), and their judgments are used to update the model's parameters through a reinforcement learning algorithm. It is the principal mechanism through which a "modern" language model behaves in alignment with human preferences. The book cites it in Chapter 6 as one of the few processes through which an AI receives effective K↑ — but outside the conversation, in subsequent training cycles, not in real time.
+
+*Appears in Chapter 6.*
 
 ## Saussure, Ferdinand de (1857–1913)
 
@@ -173,6 +233,12 @@ Dutch philosopher of Iberian-Jewish origin, author of the *Ethics, Demonstrated 
 Technical term of the Ordinative Sciences. In the formulation of Chapter 4, stabilisation is the transition *C → F*: the passage from a coherent content to a recognisable form, fixing a potentiality in a specific configuration. It is structurally equivalent to *collapse* in Chapter 3 — every collapse is a stabilisation, every stabilisation is a collapse seen from the result side — but emphasises the aspect of *fixation*: form is what remains after coherence has found a specific face among the many possible. Stabilisation precedes *vectorisation* (*F → E*), which is the next step toward contextualised expression.
 
 *Appears in Chapter 4.*
+
+## Time-binding
+
+Term coined by Alfred Korzybski in the 1920s to denote the faculty of transmitting accumulated experience from one generation to the next. Korzybski attributed it to the human species through symbolic language and culture, but the framework rereads it as *the temporal form of the K↑ movement* — perception that integrates operates across time, and when it operates across the generations of a system that persists beyond the individual, it produces structured transmission. In this rereading, time-binding is universal: bacteria do it (horizontal gene transfer and replication), viruses do it (mutation preserved in the host), plants do it (epigenetic inheritance), animals do it (behavioural transmission), humans do it (symbolic culture). The form changes; the structural function is the same.
+
+*Appears in Chapter 6.*
 
 ## Transformer (architecture)
 
