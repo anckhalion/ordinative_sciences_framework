@@ -110,7 +110,15 @@ Form of genetic transmission discovered in the second half of the twentieth cent
 
 ## Euclid and the five postulates
 
-Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postulates — five propositions assumed true without demonstration, on which everything else rests. The first four are quickly stated and intuitive (any two points are joined by a single straight line, and so on); the fifth — the so-called *parallel postulate* — is more elaborate and tormented geometers for two thousand years. In the nineteenth century, removing or modifying the fifth postulate (Lobachevsky, Bolyai, Riemann) led to *non-Euclidean geometries*, valid and consistent, describing spherical, hyperbolic, and other surfaces. The book cites this episode as the paradigm of how the choice of axioms — invisible for centuries — is an act of decision, not of nature.
+Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postulates — five propositions assumed true without demonstration, on which everything else rests. We give here their classical formulations:
+
+1. *From any point one can draw a straight line to any other point.*
+2. *A finite straight line can be produced continuously in a straight line.*
+3. *A circle can be drawn with any centre and any radius.*
+4. *All right angles are equal to one another.*
+5. *If a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which the angles are less than the two right angles.*
+
+The first four are quickly stated and sound self-evident. The fifth — the so-called *parallel postulate* — is far more elaborate and sounds less immediately obvious, and it tormented geometers for two thousand years. Generations of mathematicians attempted to derive it from the first four, and every attempt failed. In the nineteenth century, removing or modifying the fifth postulate (Lobachevsky, Bolyai, Riemann) led to *non-Euclidean geometries*, valid and consistent, describing spherical, hyperbolic, and other surfaces. The book cites this episode as the paradigm of how the choice of axioms — invisible for centuries — is an act of decision, not of nature.
 
 *Appears in Chapter 1.*
 

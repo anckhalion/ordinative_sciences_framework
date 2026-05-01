@@ -98,7 +98,15 @@ Termine tecnico delle scienze cognitive computazionali e dell'apprendimento auto
 
 ## Euclide e i cinque postulati
 
-Euclide (IV–III secolo a.C.), nei suoi *Elementi*, fondò la geometria su cinque postulati — cinque proposizioni assunte come vere senza dimostrazione, su cui tutto il resto poggia. I primi quattro sono enunciati rapidamente e intuitivi (per due punti qualsiasi passa una sola retta, e così via); il quinto — il cosiddetto *postulato delle parallele* — è più elaborato e ha tormentato i geometri per duemila anni. Nell'Ottocento, togliere o modificare il quinto postulato (Lobacevskij, Bolyai, Riemann) ha portato alle *geometrie non-euclidee*, valide e coerenti, che descrivono superfici sferiche, iperboliche e altre. Il libro cita questo episodio come paradigma di come la scelta degli assiomi — invisibile per secoli — sia un atto di decisione, non di natura.
+Euclide (IV–III secolo a.C.), nei suoi *Elementi*, fondò la geometria su cinque postulati — cinque proposizioni assunte come vere senza dimostrazione, su cui tutto il resto poggia. Ne riportiamo qui gli enunciati nella loro formulazione classica:
+
+1. *Da ogni punto si può tracciare una linea retta a ogni altro punto.*
+2. *Una linea retta finita si può prolungare continuamente in linea retta.*
+3. *Si può tracciare un cerchio con qualunque centro e qualunque raggio.*
+4. *Tutti gli angoli retti sono uguali fra loro.*
+5. *Se una retta che incide su due rette forma, dalla stessa parte, due angoli interni la cui somma è minore di due angoli retti, le due rette, prolungate indefinitamente, si incontrano dalla parte in cui gli angoli sono minori di due angoli retti.*
+
+I primi quattro sono enunciati rapidamente e suonano evidenti. Il quinto — il cosiddetto *postulato delle parallele* — è molto più elaborato e suona meno autoevidente, e ha tormentato i geometri per duemila anni. Generazioni di matematici hanno tentato di dimostrarlo a partire dai primi quattro, e ogni tentativo è fallito. Nell'Ottocento, togliere o modificare il quinto postulato (Lobacevskij, Bolyai, Riemann) ha portato alle *geometrie non-euclidee*, valide e coerenti, che descrivono superfici sferiche, iperboliche e altre. Il libro cita questo episodio come paradigma di come la scelta degli assiomi — invisibile per secoli — sia un atto di decisione, non di natura.
 
 *Appare nel Capitolo 1.*
 
