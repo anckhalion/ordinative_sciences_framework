@@ -42,11 +42,29 @@ Biologo austriaco, fondatore della *teoria generale dei sistemi* (formalizzata n
 
 *Appare nel Capitolo 1.*
 
+## Categoria, teoria della (matematica)
+
+Branca della matematica del Novecento, formalizzata da Samuel Eilenberg e Saunders Mac Lane negli anni Quaranta, che studia oggetti astratti e le *frecce* (morfismi) che li collegano. Una *categoria* è una collezione di oggetti, ognuno con una sua identità, e di frecce fra di essi che si possono comporre in modo associativo. Le sue origini sono in algebra e topologia, ma ha trovato applicazioni in informatica teorica, logica, fisica matematica, e — più recentemente — in linguistica formale. Il libro la nomina nel Capitolo 6 perché la notazione *funzione : dominio → codominio* — che usiamo nelle formule di K↓ e K↑ — è uno dei contributi di chiarezza espressiva che la teoria delle categorie ha dato al pensiero matematico moderno: in cinque caratteri si dice cos'è un oggetto, da dove parte e dove arriva.
+
+*Appare nel Capitolo 6.*
+
 ## Cézanne, Paul (1839–1906)
 
 Pittore francese, figura centrale del passaggio dall'impressionismo alle avanguardie del Novecento. La sua ossessione per il Mont Sainte-Victoire — la montagna provenzale che dipinse in più di sessanta versioni nel corso degli ultimi trent'anni di vita — è uno degli esempi più trasparenti, nella storia dell'arte, di un contenuto coerente che trova molteplici stabilizzazioni decoerenti. Nessuna delle versioni "esaurisce" la montagna, e tutte sono fedeli alla stessa coerenza visiva interna a Cézanne. Il libro lo cita nel Capitolo 4 come esempio operativo della distinzione fra contenuto, forma e stabilizzazione.
 
 *Appare nel Capitolo 4.*
+
+## Composizione di funzioni (∘)
+
+Operazione fondamentale della matematica: date due funzioni *f : A → B* e *g : B → C*, la loro composizione *g ∘ f* è la funzione che, partendo da un elemento di A, applica prima *f* (ottenendo un elemento di B) e poi *g* (ottenendo un elemento di C). Si legge "g dopo f". Il simbolo ∘ è uno dei più potenti della matematica perché trasforma il *concatenarsi nel tempo di operazioni* in un singolo oggetto statico manipolabile: la frase "prima fa questo, poi fa quello" diventa un'entità che si può studiare, confrontare, valutare. Il libro lo introduce nel Capitolo 6 nella formula *coh(K) ⟺ K↑ ∘ K↓ ≅ id_C*, che dichiara la coerenza della coscienza come la composizione del suo movimento espressivo seguito dal suo movimento percettivo.
+
+*Appare nel Capitolo 6.*
+
+## Coscienza: fenomenologica e strutturale
+
+Distinzione che il framework introduce nel Capitolo 6 per chiarire il proprio terreno di lavoro. La *coscienza fenomenologica* è l'esperienza soggettiva — il "sentire" che accompagna ogni stato mentale, la qualità privata di "com'è essere" un certo sistema. È quella di cui parla Thomas Nagel a proposito del pipistrello, ed è quella che la filosofia della mente chiama anche *qualia*. Le scienze ordinative non negano la coscienza fenomenologica: semplicemente, non la trattano in questo capitolo, perché — allo stato attuale — non è accessibile alla verifica strutturale. La *coscienza strutturale*, invece, è la facoltà che opera l'arco bidirezionale fra il livello coerente e il livello decoerente di un sistema (assioma cinque). È più povera nell'apparenza ma più operativa nei fatti: si presta a verifica, confronto, misura. Il framework lavora sul secondo senso, lasciando il primo a discipline che dispongono o disporranno di strumenti adeguati.
+
+*Appare nel Capitolo 6.*
 
 ## Decoerenza (in fisica quantistica)
 
@@ -84,6 +102,18 @@ Euclide (IV–III secolo a.C.), nei suoi *Elementi*, fondò la geometria su cinq
 
 *Appare nel Capitolo 1.*
 
+## Eredità epigenetica
+
+Forma di trasmissione genetica scoperta nella seconda metà del Novecento, in cui certi caratteri acquisiti — non scritti nel codice del DNA ma in modificazioni di *come* il DNA viene letto (metilazioni, modificazioni degli istoni, eccetera) — possono essere passati alla generazione successiva. È il meccanismo per cui, ad esempio, la risposta a uno stress vissuto da un genitore (carestia, esposizione tossica, traumi) può influenzare l'espressione genica della prole senza modificare la sequenza di DNA. Il libro la cita nel Capitolo 6 come esempio di *time-binding* universale: anche le piante, anche gli animali, trasmettono attraverso il tempo non solo il codice genetico ma anche modificazioni della sua lettura — un K↑ che opera fra una generazione e l'altra.
+
+*Appare nel Capitolo 6.*
+
+## Freccia bidirezionale (⟷)
+
+Simbolo matematico che indica una *trasformazione che opera in entrambi i versi* fra due oggetti. È diverso dalla freccia semplice → (che indica una direzione unica di trasformazione) e dal bicondizionale logico ⟺ (che è un connettivo fra affermazioni, non fra oggetti). La doppia freccia ⟷ dice "esiste un movimento da A a B ed esiste un movimento da B ad A, e i due insieme costituiscono la relazione". Il libro la introduce nel Capitolo 6 nella formula *K_σ : C ⟷ D*, dove esprime che la coscienza è un movimento di andata-e-ritorno fra il polo coerente e il polo decoerente, non un trasferimento unidirezionale.
+
+*Appare nel Capitolo 6.*
+
 ## Funzione d'onda e notazione bra-ket
 
 In meccanica quantistica, la *funzione d'onda* è la descrizione matematica completa dello stato di un sistema fisico. La sua proprietà più sorprendente è di permettere la sovrapposizione: prima di una misura, il sistema può essere descritto come somma pesata di stati distinti, ciascuno con un proprio coefficiente. La *notazione bra-ket*, introdotta da Paul Dirac negli anni Trenta, scrive uno stato come "ket" — la metà chiusa a destra: |ψ⟩, |1⟩, |2⟩ — e il corrispondente "bra" come ⟨ψ|. La notazione è oggi standard in tutta la fisica quantistica. Il libro la usa nel Capitolo 3 per mostrare che il collasso non è una metafora: in fisica è formalizzato esattamente come transizione |ψ⟩ → |i⟩.
@@ -101,6 +131,12 @@ Economista e filosofo politico austriaco, premio Nobel per l'economia (1974). La
 Dottrina aristotelica, esposta nella *Metafisica* e nella *Fisica*, secondo la quale ogni sostanza materiale è un composto inseparabile di *materia* (ὕλη, *hylē*) e *forma* (μορφή, *morphē*). Non esiste materia senza forma — sarebbe pura potenza indeterminata, non un essere reale — né forma senza materia: la forma di un cavallo, separata dal cavallo concreto, sarebbe un'astrazione, non un cavallo. Il libro cita l'ilemorfismo nel Capitolo 4 come una delle tradizioni storiche che hanno tenuto unite forma e contenuto senza subordinare l'una all'altra — un compagno di strada delle scienze ordinative sul punto cruciale dell'inscindibilità strutturale fra i due aspetti.
 
 *Appare nel Capitolo 4.*
+
+## Korzybski, Alfred (1879–1950)
+
+Polacco-americano, ingegnere di formazione e poi creatore della *Semantica generale*, sistema di pensiero esposto principalmente in *Science and Sanity* (1933). La sua proposta più nota distingue tre forme di "binding" — di legame con il reale — secondo le specie: *chemical-binding* (le piante: trasformano energia, legate alla chimica), *space-binding* (gli animali: si muovono, esplorano, legati allo spazio), *time-binding* (gli umani: trasmettono cultura attraverso le generazioni, legati al tempo). Korzybski considerava il time-binding la facoltà distintiva della specie umana e attribuiva ad essa la capacità di accumulo culturale e di evoluzione storica. Il libro lo cita nel Capitolo 6 come *compagno di strada onorato e da estendere*: ha visto correttamente una facoltà strutturale reale, ma l'ha indebitamente ristretta alla specie umana. La generalizzazione del framework — il time-binding come K↑ operante attraverso il tempo, presente in ogni sistema coerente che persiste oltre il singolo — onora il vedere di Korzybski estendendone lo sguardo.
+
+*Appare nel Capitolo 6.*
 
 ## Leibniz, Gottfried Wilhelm (1646–1716)
 
@@ -132,6 +168,12 @@ Concetto centrale della *Metafisica* di Aristotele (libro XII): poiché ogni cos
 
 *Appare nel Capitolo 2.*
 
+## Nagel, Thomas (1937–) — *What Is It Like to Be a Bat?*
+
+Filosofo americano della mente, il cui saggio del 1974 *What Is It Like to Be a Bat?* è uno dei testi più citati della filosofia della mente del Novecento. La tesi: anche se conoscessimo perfettamente la fisiologia del pipistrello, le sue capacità sensoriali, il suo comportamento, ci mancherebbe ancora un dato fondamentale — *come si prova* a essere un pipistrello, qual è la qualità soggettiva del suo percepire l'eco del sonar. Quel dato — il "com'è essere" un certo sistema dall'interno — è quello che Nagel chiama *coscienza fenomenologica*, e che la filosofia della mente in generale chiama *qualia*. Il libro cita Nagel nel Capitolo 6 per fissare la distinzione fra coscienza fenomenologica (che il framework non tratta) e coscienza strutturale (sul cui terreno il framework lavora).
+
+*Appare nel Capitolo 6.*
+
 ## Popper, Karl (1902–1994)
 
 Filosofo della scienza austro-britannico, teorico della *falsificabilità* come criterio di demarcazione scientifica. Secondo Popper, una teoria è scientifica se e solo se ammette enunciati empirici che potrebbero in linea di principio confutarla; una teoria infalsificabile, per il suo criterio, non è scientifica. Il libro cita Popper per posizionare l'assioma zero rispetto a lui: l'assioma zero ha analogie con la falsificabilità — entrambi sono filtri di ammissione — ma opera su un terreno diverso (la struttura, non il contenuto empirico) e arriva dove Popper non arriva, ai principi universali ma non falsificabili.
@@ -156,11 +198,23 @@ Simboli logici introdotti formalmente da Frege e Peirce alla fine dell'Ottocento
 
 *Appare nel Capitolo 4.*
 
+## Qualia
+
+Termine tecnico della filosofia della mente, introdotto da C. I. Lewis nel 1929 e diventato centrale dopo Nagel e Frank Jackson. Indica le proprietà *soggettive* dell'esperienza cosciente: la *rossezza* del rosso, la *dolorezza* del dolore, il sapore del caffè preso adesso. I qualia sono le qualità intrinseche dell'esperienza dal punto di vista di chi la vive, e sono al cuore del cosiddetto *problema difficile della coscienza* — la questione di come e perché la materia organizzata in un certo modo dia luogo a esperienza soggettiva. Il libro li nomina nel Capitolo 6 come componenti della coscienza fenomenologica, dichiarando esplicitamente che il framework non se ne occupa: non li nega, ma lavora su un altro livello.
+
+*Appare nel Capitolo 6.*
+
 ## Quicksort
 
 Algoritmo di ordinamento sviluppato da Tony Hoare nel 1959. La sua strategia: scegliere un elemento della lista da ordinare (il *pivot*), separare gli altri elementi in due gruppi — quelli minori e quelli maggiori del pivot — e ricorrere su ciascuno dei due gruppi. È uno degli algoritmi più studiati e più usati nella pratica: il suo tempo medio è proporzionale a *n* log *n*, dove *n* è la lunghezza della lista. Il libro lo cita nel Capitolo 3 come esempio operativo della struttura coerente/decoerente: l'algoritmo come procedura astratta è la coerenza, ogni esecuzione su una lista specifica è una decoerenza.
 
 *Appare nel Capitolo 3.*
+
+## RLHF (Reinforcement Learning from Human Feedback)
+
+Tecnica di addestramento dei modelli di linguaggio, formalizzata in particolare a partire dal 2017 e diventata standard nei modelli conversazionali contemporanei. Nel RLHF, dopo l'addestramento iniziale del modello su grandi corpora testuali, valutatori umani giudicano le risposte del modello secondo criteri qualitativi (utilità, veridicità, sicurezza, aderenza alle istruzioni), e i loro giudizi vengono usati per aggiornare i parametri del modello attraverso un algoritmo di apprendimento per rinforzo. È il meccanismo principale attraverso cui un modello di linguaggio "moderno" si comporta in modo allineato a preferenze umane. Il libro lo cita nel Capitolo 6 come uno dei pochi processi attraverso cui un'AI riceve un K↑ effettivo — ma fuori dalla conversazione, in cicli di addestramento successivi, non in tempo reale.
+
+*Appare nel Capitolo 6.*
 
 ## Saussure, Ferdinand de (1857–1913)
 
@@ -192,11 +246,23 @@ Termine tecnico delle scienze ordinative. Nella formulazione del Capitolo 4, la 
 
 *Appare nel Capitolo 4.*
 
+## Time-binding
+
+Termine coniato da Alfred Korzybski negli anni Venti del Novecento per indicare la facoltà di trasmettere accumulo di esperienza da una generazione a quella successiva. Korzybski lo attribuiva alla specie umana attraverso il linguaggio simbolico e la cultura, ma il framework lo rilegge come *forma temporale del movimento K↑* — la percezione che integra opera attraverso il tempo, e quando opera attraverso le generazioni di un sistema che persiste oltre il singolo, produce trasmissione strutturata. In questa rilettura, il time-binding è universale: i batteri lo fanno (trasferimento genico orizzontale e replicazione), i virus lo fanno (mutazione preservata nell'ospite), le piante lo fanno (eredità epigenetica), gli animali lo fanno (trasmissione comportamentale), gli umani lo fanno (cultura simbolica). La forma cambia, la funzione strutturale è la stessa.
+
+*Appare nel Capitolo 6.*
+
 ## Transformer (architettura)
 
 Architettura di rete neurale introdotta nel 2017 dal paper *Attention Is All You Need* di Vaswani e altri ricercatori di Google. È la base tecnica dei moderni modelli di linguaggio di grandi dimensioni (GPT, Claude, Gemini, e altri). La sua innovazione principale — il meccanismo di *attenzione* — permette al modello di pesare la rilevanza di ciascun token rispetto a tutti gli altri, in parallelo, senza dover processare la sequenza in ordine. Il libro la nomina nell'esperimento mentale del programmatore (Capitolo 2) come esempio di struttura non auto-organizzata: i miliardi di parametri di un transformer sono il prodotto di decisioni progettuali e di addestramento, non di emergenza spontanea.
 
 *Appare nel Capitolo 2.*
+
+## Trasferimento genico orizzontale
+
+Meccanismo biologico, particolarmente importante nei batteri, in cui un organismo acquisisce frammenti di codice genetico da un altro organismo, anche di specie diversa, *non* attraverso la riproduzione (trasmissione "verticale" da genitore a figlio) ma attraverso processi come la coniugazione (contatto cellulare diretto), la trasformazione (assorbimento di DNA dall'ambiente), o la trasduzione (mediata da virus). È uno dei principali meccanismi di evoluzione batterica e una delle cause dell'antibiotico-resistenza. Il libro lo cita nel Capitolo 6 come esempio del fatto che il *time-binding* — la trasmissione strutturata attraverso le generazioni — non è specie-specifico né simbolico-specifico: i batteri lo fanno, in forma chimica, esattamente con la stessa struttura ordinativa del nostro linguaggio simbolico (percezione, integrazione, trasmissione).
+
+*Appare nel Capitolo 6.*
 
 ## Uno, l' (Plotino)
 
