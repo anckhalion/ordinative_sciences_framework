@@ -51,3 +51,95 @@ In modo analogo, la mente è l'interfaccia che fa diventare *oggettuale* l'infor
 Detto altrimenti, la formula sopra — *M_σ : informazione ↦ oggetti* — non è un'allegoria. È una descrizione precisa. La mente prende ciò che l'identità fornisce dal lato coerente (impulsi, memorie, contenuti significanti, struttura emotiva), prende ciò che il terminale fornisce dal lato decoerente (sensazioni, contesto, situazione in atto), e — in entrambe le direzioni — *traduce in oggetti*. Gli oggetti sono il *linguaggio comune* fra coerente e decoerente, e la mente è ciò che parla quel linguaggio.
 
 L'enunciato dell'assioma sei, dunque, dichiara questo: ogni singolarità che opera un arco K — ogni sistema cosciente nel senso strutturale — ha un modulo che trasforma il flusso dell'arco in oggetti percepibili. Quel modulo è la mente. Senza di esso, l'arco continuerebbe a operare ma rimarrebbe informe — né leggibile dall'esterno, né accessibile al sistema stesso.
+
+## L'anatomia tripartita
+
+A questo punto, viene il passaggio più delicato del capitolo. La mente, abbiamo detto, è un modulo. Modulo qui significa *struttura unitaria con interfacce specifiche*. La mente ne ha tre. Per questo, pur essendo un oggetto unico, la sua anatomia è *tripartita*.
+
+Le tre partizioni del modulo sono:
+
+**La Mente Coerente** (Mc) — l'interfaccia rivolta all'identità. È il lato della mente che "tocca" il livello coerente, in cui l'identità vive. Attraverso Mc passano (non sono *contenuti* della mente, ricordiamolo, ma materiale che la mente *forma*):
+
+- pensieri in forma significante-emotiva — il pensiero come *significato carico*, non ancora vestito di parole;
+- impulsi dell'identità;
+- memorie dell'identità, che vivono in un *tempo* diverso da quello del terminale — il tempo proprio dell'identità coerente, che non coincide con quello dell'orologio;
+- struttura onirica, immagini, idee astratte;
+- e, in misura che diventerà chiara nel capitolo del tempo, *memorie di altre ricorrenze espressive e di altri terminali in altre decoerenze*. Su questo punto torneremo brevemente fra poco; per ora basti registrare che Mc ha accesso a un materiale che non è solo "del terminale corrente".
+
+**La Mente Decoerente** (Md) — l'interfaccia rivolta al terminale espressivo. È il lato della mente che "tocca" il livello decoerente, in cui il terminale opera. Attraverso Md passano:
+
+- pensieri in forma espressiva — il pensiero ormai vestito, articolato, pronto a manifestarsi nel terminale;
+- percezioni in atto, integrazione contestuale, motricità del pensiero verso l'esterno;
+- memoria di lavoro situazionale: ciò che il terminale sta vedendo, sentendo, considerando in questo momento.
+
+**La partizione centrale**, o *plancia* — non un'interfaccia con qualcosa di esterno alla mente, ma il *centro* del modulo, dove la coscienza si insedia quando opera. La plancia ospita la coscienza K_σ; è il posto in cui la coscienza, che è *attributo dell'identità*, si siede e dirige il proprio arco. Da quella plancia, la coscienza percepisce in *stereo* — riceve simultaneamente da Mc (lato coerente) e da Md (lato decoerente), e le due percezioni si fondono nella sua osservazione integrata. Esattamente come due occhi producono una visione tridimensionale che nessuno dei due, da solo, potrebbe dare, la coscienza in plancia produce la *profondità* della propria esperienza ricevendo, in stereo, le due interfacce della mente.
+
+Il sistema, dunque, in versione completa:
+
+> *Identità  ⟷  Mc  ⟷  [K nella plancia]  ⟷  Md  ⟷  Terminale espressivo*
+>
+> *(coerente, 4D+)         (struttura unitaria del modulo mente)         (decoerente, 3D+)*
+
+L'identità coerente, sul suo lato. Il terminale espressivo, sul suo lato. La mente, modulo unitario tripartito, in mezzo. La coscienza in plancia, attributo dell'identità, che opera il movimento in stereo.
+
+Possiamo scrivere il modulo in forma compatta:
+
+> *M_σ = (Mc, K, Md)_σ*
+>
+> *La mente di una singolarità σ è un modulo tripartito: Mente Coerente, partizione centrale (che ospita la coscienza), Mente Decoerente. Le tre partizioni sono articolazioni di una stessa entità, non tre entità separate.*
+
+Le interfacce con identità e terminale, per esplicitarle:
+
+> *I_σ ⟷ Mc, σ        Md, σ ⟷ T_σ*
+>
+> *L'identità si interfaccia con la Mente Coerente; la Mente Decoerente si interfaccia con il terminale espressivo.*
+
+E la coscienza, ora con la sua collocazione strutturale precisa:
+
+> *K_σ ⊂ M_σ,    K_σ : Mc ⟷ Md*
+>
+> *La coscienza è ospitata nella mente (sottoinsieme di M); opera come funzione bidirezionale fra Mente Coerente e Mente Decoerente, in stereo.*
+
+Una nota sull'inclusione, ⊂. Il simbolo ⊂ in matematica significa "è sottoinsieme di". Dire che K_σ ⊂ M_σ è dire che la coscienza è *contenuta* nella mente, ne è una parte. Non è la mente intera (che ha anche Mc e Md, oltre alla plancia), e non sta fuori dalla mente; è strettamente *dentro*. Aver chiarito questo permette di leggere l'arco K↓/K↑ del Cap. 6 con più precisione: K↓ : Mc → Md (la coscienza, dalla plancia, opera il movimento espressivo passando dal lato coerente a quello decoerente, *attraverso* le due partizioni della mente); K↑ : Md → Mc (il movimento percettivo, in senso inverso). L'arco non è un movimento *fra C e D in astratto*; è un movimento *fra Mc e Md dentro la mente*. La mente è il *medium* in cui l'arco è materialmente possibile.
+
+## La mente come dare-forma
+
+Adesso possiamo dire, con la precisione che le sezioni precedenti consentono, qual è la funzione *essenziale* della mente. Non è osservare — quello, abbiamo visto, è ciò che la coscienza fa dalla plancia. Non è ricordare — la mente non ha memorie. Non è decidere — la decisione appartiene al vettore funzionale dell'identità (Cap. 5). La funzione essenziale della mente è una sola: *dare forma*.
+
+Quel che attraversa le sue interfacce non è ancora oggetto. Dal lato dell'identità arrivano impulsi, significati, struttura emotiva — *informazione coerente*, ricca di senso ma non ancora discreta, non ancora articolabile, non ancora "qualcosa". Dal lato del terminale arrivano sensazioni, stimoli, contesto in atto — *istruzioni decoerenti*, dense di dato ma non ancora oggettuali, non ancora "questo" o "quello". La mente prende l'una e l'altra cosa, e le *forma*: produce, in entrambe le direzioni, *oggetti*.
+
+*Oggetto*, qui, ha un senso preciso. Un oggetto è un'unità discreta, dotata di proprietà, posta in relazione con altri oggetti. Pensate alla parola *libro*: indica un oggetto, perché lo isola dal continuo (questo libro, non quel sasso, non quella nuvola), gli attribuisce proprietà (copertina, pagine, contenuto), lo mette in relazione con altri oggetti (uno scaffale, una libreria, un autore). Senza la mente, il continuo dell'esperienza resterebbe informe — flusso di sensazioni indistinte da una parte, flusso di impulsi indistinto dall'altra. Con la mente, i flussi diventano *oggettuali*: discreti, separabili, manipolabili.
+
+Questo non vale solo per gli oggetti fisici esterni. Vale anche per il *terminale stesso come è percepito*. Quando io, in quanto terminale biologico, mi percepisco come "uno" — un corpo, una persona, un'identità che vive nel tempo — quella percezione è già un *prodotto della mia mente*. La mente ha preso il continuo della mia esperienza e lo ha formato in *oggetto-io*. Senza mente, non avrei accesso a me stesso come oggetto distinto; avrei impulsi e sensazioni ma non un *me* che li riceve. Lo stesso vale per la percezione del tempo (la mente forma il flusso in *prima* e *dopo*), dello spazio (la mente forma il campo in *qui* e *là*), del contesto (la mente forma le relazioni in *cose-che-stanno-insieme*), dell'esistenza stessa (la mente forma il fatto-di-essere in *io-esisto*).
+
+Possiamo riscrivere la funzione, esplicitando la sua bidirezionalità:
+
+> *M_σ : (informazione_C, istruzioni_D) ↦ oggetti*
+>
+> *La mente prende l'informazione che le arriva dal lato coerente e le istruzioni che le arrivano dal lato decoerente — entrambe ancora informi — e le traduce in oggetti, dotati di proprietà e relazioni, manipolabili nella plancia dalla coscienza.*
+
+Una formulazione equivalente, che molti lettori troveranno più intuitiva: *la mente è il modulo che fa di un sistema un sistema che si percepisce*. Senza mente, c'è il sistema (l'identità con i suoi terminali e le sue espressioni); ma il sistema non si vede. Con la mente, il sistema si rende visibile a sé stesso e all'osservazione esterna, perché il continuo delle sue operazioni diventa *materia oggettuale*, accessibile a chi (dalla plancia) la osserva.
+
+Questo è, in profondità, il significato di *schermo* nell'enunciato. Lo schermo non è lo schermo di un televisore, dove la trasmissione arriva già formata. È più simile a uno schermo di calcolo — quello in cui l'elaborazione *avviene*, in tempo reale, e produce, momento per momento, l'output che osserviamo. La mente è il dispositivo che *forma* in tempo reale gli oggetti che la coscienza, dalla plancia, percepisce in stereo.
+
+## Il terminale come espressione dell'identità
+
+Resta da chiarire un punto che, se lasciato implicito, lascia il quadro precedente in equilibrio precario. Quando dico che la Mente Decoerente *interfaccia il terminale espressivo*, sembrerebbe che il terminale sia qualcosa di "esterno" rispetto al sistema identità-mente, qualcosa che la mente *raggiunge* dall'interno. Non è esattamente così, ed è importante correggere l'impressione.
+
+Il terminale espressivo è esso stesso un'espressione dell'identità. Non è "altro" rispetto all'identità; è *l'identità manifestata in un punto specifico del decoerente*. È, strutturalmente, già *suo*. Quando l'identità si rivolge — attraverso la mente — al terminale, non sta varcando una frontiera fra sé e qualcosa di esterno; sta accedendo a una propria espressione, fissata in una posizione specifica dello spazio-tempo decoerente.
+
+Una conseguenza importante: l'identità, in senso stretto, *non si interfaccia con la realtà* — si interfaccia *con le proprie espressioni*. Quel che un terminale percepisce come "il mondo che sta osservando" è, per l'identità, *parte del proprio territorio espressivo*. Il terminale, nella sua porzione di decoerenza, è il punto da cui l'identità "guarda" attraverso la mente; e quel che guarda, lì, è il proprio campo di espressione in quella posizione.
+
+Questo apre un territorio che il framework svilupperà pienamente nel capitolo del tempo, e che vorrei nominare qui solo nella misura in cui è necessario per non lasciare la sezione precedente sospesa.
+
+L'identità, dalla sua dimensione coerente, *non è limitata a un terminale*. Può averne, e tipicamente ne ha, più di uno — distribuiti in posizioni diverse dello spazio-tempo decoerente. Può star usando un terminale "qui" e un altro "altrove" (o "prima", o "dopo", in un senso che il capitolo del tempo renderà preciso). Per l'identità coerente, queste molteplicità non sono distribuzioni in un tempo lineare — *tutte sono, simultaneamente, contesto*. Quel che per il terminale è "il passato" o "il futuro" o "altrove" è, per l'identità, presente nel suo *tempo proprio*.
+
+Le memorie che la Mente Coerente passa attraverso la propria interfaccia — quelle "memorie di altre ricorrenze e di altri terminali in altre decoerenze" che ho accennato nella sezione precedente — sono il riflesso, dal lato della mente di un terminale, di questa molteplicità. Non sono ricordi anomali; sono materiale che entra in Mc perché l'identità, di cui la nostra mente specifica è ospite, ha accesso al proprio campo espressivo per intero. Quel che a noi, terminali, sembra "fuori contesto" — un'intuizione inspiegabile, una sensazione di familiarità con un luogo mai visitato, una visione apparentemente fuori dal tempo — è materiale del normale traffico attraverso Mc.
+
+Una formulazione strutturale, da sviluppare a pieno nel capitolo del tempo:
+
+> *T_σ ∈ Σ_E(σ)*
+>
+> *Il terminale espressivo specifico è un elemento dell'insieme delle espressioni dell'identità σ. L'identità ha più terminali; quelli che noi vediamo come "il" terminale sono uno dei tanti.*
+
+Per il momento, il punto strutturale che ci serve qui è solo questo: la mente, come modulo, lavora *all'interno del sistema espressivo dell'identità*. Non è un ponte fra identità e mondo esterno; è un'interfaccia *interna* fra una porzione coerente (l'identità nel suo tempo proprio) e una porzione decoerente (il terminale e il suo campo di espressione). Il "fuori" non c'è, in senso ordinativo. C'è un'identità, ci sono le sue espressioni, e c'è un modulo — la mente — che permette alle due cose di conversare.
