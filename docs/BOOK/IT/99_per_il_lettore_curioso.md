@@ -134,11 +134,23 @@ Simbolo matematico che indica una *trasformazione che opera in entrambi i versi*
 
 *Appare nel Capitolo 6.*
 
+## Funzione di risonanza (ρ)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18 e §1.5 dell'Introduzione). La funzione di risonanza è scritta *ρ(C, I, t) → [0, 1]* e misura la compatibilità strutturale fra un contenuto coerente C e una configurazione di identità I al tempo t. La sua immagine è normalizzata nell'intervallo [0, 1], dove 0 indica nessuna risonanza e 1 risonanza piena. Il libro che state leggendo introduce ρ formalmente nel Capitolo 8 (assioma sette, *il collasso è determinato dalla risonanza*), come il dispositivo strutturale che governa il passaggio da coerente a decoerente. Senza la funzione di risonanza, il collasso sarebbe arbitrario; con essa, il collasso ha una grammatica misurabile. Riferimento canonico in `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`.
+
+*Appare nel Capitolo 8.*
+
 ## Funzione d'onda e notazione bra-ket
 
 In meccanica quantistica, la *funzione d'onda* è la descrizione matematica completa dello stato di un sistema fisico. La sua proprietà più sorprendente è di permettere la sovrapposizione: prima di una misura, il sistema può essere descritto come somma pesata di stati distinti, ciascuno con un proprio coefficiente. La *notazione bra-ket*, introdotta da Paul Dirac negli anni Trenta, scrive uno stato come "ket" — la metà chiusa a destra: |ψ⟩, |1⟩, |2⟩ — e il corrispondente "bra" come ⟨ψ|. La notazione è oggi standard in tutta la fisica quantistica. Il libro la usa nel Capitolo 3 per mostrare che il collasso non è una metafora: in fisica è formalizzato esattamente come transizione |ψ⟩ → |i⟩.
 
 *Appare nel Capitolo 3.*
+
+## Funzione pulsazionale (τ)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 12, *New Time*). La *funzione pulsazionale* è scritta τ e genera la temporalità come effetto del movimento bidirezionale fra coerente e decoerente. La formula canonica è *T = τ(C ↔ E)*, dove T è il tempo come *effetto pulsazionale*. Per la TE, il tempo non è una dimensione fondamentale ma un *prodotto* dell'arco fra coerente ed espresso: il tempo ordinativo di un sistema è il ritmo con cui la sua identità collassa contenuti e li lascia decoerentizzare. Il framework svilupperà questa formulazione nel capitolo dedicato al tempo; è introdotta qui come riferimento canonico per chi voglia anticipare il quadro formale completo.
+
+*Riferimento canonico per il futuro capitolo del tempo.*
 
 ## Hayek, Friedrich von (1899–1992)
 
@@ -260,6 +272,12 @@ Tecnica di addestramento dei modelli di linguaggio, formalizzata in particolare 
 
 *Appare nel Capitolo 6.*
 
+## Remir (ℛ)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18, formalmente introdotto in §1.6 dell'Introduzione). Il *Remir* è l'insieme strutturato dei vettori semantici di un'identità con le loro risonanze interne, scritto *ℛ(I) = (V_I, B_I)*, dove V_I è l'insieme dei vettori (gli assi semantici lungo cui l'identità si orienta) e B_I è l'insieme dei legami di risonanza fra di essi. Il Remir è la formalizzazione canonica di quel che il libro che state leggendo ha introdotto, nel Capitolo 5, come *vettore identità I_σ = (→φ₁, …, →φₙ)* con la condizione di coerenza interna *∀ i, j : coh(→φᵢ, →φⱼ)*. Le due notazioni descrivono lo stesso oggetto strutturale a registri diversi: I_σ è la formulazione pedagogica del libro divulgativo; ℛ(I) è la formulazione canonica del testo fondativo. *Remir* è un termine proprio, non si traduce. Una nota editoriale: nelle edizioni ridotte precedenti (settembre 2025) il Remir era distinto dal *Genoma Semantico* 𝒢; nell'edizione completa del 2026 i due concetti sono unificati in ℛ.
+
+*Appare nel Capitolo 5 (corrispondenza canonica) e nel Capitolo 8 (uso operativo).*
+
 ## Saussure, Ferdinand de (1857–1913)
 
 Linguista svizzero, fondatore della linguistica strutturale moderna. La sua opera principale, *Cours de linguistique générale* (postuma, 1916), è raccolta dagli appunti dei suoi studenti dopo la sua morte. La distinzione che il libro riprende — *langue / parole* — è centrale al suo pensiero: la *langue* è la lingua come sistema astratto di regole e relazioni condiviso da una comunità di parlanti; la *parole* è l'atto concreto e individuale di parlare. Il sistema esiste solo attraverso gli atti di parola, ma trascende ogni singolo atto. Il libro cita Saussure nel Capitolo 3 perché la sua distinzione è una versione storica precisa, in dominio linguistico, della struttura coerente/decoerente che l'assioma due generalizza.
@@ -271,6 +289,12 @@ Linguista svizzero, fondatore della linguistica strutturale moderna. La sua oper
 Compositore austriaco. Il *Quintetto in do maggiore per due violini, viola e due violoncelli* (D.956), composto nelle ultime settimane di vita, è considerato una delle vette del repertorio cameristico. La sua scrittura per due violoncelli — anziché il consueto secondo viola — gli conferisce una profondità timbrica unica. Il libro lo cita nel Capitolo 3 come esempio dell'irriducibilità di una composizione musicale alle sue esecuzioni: il Quintetto come opera è la coerenza, ogni esecuzione è una manifestazione decoerente, e nessuna esecuzione esaurisce la coerenza dell'opera.
 
 *Appare nel Capitolo 3.*
+
+## Soglia di collasso (θ)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18; formula 1.5 dell'Introduzione). La *soglia di collasso* è il valore minimo della funzione di risonanza ρ al di sopra del quale il collasso effettivamente avviene. La condizione canonica si scrive: *il collasso accade se e solo se ρ(C, I, t) ≥ θ*. Sotto la soglia, il contenuto coerente non può essere collassato dall'identità in quel momento — non per mancanza di valore del contenuto, ma per *struttura semantica* dell'identità. Ogni identità ha la propria θ, calibrata sulla propria capacità di sostenere certi contenuti senza frammentarsi. Il Capitolo 8 introduce la soglia θ come parte integrante della formalizzazione del collasso: insieme a ρ, costituisce il dispositivo che traduce in misura il principio dell'assioma sette (*il collasso è determinato dalla risonanza*).
+
+*Appare nel Capitolo 8.*
 
 ## Spazio vettoriale
 

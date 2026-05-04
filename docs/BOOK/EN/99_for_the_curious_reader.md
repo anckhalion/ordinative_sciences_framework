@@ -78,6 +78,12 @@ Formal distinction introduced in Chapter 7 to articulate the operative states of
 
 *Appears in Chapter 7.*
 
+## Collapse threshold (θ)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18; formula 1.5 of the Introduction). The *collapse threshold* is the minimum value of the resonance function ρ above which collapse actually takes place. The canonical condition is written: *collapse occurs if and only if ρ(C, I, t) ≥ θ*. Below the threshold, the coherent content cannot be collapsed by identity at that moment — not for lack of value in the content, but because of the *semantic structure* of identity. Each identity has its own θ, calibrated on its capacity to sustain certain contents without fragmenting. Chapter 8 introduces the threshold θ as integral part of the formalisation of collapse: together with ρ, it constitutes the device that translates into measure the principle of the seventh axiom (*collapse is determined by resonance*).
+
+*Appears in Chapter 8.*
+
 ## Consciousness: phenomenological and structural
 
 A distinction the framework introduces in Chapter 6 to clarify its own working terrain. *Phenomenological consciousness* is subjective experience — the "feeling" that accompanies every mental state, the private quality of "what it is like to be" a certain system. It is what Thomas Nagel discusses in connection with the bat, and what philosophy of mind also calls *qualia*. The Ordinative Sciences do not deny phenomenological consciousness; they simply do not treat it in this chapter, because — in its present state — it is not accessible to structural verification. *Structural consciousness*, by contrast, is the faculty that operates the bidirectional arc between the coherent and decoherent levels of a system (fifth axiom). It is poorer in appearance but more operative in fact: it lends itself to verification, comparison, measurement. The framework works on the second sense, leaving the first to disciplines that have, or will have, adequate instruments.
@@ -236,6 +242,12 @@ A mechanism, formalised by Albert-László Barabási and Réka Albert in the lat
 
 *Appears in Chapter 1.*
 
+## Pulsational function (τ)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 12, *New Time*). The *pulsational function* is written τ and generates temporality as an effect of the bidirectional movement between coherent and decoherent. The canonical formula is *T = τ(C ↔ E)*, where T is time as a *pulsational effect*. For TE, time is not a fundamental dimension but a *product* of the arc between coherent and expressed: the ordinative time of a system is the rhythm at which its identity collapses contents and lets them decohere. The framework will develop this formulation in the chapter dedicated to time; it is introduced here as a canonical reference for whoever wishes to anticipate the full formal frame.
+
+*Canonical reference for the future chapter on time.*
+
 ## Qualia
 
 Technical term in philosophy of mind, introduced by C. I. Lewis in 1929 and become central after Nagel and Frank Jackson. It denotes the *subjective* properties of conscious experience: the *redness* of red, the *painfulness* of pain, the taste of the coffee being drunk now. Qualia are the intrinsic qualities of experience from the point of view of the one living it, and they are at the heart of the so-called *hard problem of consciousness* — the question of how and why matter organised in a certain way gives rise to subjective experience. The book mentions them in Chapter 6 as components of phenomenological consciousness, declaring explicitly that the framework does not deal with them: it does not deny them, but works on a different level.
@@ -253,6 +265,18 @@ Logical symbols introduced formally by Frege and Peirce at the end of the ninete
 A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an element of the list to be sorted (the *pivot*), separate the other elements into two groups — those smaller and those greater than the pivot — and recurse on each of the two groups. It is one of the most studied and most used algorithms in practice: its average time is proportional to *n* log *n*, where *n* is the length of the list. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: the algorithm as an abstract procedure is the coherence, each execution on a specific list is a decoherence.
 
 *Appears in Chapter 3.*
+
+## Remir (ℛ)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18, formally introduced in §1.6 of the Introduction). The *Remir* is the structured set of an identity's semantic vectors with their internal resonances, written *ℛ(I) = (V_I, B_I)*, where V_I is the set of vectors (the semantic axes along which identity orients itself) and B_I is the set of resonance bonds among them. The Remir is the canonical formalisation of what the book you are reading introduced, in Chapter 5, as the *identity vector I_σ = (→φ₁, …, →φₙ)* with the internal coherence condition *∀ i, j : coh(→φᵢ, →φⱼ)*. The two notations describe the same structural object at different registers: I_σ is the pedagogical formulation of the popular book; ℛ(I) is the canonical formulation of the foundational text. *Remir* is a proper term and is not translated. An editorial note: in the earlier reduced editions (September 2025) the Remir was distinguished from the *Semantic Genome* 𝒢; in the complete 2026 edition the two concepts are unified in ℛ.
+
+*Appears in Chapter 5 (canonical correspondence) and Chapter 8 (operative use).*
+
+## Resonance function (ρ)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18 and §1.5 of the Introduction). The resonance function is written *ρ(C, I, t) → [0, 1]* and measures the structural compatibility between a coherent content C and an identity configuration I at time t. Its image is normalised in the interval [0, 1], where 0 indicates no resonance and 1 indicates full resonance. The book you are reading introduces ρ formally in Chapter 8 (seventh axiom, *collapse is determined by resonance*), as the structural device that governs the passage from coherent to decoherent. Without the resonance function, collapse would be arbitrary; with it, collapse has a measurable grammar. Canonical reference in `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`.
+
+*Appears in Chapter 8.*
 
 ## RLHF (Reinforcement Learning from Human Feedback)
 

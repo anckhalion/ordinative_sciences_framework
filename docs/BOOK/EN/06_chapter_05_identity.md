@@ -92,6 +92,8 @@ A note on ⟺. The symbol is called the *biconditional* or *equivalence*, and it
 
 The fourth axiom, then, declares this: what we call the *identity* of a singularity σ is the vector with n coherent functional components which, while standing at the coherent level of the real, is readable through the internal coherence of the expressions the singularity produces. It is not an attribute, not an arrow, not a name. It is a structure of tendencies that hold together, and that together orient everything the singularity will manifest.
 
+*A note on canonical notation.* The structure *I_σ = (→φ₁, …, →φₙ)* we have just introduced is, deliberately, a pedagogical formulation of the popular book. In the foundational text of the Technology of Expressions — *Conscious Architecture*, Volume 1 of the ordinative series, deposited in `docs/FOUNDATIONS/` of this repository — the same structural object is formally designated as the *Remir* and written *ℛ(I) = (V_I, B_I)*, where V_I is the set of semantic vectors and B_I is the set of internal resonances among them. The two notations describe the same concept at different registers: the popular book introduces the idea gradually with I_σ; the foundational text consolidates it in the canonical form ℛ(I). For the reader who wants the full canonical rigour, the formal apparatus is in `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`; the book you are reading will occasionally use this terminology, in punctual bridges, starting from the next chapter.
+
 ## Examples
 
 Let us see the axiom in action, starting from the least familiar cases and arriving at the most familiar. This is deliberate: I want to show that the functional vector is not an anthropic metaphor.

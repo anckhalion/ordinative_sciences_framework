@@ -92,6 +92,8 @@ Una nota su ⟺. Il simbolo si chiama *bicondizionale* o *equivalenza*, e si leg
 
 L'assioma quattro, dunque, dichiara questo: ciò che chiamiamo *identità* di una singolarità σ è il vettore con n componenti funzionali coerenti che, pur stando al livello coerente del reale, è leggibile attraverso la coerenza interna delle espressioni che la singolarità produce. Non è un attributo, non è una freccia, non è un nome. È una struttura di tendenze che si tengono insieme, e che insieme orientano tutto ciò che la singolarità manifesterà.
 
+*Una nota sulla notazione canonica.* La struttura *I_σ = (→φ₁, …, →φₙ)* che abbiamo appena introdotto è, deliberatamente, una formulazione pedagogica del libro divulgativo. Nel testo fondativo della Tecnologia delle Espressioni — *Architettura Cosciente*, Volume 1 della collana ordinativa, depositato in `docs/FOUNDATIONS/` di questo repository — lo stesso oggetto strutturale è formalmente designato come *Remir* e scritto *ℛ(I) = (V_I, B_I)*, dove V_I è l'insieme dei vettori semantici e B_I è l'insieme delle risonanze interne fra di essi. Le due notazioni descrivono lo stesso concetto a registri diversi: il libro divulgativo presenta gradualmente l'idea con I_σ; il testo fondativo la consolida nella forma canonica ℛ(I). Per chi vuole il rigore canonico completo, l'apparato formale è in `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`; il libro che state leggendo userà occasionalmente questa terminologia, per ponti puntuali, a partire dal prossimo capitolo.
+
 ## Esempi
 
 Vediamo l'assioma in azione, partendo dai casi meno familiari per arrivare al più familiare. È deliberato: voglio mostrare che il vettore funzionale non è una metafora antropica.
