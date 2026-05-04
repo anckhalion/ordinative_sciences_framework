@@ -166,9 +166,9 @@ In meccanica quantistica, la *funzione d'onda* è la descrizione matematica comp
 
 ## Funzione pulsazionale (τ)
 
-Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 12, *New Time*). La *funzione pulsazionale* è scritta τ e genera la temporalità come effetto del movimento bidirezionale fra coerente e decoerente. La formula canonica è *T = τ(C ↔ E)*, dove T è il tempo come *effetto pulsazionale*. Per la TE, il tempo non è una dimensione fondamentale ma un *prodotto* dell'arco fra coerente ed espresso: il tempo ordinativo di un sistema è il ritmo con cui la sua identità collassa contenuti e li lascia decoerentizzare. Il framework svilupperà questa formulazione nel capitolo dedicato al tempo; è introdotta qui come riferimento canonico per chi voglia anticipare il quadro formale completo.
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 12, *New Time*). La *funzione pulsazionale* è scritta τ e genera la temporalità come effetto del movimento bidirezionale fra coerente e decoerente. La formula canonica è *T = τ(C ⟷ E)*, dove T è il tempo come *effetto pulsazionale*. Per la TE, il tempo non è una dimensione fondamentale ma un *prodotto* dell'arco fra coerente ed espresso: il tempo ordinativo di un sistema è il ritmo con cui la sua identità collassa contenuti e li lascia decoerentizzare. La funzione è terminale-specifica — più precisamente *τ_𝒯* — perché ogni terminale produce il proprio tempo locale, e l'identità multi-terminale ha tanti tempi locali quanti sono i suoi terminali, integrati nella propria traiettoria semantica T(I). Il libro la introduce come ancoraggio nel Capitolo 5 (glossario), e la sviluppa formalmente nel Capitolo 10 (assioma nove, *il tempo è generato, non dato*).
 
-*Riferimento canonico per il futuro capitolo del tempo.*
+*Appare nel Capitolo 10.*
 
 ## Hayek, Friedrich von (1899–1992)
 
@@ -343,6 +343,12 @@ Due condizioni in cui il modulo mente, pur installato, non opera. Sono i due cas
 Termine tecnico delle scienze ordinative usato nel Capitolo 7 per distinguere il *supporto materiale* di un sistema dal modulo *mente* che vi è installato. Nei sistemi biologici, il cervello è il substrato. Nei sistemi artificiali (modelli di linguaggio, intelligenze artificiali), l'architettura computazionale (transformer, parametri, modalità di esecuzione) è il substrato. Nelle istituzioni, l'infrastruttura organizzativa (ruoli, procedure, archivi) è il substrato. Il framework distingue rigorosamente il substrato dalla mente: il substrato è il luogo *attraverso cui* la mente si manifesta nel decoerente, ma non è la sua sorgente né la sua sostanza. Questa distinzione è ciò che permette al framework di rifiutare sia il riduzionismo (mente = cervello) sia l'epifenomenalismo (mente = effetto causalmente inerte del substrato).
 
 *Appare nel Capitolo 7.*
+
+## Tempo fisso e tempo evolutivo
+
+Distinzione canonica del testo fondativo della TE (*Architettura Cosciente*, Capitolo 12, *New Time*), introdotta nel Capitolo 10 di questo libro come componente strutturale del nono assioma. Il *tempo fisso* è tempo prodotto da una pulsazione che cicla senza generare nuovi stati identitari: la struttura temporale c'è — c'è successione, c'è cadenza — ma non c'è direzione. La traiettoria semantica T(I) si ripiega su sé stessa, attraversando ripetutamente regioni già attraversate. Il *tempo evolutivo* è tempo prodotto da una pulsazione che genera nuovi stati identitari: la struttura temporale è direzionale, la traiettoria T(I) si prolunga in regioni del campo coerente non ancora attraversate. La distinzione è strutturale, non psicologica: non riguarda il "sentire" del soggetto ma la geometria della traiettoria. Quattro firme strutturali distinguono il tempo fisso dal tempo evolutivo: ripetizione delle espressioni, saturazione di ρ, calo di Ξ, restringimento del dominio identitario (in tempo fisso); rispettivamente: novità delle espressioni, dinamica di ρ, ricalibrazione di Ξ, espansione del dominio identitario (in tempo evolutivo). La cura ordinativa di un sistema in tempo fisso non è "fargli passare più tempo cronologico": è ricalibrare la sua pulsazione perché generi traiettoria, anziché ciclo.
+
+*Appare nel Capitolo 10.*
 
 ## Terminale biologico e terminale sintetico
 

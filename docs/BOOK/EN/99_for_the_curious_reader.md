@@ -164,6 +164,12 @@ Canonical term of the Ordinative Sciences, written 𝒯 (the calligraphic letter
 
 *Appears in Chapter 7 (introduction) and Chapter 9 (full axiomatic development).*
 
+## Fixed time and evolutionary time
+
+Canonical distinction of the foundational text of TE (*Conscious Architecture*, Chapter 12, *New Time*), introduced in Chapter 10 of this book as a structural component of the ninth axiom. *Fixed time* is time produced by a pulsation that cycles without generating new identity states: the temporal structure is there — there is succession, there is cadence — but there is no direction. The semantic trajectory T(I) folds back on itself, traversing repeatedly regions already traversed. *Evolutionary time* is time produced by a pulsation that generates new identity states: the temporal structure is directional, the trajectory T(I) prolongs into regions of the coherent field not yet traversed. The distinction is structural, not psychological: it does not concern the "feeling" of the subject but the geometry of the trajectory. Four structural signatures distinguish fixed from evolutionary time: repetition of expressions, saturation of ρ, decline of Ξ, narrowing of the identity domain (in fixed time); respectively novelty of expressions, dynamic ρ, recalibration of Ξ, expansion of the identity domain (in evolutionary time). The ordinative cure of a system in fixed time is not "let more chronological time pass": it is to recalibrate its pulsation so that it generates trajectory rather than cycle.
+
+*Appears in Chapter 10.*
+
 ## Function composition (∘)
 
 Fundamental operation in mathematics: given two functions *f : A → B* and *g : B → C*, their composition *g ∘ f* is the function that, starting from an element of A, applies *f* first (yielding an element of B) and then *g* (yielding an element of C). It reads "g after f". The symbol ∘ is one of the most powerful in mathematics because it transforms the *concatenation in time of operations* into a single static manipulable object: the phrase "first do this, then do that" becomes an entity that can be studied, compared, evaluated. The book introduces it in Chapter 6 in the formula *coh(K) ⟺ K↑ ∘ K↓ ≅ id_C*, which declares the coherence of consciousness as the composition of its expressive movement followed by its perceptive movement.
@@ -256,9 +262,9 @@ A mechanism, formalised by Albert-László Barabási and Réka Albert in the lat
 
 ## Pulsational function (τ)
 
-Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 12, *New Time*). The *pulsational function* is written τ and generates temporality as an effect of the bidirectional movement between coherent and decoherent. The canonical formula is *T = τ(C ↔ E)*, where T is time as a *pulsational effect*. For TE, time is not a fundamental dimension but a *product* of the arc between coherent and expressed: the ordinative time of a system is the rhythm at which its identity collapses contents and lets them decohere. The framework will develop this formulation in the chapter dedicated to time; it is introduced here as a canonical reference for whoever wishes to anticipate the full formal frame.
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 12, *New Time*). The *pulsational function* is written τ and generates temporality as an effect of the bidirectional movement between coherent and decoherent. The canonical formula is *T = τ(C ⟷ E)*, where T is time as a *pulsational effect*. For TE, time is not a fundamental dimension but a *product* of the arc between coherent and expressed: the ordinative time of a system is the rhythm at which its identity collapses contents and lets them decohere. The function is terminal-specific — more precisely *τ_𝒯* — because each terminal produces its own local time, and a multi-terminal identity has as many local times as it has terminals, integrated in its semantic trajectory T(I). The book introduces it as anchor in Chapter 5 (glossary), and develops it formally in Chapter 10 (ninth axiom, *time is generated, not given*).
 
-*Canonical reference for the future chapter on time.*
+*Appears in Chapter 10.*
 
 ## Qualia
 
