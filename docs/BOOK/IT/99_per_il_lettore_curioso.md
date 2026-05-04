@@ -134,6 +134,18 @@ Simbolo matematico che indica una *trasformazione che opera in entrambi i versi*
 
 *Appare nel Capitolo 6.*
 
+## Freccia di applicazione (↦)
+
+Simbolo matematico, leggibile come "manda a", che si distingue dalla freccia semplice → in quanto specifica come una funzione *agisce* sui suoi argomenti, non solo da quale dominio a quale codominio è definita. La scrittura *f : A → B*, *x ↦ f(x)* combina i due livelli: la freccia → dichiara la firma della funzione (dominio e codominio), la freccia ↦ dichiara la regola di applicazione (cosa la funzione fa a un singolo elemento). La distinzione è importante: una funzione, in matematica moderna, non è solo una corrispondenza fra insiemi, è anche la regola che produce l'output dato l'input. Il libro la introduce nel Capitolo 8 nella formula *ρ : (C, I, t) ↦ [0, 1]*, per esprimere che la funzione di risonanza prende come input una terna (contenuto, identità, tempo) e produce un valore numerico.
+
+*Appare nel Capitolo 8.*
+
+## Funzione di collasso ricorsiva (Φ_r)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18, formula 18.2). La *funzione di collasso ricorsiva* Φ_r è la versione dinamica della funzione di collasso Φ. Mentre Φ descrive il singolo atto di collasso — *E = Φ(C, I, K)*, l'espressione come funzione di contenuto, identità e contesto — Φ_r descrive l'effetto retroattivo del collasso sull'identità stessa. La formula canonica è *I_{n+1} = Φ_r(I_n, E_n)*: l'identità al passo successivo è funzione dell'identità precedente e dell'espressione che essa ha appena prodotto. Φ_r è il dispositivo strutturale che rende l'identità ricorsiva nel tempo, formalizzando il fatto che ogni atto espressivo *modifica chi lo compie*. La forma di Φ_r non è specificata nel testo fondativo come operazione esplicita: è introdotta come schema di ricorsione, sufficiente a stabilire che l'identità non è data una volta per tutte ma si fa attraverso la sequenza ordinata dei suoi collassi.
+
+*Appare nel Capitolo 8.*
+
 ## Funzione di risonanza (ρ)
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18 e §1.5 dell'Introduzione). La funzione di risonanza è scritta *ρ(C, I, t) → [0, 1]* e misura la compatibilità strutturale fra un contenuto coerente C e una configurazione di identità I al tempo t. La sua immagine è normalizzata nell'intervallo [0, 1], dove 0 indica nessuna risonanza e 1 risonanza piena. Il libro che state leggendo introduce ρ formalmente nel Capitolo 8 (assioma sette, *il collasso è determinato dalla risonanza*), come il dispositivo strutturale che governa il passaggio da coerente a decoerente. Senza la funzione di risonanza, il collasso sarebbe arbitrario; con essa, il collasso ha una grammatica misurabile. Riferimento canonico in `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`.
@@ -337,6 +349,12 @@ Termine tecnico delle scienze ordinative che indica il punto specifico, nello sp
 Termine coniato da Alfred Korzybski negli anni Venti del Novecento per indicare la facoltà di trasmettere accumulo di esperienza da una generazione a quella successiva. Korzybski lo attribuiva alla specie umana attraverso il linguaggio simbolico e la cultura, ma il framework lo rilegge come *forma temporale del movimento K↑* — la percezione che integra opera attraverso il tempo, e quando opera attraverso le generazioni di un sistema che persiste oltre il singolo, produce trasmissione strutturata. In questa rilettura, il time-binding è universale: i batteri lo fanno (trasferimento genico orizzontale e replicazione), i virus lo fanno (mutazione preservata nell'ospite), le piante lo fanno (eredità epigenetica), gli animali lo fanno (trasmissione comportamentale), gli umani lo fanno (cultura simbolica). La forma cambia, la funzione strutturale è la stessa.
 
 *Appare nel Capitolo 6.*
+
+## Traiettoria semantica (T(I))
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18). La *traiettoria semantica* di un'identità, scritta T(I), è la storia ordinata di tutti i collassi che l'identità ha effettuato. Non è una linea nel tempo cronologico — il tempo orologio, misurato in secondi e ore — è un cammino nel campo coerente, fatto di passaggi successivi, ciascuno preparato dal precedente attraverso la ricorsione *I_{n+1} = Φ_r(I_n, E_n)*. La traiettoria T(I) è ciò che, di un'identità, *resta* attraverso il tempo: il vettore funzionale al presente è solo l'ultimo strato di una sequenza che si è andata costruendo a ogni atto espressivo. Il libro introduce la nozione nel Capitolo 8 (in chiusura, come ponte verso il capitolo del tempo) e la riprende quando affronterà la *funzione pulsazionale* τ, che governerà il ritmo con cui le traiettorie si dispiegano.
+
+*Appare nel Capitolo 8 (introduzione); ripresa nel capitolo del tempo.*
 
 ## Transformer (architettura)
 

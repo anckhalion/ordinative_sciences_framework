@@ -206,6 +206,12 @@ Training technique for language models, formalised in particular from 2021, that
 
 *Appears in Chapter 7.*
 
+## Mapsto arrow (↦)
+
+Mathematical symbol, read "maps to", which is to be distinguished from the simple arrow → in that it specifies how a function *acts* on its arguments, not only the domain and codomain it is defined on. The notation *f : A → B*, *x ↦ f(x)* combines the two levels: the arrow → declares the signature of the function (domain and codomain), the arrow ↦ declares the application rule (what the function does to a single element). The distinction matters: in modern mathematics, a function is not only a correspondence between sets; it is also the rule that produces the output given the input. The book introduces it in Chapter 8 in the formula *ρ : (C, I, t) ↦ [0, 1]*, to express that the resonance function takes as input a triple (content, identity, time) and produces a numerical value.
+
+*Appears in Chapter 8.*
+
 ## Maxwell's equations
 
 Four equations formulated by James Clerk Maxwell (1831–1879) that synthesise the whole of classical electromagnetism. They describe how electric and magnetic fields are generated, propagate, and interact with charges and currents. They predict, among other things, the existence of electromagnetic waves and identify light as one of them. The book cites them not for their physical content but for the *ontology* they presuppose — "fields," "charges," "currents" — inherited from the millennial Western tradition of dividing the world into things-that-stand and things-that-flow. The example serves to show that even the most rigorous theories rest on metaphysical decisions made elsewhere.
@@ -266,6 +272,12 @@ A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an eleme
 
 *Appears in Chapter 3.*
 
+## Recursive collapse function (Φ_r)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18, formula 18.2). The *recursive collapse function* Φ_r is the dynamic version of the collapse function Φ. While Φ describes the single act of collapse — *E = Φ(C, I, K)*, expression as a function of content, identity, and context — Φ_r describes the retroactive effect of collapse on the identity itself. The canonical formula is *I_{n+1} = Φ_r(I_n, E_n)*: the identity at the next step is a function of the previous identity and of the expression it has just produced. Φ_r is the structural device that makes identity recursive in time, formalising the fact that every expressive act *modifies the one performing it*. The form of Φ_r is not specified in the foundational text as an explicit operation: it is introduced as a recursion schema, sufficient to establish that identity is not given once and for all but is made through the ordered sequence of its collapses.
+
+*Appears in Chapter 8.*
+
 ## Remir (ℛ)
 
 Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18, formally introduced in §1.6 of the Introduction). The *Remir* is the structured set of an identity's semantic vectors with their internal resonances, written *ℛ(I) = (V_I, B_I)*, where V_I is the set of vectors (the semantic axes along which identity orients itself) and B_I is the set of resonance bonds among them. The Remir is the canonical formalisation of what the book you are reading introduced, in Chapter 5, as the *identity vector I_σ = (→φ₁, …, →φₙ)* with the internal coherence condition *∀ i, j : coh(→φᵢ, →φⱼ)*. The two notations describe the same structural object at different registers: I_σ is the pedagogical formulation of the popular book; ℛ(I) is the canonical formulation of the foundational text. *Remir* is a proper term and is not translated. An editorial note: in the earlier reduced editions (September 2025) the Remir was distinguished from the *Semantic Genome* 𝒢; in the complete 2026 edition the two concepts are unified in ℛ.
@@ -295,6 +307,12 @@ Swiss linguist, founder of modern structural linguistics. His principal work, *C
 Austrian composer. The *String Quintet in C major for two violins, viola, and two cellos* (D.956), composed in the last weeks of his life, is regarded as one of the peaks of the chamber repertoire. Its scoring for two cellos — rather than the customary second viola — gives it a unique timbral depth. The book cites it in Chapter 3 as an example of the irreducibility of a musical composition to its performances: the Quintet as a work is the coherence, each performance is a decoherent manifestation, and no performance exhausts the coherence of the work.
 
 *Appears in Chapter 3.*
+
+## Semantic trajectory (T(I))
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18). The *semantic trajectory* of an identity, written T(I), is the ordered history of all the collapses the identity has performed. It is not a line in chronological time — clock time, measured in seconds and hours — it is a path through the coherent field, made of successive passages, each prepared by the previous one through the recursion *I_{n+1} = Φ_r(I_n, E_n)*. The trajectory T(I) is what *remains* of an identity through time: the present functional vector is only the latest layer of a sequence built up at every expressive act. The book introduces the notion in Chapter 8 (in closing, as a bridge towards the chapter on time) and resumes it when it addresses the *pulsational function* τ, which will govern the rhythm at which trajectories unfold.
+
+*Appears in Chapter 8 (introduction); resumed in the chapter on time.*
 
 ## Spinoza, Baruch (1632–1677) — *natura naturans, natura naturata*
 
