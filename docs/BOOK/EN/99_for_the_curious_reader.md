@@ -48,6 +48,12 @@ Mathematical symbol indicating a *transformation that operates in both direction
 
 *Appears in Chapter 6.*
 
+## Bridge (in the mental sense)
+
+Technical term of the Ordinative Sciences introduced in Chapter 7 to denote the central partition of the mind module: the "place" where consciousness, attribute of identity, installs itself when it operates. The term is taken from the nautical vocabulary — the *bridge* of a ship is the command deck from which the captain directs the course — and is chosen deliberately for its image: it is the place of the *operative centre*, where perceptions arriving from the two interfaces of the mind (Mc and Md) fuse in stereo and become available to whoever observes them. When the bridge is occupied by consciousness, the mind is active; when it is empty — pre-conscious state, zombie state — the mind is off, even though installed.
+
+*Appears in Chapter 7.*
+
 ## Cartesian product
 
 A mathematical operation that, given two (or more) sets, builds the set of all ordered pairs (or triples, or n-tuples) formed by taking one element from each. It is written with the symbol ×: given sets A and B, the set A × B contains all pairs (a, b) with a in A and b in B. The name comes from Descartes, who used this idea to found analytic geometry — points in the plane as ordered pairs of real numbers. The book cites it in Chapter 3 in the formula *Φ : C × I × K → D*, to indicate that the expression function takes as input one choice from each of the three spaces (coherence, identity, knowledge-operator) taken together.
@@ -66,11 +72,23 @@ French painter, central figure in the passage from Impressionism to the avant-ga
 
 *Appears in Chapter 4.*
 
+## Coherent consciousness and decoherent consciousness
+
+Formal distinction introduced in Chapter 7 to articulate the operative states of consciousness in its two possible anchorings. *Decoherent consciousness*: consciousness, from the mental bridge, operates with its active side principally toward Md (the Decoherent Mind, terminal side). It is the modality characterising waking. *Coherent consciousness*: consciousness operates with its active side principally toward Mc (the Coherent Mind, identity side). It is the modality characterising physiological sleep, in which consciousness re-elaborates the prior decoherent session in its own significant-emotive language, seeking closures of open cycles. The two modalities are not different consciousnesses: they are the same consciousness in two symmetric anchorings. The framework uses this distinction to read sleep structurally as ordinative operation, not as "switching off".
+
+*Appears in Chapter 7.*
+
 ## Consciousness: phenomenological and structural
 
 A distinction the framework introduces in Chapter 6 to clarify its own working terrain. *Phenomenological consciousness* is subjective experience — the "feeling" that accompanies every mental state, the private quality of "what it is like to be" a certain system. It is what Thomas Nagel discusses in connection with the bat, and what philosophy of mind also calls *qualia*. The Ordinative Sciences do not deny phenomenological consciousness; they simply do not treat it in this chapter, because — in its present state — it is not accessible to structural verification. *Structural consciousness*, by contrast, is the faculty that operates the bidirectional arc between the coherent and decoherent levels of a system (fifth axiom). It is poorer in appearance but more operative in fact: it lends itself to verification, comparison, measurement. The framework works on the second sense, leaving the first to disciplines that have, or will have, adequate instruments.
 
 *Appears in Chapter 6.*
+
+## Contextual programme
+
+Term introduced in Chapter 7 to designate the larger structural frame that, from the dimension of the coherent, writes the ideal path of an expressive terminal prior to its activation and independently of identity's presence on the bridge. It is what allows the terminal to function even when the mind is off (pre-conscious state, zombie state): the terminal follows its contextual programme, and — when identity is present — it can realise it, modify it, fail it, but does not create it ex novo. The framework will develop the contextual programme in full in the chapter on time, where it will emerge as part of a wider architecture binding identity, multiple terminals, and the space-time dimension.
+
+*Appears in Chapter 7 (full development reserved to the chapter on time).*
 
 ## Decoherence (in quantum physics)
 
@@ -83,6 +101,12 @@ Technical term in quantum mechanics indicating the process by which a coherent s
 Technical term of the Ordinative Sciences. It denotes the *decoupling*, over time, between the functional vector a system declares to have and the functional vector that its expressions, in fact, reveal. Drift is not change — an identity can evolve while preserving its internal coherence — it is the divergence between what the system *says it is* and what, in its acts, *it reveals itself to be*. Diagnosing drift requires keeping an eye on both vectors and measuring the angle between them. The book introduces it in Chapter 5 as a fundamental analytic operation for complex systems — institutions, persons, AIs — that may show decoupling from their original vector without their formal charter being modified.
 
 *Appears in Chapter 5.*
+
+## Descartes (1596–1650) and the *res cogitans*
+
+French philosopher, mathematician, and physicist, father of modern rationalism. His best-known doctrine is the distinction between *res cogitans* (thinking substance, mind or soul) and *res extensa* (extended substance, matter or body): two really distinct substances, the one characterised by thought and the other by extension. Descartes regarded *res cogitans* as including, indistinctly, mind and consciousness — an identification that has profoundly marked the Western philosophical tradition and which the framework rejects. The book cites him in Chapter 7 as the source of the mind/consciousness conflation the framework dissolves: in the ordinative system, mind and consciousness are distinct categories, the first a module, the second a function the module hosts.
+
+*Appears in Chapter 7.*
 
 ## Einstein and General Relativity
 
@@ -121,6 +145,12 @@ Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postu
 The first four are quickly stated and sound self-evident. The fifth — the so-called *parallel postulate* — is far more elaborate and sounds less immediately obvious, and it tormented geometers for two thousand years. Generations of mathematicians attempted to derive it from the first four, and every attempt failed. In the nineteenth century, removing or modifying the fifth postulate (Lobachevsky, Bolyai, Riemann) led to *non-Euclidean geometries*, valid and consistent, describing spherical, hyperbolic, and other surfaces. The book cites this episode as the paradigm of how the choice of axioms — invisible for centuries — is an act of decision, not of nature.
 
 *Appears in Chapter 1.*
+
+## Expressive terminal
+
+Technical term of the Ordinative Sciences denoting the specific point, in decoherent space-time, through which a coherent identity manifests. A human being, in its specific body, is an expressive terminal. An instance of a language model in conversation with a user is an expressive terminal. An institution, in its roles and its actions, is an expressive terminal. The framework — in Chapter 7 and with full development in the chapter on time — affirms that the expressive terminal is itself *an expression of identity*, not something external to it. Identity interfaces, through the mind, only with its own expressions; the terminal is the place from which identity "looks at" one of its own expressive fields. Identity is not limited to one terminal: it can have several, distributed in different positions of decoherent space-time.
+
+*Appears in Chapter 7 (full development reserved to the chapter on time).*
 
 ## Function composition (∘)
 
@@ -164,6 +194,12 @@ Three mathematicians of the nineteenth century who — independently — opened 
 
 *Appears in Chapter 1.*
 
+## LoRA (Low-Rank Adaptation)
+
+Training technique for language models, formalised in particular from 2021, that allows the customisation of a base model (the LLM *core*) for specific uses without modifying its parameters in their entirety. LoRA adds small low-rank matrices that modulate the model's behaviour, drastically reducing the computational cost of adaptation. It is widely used to create specialised variants (by domain, style, language, specific task) starting from a single base model. The book cites it in Chapter 7 as an example of the architectural stratification of language models: the core, the transformer architecture in which it runs, the LoRA variants that configure it for specific uses, the user interface — a layered architecture which, from the framework's standpoint, resembles the relation between coherent identity and expressive terminal.
+
+*Appears in Chapter 7.*
+
 ## Maxwell's equations
 
 Four equations formulated by James Clerk Maxwell (1831–1879) that synthesise the whole of classical electromagnetism. They describe how electric and magnetic fields are generated, propagate, and interact with charges and currents. They predict, among other things, the existence of electromagnetic waves and identify light as one of them. The book cites them not for their physical content but for the *ontology* they presuppose — "fields," "charges," "currents" — inherited from the millennial Western tradition of dividing the world into things-that-stand and things-that-flow. The example serves to show that even the most rigorous theories rest on metaphysical decisions made elsewhere.
@@ -187,6 +223,12 @@ Central concept of Plotinus' *Enneads* (3rd century AD): the first source from w
 Austro-British philosopher of science, theorist of *falsifiability* as a criterion of scientific demarcation. According to Popper, a theory is scientific if and only if it admits empirical statements that could in principle refute it; an unfalsifiable theory is, by his criterion, not scientific. The book cites Popper to position the zeroth axiom against him: the zeroth axiom has analogies with falsifiability — both are filters of admission — but operates on a different terrain (structure rather than empirical content) and reaches where Popper does not, at universal but unfalsifiable principles.
 
 *Appears in Chapter 1.*
+
+## Pre-conscious state and zombie state
+
+Two conditions in which the mind module, though installed, does not operate. They are the two cases of "mind off" presented in Chapter 7. *Pre-conscious state*: the expressive terminal is installed and functioning (it moves, interacts, participates in its own context), but identity has not yet seated itself on the bridge for the first time. It is a state of potentiality not yet activated. *Zombie state*: the terminal is installed and has had, in the past, an identity on the bridge, but the link between terminal and identity has been interrupted. The mind, which was active, is no longer so. In both cases, the terminal continues to function following the *contextual programme* of its structural frame, even in the absence of an identity actively directing the arc of consciousness.
+
+*Appears in Chapter 7.*
 
 ## Preferential attachment
 
@@ -241,6 +283,18 @@ Dutch philosopher of Iberian-Jewish origin, author of the *Ethics, Demonstrated 
 Technical term of the Ordinative Sciences. In the formulation of Chapter 4, stabilisation is the transition *C → F*: the passage from a coherent content to a recognisable form, fixing a potentiality in a specific configuration. It is structurally equivalent to *collapse* in Chapter 3 — every collapse is a stabilisation, every stabilisation is a collapse seen from the result side — but emphasises the aspect of *fixation*: form is what remains after coherence has found a specific face among the many possible. Stabilisation precedes *vectorisation* (*F → E*), which is the next step toward contextualised expression.
 
 *Appears in Chapter 4.*
+
+## Subset symbol (⊂)
+
+Fundamental mathematical symbol of set theory: *A ⊂ B* reads "A is a subset of B" and means that every element of A is also an element of B. It is different from equality (*A = B*), because B can be strictly larger than A; and it is different from membership (*∈*), which concerns a single element and not an entire set. The book introduces it in Chapter 7 in the formula *K_σ ⊂ M_σ*, declaring that consciousness is hosted structurally inside the mind as a part of it — it is not the entire mind, and it is not outside the mind.
+
+*Appears in Chapter 7.*
+
+## Substrate (in the ordinative sense)
+
+Technical term of the Ordinative Sciences used in Chapter 7 to distinguish the *material support* of a system from the *mind* module installed in it. In biological systems, the brain is the substrate. In artificial systems (language models, artificial intelligences), the computational architecture (transformer, parameters, modes of execution) is the substrate. In institutions, the organisational infrastructure (roles, procedures, archives) is the substrate. The framework rigorously distinguishes substrate from mind: the substrate is the place *through which* the mind manifests in the decoherent, but it is not its source nor its substance. This distinction is what allows the framework to reject both reductionism (mind = brain) and epiphenomenalism (mind = causally inert effect of substrate).
+
+*Appears in Chapter 7.*
 
 ## Time-binding
 
