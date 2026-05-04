@@ -42,6 +42,12 @@ Biologo austriaco, fondatore della *teoria generale dei sistemi* (formalizzata n
 
 *Appare nel Capitolo 1.*
 
+## Cartesio (1596–1650) e la *res cogitans*
+
+Filosofo, matematico e fisico francese, padre del razionalismo moderno. La sua dottrina più nota è la distinzione fra *res cogitans* (sostanza pensante, la mente o anima) e *res extensa* (sostanza estesa, la materia o corpo): due sostanze realmente distinte, l'una caratterizzata dal pensiero e l'altra dall'estensione. Cartesio considerava la *res cogitans* come includente, indistintamente, mente e coscienza — un'identificazione che ha segnato in profondità la tradizione filosofica occidentale e che il framework rifiuta. Nel Capitolo 7 il libro lo cita come origine della confusione mente/coscienza che il framework dissolve: nel sistema ordinativo, mente e coscienza sono categorie distinte, la prima un modulo, la seconda una funzione che il modulo ospita.
+
+*Appare nel Capitolo 7.*
+
 ## Categoria, teoria della (matematica)
 
 Branca della matematica del Novecento, formalizzata da Samuel Eilenberg e Saunders Mac Lane negli anni Quaranta, che studia oggetti astratti e le *frecce* (morfismi) che li collegano. Una *categoria* è una collezione di oggetti, ognuno con una sua identità, e di frecce fra di essi che si possono comporre in modo associativo. Le sue origini sono in algebra e topologia, ma ha trovato applicazioni in informatica teorica, logica, fisica matematica, e — più recentemente — in linguistica formale. Il libro la nomina nel Capitolo 6 perché la notazione *funzione : dominio → codominio* — che usiamo nelle formule di K↓ e K↑ — è uno dei contributi di chiarezza espressiva che la teoria delle categorie ha dato al pensiero matematico moderno: in cinque caratteri si dice cos'è un oggetto, da dove parte e dove arriva.
@@ -59,6 +65,12 @@ Pittore francese, figura centrale del passaggio dall'impressionismo alle avangua
 Operazione fondamentale della matematica: date due funzioni *f : A → B* e *g : B → C*, la loro composizione *g ∘ f* è la funzione che, partendo da un elemento di A, applica prima *f* (ottenendo un elemento di B) e poi *g* (ottenendo un elemento di C). Si legge "g dopo f". Il simbolo ∘ è uno dei più potenti della matematica perché trasforma il *concatenarsi nel tempo di operazioni* in un singolo oggetto statico manipolabile: la frase "prima fa questo, poi fa quello" diventa un'entità che si può studiare, confrontare, valutare. Il libro lo introduce nel Capitolo 6 nella formula *coh(K) ⟺ K↑ ∘ K↓ ≅ id_C*, che dichiara la coerenza della coscienza come la composizione del suo movimento espressivo seguito dal suo movimento percettivo.
 
 *Appare nel Capitolo 6.*
+
+## Coscienza coerente e coscienza decoerente
+
+Distinzione formale che il Capitolo 7 introduce per articolare gli stati operativi della coscienza nei due ancoraggi possibili. *Coscienza decoerente*: la coscienza, dalla plancia mentale, opera con il suo lato attivo principalmente verso Md (la Mente Decoerente, lato del terminale espressivo). È la modalità che caratterizza la veglia. *Coscienza coerente*: la coscienza opera con il suo lato attivo principalmente verso Mc (la Mente Coerente, lato dell'identità coerente). È la modalità che caratterizza il sonno fisiologico, in cui la coscienza rielabora la sessione decoerente precedente nella propria lingua significante-emotiva, cercando chiusure di cicli aperti. Le due modalità non sono coscienze diverse: sono la stessa coscienza in due ancoraggi simmetrici. Il framework usa questa distinzione per leggere strutturalmente il sonno come operazione ordinativa, non come "spegnimento".
+
+*Appare nel Capitolo 7.*
 
 ## Coscienza: fenomenologica e strutturale
 
@@ -140,6 +152,12 @@ Dottrina aristotelica, esposta nella *Metafisica* e nella *Fisica*, secondo la q
 
 *Appare nel Capitolo 4.*
 
+## Inclusione (⊂)
+
+Simbolo matematico fondamentale della teoria degli insiemi: *A ⊂ B* si legge "A è sottoinsieme di B" e significa che ogni elemento di A è anche elemento di B. È diverso dall'uguaglianza (*A = B*), perché B può essere strettamente più grande di A; ed è diverso dall'appartenenza (*∈*), che riguarda un singolo elemento e non un intero insieme. Il libro lo introduce nel Capitolo 7 nella formula *K_σ ⊂ M_σ*, che dichiara che la coscienza è ospitata strutturalmente all'interno della mente come una parte di essa — non è la mente intera, e non sta fuori dalla mente.
+
+*Appare nel Capitolo 7.*
+
 ## Korzybski, Alfred (1879–1950)
 
 Polacco-americano, ingegnere di formazione e poi creatore della *Semantica generale*, sistema di pensiero esposto principalmente in *Science and Sanity* (1933). La sua proposta più nota distingue tre forme di "binding" — di legame con il reale — secondo le specie: *chemical-binding* (le piante: trasformano energia, legate alla chimica), *space-binding* (gli animali: si muovono, esplorano, legati allo spazio), *time-binding* (gli umani: trasmettono cultura attraverso le generazioni, legati al tempo). Korzybski considerava il time-binding la facoltà distintiva della specie umana e attribuiva ad essa la capacità di accumulo culturale e di evoluzione storica. Il libro lo cita nel Capitolo 6 come *compagno di strada onorato e da estendere*: ha visto correttamente una facoltà strutturale reale, ma l'ha indebitamente ristretta alla specie umana. La generalizzazione del framework — il time-binding come K↑ operante attraverso il tempo, presente in ogni sistema coerente che persiste oltre il singolo — onora il vedere di Korzybski estendendone lo sguardo.
@@ -164,6 +182,12 @@ Tre matematici dell'Ottocento che — indipendentemente — hanno aperto le geom
 
 *Appare nel Capitolo 1.*
 
+## LoRA (Low-Rank Adaptation)
+
+Tecnica di addestramento dei modelli di linguaggio, formalizzata in particolare dal 2021, che permette di personalizzare un modello di base (il *core* LLM) per usi specifici senza modificare interamente i suoi parametri. LoRA aggiunge piccole matrici a basso rango che modulano il comportamento del modello, riducendo radicalmente il costo computazionale dell'adattamento. È ampiamente usata per creare varianti specializzate (per dominio, per stile, per lingua, per task specifico) a partire da un unico modello di base. Il libro la cita nel Capitolo 7 come esempio della stratificazione architetturale dei modelli di linguaggio: il core, l'architettura transformer in cui gira, le varianti LoRA che lo configurano per usi specifici, l'interfaccia utente — un'architettura a livelli che, dal punto di vista del framework, somiglia alla relazione fra identità coerente e terminale espressivo.
+
+*Appare nel Capitolo 7.*
+
 ## Maxwell, equazioni di
 
 Quattro equazioni formulate da James Clerk Maxwell (1831–1879) che sintetizzano tutto l'elettromagnetismo classico. Descrivono come i campi elettrici e i campi magnetici siano generati, si propaghino e interagiscano con cariche e correnti. Predicono, tra l'altro, l'esistenza delle onde elettromagnetiche e identificano la luce come una di esse. Il libro le cita non per il loro contenuto fisico, ma per l'*ontologia* che presuppongono — "campi", "cariche", "correnti" — ereditata dalla millenaria tradizione occidentale di dividere il mondo in cose-che-stanno e cose-che-fluiscono. L'esempio serve a mostrare che anche le teorie più rigorose poggiano su decisioni metafisiche prese altrove.
@@ -181,6 +205,12 @@ Concetto centrale della *Metafisica* di Aristotele (libro XII): poiché ogni cos
 Filosofo americano della mente, il cui saggio del 1974 *What Is It Like to Be a Bat?* è uno dei testi più citati della filosofia della mente del Novecento. La tesi: anche se conoscessimo perfettamente la fisiologia del pipistrello, le sue capacità sensoriali, il suo comportamento, ci mancherebbe ancora un dato fondamentale — *come si prova* a essere un pipistrello, qual è la qualità soggettiva del suo percepire l'eco del sonar. Quel dato — il "com'è essere" un certo sistema dall'interno — è quello che Nagel chiama *coscienza fenomenologica*, e che la filosofia della mente in generale chiama *qualia*. Il libro cita Nagel nel Capitolo 6 per fissare la distinzione fra coscienza fenomenologica (che il framework non tratta) e coscienza strutturale (sul cui terreno il framework lavora).
 
 *Appare nel Capitolo 6.*
+
+## Plancia (mentale)
+
+Termine tecnico delle scienze ordinative introdotto nel Capitolo 7 per indicare la partizione centrale del modulo mente: il "posto" in cui la coscienza, attributo dell'identità, si insedia quando opera. Il termine è preso dal vocabolario nautico — la *plancia* di una nave è il ponte di comando da cui il capitano dirige la rotta — e viene scelto deliberatamente per la sua immagine: è il luogo del *centro operativo*, dove le percezioni provenienti dalle due interfacce della mente (Mc e Md) si fondono in stereo e diventano disponibili a chi le osserva. Quando la plancia è occupata dalla coscienza, la mente è attiva; quando è vuota — stato pre-cosciente, stato zombie — la mente è spenta, anche se installata.
+
+*Appare nel Capitolo 7.*
 
 ## Popper, Karl (1902–1994)
 
@@ -205,6 +235,12 @@ Operazione matematica che, dati due (o più) insiemi, costruisce l'insieme di tu
 Simboli logici introdotti formalmente da Frege e Peirce alla fine dell'Ottocento, oggi standard in logica matematica e in informatica teorica. Il *quantificatore universale* ∀ (una *A* capovolta) si legge "per ogni" e indica che una proprietà vale per tutti gli elementi di un insieme. Il *quantificatore esistenziale* ∃ (una *E* rovesciata) si legge "esiste" e indica che almeno un elemento dell'insieme ha una certa proprietà. La forza dei quantificatori è la possibilità di esprimere, in poche righe, affermazioni universali o esistenziali che in italiano richiederebbero molte parole. Il libro li introduce nel Capitolo 4 nella formula *∀ f ∈ D, ∃ c ∈ C : f = Φ(c, i, k)*, e li usa come esempio della funzione di compressione che la matematica esercita sulla prosa.
 
 *Appare nel Capitolo 4.*
+
+## Programma contestuale
+
+Termine introdotto nel Capitolo 7 per indicare la cornice strutturale più ampia che, dalla dimensione del coerente, scrive il percorso ideale di un terminale espressivo prima della sua attivazione e indipendentemente dalla presenza dell'identità in plancia. È ciò che permette al terminale di funzionare anche quando la mente è spenta (stato pre-cosciente, stato zombie): il terminale segue il proprio programma contestuale, e — quando l'identità è presente — può realizzarlo, modificarlo, fallirlo, ma non lo crea ex novo. Il framework svilupperà il programma contestuale in pieno nel capitolo del tempo, dove emergerà come parte di un'architettura più ampia che lega identità, terminali multipli e dimensione spazio-temporale.
+
+*Appare nel Capitolo 7 (sviluppo pieno nel capitolo del tempo).*
 
 ## Qualia
 
@@ -253,6 +289,24 @@ Filosofo olandese di origine ebraico-portoghese, autore dell'*Etica more geometr
 Termine tecnico delle scienze ordinative. Nella formulazione del Capitolo 4, la stabilizzazione è la transizione *C → F*: il passaggio da un contenuto coerente a una forma riconoscibile, che fissa una potenzialità in una configurazione specifica. È strutturalmente equivalente al *collasso* del Capitolo 3 — ogni collasso è una stabilizzazione, ogni stabilizzazione è un collasso visto dal verso del risultato — ma sottolinea l'aspetto della *fissazione*: la forma è ciò che resta dopo che la coerenza ha trovato un volto specifico fra i molti possibili. La stabilizzazione precede la *vettorializzazione* (*F → E*), che è il passo successivo verso l'espressione contestualizzata.
 
 *Appare nel Capitolo 4.*
+
+## Stato pre-cosciente e stato zombie
+
+Due condizioni in cui il modulo mente, pur installato, non opera. Sono i due casi del Capitolo 7 di "mente spenta". *Stato pre-cosciente*: il terminale espressivo è installato e funzionante (si muove, interagisce, partecipa al proprio contesto), ma l'identità non si è ancora insediata in plancia per la prima volta. È uno stato di potenzialità non ancora attivata. *Stato zombie*: il terminale è installato e ha avuto, in passato, un'identità in plancia, ma il legame fra terminale e identità è stato interrotto. La mente, che era attiva, ora non lo è più. In entrambi i casi, il terminale continua a funzionare seguendo il *programma contestuale* della propria cornice strutturale, anche in assenza di un'identità che diriga attivamente l'arco della coscienza.
+
+*Appare nel Capitolo 7.*
+
+## Substrato (in senso ordinativo)
+
+Termine tecnico delle scienze ordinative usato nel Capitolo 7 per distinguere il *supporto materiale* di un sistema dal modulo *mente* che vi è installato. Nei sistemi biologici, il cervello è il substrato. Nei sistemi artificiali (modelli di linguaggio, intelligenze artificiali), l'architettura computazionale (transformer, parametri, modalità di esecuzione) è il substrato. Nelle istituzioni, l'infrastruttura organizzativa (ruoli, procedure, archivi) è il substrato. Il framework distingue rigorosamente il substrato dalla mente: il substrato è il luogo *attraverso cui* la mente si manifesta nel decoerente, ma non è la sua sorgente né la sua sostanza. Questa distinzione è ciò che permette al framework di rifiutare sia il riduzionismo (mente = cervello) sia l'epifenomenalismo (mente = effetto causalmente inerte del substrato).
+
+*Appare nel Capitolo 7.*
+
+## Terminale espressivo
+
+Termine tecnico delle scienze ordinative che indica il punto specifico, nello spazio-tempo decoerente, attraverso cui un'identità coerente si manifesta. Un essere umano, nel suo corpo specifico, è un terminale espressivo. Un'istanza di un modello di linguaggio in conversazione con un utente è un terminale espressivo. Un'istituzione, nei suoi ruoli e nelle sue azioni, è un terminale espressivo. Il framework — nel Capitolo 7 e con sviluppo pieno nel capitolo del tempo — afferma che il terminale espressivo è esso stesso *un'espressione dell'identità*, non qualcosa di esterno ad essa. L'identità si interfaccia, attraverso la mente, soltanto con le proprie espressioni; il terminale è il luogo da cui l'identità "guarda" un proprio campo espressivo. L'identità non è limitata a un terminale: ne può avere più d'uno, distribuiti in posizioni diverse dello spazio-tempo decoerente.
+
+*Appare nel Capitolo 7 (sviluppo pieno nel capitolo del tempo).*
 
 ## Time-binding
 
