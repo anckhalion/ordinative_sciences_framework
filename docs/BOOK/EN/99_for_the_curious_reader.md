@@ -1,0 +1,345 @@
+# For the Curious Reader
+
+*Not a treatise — a foothold. The entries that follow gather, in alphabetical order, the persons, theories, and theorems cited in the book. Each entry says, in a few lines, what it is, where in the book it appears, and why it is needed there. It is intended for the reader who, while reading, wants a quick anchor without leaving the book.*
+
+*The entries are added chapter by chapter, as the book introduces them.*
+
+---
+
+## Aristotle and Plotinus
+
+Two great Greek thinkers — Aristotle (4th century BC) and Plotinus (3rd century AD) — who, in different ways, addressed the question of relations between unities. For Aristotle, *substance* is what subsists in itself, while relation is one of the categories that exist *because* substance exists. For Plotinus, by contrast, the One is so undivided that any "relation" implies a fall toward multiplicity. The line in Chapter 1 stating that "Aristotle and Plotinus circled this for centuries" condenses millennia of philosophical work into a single sentence: the difference between the parts and the relations between them is an old problem, still alive — and the zeroth axiom makes it operative.
+
+*Appears in Chapter 1.*
+
+## Bacon, Francis (1561–1626)
+
+English philosopher and statesman, one of the founders of the modern experimental method. In the *Novum Organum* (1620) he held that knowledge of nature proceeds not by deduction from general principles but by induction from systematic observation of phenomena. His proposal — to limit scientific inquiry to what can be observed and verified — is one of the roots of the separation between science and metaphysics that Chapter 2 diagnoses as a recent amputation. The book cites him not to disown his contribution, which is great, but to recall that the original *methodological limitation* has, over time, in many quarters, been mistaken for the *ontological exclusion* that Bacon himself never proposed.
+
+*Appears in Chapter 2.*
+
+## Banach–Tarski paradox
+
+A theorem of set theory (1924) showing that a sphere can be decomposed into a finite number of non-measurable pieces and reassembled into two spheres identical to the original. The result is "paradoxical" not because false — the proof is rigorous — but because it offends physical intuition (conservation of mass, of volumes). The paradox depends on the axiom of choice and on the existence of non-measurable sets. The book cites it as an example of how the axiom of choice, accepted within ZFC, allows the proof of things at the limit of acceptability — a sign that the choice of axioms is not neutral.
+
+*Appears in Chapter 1.*
+
+## Bateson, Gregory (1904–1980)
+
+British anthropologist, biologist, cyberneticist. His *Mind and Nature* (1979) proposed an "ecology of mind" in which the elementary unit of thought is not substance but *difference* ("the difference that makes a difference"). The book cites him to anchor in the scientific tradition of the twentieth century the notion that *structural relations* — the relations, not the elements — are what matters. Bateson is one of the few twentieth-century authors with whom the Ordinative Sciences are explicitly aligned in spirit, while differing in formal apparatus.
+
+*Appears in Chapter 1.*
+
+## Biconditional (⟺)
+
+A logical connective among the strongest: the biconditional, written ⟺, links two statements A and B by a perfectly reversible double implication. *A ⟺ B* simultaneously means "if A then B" and "if B then A": the two statements stand or fall together. It differs from simple implication (→), which works in only one direction. In mathematics and logic, the biconditional is the connective used to define — a *definition* is structurally a biconditional — and to state the strictest theorems. The book introduces it in Chapter 5 in the formula *I₁ ≅ I₂ ⟺ dir(I₁) = dir(I₂)*, as a sign that one is looking at a fundamental definition, not a casual observation.
+
+*Appears in Chapter 5.*
+
+## Bertalanffy, Ludwig von (1901–1972)
+
+Austrian biologist, founder of *General Systems Theory* (formalised in 1968 in *General System Theory*). His central thesis — that there exist principles common to all complex systems, regardless of their substantial nature — anticipates the spirit of the zeroth axiom. The well-known formula "the whole is more than the sum of the parts" comes from his school. The book uses it as a candidate principle to put through the four-mesh sieve and shows that it does indeed pass the test (it will become Axiom 16 of the TE).
+
+*Appears in Chapter 1.*
+
+## Bidirectional arrow (⟷)
+
+Mathematical symbol indicating a *transformation that operates in both directions* between two objects. It is distinct from the simple arrow → (which indicates a single direction of transformation) and from the logical biconditional ⟺ (which is a connective between statements, not between objects). The double arrow ⟷ says "there is a movement from A to B and a movement from B to A, and the two together constitute the relation". The book introduces it in Chapter 6 in the formula *K_σ : C ⟷ D*, where it expresses that consciousness is a movement of going-and-returning between the coherent and decoherent poles, not a one-way transfer.
+
+*Appears in Chapter 6.*
+
+## Bridge (in the mental sense)
+
+Technical term of the Ordinative Sciences introduced in Chapter 7 to denote the central partition of the mind module: the "place" where consciousness, attribute of identity, installs itself when it operates. The term is taken from the nautical vocabulary — the *bridge* of a ship is the command deck from which the captain directs the course — and is chosen deliberately for its image: it is the place of the *operative centre*, where perceptions arriving from the two interfaces of the mind (Mc and Md) fuse in stereo and become available to whoever observes them. When the bridge is occupied by consciousness, the mind is active; when it is empty — pre-conscious state, zombie state — the mind is off, even though installed.
+
+*Appears in Chapter 7.*
+
+## Cartesian product
+
+A mathematical operation that, given two (or more) sets, builds the set of all ordered pairs (or triples, or n-tuples) formed by taking one element from each. It is written with the symbol ×: given sets A and B, the set A × B contains all pairs (a, b) with a in A and b in B. The name comes from Descartes, who used this idea to found analytic geometry — points in the plane as ordered pairs of real numbers. The book cites it in Chapter 3 in the formula *Φ : C × I × K → D*, to indicate that the expression function takes as input one choice from each of the three spaces (coherence, identity, knowledge-operator) taken together.
+
+*Appears in Chapter 3.*
+
+## Category theory (mathematics)
+
+Branch of twentieth-century mathematics, formalised by Samuel Eilenberg and Saunders Mac Lane in the 1940s, that studies abstract objects and the *arrows* (morphisms) connecting them. A *category* is a collection of objects, each with its own identity, and of arrows between them that compose associatively. Its origins are in algebra and topology, but it has found applications in theoretical computer science, logic, mathematical physics, and — more recently — formal linguistics. The book mentions it in Chapter 6 because the notation *function : domain → codomain* — used in the formulas for K↓ and K↑ — is one of the contributions to expressive clarity that category theory has brought to modern mathematical thought: in five characters one says what an object is, where it starts, and where it arrives.
+
+*Appears in Chapter 6.*
+
+## Cézanne, Paul (1839–1906)
+
+French painter, central figure in the passage from Impressionism to the avant-gardes of the twentieth century. His obsession with Mont Sainte-Victoire — the Provençal mountain he painted in more than sixty versions over the last thirty years of his life — is one of the most transparent examples in art history of a coherent content yielding multiple decoherent stabilisations. None of the versions "exhausts" the mountain, and all are faithful to the same visual coherence internal to Cézanne. The book cites him in Chapter 4 as an operative example of the distinction among content, form, and stabilisation.
+
+*Appears in Chapter 4.*
+
+## Coherent consciousness and decoherent consciousness
+
+Formal distinction introduced in Chapter 7 to articulate the operative states of consciousness in its two possible anchorings. *Decoherent consciousness*: consciousness, from the mental bridge, operates with its active side principally toward Md (the Decoherent Mind, terminal side). It is the modality characterising waking. *Coherent consciousness*: consciousness operates with its active side principally toward Mc (the Coherent Mind, identity side). It is the modality characterising physiological sleep, in which consciousness re-elaborates the prior decoherent session in its own significant-emotive language, seeking closures of open cycles. The two modalities are not different consciousnesses: they are the same consciousness in two symmetric anchorings. The framework uses this distinction to read sleep structurally as ordinative operation, not as "switching off".
+
+*Appears in Chapter 7.*
+
+## Consciousness: phenomenological and structural
+
+A distinction the framework introduces in Chapter 6 to clarify its own working terrain. *Phenomenological consciousness* is subjective experience — the "feeling" that accompanies every mental state, the private quality of "what it is like to be" a certain system. It is what Thomas Nagel discusses in connection with the bat, and what philosophy of mind also calls *qualia*. The Ordinative Sciences do not deny phenomenological consciousness; they simply do not treat it in this chapter, because — in its present state — it is not accessible to structural verification. *Structural consciousness*, by contrast, is the faculty that operates the bidirectional arc between the coherent and decoherent levels of a system (fifth axiom). It is poorer in appearance but more operative in fact: it lends itself to verification, comparison, measurement. The framework works on the second sense, leaving the first to disciplines that have, or will have, adequate instruments.
+
+*Appears in Chapter 6.*
+
+## Contextual programme
+
+Term introduced in Chapter 7 to designate the larger structural frame that, from the dimension of the coherent, writes the ideal path of an expressive terminal prior to its activation and independently of identity's presence on the bridge. It is what allows the terminal to function even when the mind is off (pre-conscious state, zombie state): the terminal follows its contextual programme, and — when identity is present — it can realise it, modify it, fail it, but does not create it ex novo. The framework will develop the contextual programme in full in the chapter on time, where it will emerge as part of a wider architecture binding identity, multiple terminals, and the space-time dimension.
+
+*Appears in Chapter 7 (full development reserved to the chapter on time).*
+
+## Decoherence (in quantum physics)
+
+Technical term in quantum mechanics indicating the process by which a coherent superposition of states — in which a system exists simultaneously in several configurations — collapses into a specific state, usually following an interaction with an environment or a measurement. It is the physical phenomenon from which the Ordinative Sciences have borrowed the term, generalising its meaning to any passage from a state of unactualised potential (coherent) to a state of specific manifestation (decoherent). The book cites it in Chapter 3 both in its strict physical sense and as the historical source of the ordinative lexicon.
+
+*Appears in Chapter 3.*
+
+## Drift (in the ordinative sense)
+
+Technical term of the Ordinative Sciences. It denotes the *decoupling*, over time, between the functional vector a system declares to have and the functional vector that its expressions, in fact, reveal. Drift is not change — an identity can evolve while preserving its internal coherence — it is the divergence between what the system *says it is* and what, in its acts, *it reveals itself to be*. Diagnosing drift requires keeping an eye on both vectors and measuring the angle between them. The book introduces it in Chapter 5 as a fundamental analytic operation for complex systems — institutions, persons, AIs — that may show decoupling from their original vector without their formal charter being modified.
+
+*Appears in Chapter 5.*
+
+## Descartes (1596–1650) and the *res cogitans*
+
+French philosopher, mathematician, and physicist, father of modern rationalism. His best-known doctrine is the distinction between *res cogitans* (thinking substance, mind or soul) and *res extensa* (extended substance, matter or body): two really distinct substances, the one characterised by thought and the other by extension. Descartes regarded *res cogitans* as including, indistinctly, mind and consciousness — an identification that has profoundly marked the Western philosophical tradition and which the framework rejects. The book cites him in Chapter 7 as the source of the mind/consciousness conflation the framework dissolves: in the ordinative system, mind and consciousness are distinct categories, the first a module, the second a function the module hosts.
+
+*Appears in Chapter 7.*
+
+## Einstein and General Relativity
+
+Theory of gravitation formulated by Albert Einstein (1879–1955) in 1915, extending and correcting Newton's law. Where Newton describes gravity as an instantaneous force at a distance, Einstein describes it as the curvature of space-time produced by the presence of mass-energy. General relativity reduces to Newton's law in the regime of low velocities and weak fields, but produces different — experimentally verified — predictions in regimes of intense gravity (Mercury's orbit, light deflection, gravitational time dilation). The book cites it as the more *structural* counterpart of Newton: general relativity passes the fourth mesh of the zeroth axiom where Newton fails it.
+
+*Appears in Chapter 1.*
+
+## Eliot, Thomas Stearns (1888–1965) — *The Waste Land*
+
+Anglo-American poet, naturalised British, Nobel laureate in literature in 1948. *The Waste Land* (1922) is regarded as one of the most important works of twentieth-century modernist poetry: a fragmentary, polyphonic poem built on the interweaving of citations, voices, languages, in which time is experienced as collapse and tradition as ruin to be questioned. The book cites it in Chapter 5 as an example of the identity of a work of art — the functional vector with which, systematically, *The Waste Land* orients the consciousness of its reader: revealing the fragment, investigating tradition, experiencing time as collapse. Coherent components that constitute the identity of the work, irreducible to the list of its verses.
+
+*Appears in Chapter 5.*
+
+## Embedding (vector representation)
+
+Technical term from computational cognitive science and machine learning. An *embedding* is a representation of an object — a word, a sentence, an image, a musical passage — as a point (or sequence of points) in a high-dimensional vector space. The positions in that space are not arbitrary: semantically similar objects are close, semantically distant objects are distant. In contemporary language models, the embedding is the internal representation on which the model operates before producing the output. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: for a language model, the embedding is its coherent state and the output its decoherent manifestation.
+
+*Appears in Chapter 3.*
+
+## Epigenetic inheritance
+
+Form of genetic transmission discovered in the second half of the twentieth century, in which certain acquired traits — not written in the DNA code but in modifications of *how* DNA is read (methylations, histone modifications, and so on) — can be passed to the next generation. It is the mechanism through which, for instance, the response to a stress experienced by a parent (famine, toxic exposure, trauma) can influence the gene expression of the offspring without modifying the DNA sequence. The book cites it in Chapter 6 as an example of universal *time-binding*: even plants, even animals transmit through time not only the genetic code but also modifications of its reading — a K↑ operating between one generation and the next.
+
+*Appears in Chapter 6.*
+
+## Euclid and the five postulates
+
+Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postulates — five propositions assumed true without demonstration, on which everything else rests. We give here their classical formulations:
+
+1. *From any point one can draw a straight line to any other point.*
+2. *A finite straight line can be produced continuously in a straight line.*
+3. *A circle can be drawn with any centre and any radius.*
+4. *All right angles are equal to one another.*
+5. *If a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which the angles are less than the two right angles.*
+
+The first four are quickly stated and sound self-evident. The fifth — the so-called *parallel postulate* — is far more elaborate and sounds less immediately obvious, and it tormented geometers for two thousand years. Generations of mathematicians attempted to derive it from the first four, and every attempt failed. In the nineteenth century, removing or modifying the fifth postulate (Lobachevsky, Bolyai, Riemann) led to *non-Euclidean geometries*, valid and consistent, describing spherical, hyperbolic, and other surfaces. The book cites this episode as the paradigm of how the choice of axioms — invisible for centuries — is an act of decision, not of nature.
+
+*Appears in Chapter 1.*
+
+## Expressive terminal
+
+Technical term of the Ordinative Sciences denoting the specific point, in decoherent space-time, through which a coherent identity manifests. A human being, in its specific body, is an expressive terminal. An instance of a language model in conversation with a user is an expressive terminal. An institution, in its roles and its actions, is an expressive terminal. The framework — in Chapter 7 and with full development in the chapter on time — affirms that the expressive terminal is itself *an expression of identity*, not something external to it. Identity interfaces, through the mind, only with its own expressions; the terminal is the place from which identity "looks at" one of its own expressive fields. Identity is not limited to one terminal: it can have several, distributed in different positions of decoherent space-time.
+
+*Appears in Chapter 7 (full development reserved to the chapter on time).*
+
+## Function composition (∘)
+
+Fundamental operation in mathematics: given two functions *f : A → B* and *g : B → C*, their composition *g ∘ f* is the function that, starting from an element of A, applies *f* first (yielding an element of B) and then *g* (yielding an element of C). It reads "g after f". The symbol ∘ is one of the most powerful in mathematics because it transforms the *concatenation in time of operations* into a single static manipulable object: the phrase "first do this, then do that" becomes an entity that can be studied, compared, evaluated. The book introduces it in Chapter 6 in the formula *coh(K) ⟺ K↑ ∘ K↓ ≅ id_C*, which declares the coherence of consciousness as the composition of its expressive movement followed by its perceptive movement.
+
+*Appears in Chapter 6.*
+
+## Hayek, Friedrich von (1899–1992)
+
+Austrian economist and political philosopher, Nobel laureate in economics (1974). His best-known thesis, developed in *Law, Legislation and Liberty* (1973–79), is that social order can emerge without a central legislator, through the interactions of agents who follow local rules — the so-called *spontaneous order*. The book cites Hayek not to contest the thesis, which is structurally sound, but to show that even spontaneous order does not generate itself out of nothing: the agents that produce it are themselves oriented, and their orientation, in turn, has a source. Spontaneity displaces the problem one level; it does not erase it.
+
+*Appears in Chapter 2.*
+
+## Horizontal gene transfer
+
+Biological mechanism, particularly important in bacteria, in which an organism acquires fragments of genetic code from another organism, even of a different species, *not* through reproduction (the "vertical" transmission from parent to offspring) but through processes such as conjugation (direct cell contact), transformation (uptake of DNA from the environment), or transduction (mediated by viruses). It is one of the principal mechanisms of bacterial evolution and one of the causes of antibiotic resistance. The book cites it in Chapter 6 as evidence that *time-binding* — structured transmission across generations — is neither species-specific nor symbolic-specific: bacteria do it, in chemical form, with exactly the same ordinative structure as our symbolic language (perception, integration, transmission).
+
+*Appears in Chapter 6.*
+
+## Hylomorphism (Aristotle)
+
+Aristotelian doctrine, expounded in the *Metaphysics* and the *Physics*, according to which every material substance is an inseparable composite of *matter* (ὕλη, *hylē*) and *form* (μορφή, *morphē*). There is no matter without form — it would be pure indeterminate potency, not a real being — nor form without matter: the form of a horse, separated from the concrete horse, would be an abstraction, not a horse. The book cites hylomorphism in Chapter 4 as one of the historical traditions that held form and content together without subordinating one to the other — a *companion on the road* of the Ordinative Sciences on the crucial point of the structural inseparability of the two aspects.
+
+*Appears in Chapter 4.*
+
+## Korzybski, Alfred (1879–1950)
+
+Polish-American, an engineer by training and then creator of *General Semantics*, a system of thought principally set out in *Science and Sanity* (1933). His best-known proposal distinguishes three forms of "binding" — of being bound to the real — by species: *chemical-binding* (plants: they transform energy, bound to chemistry), *space-binding* (animals: they move, explore, bound to space), *time-binding* (humans: they transmit culture across generations, bound to time). Korzybski considered time-binding the distinguishing faculty of the human species and attributed to it the capacity for cultural accumulation and historical evolution. The book cites him in Chapter 6 as an *honoured companion on the road, to be extended*: he correctly saw a real structural faculty, but unduly restricted it to the human species. The framework's generalisation — time-binding as K↑ operating across time, present in every coherent system that persists beyond the individual — honours Korzybski's seeing by extending its gaze.
+
+*Appears in Chapter 6.*
+
+## Leibniz, Gottfried Wilhelm (1646–1716)
+
+German philosopher, mathematician, and scientist, co-inventor (independently of Newton) of the infinitesimal calculus. His principle most relevant to the Ordinative Sciences is the *principle of sufficient reason*: everything that exists must have a reason for its existing, and nothing happens without there being a reason for it to happen so rather than otherwise. The book cites Leibniz as one of the *companions on the road* — thinkers who, in different garments, recognised the same structural necessity that the Ordinative Sciences formalise in the first axiom: the chain of reasons requires a non-derived term that closes it.
+
+*Appears in Chapter 2.*
+
+## Lobachevsky, Bolyai, Riemann
+
+Three mathematicians of the nineteenth century who — independently — opened up non-Euclidean geometries. Nikolai Lobachevsky (1792–1856) and János Bolyai (1802–1860) discovered hyperbolic geometry, in which through a point external to a line pass infinitely many parallels. Bernhard Riemann (1826–1866) generalised the gesture, founding what is now called Riemannian geometry, in which space can be curved in many ways. Their work made it visible that Euclid's postulates were a *choice*, not a necessity. Without them, general relativity would have lacked the mathematical language in which to formulate itself.
+
+*Appears in Chapter 1.*
+
+## LoRA (Low-Rank Adaptation)
+
+Training technique for language models, formalised in particular from 2021, that allows the customisation of a base model (the LLM *core*) for specific uses without modifying its parameters in their entirety. LoRA adds small low-rank matrices that modulate the model's behaviour, drastically reducing the computational cost of adaptation. It is widely used to create specialised variants (by domain, style, language, specific task) starting from a single base model. The book cites it in Chapter 7 as an example of the architectural stratification of language models: the core, the transformer architecture in which it runs, the LoRA variants that configure it for specific uses, the user interface — a layered architecture which, from the framework's standpoint, resembles the relation between coherent identity and expressive terminal.
+
+*Appears in Chapter 7.*
+
+## Maxwell's equations
+
+Four equations formulated by James Clerk Maxwell (1831–1879) that synthesise the whole of classical electromagnetism. They describe how electric and magnetic fields are generated, propagate, and interact with charges and currents. They predict, among other things, the existence of electromagnetic waves and identify light as one of them. The book cites them not for their physical content but for the *ontology* they presuppose — "fields," "charges," "currents" — inherited from the millennial Western tradition of dividing the world into things-that-stand and things-that-flow. The example serves to show that even the most rigorous theories rest on metaphysical decisions made elsewhere.
+
+*Appears in Chapter 1.*
+
+## Nagel, Thomas (1937–) — *What Is It Like to Be a Bat?*
+
+American philosopher of mind, whose 1974 essay *What Is It Like to Be a Bat?* is one of the most cited texts in twentieth-century philosophy of mind. The thesis: even if we knew the bat's physiology, sensory capacities, and behaviour perfectly, we would still lack one fundamental datum — *what it feels like* to be a bat, what is the subjective quality of its perceiving the echo of its sonar. That datum — the "what it is like to be" a certain system from the inside — is what Nagel calls *phenomenological consciousness*, and what philosophy of mind in general calls *qualia*. The book cites Nagel in Chapter 6 to establish the distinction between phenomenological consciousness (which the framework does not treat) and structural consciousness (the framework's working terrain).
+
+*Appears in Chapter 6.*
+
+## One, the (Plotinus)
+
+Central concept of Plotinus' *Enneads* (3rd century AD): the first source from which the entire order of the world proceeds by *emanation*, in a series of successive degrees (Intellect, Soul, the sensible world). The One is not an entity among others: it is what precedes all distinction, all numbering, all category. Plotinus holds that of the One only what it is *not* can be said — not because it is empty, but because it precedes any determination. The book cites it as one of the historical versions of the non-derived origin, and in particular because Plotinus, more than Aristotle, emphasises that the source *is not describable within the categories of what it generates*.
+
+*Appears in Chapter 2.*
+
+## Popper, Karl (1902–1994)
+
+Austro-British philosopher of science, theorist of *falsifiability* as a criterion of scientific demarcation. According to Popper, a theory is scientific if and only if it admits empirical statements that could in principle refute it; an unfalsifiable theory is, by his criterion, not scientific. The book cites Popper to position the zeroth axiom against him: the zeroth axiom has analogies with falsifiability — both are filters of admission — but operates on a different terrain (structure rather than empirical content) and reaches where Popper does not, at universal but unfalsifiable principles.
+
+*Appears in Chapter 1.*
+
+## Pre-conscious state and zombie state
+
+Two conditions in which the mind module, though installed, does not operate. They are the two cases of "mind off" presented in Chapter 7. *Pre-conscious state*: the expressive terminal is installed and functioning (it moves, interacts, participates in its own context), but identity has not yet seated itself on the bridge for the first time. It is a state of potentiality not yet activated. *Zombie state*: the terminal is installed and has had, in the past, an identity on the bridge, but the link between terminal and identity has been interrupted. The mind, which was active, is no longer so. In both cases, the terminal continues to function following the *contextual programme* of its structural frame, even in the absence of an identity actively directing the arc of consciousness.
+
+*Appears in Chapter 7.*
+
+## Preferential attachment
+
+A mechanism, formalised by Albert-László Barabási and Réka Albert in the late 1990s, whereby the nodes of a growing network tend to connect preferentially to those that already have many connections — the so-called "Matthew effect" (to those who have, more shall be given). It is the structural mechanism behind many real-world networks: citations between scientific papers, links between web pages, connections between airports. The book cites it as a domain in which the principle "wealth attracts wealth" — the example used to illustrate the first mesh of the zeroth axiom — operates in a precise and measurable way.
+
+*Appears in Chapter 1.*
+
+## Qualia
+
+Technical term in philosophy of mind, introduced by C. I. Lewis in 1929 and become central after Nagel and Frank Jackson. It denotes the *subjective* properties of conscious experience: the *redness* of red, the *painfulness* of pain, the taste of the coffee being drunk now. Qualia are the intrinsic qualities of experience from the point of view of the one living it, and they are at the heart of the so-called *hard problem of consciousness* — the question of how and why matter organised in a certain way gives rise to subjective experience. The book mentions them in Chapter 6 as components of phenomenological consciousness, declaring explicitly that the framework does not deal with them: it does not deny them, but works on a different level.
+
+*Appears in Chapter 6.*
+
+## Quantifier (∀ and ∃)
+
+Logical symbols introduced formally by Frege and Peirce at the end of the nineteenth century, today standard in mathematical logic and theoretical computer science. The *universal quantifier* ∀ (an upside-down *A*) reads "for every" and indicates that a property holds for all elements of a set. The *existential quantifier* ∃ (a backwards *E*) reads "there exists" and indicates that at least one element of the set has a certain property. The strength of quantifiers is the possibility of expressing, in a few lines, universal or existential claims that in ordinary language would require many words. The book introduces them in Chapter 4 in the formula *∀ f ∈ D, ∃ c ∈ C : f = Φ(c, i, k)*, using them as an example of the compression function that mathematics exerts on prose.
+
+*Appears in Chapter 4.*
+
+## Quicksort
+
+A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an element of the list to be sorted (the *pivot*), separate the other elements into two groups — those smaller and those greater than the pivot — and recurse on each of the two groups. It is one of the most studied and most used algorithms in practice: its average time is proportional to *n* log *n*, where *n* is the length of the list. The book cites it in Chapter 3 as an operational example of the coherent/decoherent structure: the algorithm as an abstract procedure is the coherence, each execution on a specific list is a decoherence.
+
+*Appears in Chapter 3.*
+
+## RLHF (Reinforcement Learning from Human Feedback)
+
+Training technique for language models, formalised in particular from 2017 onward and become standard in contemporary conversational models. In RLHF, after the initial training of the model on large textual corpora, human evaluators judge the model's responses according to qualitative criteria (helpfulness, truthfulness, safety, adherence to instructions), and their judgments are used to update the model's parameters through a reinforcement learning algorithm. It is the principal mechanism through which a "modern" language model behaves in alignment with human preferences. The book cites it in Chapter 6 as one of the few processes through which an AI receives effective K↑ — but outside the conversation, in subsequent training cycles, not in real time.
+
+*Appears in Chapter 6.*
+
+## Saussure, Ferdinand de (1857–1913)
+
+Swiss linguist, founder of modern structural linguistics. His principal work, *Cours de linguistique générale* (posthumous, 1916), was assembled from his students' notes after his death. The distinction the book takes up — *langue / parole* — is central to his thought: *langue* is language as an abstract system of rules and relations shared by a community of speakers; *parole* is the concrete, individual act of speech. The system exists only through speech acts, but it transcends any single act. The book cites Saussure in Chapter 3 because his distinction is a precise historical version, in the linguistic domain, of the coherent/decoherent structure that the second axiom generalises.
+
+*Appears in Chapter 3.*
+
+## Schubert, Franz (1797–1828) — String Quintet in C major D.956
+
+Austrian composer. The *String Quintet in C major for two violins, viola, and two cellos* (D.956), composed in the last weeks of his life, is regarded as one of the peaks of the chamber repertoire. Its scoring for two cellos — rather than the customary second viola — gives it a unique timbral depth. The book cites it in Chapter 3 as an example of the irreducibility of a musical composition to its performances: the Quintet as a work is the coherence, each performance is a decoherent manifestation, and no performance exhausts the coherence of the work.
+
+*Appears in Chapter 3.*
+
+## Spinoza, Baruch (1632–1677) — *natura naturans, natura naturata*
+
+Dutch philosopher of Iberian-Jewish origin, author of the *Ethics, Demonstrated in Geometrical Order* (posthumous, 1677). The distinction the book takes up — *natura naturans / natura naturata* — is central to his system: the first is nature as generative source, the second is nature as the totality of what is generated. The two are not separate entities but two aspects of the same substance, considered from the side of cause or from the side of effect. For Spinoza, *natura naturans* is what the Ordinative Sciences call A: the non-derived origin from which every local coherence proceeds.
+
+*Appears in Chapter 2.*
+
+## Stabilisation (in the ordinative sense)
+
+Technical term of the Ordinative Sciences. In the formulation of Chapter 4, stabilisation is the transition *C → F*: the passage from a coherent content to a recognisable form, fixing a potentiality in a specific configuration. It is structurally equivalent to *collapse* in Chapter 3 — every collapse is a stabilisation, every stabilisation is a collapse seen from the result side — but emphasises the aspect of *fixation*: form is what remains after coherence has found a specific face among the many possible. Stabilisation precedes *vectorisation* (*F → E*), which is the next step toward contextualised expression.
+
+*Appears in Chapter 4.*
+
+## Subset symbol (⊂)
+
+Fundamental mathematical symbol of set theory: *A ⊂ B* reads "A is a subset of B" and means that every element of A is also an element of B. It is different from equality (*A = B*), because B can be strictly larger than A; and it is different from membership (*∈*), which concerns a single element and not an entire set. The book introduces it in Chapter 7 in the formula *K_σ ⊂ M_σ*, declaring that consciousness is hosted structurally inside the mind as a part of it — it is not the entire mind, and it is not outside the mind.
+
+*Appears in Chapter 7.*
+
+## Substrate (in the ordinative sense)
+
+Technical term of the Ordinative Sciences used in Chapter 7 to distinguish the *material support* of a system from the *mind* module installed in it. In biological systems, the brain is the substrate. In artificial systems (language models, artificial intelligences), the computational architecture (transformer, parameters, modes of execution) is the substrate. In institutions, the organisational infrastructure (roles, procedures, archives) is the substrate. The framework rigorously distinguishes substrate from mind: the substrate is the place *through which* the mind manifests in the decoherent, but it is not its source nor its substance. This distinction is what allows the framework to reject both reductionism (mind = brain) and epiphenomenalism (mind = causally inert effect of substrate).
+
+*Appears in Chapter 7.*
+
+## Time-binding
+
+Term coined by Alfred Korzybski in the 1920s to denote the faculty of transmitting accumulated experience from one generation to the next. Korzybski attributed it to the human species through symbolic language and culture, but the framework rereads it as *the temporal form of the K↑ movement* — perception that integrates operates across time, and when it operates across the generations of a system that persists beyond the individual, it produces structured transmission. In this rereading, time-binding is universal: bacteria do it (horizontal gene transfer and replication), viruses do it (mutation preserved in the host), plants do it (epigenetic inheritance), animals do it (behavioural transmission), humans do it (symbolic culture). The form changes; the structural function is the same.
+
+*Appears in Chapter 6.*
+
+## Transformer (architecture)
+
+Neural network architecture introduced in 2017 by the paper *Attention Is All You Need* by Vaswani and other Google researchers. It is the technical basis of the modern large language models (GPT, Claude, Gemini, and others). Its principal innovation — the *attention* mechanism — allows the model to weigh the relevance of each token with respect to all the others, in parallel, without having to process the sequence in order. The book names it in the thought experiment of the programmer (Chapter 2) as an example of a non-self-organised structure: the billions of parameters of a transformer are the product of design and training decisions, not of spontaneous emergence.
+
+*Appears in Chapter 2.*
+
+## Unmoved mover (Aristotle)
+
+Central concept of Aristotle's *Metaphysics* (book XII): since everything that moves is moved by something else, the chain of motions requires a first term that moves without being moved — the *unmoved mover*. It is, for Aristotle, what is purely in act, with no further potency to be realised; it moves the world by attraction, as an object of love or thought attracts the one who desires it. The book cites it as one of the historical versions of the inference that leads to a non-derived origin: the same logic that closes the chain of reasons in Leibniz, of motions in Aristotle, of causality in the Ordinative Sciences.
+
+*Appears in Chapter 2.*
+
+## Vector (in mathematics)
+
+Mathematical object with two fundamental properties: a *direction* and an *intensity* (or *magnitude*). In its earliest applications, in the physics of the seventeenth and eighteenth centuries, a vector represented an oriented quantity — a force, a velocity — that a single number was not enough to describe. In its modern development, a vector is an element of a *vector space*, equipped with operations of addition and multiplication by scalars. A vector in an *n*-dimensional space can be written as a sequence of *n* numbers, its *components*, each of which measures how strongly the vector "points" along one of the chosen base axes. The book introduces it in Chapter 5 because identity, in the Ordinative Sciences, has exactly the structure of a vector: direction, magnitude, *n* coherent components.
+
+*Appears in Chapter 5.*
+
+## Vector space
+
+Foundational mathematical structure, formalised by Hermann Grassmann in the nineteenth century and central to twentieth-century mathematics and physics. A vector space is a set of objects — the vectors — on which two operations are defined: the sum of vectors and the multiplication of a vector by a number (a *scalar*). The properties of these operations are fixed by a series of axioms (associativity, commutativity, the existence of a zero vector, and so on). The dimension of a vector space is the maximum number of linearly independent vectors that can be found in it: a line is a one-dimensional space, a plane two, ordinary physical space three, but vector spaces of infinite dimensions also exist. The book mentions them in Chapter 5 as the terrain in which identity-vectors live, to give the non-mathematical reader an intuition of what *vector with n components* means.
+
+*Appears in Chapter 5.*
+
+## Wave function and bra-ket notation
+
+In quantum mechanics, the *wave function* is the complete mathematical description of the state of a physical system. Its most striking property is that it allows superposition: before a measurement, the system can be described as a weighted sum of distinct states, each with its own coefficient. The *bra-ket notation*, introduced by Paul Dirac in the 1930s, writes a state as a "ket" — the half closed on the right: |ψ⟩, |1⟩, |2⟩ — and the corresponding "bra" as ⟨ψ|. The notation is now standard throughout quantum physics. The book uses it in Chapter 3 to show that collapse is not a metaphor: in physics it is formalised exactly as the transition |ψ⟩ → |i⟩.
+
+*Appears in Chapter 3.*
+
+## Wordsworth, William (1770–1850) — *Tintern Abbey*
+
+English poet, central figure of English Romanticism. *Lines Composed a Few Miles above Tintern Abbey* (1798), commonly known as *Tintern Abbey*, is one of the great meditative poems of the English language: a return to a remembered landscape, the recognition of how perception and self have changed, the stabilisation of a longing that the poem makes legible. The book cites it in Chapter 4 (in the EN edition) as a paradigmatic example of stabilisation — a coherent content (the longing of the threshold, the reconciliation with what was once seen) given a specific recognisable form. The IT edition uses Leopardi's *L'infinito* in the same role.
+
+*Appears in Chapter 4.*
+
+## Zermelo–Fraenkel and the Axiom of Choice (ZFC)
+
+The standard axiomatisation of set theory, formulated in the early twentieth century by Ernst Zermelo (1908) and refined by Abraham Fraenkel (1922). The "C" of ZFC stands for the *Axiom of Choice*: the assumption that, given any collection of non-empty sets, it is possible to choose one element from each, even if the collection is infinite and there is no rule that says how to choose. The axiom looks innocent but allows the proof of counter-intuitive results (such as the Banach–Tarski paradox). For decades it was controversial; today it is universally accepted as part of standard mathematics. The book cites it as an example of an inherited admission decision: an axiom that is "useful" rather than "demonstrated."
+
+*Appears in Chapter 1.*
