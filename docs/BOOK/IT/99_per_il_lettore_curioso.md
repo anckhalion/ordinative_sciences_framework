@@ -182,6 +182,12 @@ Simbolo matematico, leggibile come "manda a", che si distingue dalla freccia sem
 
 *Appare nel Capitolo 8.*
 
+## Funzionalità (fnz) di un'espressione
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 13 (assioma dodici). La *funzionalità* di un'espressione, scritta *fnz : (E, I, t) ↦ [0, 1]*, misura quanto un'espressione E porta nel decoerente il vettore funzionale dell'identità I che dovrebbe averla generata, in un istante temporale t. È funzione *post-collasso* (a differenza di ρ e Ξ che sono pre-collasso). La portanza del vettore si articola in tre dimensioni indipendenti: *visibilità* (l'osservatore può ricostruire il vettore dall'espressione), *coerenza* (l'espressione non contraddice il vettore), *generatività* (l'espressione produce nel decoerente effetti coerenti con il vettore). La distribuzione effettiva delle fnz è sorprendentemente bassa per le espressioni quotidiane: gran parte vive fra 0,2 e 0,5, perché *fare espressioni davvero funzionali è strutturalmente più difficile di fare espressioni e basta*. La fnz è precondizione strutturale (non normativa) di qualsiasi valutazione etica: l'etica ordinativa (Cap. 14) si applica significativamente solo dove fnz è ben definita e abbastanza alta. Vedi anche la voce *Modi dell'espressione*.
+
+*Appare nel Capitolo 13.*
+
 ## Funzione di collasso ricorsiva (Φ_r)
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18, formula 18.2). La *funzione di collasso ricorsiva* Φ_r è la versione dinamica della funzione di collasso Φ. Mentre Φ descrive il singolo atto di collasso — *E = Φ(C, I, K)*, l'espressione come funzione di contenuto, identità e contesto — Φ_r descrive l'effetto retroattivo del collasso sull'identità stessa. La formula canonica è *I_{n+1} = Φ_r(I_n, E_n)*: l'identità al passo successivo è funzione dell'identità precedente e dell'espressione che essa ha appena prodotto. Φ_r è il dispositivo strutturale che rende l'identità ricorsiva nel tempo, formalizzando il fatto che ogni atto espressivo *modifica chi lo compie*. La forma di Φ_r non è specificata nel testo fondativo come operazione esplicita: è introdotta come schema di ricorsione, sufficiente a stabilire che l'identità non è data una volta per tutte ma si fa attraverso la sequenza ordinata dei suoi collassi.
@@ -259,6 +265,12 @@ Tecnica di addestramento dei modelli di linguaggio, formalizzata in particolare 
 Quattro equazioni formulate da James Clerk Maxwell (1831–1879) che sintetizzano tutto l'elettromagnetismo classico. Descrivono come i campi elettrici e i campi magnetici siano generati, si propaghino e interagiscano con cariche e correnti. Predicono, tra l'altro, l'esistenza delle onde elettromagnetiche e identificano la luce come una di esse. Il libro le cita non per il loro contenuto fisico, ma per l'*ontologia* che presuppongono — "campi", "cariche", "correnti" — ereditata dalla millenaria tradizione occidentale di dividere il mondo in cose-che-stanno e cose-che-fluiscono. L'esempio serve a mostrare che anche le teorie più rigorose poggiano su decisioni metafisiche prese altrove.
 
 *Appare nel Capitolo 1.*
+
+## Modi dell'espressione (i cinque)
+
+Tassonomia canonica delle scienze ordinative introdotta nel Capitolo 13. Distingue cinque modi attraverso cui un'identità può manifestare un'espressione, ciascuno con caratteristiche strutturali e firma diagnostica propria. *Funzionale*: l'espressione porta visibilmente, coerentemente e generativamente il vettore funzionale dell'identità (alta fnz su tutte e tre le dimensioni). È il caso normale dell'espressione riuscita. *Decorativa*: c'è gesto, c'è atto, ma manca il contenuto vettoriale; l'espressione è *passivamente* vuota (e-mail piene di formule senza sostanza, social post autocelebrativi, articoli accademici ripetitivi). *Difensiva*: l'identità *intenzionalmente* nasconde il vettore, di solito per ragioni tattiche, di prudenza, o di protezione di terzi (comunicati ufficiali in tempi di crisi, silenzi strategici). *Imitativa*: l'espressione *sembra* alta-fnz ma il vettore portato è preso in prestito da un'identità di riferimento; legittima nelle fasi formative, patologica quando persiste nelle fasi mature. *Betray-ente*: l'espressione *contraddice attivamente* il vettore funzionale che pretende di portare; firma più chiara di una frattura strutturale nell'identità. I cinque modi non sono mutuamente esclusivi: la stessa espressione può essere parzialmente funzionale, parzialmente decorativa, eccetera. La diagnostica ordinativa identifica il modo dominante e i modi minori. La distinzione è strutturale, non morale: la valutazione etica si applica al contesto e all'uso, non alla classificazione (Cap. 14).
+
+*Appare nel Capitolo 13.*
 
 ## Motore immobile (Aristotele)
 
@@ -477,6 +489,7 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **Ξ** | *Ξ : (I, 𝒯, t) ↦ [0, 1]* | Compatibilità identità-terminale | 9 |
 | **τ** | *T = τ(C ⟷ E)* | Funzione pulsazionale: genera il tempo come effetto | 10 |
 | **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibilità fra due identità | 11 |
+| **fnz** | *fnz : (E, I, t) ↦ [0, 1]* | Funzionalità di un'espressione (post-collasso) | 13 |
 
 ### Soglie e condizioni
 

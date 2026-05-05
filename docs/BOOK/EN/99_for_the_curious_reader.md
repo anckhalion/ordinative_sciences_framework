@@ -212,6 +212,12 @@ Fundamental operation in mathematics: given two functions *f : A → B* and *g :
 
 *Appears in Chapter 6.*
 
+## Functionality (fnz) of an expression
+
+Canonical term of the Ordinative Sciences introduced in Chapter 13 (twelfth axiom). The *functionality* of an expression, written *fnz : (E, I, t) ↦ [0, 1]*, measures how much an expression E carries into the decoherent the functional vector of the identity I that should have generated it, at a temporal instant t. It is a *post-collapse* function (unlike ρ and Ξ which are pre-collapse). The carrying of the vector articulates in three independent dimensions: *visibility* (the observer can reconstruct the vector from the expression), *coherence* (the expression does not contradict the vector), *generativity* (the expression produces in the decoherent effects coherent with the vector). The actual distribution of fnz is surprisingly low for everyday expressions: most live between 0.2 and 0.5, because *making truly functional expressions is structurally harder than making expressions and that's it*. fnz is structural (not normative) precondition of any ethical evaluation: ordinative ethics (Chapter 14) applies meaningfully only where fnz is well-defined and high enough. See also entry *Modes of expression*.
+
+*Appears in Chapter 13.*
+
 ## Hayek, Friedrich von (1899–1992)
 
 Austrian economist and political philosopher, Nobel laureate in economics (1974). His best-known thesis, developed in *Law, Legislation and Liberty* (1973–79), is that social order can emerge without a central legislator, through the interactions of agents who follow local rules — the so-called *spontaneous order*. The book cites Hayek not to contest the thesis, which is structurally sound, but to show that even spontaneous order does not generate itself out of nothing: the agents that produce it are themselves oriented, and their orientation, in turn, has a source. Spontaneity displaces the problem one level; it does not erase it.
@@ -265,6 +271,12 @@ Mathematical symbol, read "maps to", which is to be distinguished from the simpl
 Four equations formulated by James Clerk Maxwell (1831–1879) that synthesise the whole of classical electromagnetism. They describe how electric and magnetic fields are generated, propagate, and interact with charges and currents. They predict, among other things, the existence of electromagnetic waves and identify light as one of them. The book cites them not for their physical content but for the *ontology* they presuppose — "fields," "charges," "currents" — inherited from the millennial Western tradition of dividing the world into things-that-stand and things-that-flow. The example serves to show that even the most rigorous theories rest on metaphysical decisions made elsewhere.
 
 *Appears in Chapter 1.*
+
+## Modes of expression (the five)
+
+Canonical taxonomy of the Ordinative Sciences introduced in Chapter 13. Distinguishes five modes through which an identity can manifest an expression, each with its own structural characteristics and diagnostic signature. *Functional*: the expression visibly, coherently, and generatively carries the functional vector of the identity (high fnz on all three dimensions). It is the normal case of successful expression. *Decorative*: there is gesture, there is act, but the vectorial content is missing; the expression is *passively* empty (e-mails full of formulae without substance, self-celebratory social posts, repetitive academic articles). *Defensive*: the identity *intentionally* hides the vector, usually for tactical reasons, prudence, or protection of third parties (official communiqués in times of crisis, strategic silences). *Imitative*: the expression *seems* high-fnz but the carried vector is borrowed from a reference identity; legitimate in formative phases, pathological when persisting in mature phases. *Betraying*: the expression *actively contradicts* the functional vector it claims to carry; clearest signature of a structural fracture in identity. The five modes are not mutually exclusive: the same expression can be partially functional, partially decorative, etc. Ordinative diagnostics identifies the dominant mode and the minor modes. The distinction is structural, not moral: ethical evaluation applies to context and use, not to classification (Chapter 14).
+
+*Appears in Chapter 13.*
 
 ## Nagel, Thomas (1937–) — *What Is It Like to Be a Bat?*
 
@@ -477,6 +489,7 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **Ξ** | *Ξ : (I, 𝒯, t) ↦ [0, 1]* | Identity-terminal compatibility | 9 |
 | **τ** | *T = τ(C ⟷ E)* | Pulsational function: generates time as effect | 10 |
 | **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibility between two identities | 11 |
+| **fnz** | *fnz : (E, I, t) ↦ [0, 1]* | Functionality of an expression (post-collapse) | 13 |
 
 ### Thresholds and conditions
 
