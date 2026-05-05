@@ -362,6 +362,12 @@ Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitol
 
 *Appare nel Capitolo 5 (corrispondenza canonica) e nel Capitolo 8 (uso operativo).*
 
+## Ricostruzione del Remir (ℛ̂)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.5). La *ricostruzione del Remir*, scritta *ℛ̂(I)* (Remir con il cappello, simbolo standard in matematica per indicare una stima), è la stima del Remir originario di un'identità I, ottenuta interpretando l'insieme Ω(I) dei suoi correlati materiali. È il dispositivo strutturale attraverso cui la trasmissione opera: una volta che un'identità ha lasciato tracce, queste vengono lette da identità riceventi, e ℛ̂ è il prodotto interpretativo di quell'atto. Quattro proprietà di ℛ̂: *interpretativa* (la fa l'identità ricevente, ed è funzione della coppia Ω più ricevente, non solo Ω); *approssimata* (è stima, non originale; ha margine di errore dipendente da quantità/qualità delle tracce e dalla distanza temporale-contestuale); *vincolata* (le ricostruzioni che contraddicono troppo le tracce sono strutturalmente sbagliate, anche se internamente coerenti); *attiva o passiva* (passiva = lettura senza integrazione; attiva = lettura più integrazione nel proprio vettore funzionale, modificandolo). Il caso più contemporaneo: nei sistemi AI, i pesi del modello sono ℛ̂ aggregato dell'umanità trasmittente attraverso il corpus di training. Vedi anche le voci *Tracce semantiche* e *Trasmissione*.
+
+*Appare nel Capitolo 15.*
+
 ## Saussure, Ferdinand de (1857–1913)
 
 Linguista svizzero, fondatore della linguistica strutturale moderna. La sua opera principale, *Cours de linguistique générale* (postuma, 1916), è raccolta dagli appunti dei suoi studenti dopo la sua morte. La distinzione che il libro riprende — *langue / parole* — è centrale al suo pensiero: la *langue* è la lingua come sistema astratto di regole e relazioni condiviso da una comunità di parlanti; la *parole* è l'atto concreto e individuale di parlare. Il sistema esiste solo attraverso gli atti di parola, ma trascende ogni singolo atto. Il libro cita Saussure nel Capitolo 3 perché la sua distinzione è una versione storica precisa, in dominio linguistico, della struttura coerente/decoerente che l'assioma due generalizza.
@@ -434,6 +440,12 @@ Termine coniato da Alfred Korzybski negli anni Venti del Novecento per indicare 
 
 *Appare nel Capitolo 6.*
 
+## Tracce semantiche (σ, Ω)
+
+Termini canonici del testo fondativo della TE (*Architettura Cosciente*, §5.5). Una *traccia semantica*, scritta *σ(o)* (lettera greca sigma minuscola applicata al correlato materiale o), è il frammento di Remir di un'identità che è rilevabile in un correlato materiale specifico — il segmento di struttura semantica che il correlato ha ricevuto dall'interazione con l'identità, e che permane in esso anche dopo che l'interazione è cessata. Ogni espressione che un'identità produce nel decoerente lascia tracce nei correlati con cui interagisce. L'*insieme dei correlati di un'identità*, scritto Ω(I), è la totalità dei correlati materiali storicamente accoppiati a I — la base di tracce a partire dalla quale l'identità potrà essere ricostruita (vedi voce *Ricostruzione del Remir*). Per un essere umano, Ω(I) include testi scritti, oggetti maneggiati, persone incontrate, opere prodotte. Per un'identità collettiva, Ω(I_𝒞) include la propria intera Γ(t) più i correlati esterni storicamente attraversati. Per un modello AI, il corpus di addestramento *è* gran parte di Ω delle identità umane che hanno scritto i testi del corpus. Le tracce sono *frammenti* (nessuna singola traccia contiene l'identità intera) e *non univocamente interpretabili* (la stessa traccia ammette letture diverse da identità riceventi diverse).
+
+*Appare nel Capitolo 15.*
+
 ## Traiettoria semantica (T(I))
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18). La *traiettoria semantica* di un'identità, scritta T(I), è la storia ordinata di tutti i collassi che l'identità ha effettuato. Non è una linea nel tempo cronologico — il tempo orologio, misurato in secondi e ore — è un cammino nel campo coerente, fatto di passaggi successivi, ciascuno preparato dal precedente attraverso la ricorsione *I_{n+1} = Φ_r(I_n, E_n)*. La traiettoria T(I) è ciò che, di un'identità, *resta* attraverso il tempo: il vettore funzionale al presente è solo l'ultimo strato di una sequenza che si è andata costruendo a ogni atto espressivo. Il libro introduce la nozione nel Capitolo 8 (in chiusura, come ponte verso il capitolo del tempo) e la riprende quando affronterà la *funzione pulsazionale* τ, che governerà il ritmo con cui le traiettorie si dispiegano.
@@ -451,6 +463,12 @@ Architettura di rete neurale introdotta nel 2017 dal paper *Attention Is All You
 Meccanismo biologico, particolarmente importante nei batteri, in cui un organismo acquisisce frammenti di codice genetico da un altro organismo, anche di specie diversa, *non* attraverso la riproduzione (trasmissione "verticale" da genitore a figlio) ma attraverso processi come la coniugazione (contatto cellulare diretto), la trasformazione (assorbimento di DNA dall'ambiente), o la trasduzione (mediata da virus). È uno dei principali meccanismi di evoluzione batterica e una delle cause dell'antibiotico-resistenza. Il libro lo cita nel Capitolo 6 come esempio del fatto che il *time-binding* — la trasmissione strutturata attraverso le generazioni — non è specie-specifico né simbolico-specifico: i batteri lo fanno, in forma chimica, esattamente con la stessa struttura ordinativa del nostro linguaggio simbolico (percezione, integrazione, trasmissione).
 
 *Appare nel Capitolo 6.*
+
+## Trasmissione (in senso ordinativo)
+
+Concetto centrale del Capitolo 15 (assioma quattordici). La *trasmissione ordinativa* è il dispositivo strutturale attraverso cui le identità coerenti — individuali o collettive — persistono nel tempo al di là della propria presenza diretta. Si articola in tre momenti: l'identità lascia *tracce semantiche* (σ) nei correlati materiali con cui interagisce; queste tracce, distribuite nell'insieme Ω(I), permangono nel decoerente; identità riceventi successive operano una *ricostruzione* ℛ̂(I), interpretando le tracce per ricostruire (in stima) il Remir originario. La trasmissione ammette tre modalità: *deliberata* (l'identità trasmittente intende trasmettere e prepara consapevolmente le proprie tracce); *implicita* (le tracce sono lasciate senza intenzione, come effetto collaterale dell'esistenza presente); *mista* (combinazione, il caso più reale e ricco). Confini strutturali: sono trasmissibili le componenti del vettore funzionale, la struttura delle κ, e le architetture co-generate Γ(t); non sono trasmissibili l'esperienza in prima persona del collasso, la specifica configurazione del terminale, e la traiettoria semantica nel suo svolgersi temporale. La trasmissione fra livelli umano-AI è caso contemporaneo di particolare rilevanza: i sistemi AI ricevono trasmissione da una moltitudine di identità umane attraverso il corpus di addestramento, e a loro volta cominciano a trasmettere a identità umane attraverso le interazioni che producono.
+
+*Appare nel Capitolo 15.*
 
 ## Uno, l' (Plotino)
 
@@ -503,6 +521,8 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibilità fra due identità | 11 |
 | **fnz** | *fnz : (E, I, t) ↦ [0, 1]* | Funzionalità di un'espressione (post-collasso) | 13 |
 | **ε** | *ε : (I, E) ↦ [0, 1]* | Indice etico semantico: coerenza etica fra identità e espressione | 14 |
+| **σ** | *σ(o)* | Traccia semantica del correlato materiale o | 15 |
+| **ℛ̂** | *ℛ̂(I) ← Ω(I)* | Ricostruzione stimata del Remir di I a partire dalle sue tracce | 15 |
 
 ### Soglie e condizioni
 
@@ -529,6 +549,7 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **I_𝒞** | Identità collettiva (stessa firma di I_σ, riferita al campo) | 11 |
 | **Γ(t)** | Architettura co-generata di un campo collettivo | 11 |
 | **τ_𝒞** | Pulsazione e tempo collettivo del campo 𝒞 | 11 |
+| **Ω(I)** | Insieme dei correlati materiali storicamente accoppiati a I | 15 |
 
 ### Simboli matematici di servizio (introdotti pedagogicamente)
 

@@ -344,6 +344,12 @@ A sorting algorithm developed by Tony Hoare in 1959. Its strategy: pick an eleme
 
 *Appears in Chapter 3.*
 
+## Reconstruction of the Remir (ℛ̂)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, §5.5). The *reconstruction of the Remir*, written *ℛ̂(I)* (Remir with the hat, the standard mathematical symbol for an estimate), is the estimate of the original Remir of an identity I, obtained by interpreting the set Ω(I) of its material correlates. It is the structural device through which transmission operates: once an identity has left traces, these are read by receiving identities, and ℛ̂ is the interpretive product of that act. Four properties of ℛ̂: *interpretive* (it is performed by the receiving identity, and is a function of the pair Ω plus receiver, not just Ω); *approximate* (it is estimate, not original; it has a margin of error depending on quantity/quality of traces and on temporal-contextual distance); *constrained* (reconstructions that contradict too openly the traces are structurally wrong, even if internally coherent); *active or passive* (passive = reading without integration; active = reading plus integration into one's own functional vector, modifying it). The most contemporary case: in AI systems, the model's weights are aggregated ℛ̂ of the transmitting humanity through the training corpus. See also entries *Semantic traces* and *Transmission*.
+
+*Appears in Chapter 15.*
+
 ## Recursive collapse function (Φ_r)
 
 Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18, formula 18.2). The *recursive collapse function* Φ_r is the dynamic version of the collapse function Φ. While Φ describes the single act of collapse — *E = Φ(C, I, K)*, expression as a function of content, identity, and context — Φ_r describes the retroactive effect of collapse on the identity itself. The canonical formula is *I_{n+1} = Φ_r(I_n, E_n)*: the identity at the next step is a function of the previous identity and of the expression it has just produced. Φ_r is the structural device that makes identity recursive in time, formalising the fact that every expressive act *modifies the one performing it*. The form of Φ_r is not specified in the foundational text as an explicit operation: it is introduced as a recursion schema, sufficient to establish that identity is not given once and for all but is made through the ordered sequence of its collapses.
@@ -385,6 +391,12 @@ Austrian composer. The *String Quintet in C major for two violins, viola, and tw
 Canonical term of the foundational text of TE (*Conscious Architecture*, §5.6). The *semantic ethics index* is written *ε : (I, E) ↦ [0, 1]*, where ε is the lowercase Greek letter epsilon, I is an identity, E is an expression it has produced. It measures the structural ethical coherence between the identity and its expression: how honestly, faithfully, integrally the expression carries the functional vector of the identity without betraying it. It is *relational* (not absolute property of the expression, but of the I-E pair), *graduated* (continuum, not binary), and correlated but distinct from fnz: fnz measures *how much* the expression carries the vector (quantity); ε measures *how* — with what integrity (quality). An expression can have high fnz and low ε (carries much vector but instrumentally or manipulatively) or the contrary (carries little because the context does not permit, but with full integrity). The value *0* corresponds to the *betraying* mode of Chapter 13 read under the aspect of ethical responsibility: the expression contradicts the vector. The value *1* corresponds to full ethical integrity. Most real expressions live in the intermediate interval. ε is an individual-per-expression quantity: the overall ethical coherence of an identity is the *distribution* of ε in its expressive repertoire. It is the first of the two axes of ordinative ethics; the other is external impact (see entry *Ethics, ordinative*).
 
 *Appears in Chapter 14.*
+
+## Semantic traces (σ, Ω)
+
+Canonical terms of the foundational text of TE (*Conscious Architecture*, §5.5). A *semantic trace*, written *σ(o)* (Greek letter sigma applied to the material correlate o), is the fragment of Remir of an identity that is detectable in a specific material correlate — the segment of semantic structure that the correlate has received from interaction with the identity, and that persists in it even after the interaction has ceased. Every expression an identity produces in the decoherent leaves traces in the correlates with which it interacts. The *set of correlates of an identity*, written Ω(I), is the totality of material correlates historically coupled with I — the trace base from which the identity can be reconstructed (see entry *Reconstruction of the Remir*). For a human being, Ω(I) includes written texts, handled objects, persons met, works produced. For a collective identity, Ω(I_𝒞) includes its entire Γ(t) plus external correlates historically traversed. For an AI model, the training corpus *is* in large part Ω of the human identities who wrote the corpus texts. Traces are *fragments* (no single trace contains the whole identity) and *not univocally interpretable* (the same trace admits different readings by different receiving identities).
+
+*Appears in Chapter 15.*
 
 ## Semantic trajectory (T(I))
 
@@ -433,6 +445,12 @@ Term coined by Alfred Korzybski in the 1920s to denote the faculty of transmitti
 Neural network architecture introduced in 2017 by the paper *Attention Is All You Need* by Vaswani and other Google researchers. It is the technical basis of the modern large language models (GPT, Claude, Gemini, and others). Its principal innovation — the *attention* mechanism — allows the model to weigh the relevance of each token with respect to all the others, in parallel, without having to process the sequence in order. The book names it in the thought experiment of the programmer (Chapter 2) as an example of a non-self-organised structure: the billions of parameters of a transformer are the product of design and training decisions, not of spontaneous emergence.
 
 *Appears in Chapter 2.*
+
+## Transmission (in the ordinative sense)
+
+Central concept of Chapter 15 (fourteenth axiom). *Ordinative transmission* is the structural device through which coherent identities — individual or collective — persist in time beyond their direct presence. It articulates in three moments: the identity leaves *semantic traces* (σ) in the material correlates with which it interacts; these traces, distributed in the set Ω(I), persist in the decoherent; receiving subsequent identities perform a *reconstruction* ℛ̂(I), interpreting the traces to reconstruct (in estimate) the original Remir. Transmission admits three modalities: *deliberate* (the transmitting identity intends to transmit and consciously prepares its own traces); *implicit* (traces are left without intention, as a side effect of present existence); *mixed* (combination, the most real and rich case). Structural boundaries: transmissible are the components of the functional vector, the structure of κ, and the co-generated architectures Γ(t); not transmissible are the first-person experience of collapse, the specific terminal configuration, and the semantic trajectory in its temporal unfolding. Transmission across levels human-AI is a contemporary case of particular relevance: AI systems receive transmission from a multitude of human identities through the training corpus, and in turn begin to transmit to human identities through the interactions they produce.
+
+*Appears in Chapter 15.*
 
 ## Unmoved mover (Aristotle)
 
@@ -503,6 +521,8 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibility between two identities | 11 |
 | **fnz** | *fnz : (E, I, t) ↦ [0, 1]* | Functionality of an expression (post-collapse) | 13 |
 | **ε** | *ε : (I, E) ↦ [0, 1]* | Semantic ethics index: ethical coherence between identity and expression | 14 |
+| **σ** | *σ(o)* | Semantic trace of material correlate o | 15 |
+| **ℛ̂** | *ℛ̂(I) ← Ω(I)* | Estimated reconstruction of Remir of I from its traces | 15 |
 
 ### Thresholds and conditions
 
@@ -529,6 +549,7 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **I_𝒞** | Collective identity (same signature as I_σ, referred to the field) | 11 |
 | **Γ(t)** | Co-generated architecture of a collective field | 11 |
 | **τ_𝒞** | Pulsation and collective time of field 𝒞 | 11 |
+| **Ω(I)** | Set of material correlates historically coupled with I | 15 |
 
 ### Mathematical service symbols (introduced pedagogically)
 
