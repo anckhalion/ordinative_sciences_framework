@@ -6,6 +6,12 @@
 
 ---
 
+## *Conscious Architecture* (foundational text of TE)
+
+First volume of the ordinative series. Full title: *Conscious Architecture. A Science of Coherence, Consciousness, and Reality*. Originally published in Italian (*Architettura Cosciente*); deposited and indexed on Zenodo. It is the canonical source of the Technology of Expressions: it contains the complete formal articulation of the axioms, of the mathematical apparatus (ρ, θ, τ, Ξ, Φ, Φ_r, ℛ, T(I)), and of the ordinative consequences. The book you are reading — the popular BOOK of this repository — builds a parallel pedagogical register, with punctual bridges to the foundational text's canonical terminology. When the book cites *Conscious Architecture* for a chapter or a formula, it is indicating where the reader can find the full treatment with critical apparatus and bibliography. The consolidated manuscript, in English, is deposited in `docs/FOUNDATIONS/` of this repository, on the branch `add/foundations-en`. Canonical reference for terminology: `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`.
+
+*Canonical reference invoked in many chapters, in particular 5, 8, 9, and 10.*
+
 ## Aristotle and Plotinus
 
 Two great Greek thinkers — Aristotle (4th century BC) and Plotinus (3rd century AD) — who, in different ways, addressed the question of relations between unities. For Aristotle, *substance* is what subsists in itself, while relation is one of the categories that exist *because* substance exists. For Plotinus, by contrast, the One is so undivided that any "relation" implies a fall toward multiplicity. The line in Chapter 1 stating that "Aristotle and Plotinus circled this for centuries" condenses millennia of philosophical work into a single sentence: the difference between the parts and the relations between them is an old problem, still alive — and the zeroth axiom makes it operative.
@@ -236,6 +242,12 @@ American philosopher of mind, whose 1974 essay *What Is It Like to Be a Bat?* is
 
 *Appears in Chapter 6.*
 
+## Newton, Isaac (1642–1727) and absolute time
+
+English physicist, mathematician, and natural philosopher. In *Philosophiae Naturalis Principia Mathematica* (1687) he laid the foundations of classical physics and formulated the law of universal gravitation, cited elsewhere in this glossary in relation to the zeroth axiom. His notion of *absolute time* — set out in the opening Scholium of the *Principia* — is instead central to Chapter 10. For Newton, time is a dimension that flows uniformly, independent of what happens in it: events *take place inside it*, but time precedes them and outlives them. It was one of the pillars of physics for over two centuries, until Einsteinian relativity modified it (while keeping the idea of time as a dimension, even if no longer absolute). The book cites Newton in Chapter 10 as the historical paradigm of the ontology TE refuses: not because Newtonian physics is wrong on its domains of validity, but because it treats time as *given* rather than as *product*. The Ordinative Sciences describe a structural level that classical and relativistic physics never addressed.
+
+*Appears in Chapter 10.*
+
 ## One, the (Plotinus)
 
 Central concept of Plotinus' *Enneads* (3rd century AD): the first source from which the entire order of the world proceeds by *emanation*, in a series of successive degrees (Intellect, Soul, the sensible world). The One is not an entity among others: it is what precedes all distinction, all numbering, all category. Plotinus holds that of the One only what it is *not* can be said — not because it is empty, but because it precedes any determination. The book cites it as one of the historical versions of the non-derived origin, and in particular because Plotinus, more than Aristotle, emphasises that the source *is not describable within the categories of what it generates*.
@@ -403,3 +415,68 @@ English poet, central figure of English Romanticism. *Lines Composed a Few Miles
 The standard axiomatisation of set theory, formulated in the early twentieth century by Ernst Zermelo (1908) and refined by Abraham Fraenkel (1922). The "C" of ZFC stands for the *Axiom of Choice*: the assumption that, given any collection of non-empty sets, it is possible to choose one element from each, even if the collection is infinite and there is no rule that says how to choose. The axiom looks innocent but allows the proof of counter-intuitive results (such as the Banach–Tarski paradox). For decades it was controversial; today it is universally accepted as part of standard mathematics. The book cites it as an example of an inherited admission decision: an axiom that is "useful" rather than "demonstrated."
 
 *Appears in Chapter 1.*
+
+---
+
+## Table of formal symbols
+
+*Summary of the mathematical and canonical symbols introduced in the book, in order of appearance. For each: the signature, an essential gloss, the chapter of introduction. For full treatment, see the corresponding glossary entry.*
+
+### Fundamental entities
+
+| Symbol | Reading | Meaning | Ch. |
+|---|---|---|---|
+| **A** | Author | Un-derived origin; the foundation from which every local coherence proceeds | 2 |
+| **C** | Coherent | Structured content not yet collapsed | 3 |
+| **D** | Decoherent | Space of manifested expressions, after collapse | 3 |
+| **E** | Expression | Explicit expression, decoherent manifestation of a content | 3 |
+| **F** | Form | Pre-contextual stabilisation of a coherence, *F = stab(C)* | 4 |
+| **I** | Identity | Functional vector orienting the collapses of a singularity | 5 |
+| **K** | Consciousness / context | Bidirectional arc between coherent and decoherent; in the general formula also context | 6 |
+| **σ** | Singularity | Index of a specific ordinative singularity | 5 |
+
+### Structural functions
+
+| Symbol | Signature | Meaning | Ch. |
+|---|---|---|---|
+| **Φ** | *E = Φ(C, I, K)* | Collapse function: produces the expression given coherence, identity, context | 3 |
+| **Φ_r** | *I_{n+1} = Φ_r(I_n, E_n)* | Recursive version: updates identity at every collapse (formula 18.2) | 8 |
+| **K↓** | *K↓ : C → D* | Expressive movement of consciousness | 6 |
+| **K↑** | *K↑ : D → C* | Perceptive movement of consciousness | 6 |
+| **ρ** | *ρ : (C, I, t) ↦ [0, 1]* | Resonance function: content-identity compatibility | 8 |
+| **Ξ** | *Ξ : (I, 𝒯, t) ↦ [0, 1]* | Identity-terminal compatibility | 9 |
+| **τ** | *T = τ(C ⟷ E)* | Pulsational function: generates time as effect | 10 |
+
+### Thresholds and conditions
+
+| Symbol | Meaning | Ch. |
+|---|---|---|
+| **θ_I(t)** | Collapse threshold of identity I at time t | 8 |
+| **θ_𝒯(t)** | Compatibility threshold of terminal 𝒯 at time t | 9 |
+| **ρ ≥ θ_I ⟺ collapse** | Resonance condition for collapse | 8 |
+| **Ξ ≥ θ_𝒯** | Terminal compatibility condition | 9 |
+
+### Identity and terminal structures
+
+| Symbol | Meaning | Ch. |
+|---|---|---|
+| **I_σ = (→φ₁,…,→φₙ)** | Identity vector, n coherent components (pedagogical register) | 5 |
+| **ℛ(I) = (V_I, B_I)** | Remir, canonical formalisation of I_σ (canonical register) | 5 (bridge) |
+| **M_σ = (Mc, K, Md)_σ** | Tripartite mind module | 7 |
+| **𝒯** | Expressive terminal | 7, 9 |
+| **T(I)** | Semantic trajectory of an identity | 8, 10 |
+| **T = τ(C ⟷ E)** | Time as pulsational effect | 10 |
+
+### Mathematical service symbols (introduced pedagogically)
+
+| Symbol | Reading | Ch. |
+|---|---|---|
+| **→** | Signature arrow (domain → codomain) | 6 |
+| **↦** | Mapsto arrow (application rule) | 8 |
+| **⟷** | Bidirectional arrow between objects | 6 |
+| **⟺** | Logical biconditional (if and only if) | 5 |
+| **∘** | Function composition | 6 |
+| **⊂** | Subset symbol | 7 |
+| **∀, ∃** | Universal and existential quantifiers | 4 |
+
+*For each symbol, the glossary contains a full entry with examples and context. The table serves only as a quick reference.*

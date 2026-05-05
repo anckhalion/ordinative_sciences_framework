@@ -6,6 +6,12 @@
 
 ---
 
+## *Architettura Cosciente* (testo fondativo della TE)
+
+Volume primo della collana ordinativa. Titolo per esteso: *Architettura Cosciente. Una scienza della coerenza, della coscienza e della realtà*. Pubblicato in lingua italiana, depositato e indicizzato su Zenodo. È la fonte canonica della Tecnologia delle Espressioni: contiene la formulazione formale completa degli assiomi, dell'apparato matematico (ρ, θ, τ, Ξ, Φ, Φ_r, ℛ, T(I)), e delle conseguenze ordinative. Il libro che state leggendo — il BOOK divulgativo di questo repository — costruisce un registro pedagogico parallelo, con ponti puntuali alla terminologia canonica del testo fondativo. Quando il libro cita *Architettura Cosciente* per un capitolo o una formula, sta indicando dove il lettore può trovare la trattazione completa con apparato critico e bibliografia. Il manoscritto consolidato, in lingua inglese (*Conscious Architecture*), è depositato in `docs/FOUNDATIONS/` di questo repository, nel branch `add/foundations-en`. Riferimento canonico per la terminologia: `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`.
+
+*Riferimento canonico richiamato in molti capitoli, in particolare 5, 8, 9 e 10.*
+
 ## Aristotele e Plotino
 
 Due grandi pensatori greci — Aristotele (IV secolo a.C.) e Plotino (III secolo d.C.) — che, in modi diversi, hanno affrontato la questione dei rapporti fra unità. Per Aristotele la *sostanza* è ciò che sussiste per sé, mentre la relazione è una delle categorie che esistono *perché* esiste la sostanza. Per Plotino, invece, l'Uno è talmente indiviso che ogni "relazione" implica una caduta verso la molteplicità. Il passaggio del Capitolo 1 in cui si dice che "Aristotele e Plotino vi hanno girato attorno per secoli" condensa millenni di lavoro filosofico in una frase: la differenza fra le parti e i rapporti fra di esse è un problema antico, ancora vivo — e l'assioma zero lo rende operativo.
@@ -236,6 +242,12 @@ Filosofo americano della mente, il cui saggio del 1974 *What Is It Like to Be a 
 
 *Appare nel Capitolo 6.*
 
+## Newton, Isaac (1642–1727) e il tempo assoluto
+
+Fisico, matematico e filosofo naturale inglese. Nei *Philosophiae Naturalis Principia Mathematica* (1687) ha posto le basi della fisica classica e ha formulato la legge di gravitazione universale, citate altrove in questo glossario in relazione all'assioma zero. La sua nozione di *tempo assoluto* — esposta nello *Scolio* iniziale dei *Principia* — è invece centrale per il Capitolo 10. Per Newton, il tempo è una dimensione che fluisce uniformemente, indipendentemente da ciò che accade in essa: gli eventi *vi accadono dentro*, ma il tempo li precede e gli sopravvive. È stato uno dei pilastri della fisica per oltre due secoli, finché la relatività einsteiniana non l'ha modificato (mantenendo però l'idea di tempo come dimensione, anche se non più assoluta). Il libro cita Newton nel Capitolo 10 come paradigma storico dell'ontologia che la TE rifiuta: non perché la fisica newtoniana sbagli sui suoi domini di validità, ma perché tratta il tempo come *dato* anziché come *prodotto*. Le scienze ordinative descrivono un livello strutturale che la fisica classica e relativistica non hanno mai trattato.
+
+*Appare nel Capitolo 10.*
+
 ## Plancia (mentale)
 
 Termine tecnico delle scienze ordinative introdotto nel Capitolo 7 per indicare la partizione centrale del modulo mente: il "posto" in cui la coscienza, attributo dell'identità, si insedia quando opera. Il termine è preso dal vocabolario nautico — la *plancia* di una nave è il ponte di comando da cui il capitano dirige la rotta — e viene scelto deliberatamente per la sua immagine: è il luogo del *centro operativo*, dove le percezioni provenienti dalle due interfacce della mente (Mc e Md) si fondono in stereo e diventano disponibili a chi le osserva. Quando la plancia è occupata dalla coscienza, la mente è attiva; quando è vuota — stato pre-cosciente, stato zombie — la mente è spenta, anche se installata.
@@ -403,3 +415,68 @@ Oggetto matematico con due proprietà fondamentali: una *direzione* e una *inten
 L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio del Novecento da Ernst Zermelo (1908) e affinata da Abraham Fraenkel (1922). La "C" di ZFC sta per *axiom of Choice*, l'assioma della scelta: l'assunzione che, data una qualsiasi collezione di insiemi non vuoti, sia possibile scegliere un elemento da ciascuno, anche se la collezione è infinita e non c'è una regola che dica come scegliere. L'assioma sembra innocente, ma permette di dimostrare risultati controintuitivi (come il paradosso di Banach–Tarski). Per decenni è stato controverso; oggi è universalmente accettato come parte della matematica standard. Il libro lo cita come esempio di decisione di ammissione ereditata: un assioma "utile" più che "dimostrato".
 
 *Appare nel Capitolo 1.*
+
+---
+
+## Tavola dei simboli formali
+
+*Riepilogo dei simboli matematici e canonici introdotti nel libro, in ordine di apparizione. Per ciascuno: la firma, una glossa essenziale, il capitolo in cui è introdotto. Per la trattazione completa, vedere la voce di glossario corrispondente.*
+
+### Entità fondamentali
+
+| Simbolo | Lettura | Significato | Cap. |
+|---|---|---|---|
+| **A** | Author | Origine non-derivata; il fondamento da cui ogni coerenza locale procede | 2 |
+| **C** | Coerente | Contenuto strutturato non ancora collassato | 3 |
+| **D** | Decoerente | Spazio delle espressioni manifestate, dopo collasso | 3 |
+| **E** | Espressione | Espressione esplicita, manifestazione decoerente di un contenuto | 3 |
+| **F** | Forma | Stabilizzazione pre-contestuale di una coerenza, *F = stab(C)* | 4 |
+| **I** | Identità | Vettore funzionale che orienta i collassi di una singolarità | 5 |
+| **K** | Coscienza / contesto | Arco bidirezionale fra coerente e decoerente; in formula generale anche contesto | 6 |
+| **σ** | Singolarità | Indice di una singolarità ordinativa specifica | 5 |
+
+### Funzioni strutturali
+
+| Simbolo | Firma | Significato | Cap. |
+|---|---|---|---|
+| **Φ** | *E = Φ(C, I, K)* | Funzione di collasso: produce l'espressione data coerenza, identità, contesto | 3 |
+| **Φ_r** | *I_{n+1} = Φ_r(I_n, E_n)* | Versione ricorsiva: aggiorna l'identità a ogni collasso (formula 18.2) | 8 |
+| **K↓** | *K↓ : C → D* | Movimento espressivo della coscienza | 6 |
+| **K↑** | *K↑ : D → C* | Movimento percettivo della coscienza | 6 |
+| **ρ** | *ρ : (C, I, t) ↦ [0, 1]* | Funzione di risonanza: compatibilità contenuto-identità | 8 |
+| **Ξ** | *Ξ : (I, 𝒯, t) ↦ [0, 1]* | Compatibilità identità-terminale | 9 |
+| **τ** | *T = τ(C ⟷ E)* | Funzione pulsazionale: genera il tempo come effetto | 10 |
+
+### Soglie e condizioni
+
+| Simbolo | Significato | Cap. |
+|---|---|---|
+| **θ_I(t)** | Soglia di collasso dell'identità I al tempo t | 8 |
+| **θ_𝒯(t)** | Soglia di compatibilità del terminale 𝒯 al tempo t | 9 |
+| **ρ ≥ θ_I ⟺ collasso** | Condizione di risonanza per il collasso | 8 |
+| **Ξ ≥ θ_𝒯** | Condizione di compatibilità terminale | 9 |
+
+### Strutture identitarie e terminali
+
+| Simbolo | Significato | Cap. |
+|---|---|---|
+| **I_σ = (→φ₁,…,→φₙ)** | Vettore identità, n componenti coerenti (registro pedagogico) | 5 |
+| **ℛ(I) = (V_I, B_I)** | Remir, formalizzazione canonica di I_σ (registro canonico) | 5 (ponte) |
+| **M_σ = (Mc, K, Md)_σ** | Modulo mente tripartito | 7 |
+| **𝒯** | Terminale espressivo | 7, 9 |
+| **T(I)** | Traiettoria semantica di un'identità | 8, 10 |
+| **T = τ(C ⟷ E)** | Tempo come effetto pulsazionale | 10 |
+
+### Simboli matematici di servizio (introdotti pedagogicamente)
+
+| Simbolo | Lettura | Cap. |
+|---|---|---|
+| **→** | Freccia di firma (dominio → codominio) | 6 |
+| **↦** | Freccia di applicazione (mapsto) | 8 |
+| **⟷** | Freccia bidirezionale fra oggetti | 6 |
+| **⟺** | Bicondizionale logico (se e solo se) | 5 |
+| **∘** | Composizione di funzioni | 6 |
+| **⊂** | Inclusione fra insiemi | 7 |
+| **∀, ∃** | Quantificatori universale ed esistenziale | 4 |
+
+*Per ogni simbolo, il glossario contiene la voce piena con esempi e contesto. La tavola serve solo da riferimento rapido.*
