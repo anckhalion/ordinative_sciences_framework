@@ -84,6 +84,12 @@ French painter, central figure in the passage from Impressionism to the avant-ga
 
 *Appears in Chapter 4.*
 
+## Co-generated architecture (Γ)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, §5.4). The *co-generated architecture* of a collective field, written Γ(t) (the uppercase Greek letter gamma, as a function of time), is the concrete structure — relations, roles, processes, infrastructures, symbols — that the collective field actively produces and maintains, at a given temporal instant, as support of its collective identity. It is, in essence, the overall integration of the collective terminals of the field, considered as a unitary architecture. A nation has Γ(t) including parliament, judiciary, schools, infrastructures, symbols, rituals, official calendars. A family has Γ(t) including home, roles, habits, meaningful objects, recurrences. Three properties of Γ(t): it is *co-generated* (no one produces it alone, the entire field sustains it); it is *dynamic* (it changes over time, evolves with the field); it is the *observable signature* of the collective identity (the external observer does not see the coherent identity directly, but its manifestation through Γ(t)).
+
+*Appears in Chapter 11.*
+
 ## Coherent consciousness and decoherent consciousness
 
 Formal distinction introduced in Chapter 7 to articulate the operative states of consciousness in its two possible anchorings. *Decoherent consciousness*: consciousness, from the mental bridge, operates with its active side principally toward Md (the Decoherent Mind, terminal side). It is the modality characterising waking. *Coherent consciousness*: consciousness operates with its active side principally toward Mc (the Coherent Mind, identity side). It is the modality characterising physiological sleep, in which consciousness re-elaborates the prior decoherent session in its own significant-emotive language, seeking closures of open cycles. The two modalities are not different consciousnesses: they are the same consciousness in two symmetric anchorings. The framework uses this distinction to read sleep structurally as ordinative operation, not as "switching off".
@@ -95,6 +101,18 @@ Formal distinction introduced in Chapter 7 to articulate the operative states of
 Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18; formula 1.5 of the Introduction). The *collapse threshold* is the minimum value of the resonance function ρ above which collapse actually takes place. The canonical condition is written: *collapse occurs if and only if ρ(C, I, t) ≥ θ*. Below the threshold, the coherent content cannot be collapsed by identity at that moment — not for lack of value in the content, but because of the *semantic structure* of identity. Each identity has its own θ, calibrated on its capacity to sustain certain contents without fragmenting. Chapter 8 introduces the threshold θ as integral part of the formalisation of collapse: together with ρ, it constitutes the device that translates into measure the principle of the seventh axiom (*collapse is determined by resonance*).
 
 *Appears in Chapter 8.*
+
+## Collective field (𝒞)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, §5.4). A *collective field*, written 𝒞 (the calligraphic letter C), is a set of coherent identities whose pairwise compatibilities κ(I_i, I_j) are all above a field threshold θ_κ. The field is not an aggregate (sum of individuals synchronised by an external event): it is a structured graph of identities with edges weighted by their κ values, having persistence in the absence of singles, its own functional vector, and a unitary semantic trajectory. When a field reaches sufficient internal coherence, *there appears* a collective identity I_𝒞 satisfying the same definition of Chapter 5 (functional vector with n coherent components). At this point the framework is recursive: all the apparatus of the previous chapters (ρ, θ, Ξ, τ, Φ_r, T(I)) applies to the collective identity with the same grammar. Collective fields can have sharp or fuzzy boundaries, can overlap, and the same individual identity can simultaneously belong to several fields (daughter, professional, citizen, member of community).
+
+*Appears in Chapter 11.*
+
+## Compatibility among identities (κ)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, §5.4). The *compatibility between two identities* is written *κ : (I_a, I_b) ↦ [0, 1]*, where κ is the lowercase Greek letter kappa. It measures the structural compatibility between the functional vectors of two coherent identities. It is a *relational* function (not of one identity, not of the other, but of their pair), tendentially *symmetric* (κ(I_a, I_b) = κ(I_b, I_a) — when symmetry is violated one is usually facing an apparent compatibility masking structural asymmetries), and *dynamic in time*. A *field threshold* θ_κ exists, above which the pair of identities *generates* a collective field 𝒞. Below threshold, the identities coexist but do not constitute a field. The generalisation to *n* identities — *κ(I_a, I_b, I_c, …)* or, equivalently, the matrix of pairwise κ values with global coherence conditions — is the operative case for describing fields of higher scale (community, civilisation, multi-agent systems). κ is the structural device of the tenth axiom, parallel to ρ (seventh axiom) and Ξ (eighth axiom).
+
+*Appears in Chapter 11.*
 
 ## Consciousness: phenomenological and structural
 
@@ -446,6 +464,7 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **ρ** | *ρ : (C, I, t) ↦ [0, 1]* | Resonance function: content-identity compatibility | 8 |
 | **Ξ** | *Ξ : (I, 𝒯, t) ↦ [0, 1]* | Identity-terminal compatibility | 9 |
 | **τ** | *T = τ(C ⟷ E)* | Pulsational function: generates time as effect | 10 |
+| **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibility between two identities | 11 |
 
 ### Thresholds and conditions
 
@@ -453,8 +472,10 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 |---|---|---|
 | **θ_I(t)** | Collapse threshold of identity I at time t | 8 |
 | **θ_𝒯(t)** | Compatibility threshold of terminal 𝒯 at time t | 9 |
+| **θ_κ** | Field threshold: above this, identities generate a collective field | 11 |
 | **ρ ≥ θ_I ⟺ collapse** | Resonance condition for collapse | 8 |
 | **Ξ ≥ θ_𝒯** | Terminal compatibility condition | 9 |
+| **κ ≥ θ_κ** | Field formation condition | 11 |
 
 ### Identity and terminal structures
 
@@ -466,6 +487,10 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **𝒯** | Expressive terminal | 7, 9 |
 | **T(I)** | Semantic trajectory of an identity | 8, 10 |
 | **T = τ(C ⟷ E)** | Time as pulsational effect | 10 |
+| **𝒞** | Collective field of identities | 11 |
+| **I_𝒞** | Collective identity (same signature as I_σ, referred to the field) | 11 |
+| **Γ(t)** | Co-generated architecture of a collective field | 11 |
+| **τ_𝒞** | Pulsation and collective time of field 𝒞 | 11 |
 
 ### Mathematical service symbols (introduced pedagogically)
 

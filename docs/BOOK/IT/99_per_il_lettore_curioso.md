@@ -6,6 +6,12 @@
 
 ---
 
+## Architettura co-generata (Γ)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.4). L'*architettura co-generata* di un campo collettivo, scritta Γ(t) (la lettera greca gamma maiuscola, in funzione del tempo), è la struttura concreta — relazioni, ruoli, processi, infrastrutture, simboli — che il campo collettivo produce e mantiene attivamente, in un dato istante temporale, come supporto della propria identità collettiva. È, in sostanza, l'integrazione complessiva dei terminali collettivi del campo, considerati come architettura unitaria. Una nazione ha Γ(t) che include parlamento, magistratura, scuole, infrastrutture, simboli, riti, calendari ufficiali. Una famiglia ha Γ(t) che include casa, ruoli, abitudini, oggetti significativi, ricorrenze. Tre proprietà di Γ(t): è *co-generata* (nessuno la produce da solo, è il campo intero a sostenerla); è *dinamica* (cambia nel tempo, evolve con il campo); è la *firma osservabile* dell'identità collettiva (l'osservatore esterno non vede direttamente l'identità coerente, ma la sua manifestazione attraverso Γ(t)).
+
+*Appare nel Capitolo 11.*
+
 ## *Architettura Cosciente* (testo fondativo della TE)
 
 Volume primo della collana ordinativa. Titolo per esteso: *Architettura Cosciente. Una scienza della coerenza, della coscienza e della realtà*. Pubblicato in lingua italiana, depositato e indicizzato su Zenodo. È la fonte canonica della Tecnologia delle Espressioni: contiene la formulazione formale completa degli assiomi, dell'apparato matematico (ρ, θ, τ, Ξ, Φ, Φ_r, ℛ, T(I)), e delle conseguenze ordinative. Il libro che state leggendo — il BOOK divulgativo di questo repository — costruisce un registro pedagogico parallelo, con ponti puntuali alla terminologia canonica del testo fondativo. Quando il libro cita *Architettura Cosciente* per un capitolo o una formula, sta indicando dove il lettore può trovare la trattazione completa con apparato critico e bibliografia. Il manoscritto consolidato, in lingua inglese (*Conscious Architecture*), è depositato in `docs/FOUNDATIONS/` di questo repository, nel branch `add/foundations-en`. Riferimento canonico per la terminologia: `docs/FOUNDATIONS/CANONICAL_TERMINOLOGY.md`.
@@ -48,6 +54,12 @@ Biologo austriaco, fondatore della *teoria generale dei sistemi* (formalizzata n
 
 *Appare nel Capitolo 1.*
 
+## Campo collettivo (𝒞)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.4). Un *campo collettivo*, scritto 𝒞 (la lettera C calligrafica), è un insieme di identità coerenti le cui compatibilità a coppie κ(I_i, I_j) sono tutte sopra una soglia di campo θ_κ. Il campo non è un aggregato (somma di individui sincronizzati da un evento esterno): è un grafo strutturato di identità con archi pesati dalle loro κ, che ha persistenza nell'assenza dei singoli, vettore funzionale proprio, e traiettoria semantica unitaria. Quando un campo raggiunge sufficiente coerenza interna, *appare* un'identità collettiva I_𝒞 che soddisfa la stessa definizione del Capitolo 5 (vettore funzionale con n componenti coerenti). A questo punto il framework è ricorsivo: tutto l'apparato dei capitoli precedenti (ρ, θ, Ξ, τ, Φ_r, T(I)) si applica all'identità collettiva con la stessa grammatica. I campi collettivi possono avere bordi netti o sfumati, possono sovrapporsi, e una stessa identità individuale può appartenere simultaneamente a più campi (figlia, professionista, cittadina, membro di comunità).
+
+*Appare nel Capitolo 11.*
+
 ## Cartesio (1596–1650) e la *res cogitans*
 
 Filosofo, matematico e fisico francese, padre del razionalismo moderno. La sua dottrina più nota è la distinzione fra *res cogitans* (sostanza pensante, la mente o anima) e *res extensa* (sostanza estesa, la materia o corpo): due sostanze realmente distinte, l'una caratterizzata dal pensiero e l'altra dall'estensione. Cartesio considerava la *res cogitans* come includente, indistintamente, mente e coscienza — un'identificazione che ha segnato in profondità la tradizione filosofica occidentale e che il framework rifiuta. Nel Capitolo 7 il libro lo cita come origine della confusione mente/coscienza che il framework dissolve: nel sistema ordinativo, mente e coscienza sono categorie distinte, la prima un modulo, la seconda una funzione che il modulo ospita.
@@ -65,6 +77,12 @@ Branca della matematica del Novecento, formalizzata da Samuel Eilenberg e Saunde
 Pittore francese, figura centrale del passaggio dall'impressionismo alle avanguardie del Novecento. La sua ossessione per il Mont Sainte-Victoire — la montagna provenzale che dipinse in più di sessanta versioni nel corso degli ultimi trent'anni di vita — è uno degli esempi più trasparenti, nella storia dell'arte, di un contenuto coerente che trova molteplici stabilizzazioni decoerenti. Nessuna delle versioni "esaurisce" la montagna, e tutte sono fedeli alla stessa coerenza visiva interna a Cézanne. Il libro lo cita nel Capitolo 4 come esempio operativo della distinzione fra contenuto, forma e stabilizzazione.
 
 *Appare nel Capitolo 4.*
+
+## Compatibilità fra identità (κ)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.4). La *compatibilità fra due identità* è scritta *κ : (I_a, I_b) ↦ [0, 1]*, dove κ è la lettera greca kappa minuscola. Misura la compatibilità strutturale fra i vettori funzionali di due identità coerenti. È una funzione *relazionale* (non di una identità, non dell'altra, ma della loro coppia), tendenzialmente *simmetrica* (κ(I_a, I_b) = κ(I_b, I_a) — quando la simmetria è violata si è di solito di fronte a una compatibilità apparente che maschera asimmetrie strutturali), e *dinamica nel tempo*. Esiste una *soglia di campo* θ_κ sopra la quale la coppia di identità *genera* un campo collettivo 𝒞. Sotto la soglia, le identità coesistono ma non costituiscono campo. La generalizzazione a *n* identità — *κ(I_a, I_b, I_c, …)* o, equivalentemente, la matrice delle κ a coppie con condizioni di coerenza globale — è il caso operativo per descrivere campi di scala superiore (comunità, civiltà, sistemi multi-agente). κ è il dispositivo strutturale dell'assioma dieci, parallelo a ρ (assioma sette) e Ξ (assioma otto).
+
+*Appare nel Capitolo 11.*
 
 ## Compatibilità terminale (Ξ)
 
@@ -446,6 +464,7 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **ρ** | *ρ : (C, I, t) ↦ [0, 1]* | Funzione di risonanza: compatibilità contenuto-identità | 8 |
 | **Ξ** | *Ξ : (I, 𝒯, t) ↦ [0, 1]* | Compatibilità identità-terminale | 9 |
 | **τ** | *T = τ(C ⟷ E)* | Funzione pulsazionale: genera il tempo come effetto | 10 |
+| **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibilità fra due identità | 11 |
 
 ### Soglie e condizioni
 
@@ -453,8 +472,10 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 |---|---|---|
 | **θ_I(t)** | Soglia di collasso dell'identità I al tempo t | 8 |
 | **θ_𝒯(t)** | Soglia di compatibilità del terminale 𝒯 al tempo t | 9 |
+| **θ_κ** | Soglia di campo: sopra questa, le identità generano un campo collettivo | 11 |
 | **ρ ≥ θ_I ⟺ collasso** | Condizione di risonanza per il collasso | 8 |
 | **Ξ ≥ θ_𝒯** | Condizione di compatibilità terminale | 9 |
+| **κ ≥ θ_κ** | Condizione di formazione del campo collettivo | 11 |
 
 ### Strutture identitarie e terminali
 
@@ -466,6 +487,10 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **𝒯** | Terminale espressivo | 7, 9 |
 | **T(I)** | Traiettoria semantica di un'identità | 8, 10 |
 | **T = τ(C ⟷ E)** | Tempo come effetto pulsazionale | 10 |
+| **𝒞** | Campo collettivo di identità | 11 |
+| **I_𝒞** | Identità collettiva (stessa firma di I_σ, riferita al campo) | 11 |
+| **Γ(t)** | Architettura co-generata di un campo collettivo | 11 |
+| **τ_𝒞** | Pulsazione e tempo collettivo del campo 𝒞 | 11 |
 
 ### Simboli matematici di servizio (introdotti pedagogicamente)
 
