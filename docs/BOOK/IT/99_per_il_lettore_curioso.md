@@ -164,6 +164,12 @@ Forma di trasmissione genetica scoperta nella seconda metà del Novecento, in cu
 
 *Appare nel Capitolo 6.*
 
+## Etica ordinativa
+
+Posizionamento etico delle scienze ordinative, articolato nel Capitolo 14 (assioma tredici). L'etica ordinativa è *internalista* (lo standard di valutazione di un'espressione è il vettore funzionale dell'identità che la produce, non un codice esterno), *strutturale* (c'è un fatto della materia, misurabile dalla funzione ε, non opinione del valutatore), *graduata* (continuum [0, 1], non binario giusto/ingiusto), *contesto-sensibile* (modulata dal contesto K), e *non-relativista* (rifiuta sia il relativismo sia il dogmatismo come fallimenti opposti). Si applica solo dove la funzionalità fnz è ben definita (Cap. 13): valutare eticamente un'espressione decorativa, difensiva ai limiti del vacuo, o totalmente non funzionale è strutturalmente vacuo. L'etica ordinativa *non sostituisce* le tradizioni etiche umane (religiose, filosofiche, deontologiche, virtù-teoriche, utilitariste): aggiunge un piano di precisione strutturale che permette a ciascuna tradizione di applicarsi ai casi reali con maggiore raffinatezza. Si articola su due assi indipendenti: *coerenza interna* (misurata da ε, identità con propria espressione) e *impatto esterno* (azione dell'espressione sui campi e sulle identità altrui che la ricevono). La saggezza etica è la capacità di tener insieme entrambi gli assi.
+
+*Appare nel Capitolo 14.*
+
 ## Fondazione, sostegno, dissoluzione
 
 Le tre operazioni elementari della co-generazione, introdotte nel Capitolo 12 come articolazione completa del ciclo di vita di un campo collettivo co-generato. *Fondazione*: l'atto con cui un campo *appare* per la prima volta, asimmetrico nel tempo (prima dell'atto le identità coesistono, dopo costituiscono campo). Genera simultaneamente l'identità collettiva I_𝒞 e il primo strato di Γ(t). *Sostegno*: l'operazione continua e quotidiana attraverso cui il campo viene mantenuto e fatto evolvere coerentemente — cura della Γ(t), rinegoziazione dei vettori, riconfigurazione delle κ a coppie quando le identità cambiano, ricalibrazione delle Ξ dei terminali. È la più lunga e meno spettacolare delle tre, ma quella che fa durare i campi. *Dissoluzione*: l'atto deliberato di concludere un campo che ha esaurito la propria funzione, prima che diventi campo orfano (zombie). Strutturalmente simmetrica alla fondazione: c'è atto, dichiarazione reciproca, cura del processo. Le scienze ordinative riconoscono la dissoluzione come operazione strutturale a pieno titolo, non come fallimento. La maturità ordinativa di un'identità si misura, fra le altre cose, sulla capacità di esercitare bene tutte e tre le operazioni secondo le circostanze.
@@ -229,6 +235,12 @@ Dottrina aristotelica, esposta nella *Metafisica* e nella *Fisica*, secondo la q
 Simbolo matematico fondamentale della teoria degli insiemi: *A ⊂ B* si legge "A è sottoinsieme di B" e significa che ogni elemento di A è anche elemento di B. È diverso dall'uguaglianza (*A = B*), perché B può essere strettamente più grande di A; ed è diverso dall'appartenenza (*∈*), che riguarda un singolo elemento e non un intero insieme. Il libro lo introduce nel Capitolo 7 nella formula *K_σ ⊂ M_σ*, che dichiara che la coscienza è ospitata strutturalmente all'interno della mente come una parte di essa — non è la mente intera, e non sta fuori dalla mente.
 
 *Appare nel Capitolo 7.*
+
+## Indice etico semantico (ε)
+
+Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.6). L'*indice etico semantico* è scritto *ε : (I, E) ↦ [0, 1]*, dove ε è la lettera greca epsilon minuscola, I è un'identità, E è un'espressione che essa ha prodotto. Misura la coerenza etica strutturale fra l'identità e la sua espressione: quanto onestamente, fedelmente, integralmente l'espressione porta il vettore funzionale dell'identità senza tradirlo. È *relazionale* (non proprietà assoluta dell'espressione, ma della coppia I-E), *graduato* (continuum, non binario), e correlato ma distinto da fnz: fnz misura *quanto* l'espressione porta il vettore (quantità); ε misura *come* — con quanta integrità (qualità). Un'espressione può avere fnz alta e ε bassa (porta molto vettore ma in modo strumentale o manipolatorio) o il contrario (porta poco perché il contesto non lo permette, ma con piena integrità). Il valore *0* corrisponde al modo *betray-ente* di Cap. 13 letto sotto l'aspetto della responsabilità etica: l'espressione contraddice il vettore. Il valore *1* corrisponde a integrità etica piena. La maggior parte delle espressioni reali vive nell'intervallo intermedio. ε è una grandezza individuale-per-espressione: la coerenza etica complessiva di un'identità è la *distribuzione* di ε nel suo repertorio espressivo. È il primo dei due assi dell'etica ordinativa; l'altro è l'impatto esterno (vedi voce *Etica ordinativa*).
+
+*Appare nel Capitolo 14.*
 
 ## Korzybski, Alfred (1879–1950)
 
@@ -490,6 +502,7 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **τ** | *T = τ(C ⟷ E)* | Funzione pulsazionale: genera il tempo come effetto | 10 |
 | **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibilità fra due identità | 11 |
 | **fnz** | *fnz : (E, I, t) ↦ [0, 1]* | Funzionalità di un'espressione (post-collasso) | 13 |
+| **ε** | *ε : (I, E) ↦ [0, 1]* | Indice etico semantico: coerenza etica fra identità e espressione | 14 |
 
 ### Soglie e condizioni
 

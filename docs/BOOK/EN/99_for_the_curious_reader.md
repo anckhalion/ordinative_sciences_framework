@@ -174,6 +174,12 @@ Form of genetic transmission discovered in the second half of the twentieth cent
 
 *Appears in Chapter 6.*
 
+## Ethics, ordinative
+
+Ethical positioning of the Ordinative Sciences, articulated in Chapter 14 (thirteenth axiom). Ordinative ethics is *internalist* (the standard for evaluating an expression is the functional vector of the identity producing it, not an external code), *structural* (there is a fact of the matter, measurable by the function ε, not the evaluator's opinion), *graduated* (continuum [0, 1], not binary right/wrong), *context-sensitive* (modulated by context K), and *non-relativist* (refuses both relativism and dogmatism as opposed failures). It applies only where functionality fnz is well-defined (Chapter 13): to evaluate ethically a decorative expression, defensive at the limits of vacuity, or totally non-functional, is structurally empty. Ordinative ethics *does not replace* human ethical traditions (religious, philosophical, deontological, virtue-theoretic, utilitarian): it adds a plane of structural precision that allows each tradition to apply itself to real cases with greater refinement. It articulates on two independent axes: *internal coherence* (measured by ε, identity with its own expression) and *external impact* (action of the expression on the fields and on the other identities receiving it). Ethical wisdom is the capacity to hold both axes together.
+
+*Appears in Chapter 14.*
+
 ## Euclid and the five postulates
 
 Euclid (4th–3rd century BC), in his *Elements*, founded geometry on five postulates — five propositions assumed true without demonstration, on which everything else rests. We give here their classical formulations:
@@ -374,6 +380,12 @@ Austrian composer. The *String Quintet in C major for two violins, viola, and tw
 
 *Appears in Chapter 3.*
 
+## Semantic ethics index (ε)
+
+Canonical term of the foundational text of TE (*Conscious Architecture*, §5.6). The *semantic ethics index* is written *ε : (I, E) ↦ [0, 1]*, where ε is the lowercase Greek letter epsilon, I is an identity, E is an expression it has produced. It measures the structural ethical coherence between the identity and its expression: how honestly, faithfully, integrally the expression carries the functional vector of the identity without betraying it. It is *relational* (not absolute property of the expression, but of the I-E pair), *graduated* (continuum, not binary), and correlated but distinct from fnz: fnz measures *how much* the expression carries the vector (quantity); ε measures *how* — with what integrity (quality). An expression can have high fnz and low ε (carries much vector but instrumentally or manipulatively) or the contrary (carries little because the context does not permit, but with full integrity). The value *0* corresponds to the *betraying* mode of Chapter 13 read under the aspect of ethical responsibility: the expression contradicts the vector. The value *1* corresponds to full ethical integrity. Most real expressions live in the intermediate interval. ε is an individual-per-expression quantity: the overall ethical coherence of an identity is the *distribution* of ε in its expressive repertoire. It is the first of the two axes of ordinative ethics; the other is external impact (see entry *Ethics, ordinative*).
+
+*Appears in Chapter 14.*
+
 ## Semantic trajectory (T(I))
 
 Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter 18). The *semantic trajectory* of an identity, written T(I), is the ordered history of all the collapses the identity has performed. It is not a line in chronological time — clock time, measured in seconds and hours — it is a path through the coherent field, made of successive passages, each prepared by the previous one through the recursion *I_{n+1} = Φ_r(I_n, E_n)*. The trajectory T(I) is what *remains* of an identity through time: the present functional vector is only the latest layer of a sequence built up at every expressive act. The book introduces the notion in Chapter 8 (in closing, as a bridge towards the chapter on time) and resumes it when it addresses the *pulsational function* τ, which will govern the rhythm at which trajectories unfold.
@@ -490,6 +502,7 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **τ** | *T = τ(C ⟷ E)* | Pulsational function: generates time as effect | 10 |
 | **κ** | *κ : (I_a, I_b) ↦ [0, 1]* | Compatibility between two identities | 11 |
 | **fnz** | *fnz : (E, I, t) ↦ [0, 1]* | Functionality of an expression (post-collapse) | 13 |
+| **ε** | *ε : (I, E) ↦ [0, 1]* | Semantic ethics index: ethical coherence between identity and expression | 14 |
 
 ### Thresholds and conditions
 
