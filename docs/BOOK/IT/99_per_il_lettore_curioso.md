@@ -260,6 +260,12 @@ Poeta, filosofo e filologo italiano, fra le voci più alte della letteratura eur
 
 *Appare nel Capitolo 4.*
 
+## Libertà ordinativa
+
+Posizione del framework rispetto al rapporto fra libertà e determinazione, articolata nel capitolo dedicato all'Axiom 9 (*Il cammino è libero, la destinazione è determinata*). La libertà ordinativa rifiuta sia il *fatalismo* (per cui ogni passo è già scritto) sia l'*arbitrio* (per cui ogni scelta è equivalente a un'altra), e li sostituisce con una struttura su due piani: sul piano decoerente regna la libertà del *cammino* (l'identità sceglie liberamente fra molteplici possibilità); sul piano coerente regna la determinazione della *destinazione* (ogni atto coerente contribuisce alla convergenza verso A — l'Author non-derivato del Cap. 2). I due piani non si annullano, si compongono. La libertà ordinativa si articola in tre forme distinte e complementari: *libertà di vettore* (l'identità può evolvere il proprio vettore funzionale entro la propria coerenza), *libertà di terminale* (entro limiti, l'identità può scegliere attraverso quale terminale portare il proprio vettore), *libertà di traiettoria* (la scelta quotidiana di cosa portare in espressione adesso). La convergenza verso A non è destino fatalistico ma *orizzonte*: come camminare verso un orizzonte produce avanzamento direzionato senza arrivo finale, così ogni atto coerente è movimento di convergenza asintotica. Le patologie strutturali sono *cammino senza direzione* (drift, dispersione) e *direzione senza cammino* (fatalismo, meccanismo); la salute è *libertà coerente* — entrambi i piani vissuti simultaneamente.
+
+*Appare nel capitolo dedicato all'Axiom 9.*
+
 ## Lobacevskij, Bolyai, Riemann
 
 Tre matematici dell'Ottocento che — indipendentemente — hanno aperto le geometrie non-euclidee. Nikolaj Lobacevskij (1792–1856) e János Bolyai (1802–1860) hanno scoperto la geometria iperbolica, in cui per un punto esterno a una retta passano infinite parallele. Bernhard Riemann (1826–1866) ha generalizzato il gesto fondando quella che oggi si chiama geometria riemanniana, nella quale lo spazio può essere curvo in modi molteplici. Il loro lavoro ha reso visibile che i postulati di Euclide erano una *scelta*, non una necessità. Senza di loro, la relatività generale non avrebbe avuto il linguaggio matematico in cui formularsi.

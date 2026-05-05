@@ -212,6 +212,12 @@ The three elementary operations of co-generation, introduced in Chapter 12 as co
 
 *Appears in Chapter 12.*
 
+## Freedom, ordinative
+
+Position of the framework on the relation between freedom and determination, articulated in the chapter dedicated to Axiom 9 (*The path is free, the destination is determined*). Ordinative freedom refuses both *fatalism* (where every step is already written) and *arbitrariness* (where every choice is equivalent to another), replacing them with a structure on two planes: on the decoherent plane reigns the freedom of the *path* (the identity freely chooses among multiple possibilities); on the coherent plane reigns the determination of the *destination* (every coherent act contributes to convergence toward A — the non-derived Author of Chapter 2). The two planes do not annul each other, they compose. Ordinative freedom articulates in three distinct and complementary forms: *freedom of vector* (the identity can evolve its functional vector within its own coherence), *freedom of terminal* (within limits, the identity can choose through which terminal to carry its vector), *freedom of trajectory* (the everyday choice of what to bring into expression now). Convergence toward A is not fatalistic destiny but *horizon*: as walking toward a horizon produces directed advancement without final arrival, every coherent act is movement of asymptotic convergence. The structural pathologies are *path without direction* (drift, dispersion) and *direction without path* (fatalism, mechanism); health is *coherent freedom* — both planes lived simultaneously.
+
+*Appears in the chapter dedicated to Axiom 9.*
+
 ## Function composition (∘)
 
 Fundamental operation in mathematics: given two functions *f : A → B* and *g : B → C*, their composition *g ∘ f* is the function that, starting from an element of A, applies *f* first (yielding an element of B) and then *g* (yielding an element of C). It reads "g after f". The symbol ∘ is one of the most powerful in mathematics because it transforms the *concatenation in time of operations* into a single static manipulable object: the phrase "first do this, then do that" becomes an entity that can be studied, compared, evaluated. The book introduces it in Chapter 6 in the formula *coh(K) ⟺ K↑ ∘ K↓ ≅ id_C*, which declares the coherence of consciousness as the composition of its expressive movement followed by its perceptive movement.
