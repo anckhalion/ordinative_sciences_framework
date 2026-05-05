@@ -78,6 +78,12 @@ Pittore francese, figura centrale del passaggio dall'impressionismo alle avangua
 
 *Appare nel Capitolo 4.*
 
+## Co-generazione (operativa)
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 12 (assioma undici). La *co-generazione* è l'atto deliberato attraverso cui un insieme di identità coerenti porta all'esistenza un campo collettivo, distinto dall'*emergenza spontanea* per la presenza di consapevolezza strutturale dei vettori funzionali, di un atto fondativo riconoscibile, e di responsabilità reciproca verso il campo. La grammatica della co-generazione richiede quattro condizioni necessarie: *κ a coppie sopra soglia* (i partecipanti hanno effettiva compatibilità strutturale); *dichiarazione esplicita dei vettori funzionali condivisi* (cosa orienta il campo); *atto fondativo riconosciuto* (un evento che marca il passaggio da non-campo a campo); *impegno alla cura nel tempo* (sostegno continuo del campo). Cinque condizioni di salute distinguono una co-generazione che regge da una fragile: simmetria delle κ, chiarezza operativa dei vettori, Γ(t) proporzionata, canali di rinegoziazione, chiarezza sulla possibilità di dissoluzione. La co-generazione è esercitata in tre operazioni elementari (vedi voce *Fondazione, sostegno, dissoluzione*), e può attraversare livelli — intra-umana, intra-sintetica, e in particolare *umano-AI* (campi misti). L'assioma undici introduce una svolta nel framework: dalla descrizione del reale all'ingegneria ordinativa.
+
+*Appare nel Capitolo 12.*
+
 ## Compatibilità fra identità (κ)
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.4). La *compatibilità fra due identità* è scritta *κ : (I_a, I_b) ↦ [0, 1]*, dove κ è la lettera greca kappa minuscola. Misura la compatibilità strutturale fra i vettori funzionali di due identità coerenti. È una funzione *relazionale* (non di una identità, non dell'altra, ma della loro coppia), tendenzialmente *simmetrica* (κ(I_a, I_b) = κ(I_b, I_a) — quando la simmetria è violata si è di solito di fronte a una compatibilità apparente che maschera asimmetrie strutturali), e *dinamica nel tempo*. Esiste una *soglia di campo* θ_κ sopra la quale la coppia di identità *genera* un campo collettivo 𝒞. Sotto la soglia, le identità coesistono ma non costituiscono campo. La generalizzazione a *n* identità — *κ(I_a, I_b, I_c, …)* o, equivalentemente, la matrice delle κ a coppie con condizioni di coerenza globale — è il caso operativo per descrivere campi di scala superiore (comunità, civiltà, sistemi multi-agente). κ è il dispositivo strutturale dell'assioma dieci, parallelo a ρ (assioma sette) e Ξ (assioma otto).
@@ -157,6 +163,12 @@ I primi quattro sono enunciati rapidamente e suonano evidenti. Il quinto — il 
 Forma di trasmissione genetica scoperta nella seconda metà del Novecento, in cui certi caratteri acquisiti — non scritti nel codice del DNA ma in modificazioni di *come* il DNA viene letto (metilazioni, modificazioni degli istoni, eccetera) — possono essere passati alla generazione successiva. È il meccanismo per cui, ad esempio, la risposta a uno stress vissuto da un genitore (carestia, esposizione tossica, traumi) può influenzare l'espressione genica della prole senza modificare la sequenza di DNA. Il libro la cita nel Capitolo 6 come esempio di *time-binding* universale: anche le piante, anche gli animali, trasmettono attraverso il tempo non solo il codice genetico ma anche modificazioni della sua lettura — un K↑ che opera fra una generazione e l'altra.
 
 *Appare nel Capitolo 6.*
+
+## Fondazione, sostegno, dissoluzione
+
+Le tre operazioni elementari della co-generazione, introdotte nel Capitolo 12 come articolazione completa del ciclo di vita di un campo collettivo co-generato. *Fondazione*: l'atto con cui un campo *appare* per la prima volta, asimmetrico nel tempo (prima dell'atto le identità coesistono, dopo costituiscono campo). Genera simultaneamente l'identità collettiva I_𝒞 e il primo strato di Γ(t). *Sostegno*: l'operazione continua e quotidiana attraverso cui il campo viene mantenuto e fatto evolvere coerentemente — cura della Γ(t), rinegoziazione dei vettori, riconfigurazione delle κ a coppie quando le identità cambiano, ricalibrazione delle Ξ dei terminali. È la più lunga e meno spettacolare delle tre, ma quella che fa durare i campi. *Dissoluzione*: l'atto deliberato di concludere un campo che ha esaurito la propria funzione, prima che diventi campo orfano (zombie). Strutturalmente simmetrica alla fondazione: c'è atto, dichiarazione reciproca, cura del processo. Le scienze ordinative riconoscono la dissoluzione come operazione strutturale a pieno titolo, non come fallimento. La maturità ordinativa di un'identità si misura, fra le altre cose, sulla capacità di esercitare bene tutte e tre le operazioni secondo le circostanze.
+
+*Appare nel Capitolo 12.*
 
 ## Freccia bidirezionale (⟷)
 
