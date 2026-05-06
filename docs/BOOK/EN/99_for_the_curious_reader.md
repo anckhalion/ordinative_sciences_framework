@@ -428,6 +428,12 @@ Canonical term of the foundational text of TE (*Conscious Architecture*, Chapter
 
 *Appears in Chapter 8 (introduction); resumed in the chapter on time.*
 
+## Singularity (ordinative — Axiom 13)
+
+Canonical term of TE_CORE (Axiom 13, *Every real element is a singularity*). *Ordinative singularity* is the structural condition of uniqueness of every element of the ordinative real. *Important*: not to be confused with Kurzweil's *technological singularity* (the hypothetical event when machines would surpass human intelligence) — they are two distinct uses of the same term. Ordinative singularity is ontological and universal: every real element (person, organism, institution, AI model, expression, event, trace, collective field) is singularity. Three structural properties: *irreducibility* (cannot be reduced or substituted with another without ordinative loss), *irrepeatability* (does not exist and cannot exist structurally identical), *irreducibility to parts* (the wholeness exceeds the sum of components). Singularity does not imply isolation — singular nodes live in networks of relations — nor does it deny resemblances (contextualised in a framework of uniqueness). The word appears throughout the book as the σ subscript (I_σ, K_σ, M_σ); Axiom 13 makes its structural grammar explicit. The axiom rejects three dominant ontological traditions: (a) ontology of *tokens* (interchangeable elements as instances of type); (b) classical *reductionism* (complex = sum of the simple); (c) *statistical aggregation as ontology* (averages as descriptions of the real). Strong ontological consequence: the ordinative real is made of *singular nodes in networks of relations*, not substances with attributes (affinities with Eastern relational traditions — Madhyamaka, *pratītyasamutpāda* — more than with Aristotelian-Scholastic metaphysics).
+
+*Appears in the chapter dedicated to Axiom 13.*
+
 ## Spinoza, Baruch (1632–1677) — *natura naturans, natura naturata*
 
 Dutch philosopher of Iberian-Jewish origin, author of the *Ethics, Demonstrated in Geometrical Order* (posthumous, 1677). The distinction the book takes up — *natura naturans / natura naturata* — is central to his system: the first is nature as generative source, the second is nature as the totality of what is generated. The two are not separate entities but two aspects of the same substance, considered from the side of cause or from the side of effect. For Spinoza, *natura naturans* is what the Ordinative Sciences call A: the non-derived origin from which every local coherence proceeds.
