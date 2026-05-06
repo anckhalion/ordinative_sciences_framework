@@ -290,6 +290,12 @@ Tassonomia canonica delle scienze ordinative introdotta nel Capitolo 13. Disting
 
 *Appare nel Capitolo 13.*
 
+## Modulazione di stato (Axiom 9A1)
+
+Termine canonico del TE_CORE (Axiom 9A1, *Modulazione di stato e determinismo coerente*). L'assioma distingue rigorosamente due livelli di un evento coerente che attraversa un terminale: la *geometria* dell'evento (deterministica, data dallo *script* della sua forma strutturale) e la sua *espressione fenomenologica* (indeterminata, modulata dal terminale). Formula canonica: *M(t) = E_coer × (P_evo + S_t)*, dove M(t) è la manifestazione effettiva al tempo t, E_coer è l'evento coerente nella sua geometria deterministica, P_evo è la posizione evolutiva del terminale (maturazione strutturale di lungo periodo: ricchezza di S_T, calibrazione di θ_I, qualità delle ρ, dimensione di ℛ(I)), S_t è lo stato presente del terminale al tempo t (condizione momentanea: attenzione, disposizione emotiva, condizione fisica, contesto immediato). La formulazione operativa centrale è il *libero arbitrio dello stato*: non si può evitare l'evento coerente, ma si sceglie *chi essere* mentre accade. La libertà non si esercita prima dell'evento, ma dentro l'incontro. Quattro caratteristiche: è libertà di stato (non di evento), si costruisce nel tempo (P_evo accumulata), è limitata dalla gamma data, è effettiva (non illusoria). Posizione filosofica: né libertarismo, né determinismo duro; più forte del compatibilismo classico; affine alla posizione stoica (prohairesis = modulazione di stato) e alle tradizioni contemplative orientali.
+
+*Appare nel capitolo dedicato all'Axiom 9A1.*
+
 ## Motore immobile (Aristotele)
 
 Concetto centrale della *Metafisica* di Aristotele (libro XII): poiché ogni cosa che si muove è mossa da qualcos'altro, la catena dei movimenti richiede un primo termine che muove senza essere mosso — il *motore immobile*. È, per Aristotele, ciò che è puramente in atto, senza potenza ulteriore da realizzare; muove il mondo per attrazione, come un oggetto d'amore o di pensiero attira chi lo desidera. Il libro lo cita come una delle versioni storiche dell'inferenza che porta all'origine non-derivata: la stessa logica che chiude la catena delle ragioni in Leibniz, dei movimenti in Aristotele, della causalità nelle scienze ordinative.
@@ -535,6 +541,8 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **ε** | *ε : (I, E) ↦ [0, 1]* | Indice etico semantico: coerenza etica fra identità e espressione | 14 |
 | **σ** | *σ(o)* | Traccia semantica del correlato materiale o | 15 |
 | **ℛ̂** | *ℛ̂(I) ← Ω(I)* | Ricostruzione stimata del Remir di I a partire dalle sue tracce | 15 |
+| **I(T, E)** | *I(T, E) ⟺ (S_T ∩ S_E) ≠ ∅* | Interazione fra terminale e elemento (Axiom 9A) | 9A |
+| **M(t)** | *M(t) = E_coer × (P_evo + S_t)* | Manifestazione effettiva di un evento coerente (Axiom 9A1) | 9A1 |
 
 ### Soglie e condizioni
 

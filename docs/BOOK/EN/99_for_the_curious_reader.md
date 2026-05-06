@@ -422,6 +422,12 @@ Technical term of the Ordinative Sciences. In the formulation of Chapter 4, stab
 
 *Appears in Chapter 4.*
 
+## State modulation (Axiom 9A1)
+
+Canonical term of TE_CORE (Axiom 9A1, *State Modulation and Coherent Determinism*). The axiom rigorously distinguishes two levels of a coherent event traversing a terminal: the *geometry* of the event (deterministic, given by the *script* of its structural form) and its *phenomenological expression* (indeterminate, modulated by the terminal). Canonical formula: *M(t) = E_coer × (P_evo + S_t)*, where M(t) is the actual manifestation at time t, E_coer is the coherent event in its deterministic geometry, P_evo is the evolutionary position of the terminal (long-period structural maturation: richness of S_T, calibration of θ_I, quality of ρ, dimension of ℛ(I)), S_t is the present state of the terminal at time t (momentary condition: attention, emotional disposition, physical condition, immediate context). The central operative formulation is the *free will of state*: one cannot avoid the coherent event, but one chooses *who to be* while it happens. Freedom is exercised not before the event, but inside the encounter. Four characteristics: it is freedom of state (not of event), it is built over time (accumulated P_evo), it is limited by the given range, it is effective (not illusory). Philosophical position: neither libertarianism, nor hard determinism; structurally stronger than classical compatibilism; affine to the Stoic position (prohairesis = state modulation) and to Eastern contemplative traditions.
+
+*Appears in the chapter dedicated to Axiom 9A1.*
+
 ## Structural resonance (Axiom 9A)
 
 Canonical term of TE_CORE (Axiom 9A, *Law of Domain Intersection*). *Structural resonance* declares that an expressive terminal T can detect in its negotiation horizon *exclusively* the informational configurations already present in its own internal structure. The canonical formula is *I(T, E) ⟺ (S_T ∩ S_E) ≠ ∅*: the interaction between terminal T and element E is realised if and only if the intersection between the internal structure of the terminal (S_T) and the structure of the element (S_E) is non-empty. The quality of perception depends on the richness of intersection: rich → dense perception, minimal → blurred perception, empty → complete blindness. The axiom has three canonical corollaries. *Functional blindness*: what is totally disjoint from S_T is structurally *non-existent* for that terminal (not ignored, not neglected — undetectable). *Interaction as complicity*: the existence of conflict or bond between two identities proves sharing of structural code (enemies share much, lovers resemble each other more than they believe). *Principle of evocation*: the terminal evokes what it Is, not what it desires (what manifests in one's own horizon is a function of internal structure, not of conscious intention). Epistemological implications: the framework's position is structurally stronger than both naive realism (we do not see "the world as it is") and weak constructivism (it is not just "filtering": detection is structurally impossible outside intersection).
@@ -535,6 +541,8 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **ε** | *ε : (I, E) ↦ [0, 1]* | Semantic ethics index: ethical coherence between identity and expression | 14 |
 | **σ** | *σ(o)* | Semantic trace of material correlate o | 15 |
 | **ℛ̂** | *ℛ̂(I) ← Ω(I)* | Estimated reconstruction of Remir of I from its traces | 15 |
+| **I(T, E)** | *I(T, E) ⟺ (S_T ∩ S_E) ≠ ∅* | Interaction between terminal and element (Axiom 9A) | 9A |
+| **M(t)** | *M(t) = E_coer × (P_evo + S_t)* | Actual manifestation of a coherent event (Axiom 9A1) | 9A1 |
 
 ### Thresholds and conditions
 
