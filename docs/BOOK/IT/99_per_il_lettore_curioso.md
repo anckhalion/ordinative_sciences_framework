@@ -398,6 +398,12 @@ Compositore austriaco. Il *Quintetto in do maggiore per due violini, viola e due
 
 *Appare nel Capitolo 3.*
 
+## Significato (come vettore — Axiom 11)
+
+Termine canonico del TE_CORE (Axiom 11, *Il significato è un vettore, non un'etichetta*). Il significato, in TE, non è categoria denotativa (la "cosa" di cui la forma parla), né classificatoria (l'etichetta che si applica), né definizione statica. È *vettore* nel campo coerente, con due proprietà strutturali: *direzione* (verso dove punta) e *intensità* (con quanta forza punta). Queste proprietà rendono il significato strutturalmente diverso da un'etichetta: ha gradi (più o meno intenso, più o meno allineato), si compone con altri significati secondo regole vettoriali, è dinamico nel tempo (la stessa parola può portare vettori diversi in epoche diverse, identità diverse, contesti diversi), ed è *orientativo* (fa qualcosa, non solo trasmette informazione). Il significato è strutturalmente *relazionale*: esiste per un'identità ricevente specifica con la propria struttura interna S_T (Axiom 9A). La convergenza interpretativa fra riceventi competenti (Forma piena, Cap. 10) si traduce in convergenza vettoriale; la divergenza interpretativa illimitata (Vuoto Proiettivo) in divergenza vettoriale. Notabile convergenza con la prassi AI contemporanea: gli *embeddings* dei modelli di linguaggio sono implementazione tecnica diretta del significato come vettore — non per analogia ma per convergenza strutturale, perché entrambi (semantica umana e semantica AI) hanno la stessa grammatica vettoriale fondamentale.
+
+*Appare nel capitolo dedicato all'Axiom 11.*
+
 ## Soglia di collasso (θ)
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 18; formula 1.5 dell'Introduzione). La *soglia di collasso* è il valore minimo della funzione di risonanza ρ al di sopra del quale il collasso effettivamente avviene. La condizione canonica si scrive: *il collasso accade se e solo se ρ(C, I, t) ≥ θ*. Sotto la soglia, il contenuto coerente non può essere collassato dall'identità in quel momento — non per mancanza di valore del contenuto, ma per *struttura semantica* dell'identità. Ogni identità ha la propria θ, calibrata sulla propria capacità di sostenere certi contenuti senza frammentarsi. Il Capitolo 8 introduce la soglia θ come parte integrante della formalizzazione del collasso: insieme a ρ, costituisce il dispositivo che traduce in misura il principio dell'assioma sette (*il collasso è determinato dalla risonanza*).
