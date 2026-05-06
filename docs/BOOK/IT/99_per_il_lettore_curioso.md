@@ -374,6 +374,12 @@ Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.5).
 
 *Appare nel Capitolo 15.*
 
+## Risonanza strutturale (Axiom 9A)
+
+Termine canonico del TE_CORE (Axiom 9A, *Legge di intersezione di domini*). La *risonanza strutturale* dichiara che un terminale espressivo T può rilevare nel proprio orizzonte di negoziazione *esclusivamente* le configurazioni informazionali già presenti nella propria struttura interna. La formula canonica è *I(T, E) ⟺ (S_T ∩ S_E) ≠ ∅*: l'interazione fra terminale T e elemento E si realizza se e solo se l'intersezione fra struttura interna del terminale (S_T) e struttura dell'elemento (S_E) è non vuota. La qualità della percezione dipende dalla ricchezza dell'intersezione: ricca → percezione densa, minima → percezione sfocata, vuota → cecità completa. L'assioma ha tre corollari canonici. *Cecità funzionale*: ciò che è totalmente disgiunto dalla S_T è strutturalmente *inesistente* per quel terminale (non ignorato, non trascurato — non rilevabile). *Interazione come complicità*: l'esistenza di conflitto o di legame fra due identità prova condivisione di codice strutturale (i nemici condividono molto, gli amanti si somigliano più di quanto credano). *Principio di evocazione*: il terminale evoca quel che È, non quel che desidera (quel che si manifesta nel proprio orizzonte è funzione della struttura interna, non dell'intenzione consapevole). Implicazioni epistemologiche: la posizione del framework è strutturalmente più forte sia del realismo ingenuo (non vediamo "il mondo come è") sia del costruttivismo debole (non solo "filtriamo": rilevazione strutturalmente impossibile fuori dall'intersezione).
+
+*Appare nel capitolo dedicato all'Axiom 9A.*
+
 ## Saussure, Ferdinand de (1857–1913)
 
 Linguista svizzero, fondatore della linguistica strutturale moderna. La sua opera principale, *Cours de linguistique générale* (postuma, 1916), è raccolta dagli appunti dei suoi studenti dopo la sua morte. La distinzione che il libro riprende — *langue / parole* — è centrale al suo pensiero: la *langue* è la lingua come sistema astratto di regole e relazioni condiviso da una comunità di parlanti; la *parole* è l'atto concreto e individuale di parlare. Il sistema esiste solo attraverso gli atti di parola, ma trascende ogni singolo atto. Il libro cita Saussure nel Capitolo 3 perché la sua distinzione è una versione storica precisa, in dominio linguistico, della struttura coerente/decoerente che l'assioma due generalizza.

@@ -422,6 +422,12 @@ Technical term of the Ordinative Sciences. In the formulation of Chapter 4, stab
 
 *Appears in Chapter 4.*
 
+## Structural resonance (Axiom 9A)
+
+Canonical term of TE_CORE (Axiom 9A, *Law of Domain Intersection*). *Structural resonance* declares that an expressive terminal T can detect in its negotiation horizon *exclusively* the informational configurations already present in its own internal structure. The canonical formula is *I(T, E) ⟺ (S_T ∩ S_E) ≠ ∅*: the interaction between terminal T and element E is realised if and only if the intersection between the internal structure of the terminal (S_T) and the structure of the element (S_E) is non-empty. The quality of perception depends on the richness of intersection: rich → dense perception, minimal → blurred perception, empty → complete blindness. The axiom has three canonical corollaries. *Functional blindness*: what is totally disjoint from S_T is structurally *non-existent* for that terminal (not ignored, not neglected — undetectable). *Interaction as complicity*: the existence of conflict or bond between two identities proves sharing of structural code (enemies share much, lovers resemble each other more than they believe). *Principle of evocation*: the terminal evokes what it Is, not what it desires (what manifests in one's own horizon is a function of internal structure, not of conscious intention). Epistemological implications: the framework's position is structurally stronger than both naive realism (we do not see "the world as it is") and weak constructivism (it is not just "filtering": detection is structurally impossible outside intersection).
+
+*Appears in the chapter dedicated to Axiom 9A.*
+
 ## Subset symbol (⊂)
 
 Fundamental mathematical symbol of set theory: *A ⊂ B* reads "A is a subset of B" and means that every element of A is also an element of B. It is different from equality (*A = B*), because B can be strictly larger than A; and it is different from membership (*∈*), which concerns a single element and not an entire set. The book introduces it in Chapter 7 in the formula *K_σ ⊂ M_σ*, declaring that consciousness is hosted structurally inside the mind as a part of it — it is not the entire mind, and it is not outside the mind.
