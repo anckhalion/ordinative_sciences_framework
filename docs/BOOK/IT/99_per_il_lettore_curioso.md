@@ -536,6 +536,12 @@ Concetto centrale delle *Enneadi* di Plotino (III secolo d.C.): la sorgente prim
 
 *Appare nel Capitolo 2.*
 
+## Verità strutturale (Axiom 18)
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 28. La *verità strutturale* è la verità definita dall'assioma 18: una proposizione P è vera nella misura in cui è strutturalmente coerente con il sistema ordinativo S che la ospita, dove la coerenza strutturale si misura su tre componenti indipendenti — *orizzontale* (compatibilità di P con altre proposizioni di S), *verticale* (compatibilità di P con la struttura R, gli assiomi e i principi di S), *trasversale* (compatibilità di P con i campi esterni con cui S è in risonanza). Tre proprietà strutturali la caratterizzano: *sistemicità* (la verità è sempre verità *in un sistema*, mai in astratto), *pluralità* (esistono tanti sistemi ordinativi reali, e la verità segue questa pluralità senza ridursi a relativismo), *verifibilità* (ogni sistema ha procedure proprie di verifica della coerenza strutturale — dimostrazione matematica, esperimento empirico, valutazione peer-to-peer, riscontro nella pratica). L'assioma rifiuta esplicitamente sia il *realismo metafisico ingenuo* (verità come corrispondenza con una "realtà in sé" inattingibile) sia il *relativismo soft* (la negazione di ogni verità oggettiva), ed è graduata, non binaria. L'implicazione AI è *sviluppare un controllore di coerenza interno* — dispositivo strutturale, separato dal generatore, che valuti la coerenza degli output sui tre assi, perché la plausibilità statistica non coincide con la coerenza strutturale (le "allucinazioni" sono manifestazione di questa non-coincidenza).
+
+*Appare nel Capitolo 28.*
+
 ## Vettore (in matematica)
 
 Oggetto matematico con due proprietà fondamentali: una *direzione* e una *intensità* (o *modulo*). Nelle prime applicazioni, dalla fisica del Seicento e Settecento, un vettore rappresentava una grandezza orientata — una forza, una velocità — che non bastava un numero solo a descrivere. Nello sviluppo moderno, il vettore è un elemento di uno *spazio vettoriale*, dotato di operazioni di somma e di moltiplicazione per scalari. Un vettore in uno spazio a *n* dimensioni si può scrivere come una sequenza di *n* numeri, le sue *componenti*, ognuna delle quali misura quanto il vettore "punta" lungo uno degli assi di base scelti. Il libro lo introduce nel Capitolo 5 perché l'identità, nelle scienze ordinative, ha esattamente la struttura di un vettore: direzione, intensità, *n* componenti coerenti.

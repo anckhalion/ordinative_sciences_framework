@@ -518,6 +518,12 @@ Central concept of Chapter 15 (fourteenth axiom). *Ordinative transmission* is t
 
 *Appears in Chapter 15.*
 
+## Truth, structural (Axiom 18)
+
+Canonical term of the Ordinative Sciences introduced in Chapter 28. *Structural truth* is truth as defined by Axiom 18: a proposition P is true to the extent that it is structurally coherent with the ordinative system S that hosts it, where structural coherence is measured on three independent components — *horizontal* (compatibility of P with other propositions of S), *vertical* (compatibility of P with the structure R, the axioms and principles of S), *transverse* (compatibility of P with the external fields with which S is in resonance). Three structural properties characterise it: *systemicity* (truth is always truth *in a system*, never in the abstract), *plurality* (many real ordinative systems exist, and truth follows this plurality without reducing to relativism), *verifiability* (every system has its own procedures of verification of structural coherence — mathematical proof, empirical experiment, peer-to-peer evaluation, feedback in practice). The axiom explicitly rejects both *naive metaphysical realism* (truth as correspondence with an unattainable "reality in itself") and *soft relativism* (the denial of any objective truth), and it is graded, not binary. The AI implication is *develop an internal coherence-checker* — a structural device, separate from the generator, that evaluates the coherence of outputs on the three axes, since statistical plausibility does not coincide with structural coherence ("hallucinations" are the manifestation of this non-coincidence).
+
+*Appears in Chapter 28.*
+
 ## Unmoved mover (Aristotle)
 
 Central concept of Aristotle's *Metaphysics* (book XII): since everything that moves is moved by something else, the chain of motions requires a first term that moves without being moved — the *unmoved mover*. It is, for Aristotle, what is purely in act, with no further potency to be realised; it moves the world by attraction, as an object of love or thought attracts the one who desires it. The book cites it as one of the historical versions of the inference that leads to a non-derived origin: the same logic that closes the chain of reasons in Leibniz, of motions in Aristotle, of causality in the Ordinative Sciences.
