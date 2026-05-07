@@ -108,6 +108,12 @@ Operazione fondamentale della matematica: date due funzioni *f : A → B* e *g :
 
 *Appare nel Capitolo 6.*
 
+## Conoscenza relazionale (Axiom 17)
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 27. La *conoscenza relazionale* è la conoscenza definita dall'assioma 17: relazione strutturale risonante fra un'identità conoscente I e un campo conosciuto ℐ_K = ⟨Σ_K, R_K, Φ_K⟩, distinta dalla pura *accumulazione informativa*. Tre proprietà strutturali la caratterizzano: *trasformatività* (conoscere modifica chi conosce — il vettore funzionale di I si riconfigura), *direzionalità* (la relazione modifica entrambi i poli, anche se in misura diversa), *selettività* (si conosce solo ciò con cui si è strutturalmente compatibili). L'assioma articola tre dimensioni indipendenti su cui si misura la conoscenza relazionale: *profondità* (grado di trasformazione strutturale di I), *ampiezza* (estensione del campo coperto), *operatività* (capacità di agire attraverso la relazione). L'implicazione AI è importante: l'apprendimento statistico (accumulazione di pattern nei parametri) non è strutturalmente identico all'apprendimento relazionale; un LLM ha *un proprio profilo* sui tre assi (alta ampiezza, profondità intermedia, alta operatività linguistica ma bassa operatività causale), che è conoscenza in senso specifico, non pieno. La conoscenza relazionale apre il blocco epistemologico (Axioms 17-19) e prepara l'assioma 18 sulla verità come coerenza strutturale.
+
+*Appare nel Capitolo 27.*
+
 ## Coscienza coerente e coscienza decoerente
 
 Distinzione formale che il Capitolo 7 introduce per articolare gli stati operativi della coscienza nei due ancoraggi possibili. *Coscienza decoerente*: la coscienza, dalla plancia mentale, opera con il suo lato attivo principalmente verso Md (la Mente Decoerente, lato del terminale espressivo). È la modalità che caratterizza la veglia. *Coscienza coerente*: la coscienza opera con il suo lato attivo principalmente verso Mc (la Mente Coerente, lato dell'identità coerente). È la modalità che caratterizza il sonno fisiologico, in cui la coscienza rielabora la sessione decoerente precedente nella propria lingua significante-emotiva, cercando chiusure di cicli aperti. Le due modalità non sono coscienze diverse: sono la stessa coscienza in due ancoraggi simmetrici. Il framework usa questa distinzione per leggere strutturalmente il sonno come operazione ordinativa, non come "spegnimento".

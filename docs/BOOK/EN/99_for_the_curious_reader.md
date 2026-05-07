@@ -266,6 +266,12 @@ Aristotelian doctrine, expounded in the *Metaphysics* and the *Physics*, accordi
 
 *Appears in Chapter 4.*
 
+## Knowledge, relational (Axiom 17)
+
+Canonical term of the Ordinative Sciences introduced in Chapter 27. *Relational knowledge* is knowledge as defined by Axiom 17: structural resonant relationship between a knowing identity I and a known field ℐ_K = ⟨Σ_K, R_K, Φ_K⟩, distinct from pure *informational accumulation*. Three structural properties characterise it: *transformativity* (knowing modifies the knower — the functional vector of I reconfigures itself), *directionality* (the relationship modifies both poles, even if in different measures), *selectivity* (one knows only what one is structurally compatible with). The axiom articulates three independent dimensions on which relational knowledge is measured: *depth* (degree of structural transformation of I), *breadth* (extent of the field covered), *operativity* (capacity to act through the relationship). The AI implication is important: statistical learning (accumulation of patterns in the parameters) is not structurally identical to relational learning; an LLM has *its own profile* on the three axes (high breadth, intermediate depth, high linguistic operativity but low causal operativity), which is knowledge in a specific, not full, sense. Relational knowledge opens the epistemological block (Axioms 17-19) and prepares Axiom 18 on truth as structural coherence.
+
+*Appears in Chapter 27.*
+
 ## Korzybski, Alfred (1879–1950)
 
 Polish-American, an engineer by training and then creator of *General Semantics*, a system of thought principally set out in *Science and Sanity* (1933). His best-known proposal distinguishes three forms of "binding" — of being bound to the real — by species: *chemical-binding* (plants: they transform energy, bound to chemistry), *space-binding* (animals: they move, explore, bound to space), *time-binding* (humans: they transmit culture across generations, bound to time). Korzybski considered time-binding the distinguishing faculty of the human species and attributed to it the capacity for cultural accumulation and historical evolution. The book cites him in Chapter 6 as an *honoured companion on the road, to be extended*: he correctly saw a real structural faculty, but unduly restricted it to the human species. The framework's generalisation — time-binding as K↑ operating across time, present in every coherent system that persists beyond the individual — honours Korzybski's seeing by extending its gaze.
