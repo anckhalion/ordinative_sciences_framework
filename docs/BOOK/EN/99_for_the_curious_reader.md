@@ -174,6 +174,12 @@ Technical term from computational cognitive science and machine learning. An *em
 
 *Appears in Chapter 3.*
 
+## Emergent function (Axiom 16)
+
+Canonical term of the Ordinative Sciences introduced in Chapter 26. An *emergent function* is a functional capacity of an ordinative set ℐ = ⟨Σ, R, Φ⟩ that is not reducible to the sum of the functionalities of the individual identities Σ, and which manifests as a structural effect of the network of relations R under the collapse rule Φ. The emergent function is the operative criterion of reality of a set: only sets that produce emergent functions have full ontological status; sets that emit nothing new with respect to their parts are nominal aggregates, not realities. The canonical distinction between *epiphenomenic* emergence (apparent, reducible), *weak* emergence (irreducible in practice, reducible in principle), and *strong* emergence (structurally irreducible) is introduced in the chapter. The emergent function closes the block of theory of ordinative sets (Axioms 13-16) and prepares the epistemological block (Axioms 17-19), since it raises the question of how knowledge can register what, by its nature, exceeds the parts.
+
+*Appears in Chapter 26.*
+
 ## Epigenetic inheritance
 
 Form of genetic transmission discovered in the second half of the twentieth century, in which certain acquired traits — not written in the DNA code but in modifications of *how* DNA is read (methylations, histone modifications, and so on) — can be passed to the next generation. It is the mechanism through which, for instance, the response to a stress experienced by a parent (famine, toxic exposure, trauma) can influence the gene expression of the offspring without modifying the DNA sequence. The book cites it in Chapter 6 as an example of universal *time-binding*: even plants, even animals transmit through time not only the genetic code but also modifications of its reading — a K↑ operating between one generation and the next.

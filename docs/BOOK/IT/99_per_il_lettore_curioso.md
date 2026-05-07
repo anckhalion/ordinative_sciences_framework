@@ -224,6 +224,12 @@ In meccanica quantistica, la *funzione d'onda* è la descrizione matematica comp
 
 *Appare nel Capitolo 3.*
 
+## Funzione emergente (Axiom 16)
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 26. Una *funzione emergente* è una capacità funzionale di un insieme ordinativo ℐ = ⟨Σ, R, Φ⟩ che non è riducibile alla somma delle funzionalità delle singole identità Σ, e che si manifesta come effetto strutturale della rete di relazioni R sotto la regola di collasso Φ. La funzione emergente è il criterio operativo di realtà di un insieme: solo gli insiemi che producono funzioni emergenti hanno status ontologico pieno; gli insiemi che non emettono nulla di nuovo rispetto alle parti sono aggregati nominali, non realtà. La distinzione canonica fra emergenza *epifenomenica* (apparente, riducibile), *debole* (irriducibile in pratica, riducibile in linea di principio) e *forte* (strutturalmente irriducibile) è introdotta nel capitolo. La funzione emergente chiude il blocco di teoria degli insiemi ordinativi (Axioms 13-16) e prepara il blocco epistemologico (Axioms 17-19), perché solleva la domanda su come la conoscenza possa registrare ciò che, per sua natura, eccede le parti.
+
+*Appare nel Capitolo 26.*
+
 ## Funzione pulsazionale (τ)
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitolo 12, *New Time*). La *funzione pulsazionale* è scritta τ e genera la temporalità come effetto del movimento bidirezionale fra coerente e decoerente. La formula canonica è *T = τ(C ⟷ E)*, dove T è il tempo come *effetto pulsazionale*. Per la TE, il tempo non è una dimensione fondamentale ma un *prodotto* dell'arco fra coerente ed espresso: il tempo ordinativo di un sistema è il ritmo con cui la sua identità collassa contenuti e li lascia decoerentizzare. La funzione è terminale-specifica — più precisamente *τ_𝒯* — perché ogni terminale produce il proprio tempo locale, e l'identità multi-terminale ha tanti tempi locali quanti sono i suoi terminali, integrati nella propria traiettoria semantica T(I). Il libro la introduce come ancoraggio nel Capitolo 5 (glossario), e la sviluppa formalmente nel Capitolo 10 (assioma nove, *il tempo è generato, non dato*).
