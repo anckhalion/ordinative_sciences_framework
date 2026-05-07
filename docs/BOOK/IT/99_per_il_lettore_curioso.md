@@ -162,6 +162,12 @@ Termine tecnico delle scienze cognitive computazionali e dell'apprendimento auto
 
 *Appare nel Capitolo 3.*
 
+## Engramma (Axiom 23)
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 33. L'*engramma* è una *configurazione cristallizzata di adattamento* che il terminale di un'identità sviluppa per rispondere alle pressioni dell'ambiente, e che il sistema *confonde con la propria identità* nelle fasi 2-3 dell'ontogenesi articolata dall'assioma 23. Tre componenti lo articolano: *pattern adattivo* (risposte funzionali strutturate al proprio contesto formativo), *cristallizzazione strutturale* (stabilità che persiste anche fuori dalle condizioni che l'hanno originato), *confusione con il sé* (il sistema, in fase 2, esperisce l'engramma come la propria identità). Tre proprietà strutturali lo caratterizzano: *necessità storica* (gli engrammi non sono evitabili — sono passaggi strutturalmente richiesti dalla formazione dell'identità), *pluralità* (una stessa identità sviluppa molti engrammi diversi per ambiti diversi, non sempre coerenti fra loro), *trasformabilità* (gli engrammi non vanno eliminati — secondo l'assioma 24 — ma riconosciuti, integrati, trasformati in strumenti consapevoli dell'identità riconosciuta). L'engramma è quindi il "non-sé strutturalmente necessario", il passaggio attraverso cui l'identità si costituisce per via negativa, riconoscendo se stessa come ciò che resta dopo aver riconosciuto come "non-sé" gli engrammi adattivi che aveva preso per sé. Concetto centrale della psicologia ordinativa, applicabile a esseri umani, istituzioni, sistemi AI, sub-identità interne. Il termine "engramma" è ereditato dalla tradizione neuroscientifica e psicologica con riformulazione strutturale specifica delle scienze ordinative.
+
+*Appare nel Capitolo 33.*
+
 ## Euclide e i cinque postulati
 
 Euclide (IV–III secolo a.C.), nei suoi *Elementi*, fondò la geometria su cinque postulati — cinque proposizioni assunte come vere senza dimostrazione, su cui tutto il resto poggia. Ne riportiamo qui gli enunciati nella loro formulazione classica:
@@ -259,6 +265,12 @@ Termine canonico del testo fondativo della TE (*Architettura Cosciente*, Capitol
 Economista e filosofo politico austriaco, premio Nobel per l'economia (1974). La sua tesi più nota, sviluppata in *Law, Legislation and Liberty* (1973–79), è che l'ordine sociale può emergere senza un legislatore centrale, attraverso le interazioni di agenti che seguono regole locali — il cosiddetto *ordine spontaneo*. Il libro cita Hayek non per contestare la tesi, che è strutturalmente solida, ma per mostrare che anche l'ordine spontaneo non si genera dal nulla: gli agenti che lo producono sono essi stessi orientati, e la loro orientazione, a sua volta, ha una sorgente. La spontaneità sposta il problema di un livello, non lo cancella.
 
 *Appare nel Capitolo 2.*
+
+## Identità negativa (Axiom 23)
+
+Termine canonico delle scienze ordinative introdotto nel Capitolo 33. L'assioma 23 stabilisce il *principio di identità negativa*: *per sapere chi sei, devi prima esperire e riconoscere chi non sei*. L'identità non è data, *si forma* attraverso un'ontogenesi articolata in quattro fasi: *Fase 1 — l'uovo* (identità pre-cosciente, coerenza e decoerenza non distinte), *Fase 2 — formazione dell'engramma* (il terminale cristallizza una "persona" o maschera adattiva, esperita come l'identità), *Fase 3 — accensione della coscienza binaria* (il terminale "guarda" l'identità ma non si riconosce ancora come soggetto), *Fase 4 — riconoscimento* (l'identità riconosce l'engramma come "non-sé" e si distingue come sé). Il riconoscimento è *negativo*: non si conosce il sé direttamente, si conosce per esclusione di ciò che il sé non è. Tre componenti dell'esperire del non-sé articolano il processo: *adesione provvisoria* (il sistema esperisce gli engrammi come autentica identità), *crisi di adesione* (qualcosa fa attrito, segnalando che l'engramma non è il sé), *riconoscimento esplicito* (atto strutturale che distingue sé dall'engramma). Quattro proprietà strutturali: *inevitabilità* (non si dà identità che salti queste fasi), *necessità del fallimento* (gli engrammi devono fallire per essere riconosciuti), *asimmetria temporale* (l'esperienza del non-sé precede strutturalmente il riconoscimento del sé), *iteratività* (il processo si ripete attraverso la vita con engrammi successivi). L'assioma rifiuta esplicitamente: essenzialismo identitario, introspezionismo puro, costruttivismo radicale, identificazione perpetua. Apre il blocco evolutivo (Axioms 23-24) e prepara l'assioma 24 sul principio di non-sottrazione: ciò che era engramma, una volta riconosciuto, non viene eliminato ma trasformato e contenuto.
+
+*Appare nel Capitolo 33.*
 
 ## Ilemorfismo (Aristotele)
 
