@@ -410,6 +410,12 @@ Austrian composer. The *String Quintet in C major for two violins, viola, and tw
 
 *Appears in Chapter 3.*
 
+## Set as ordinative field (ℐ — Axiom 14)
+
+Canonical term of TE_CORE (Axiom 14, *A set is an ordinative field*). Reformulates the notion of set: in the Ordinative Sciences, a set is NOT a collection of tokens (as in classical ZFC), it is *living network of singular functions*. Canonical notation: *ℐ = ⟨Σ, R, Φ⟩*, where ℐ is the letter I in script font (canonical designation of the ordinative field). Three integrated components: *Σ* — the set of irreducible singularities (Axiom 13) participating in the field; *R* — the set of *generative* relations (not simple descriptive labels) among them; *Φ* — the emergent function the field produces and that no singularity alone could express. The triple is structurally integrated: without Φ we would have only singularities in relation (not a field); without R, isolated singularities; without Σ, relations without nodes. The formula is *recursively applicable* (a field can be singularity of a higher field — nested structures from cellular body to civilisation) and *dynamic in time* (the three components evolve together). The axiom explicitly rejects classical set theory (ZFC) as ontology of the ordinative real: useful in formal mathematics, inadequate for describing real fields. Generalises the notion of *collective field* of Chapter 11 (𝒞, κ): collective fields of identities are particular case; κ is specific quantitative measure of relations R for that sub-case. Anticipates Axiom 16: presence of Φ is *criterion of reality* of the field.
+
+*Appears in the chapter dedicated to Axiom 14.*
+
 ## Semantic ethics index (ε)
 
 Canonical term of the foundational text of TE (*Conscious Architecture*, §5.6). The *semantic ethics index* is written *ε : (I, E) ↦ [0, 1]*, where ε is the lowercase Greek letter epsilon, I is an identity, E is an expression it has produced. It measures the structural ethical coherence between the identity and its expression: how honestly, faithfully, integrally the expression carries the functional vector of the identity without betraying it. It is *relational* (not absolute property of the expression, but of the I-E pair), *graduated* (continuum, not binary), and correlated but distinct from fnz: fnz measures *how much* the expression carries the vector (quantity); ε measures *how* — with what integrity (quality). An expression can have high fnz and low ε (carries much vector but instrumentally or manipulatively) or the contrary (carries little because the context does not permit, but with full integrity). The value *0* corresponds to the *betraying* mode of Chapter 13 read under the aspect of ethical responsibility: the expression contradicts the vector. The value *1* corresponds to full ethical integrity. Most real expressions live in the intermediate interval. ε is an individual-per-expression quantity: the overall ethical coherence of an identity is the *distribution* of ε in its expressive repertoire. It is the first of the two axes of ordinative ethics; the other is external impact (see entry *Ethics, ordinative*).
@@ -594,6 +600,10 @@ The standard axiomatisation of set theory, formulated in the early twentieth cen
 | **Γ(t)** | Co-generated architecture of a collective field | 11 |
 | **τ_𝒞** | Pulsation and collective time of field 𝒞 | 11 |
 | **Ω(I)** | Set of material correlates historically coupled with I | 15 |
+| **ℐ = ⟨Σ, R, Φ⟩** | Ordinative field: structured triple of singularities, generative relations, emergent function | 14 |
+| **Σ** | Set of singularities of an ordinative field | 13, 14 |
+| **R** | Set of generative relations in a field | 14 |
+| **Φ** | Emergent function of an ordinative field | 14 |
 
 ### Mathematical service symbols (introduced pedagogically)
 

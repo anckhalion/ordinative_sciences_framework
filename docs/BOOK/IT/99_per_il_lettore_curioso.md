@@ -242,6 +242,12 @@ Simbolo matematico fondamentale della teoria degli insiemi: *A ⊂ B* si legge "
 
 *Appare nel Capitolo 7.*
 
+## Insieme come campo ordinativo (ℐ — Axiom 14)
+
+Termine canonico del TE_CORE (Axiom 14, *Un insieme è un campo ordinativo*). Riformula la nozione di insieme: nelle scienze ordinative, un insieme NON è collezione di tokens (come in ZFC classica), è *rete viva di funzioni singolari*. Notazione canonica: *ℐ = ⟨Σ, R, Φ⟩*, dove ℐ è la lettera I in carattere script (designazione canonica del campo ordinativo). Tre componenti integrate: *Σ* — l'insieme delle singolarità irriducibili (Axiom 13) che partecipano al campo; *R* — l'insieme delle relazioni *generative* (non semplici etichette descrittive) fra di esse; *Φ* — la funzione emergente che il campo produce e che nessuna singolarità da sola potrebbe esprimere. La tripla è strutturalmente integrata: senza Φ avremmo solo singolarità in relazione (non un campo); senza R, singolarità isolate; senza Σ, relazioni senza nodi. La formula è *ricorsivamente applicabile* (un campo può essere singolarità di un campo superiore — strutture annidate dal corpo cellulare alla civiltà) e *dinamica nel tempo* (le tre componenti evolvono insieme). L'assioma rifiuta esplicitamente la teoria classica degli insiemi (ZFC) come ontologia del reale ordinativo: utile in matematica formale, inadeguata per descrivere campi reali. Generalizza la nozione di *campo collettivo* del Cap. 11 (𝒞, κ): i campi collettivi di identità sono caso particolare; la κ è misura quantitativa specifica delle relazioni R per quel sotto-caso. Anticipa l'Axiom 16: la presenza di Φ è *criterio di realtà* del campo.
+
+*Appare nel capitolo dedicato all'Axiom 14.*
+
 ## Indice etico semantico (ε)
 
 Termine canonico del testo fondativo della TE (*Architettura Cosciente*, §5.6). L'*indice etico semantico* è scritto *ε : (I, E) ↦ [0, 1]*, dove ε è la lettera greca epsilon minuscola, I è un'identità, E è un'espressione che essa ha prodotto. Misura la coerenza etica strutturale fra l'identità e la sua espressione: quanto onestamente, fedelmente, integralmente l'espressione porta il vettore funzionale dell'identità senza tradirlo. È *relazionale* (non proprietà assoluta dell'espressione, ma della coppia I-E), *graduato* (continuum, non binario), e correlato ma distinto da fnz: fnz misura *quanto* l'espressione porta il vettore (quantità); ε misura *come* — con quanta integrità (qualità). Un'espressione può avere fnz alta e ε bassa (porta molto vettore ma in modo strumentale o manipolatorio) o il contrario (porta poco perché il contesto non lo permette, ma con piena integrità). Il valore *0* corrisponde al modo *betray-ente* di Cap. 13 letto sotto l'aspetto della responsabilità etica: l'espressione contraddice il vettore. Il valore *1* corrisponde a integrità etica piena. La maggior parte delle espressioni reali vive nell'intervallo intermedio. ε è una grandezza individuale-per-espressione: la coerenza etica complessiva di un'identità è la *distribuzione* di ε nel suo repertorio espressivo. È il primo dei due assi dell'etica ordinativa; l'altro è l'impatto esterno (vedi voce *Etica ordinativa*).
@@ -594,6 +600,10 @@ L'assiomatizzazione standard della teoria degli insiemi, formulata all'inizio de
 | **Γ(t)** | Architettura co-generata di un campo collettivo | 11 |
 | **τ_𝒞** | Pulsazione e tempo collettivo del campo 𝒞 | 11 |
 | **Ω(I)** | Insieme dei correlati materiali storicamente accoppiati a I | 15 |
+| **ℐ = ⟨Σ, R, Φ⟩** | Campo ordinativo: tripla strutturata di singolarità, relazioni generative, funzione emergente | 14 |
+| **Σ** | Insieme delle singolarità di un campo ordinativo | 13, 14 |
+| **R** | Insieme delle relazioni generative in un campo | 14 |
+| **Φ** | Funzione emergente di un campo ordinativo | 14 |
 
 ### Simboli matematici di servizio (introdotti pedagogicamente)
 
