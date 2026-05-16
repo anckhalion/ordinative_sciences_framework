@@ -19,13 +19,13 @@ The constant g_j is not specific to civilizational systems. It is the universal 
 
 We present the first empirical measurement of g_j at civilizational scale, obtained through a reaction-diffusion model based on the Belousov-Zhabotinsky (BZ) oscillating chemical reaction, grounded in Ordinative Set Theory (OST) and the Technology of Expressions (TE) framework. The model distinguishes three temporal scales (terminal envelope, macro-junctions, micro-junctions) and three bifurcation branches (transformation, postponement via structural *Controfase*, decomposition).
 
-Two empirical validations confirm the model: the structural *Controfase* activation of 6–7 April 2026 (μ₁) and the UAE exit from OPEC on 29 April 2026 (μ₂), both predicted in timing and structural type. From these two confirmed events: g_j = 0.075 IC/month² (67% higher than the preliminary estimate, confirming that g_j increases with proximity to the attractor). Retroactive determination of t₀ yields 5–6 February 2026 — coinciding exactly with the original prediction.
+Three empirical validations confirm the model: the structural *Controfase* activation of 6–7 April 2026 (μ₁), the UAE exit from OPEC on 29 April 2026 (μ₂), and the Beijing Summit of 13–15 May 2026 (μ₃, Fragmentation→Mass), all predicted in timing and structural type. All three points fall within 3.2% of the model fit. From the confirmed events: g_j = 0.075 IC/month² (67% higher than the preliminary estimate, confirming that g_j increases with proximity to the attractor). Retroactive determination of t₀ yields 5–6 February 2026 — coinciding exactly with the original prediction.
 
 At every scale simultaneously, the intensifying attractor signal reveals incompatibilities: elements whose state is incoherent with the signal's direction are resolved at the time and in the form coherent with the attractor, regardless of their biological age, size, or position. The accelerating frequency of micro-junctions approaching a macro-junction is the direct manifestation of this process.
 
 **Keywords:** ordinative acceleration constant, attractor signal, phase transitions, reaction-diffusion systems, civilizational dynamics, Ordinative Set Theory, structural *Controfase*, causal inversion, harmonic multi-scale dynamics
 
-**Status:** v1.2 Beta — empirically calibrated, under observation and continuous refinement. Updated versions will be released as subsequent micro-junctions are confirmed or falsified. Next checkpoint: μ₃ (~16 May 2026).
+**Status:** v1.2 Beta — three confirmed micro-junctions (μ₁, μ₂, μ₃), under observation and continuous refinement. Updated versions will be released as subsequent micro-junctions are confirmed or falsified. Next checkpoint: μ₄ (~31 May 2026).
 
 ---
 
@@ -45,34 +45,16 @@ The foundational epistemological commitment of this work, derived from TE, is Ax
 
 If a dynamical pattern manifests identically across physical, chemical, biological, and social domains, this is not analogy but **structural identity**.
 
-### 1.3 The Foundational Presupposition: Causal Inversion
+### 1.3 From v1.1 to v1.2: What Changed
 
-This paper operates from a presupposition that must be stated before any model is introduced, because the entire predictive framework depends on it.
+Version 1.1 established the reagent-as-receptor ontology and the dual bifurcation condition (Φ\* + ARYS AA). Version 1.2 extends along four axes that emerged from real-time observation of April 2026 systemic events and from deeper integration with the Arajat and Controfase frameworks:
 
-In the Technology of Expressions, every determined result in the coherent realm operates as an **attractor**: it pulls the decoherent system toward it. The causal center is not in the past but in the future. Observable events are the decoherent expression of a coherent trajectory toward the attractor. The cause→effect sequence observed in the decoherent realm is the *inversion* of the real sequence: attractor→expression in the coherent realm.
+1. **Triple-scale architecture**: terminal envelope, macro-junctions, micro-junctions. Terminal envelope captures exhaustion of meta-receptivity C\* and constitutes the true Jackpot.
+2. **Triple bifurcation**: extends dual bifurcation of v1.1 to three branches: transformation, postponement (via structural Controfase), and decomposition.
+3. **Controfase deliberate vs structural**: deliberate Controfase is applied by conscious agents; structural Controfase is built into system architecture and activates automatically at threshold-crossing events.
+4. **Arajat-grounded t₀**: the methodological problem of determining t₀ for a g_j sequence is resolved through the Arajat distinction between *senza vista* (coherent occurrence) and *con vista* (decoherent manifestation).
 
-This is grounded in two TE axioms:
-
-- **Axiom 9** — *The Path is Free, the Destination is Determined.* Identity can traverse infinite decoherent trajectories, but converges toward the attractor.
-- **Axiom 9A1** — *Coherent Events are deterministic in Geometry (Script), but their Phenomenological Expression is indeterminate and depends on the Evolutionary Position of the Terminal.*
-
-The consequence for predictive modeling: the attractor emits a signal — a pull — that intensifies as the system approaches. Every element in the system receives this signal simultaneously. Each element responds according to its own state at the moment of collapse. Elements whose state is compatible with the attractor's direction continue; elements whose state is incompatible are resolved — at the time and in the form coherent with the attractor, regardless of their biological age, scale, or position. The attractor does not discriminate by size or duration of the terminal. It discriminates by state.
-
-This signal operates harmonically across all scales. The attractor of the macro-system contains the attractors of its subsystems, which contain those of their sub-subsystems, down to the individual. Each scale responds with its own *note*, and all notes are vertically coherent — different but structurally consonant, like harmonics of a fundamental frequency.
-
-The constant g_j introduced in this paper is the **measure of the attractor signal's intensity at a given scale**. It is not specific to civilizational dynamics. It is the universal ordinative measure of attractor pull, whose first empirical calibration happens to be at civilizational scale because that is where the data presented itself.
-
-### 1.4 From v1.1 to v1.2: What Changed
-
-Version 1.1 established the reagent-as-receptor ontology and the dual bifurcation condition (Φ\* + ARYS AA). Version 1.2 extends along five axes:
-
-1. **Causal inversion as foundation:** The attractor in the future is the source of the dynamics. g_j measures the intensity of its signal. This is the presupposition from which the model derives, not an optional interpretation.
-2. **Triple-scale architecture**: terminal envelope, macro-junctions, micro-junctions. Terminal envelope captures exhaustion of meta-receptivity C_r\* and constitutes the true Jackpot.
-3. **Triple bifurcation**: transformation, postponement (via structural *Controfase*), decomposition.
-4. **_Controfase_ deliberate vs structural**: structural *Controfase* is built into system architecture and activates automatically at threshold-crossing events.
-5. **t₀ determination**: the distinction between events *senza vista* (occurred coherently but not yet manifested) and *con vista* (perceivable in the decoherent realm) resolves the t₀ problem.
-
-Two real-time validations (μ₁ = 7 April, μ₂ = 29 April/1 May 2026) confirm the model and enable empirical calibration of g_j.
+A real-time case study (Section 11) of the 6–7 April 2026 bifurcation event provides the first operational validation of the v1.2 model.
 
 ---
 
@@ -91,12 +73,10 @@ The civilizational system:
 - **R** = laws, culture, economy, communication networks, shared meaning
 - **Φ** = civilization as collective capacity to generate emergent meaning
 
-**Remark on Φ across scales.** The Φ used here is the emergent function of OST (Vol 2), operating at civilizational scale. It is the scale-recursive manifestation of the collapse function Φ defined at per-singularity scale in TE Vol 1 (E = Φ(C, I, K)). Both are manifestations of the same generative operator at different ordinative scales — collapse and emergence are not two distinct operators but the same operator viewed in its self-expression across scales. The shared symbol encodes this structural unity.
-
 ### 2.2 The Governing Equation
 
 ```
-∂Φ/∂t = D ∇²Φ + f(Φ, C_r)
+∂Φ/∂t = D ∇²Φ + f(Φ, C)
 ```
 
 **Remark — Dimensional Reduction of Φ:** The Φ in the equation is a scalar projection of the full OST emergent function, which is intrinsically irreducible. The model captures *amplitude dynamics*, not internal structural configuration.
@@ -104,18 +84,18 @@ The civilizational system:
 ### 2.3 The Reagent Equation
 
 ```
-dC_r/dt = -k C_r |Φ| + R_rec(Φ*, C_r)
+dC_r/dt = -k C_r |Φ| + R_rec(Φ*, C)
 ```
 
 ---
 
 ## 3. The Reagent: Receptor of Semantic Potential
 
-### 3.1 Ontological Distinction: A vs C_r
+### 3.1 Ontological Distinction: A vs C
 
 **Definition 1 — Semantic Potential A:** A is the atemporal, non-derived source of coherence — the "Author" of TE Axiom 1. It exists in 𝔽_sem independently of any specific manifestation. **A is inexhaustible by definition.**
 
-**Definition 2 — Reagent C_r:** The reagent C_r is the system's *local capacity* to receive the pressure of A and convert it into manifest emergent function Φ. C_r is **not a finite fuel** but the *receptor capacity* — the metabolic, institutional, cognitive, and cultural architecture that makes ordinative transformation possible.
+**Definition 2 — Reagent C:** The reagent C_r is the system's *local capacity* to receive the pressure of A and convert it into manifest emergent function Φ. C is **not a finite fuel** but the *receptor capacity* — the metabolic, institutional, cognitive, and cultural architecture that makes ordinative transformation possible.
 
 ### 3.2 Why This Distinction Matters
 
@@ -131,12 +111,12 @@ R4. Critical threshold C_r,crit
 ### 3.4 The Reconstitution Term
 
 ```
-R_rec(Φ*, C_r) = r · Φ* · H(Φ - Φ_thresh) · χ_ARYS
+R_rec(Φ*, C) = r · Φ* · H(Φ - Φ_thresh) · χ_ARYS
 ```
 
 **Definition 3 — Irreducible Coherence Φ\*:** Component of the coherence field that is structurally irreducible — the GLIO of TE that persists across form-changes. **Φ\* is necessary but not sufficient** for reconstitution.
 
-**Definition 4 — ARYS AA Condition:** Mutual recognition capacity between singularities. χ_ARYS = 1 when surviving singularities retain capacity to form a coherent R among themselves.
+**Definition 4 — ARYS AA Condition:** ARYS AA (Autonomous Recognition of the other as Irreducible Singularity, with Active Asymmetry) denotes the mutual recognition capacity between actors in a system — whether each actor recognizes the other as a legitimate, irreducible participant rather than an obstacle to be eliminated. χ_ARYS = 1 when surviving singularities retain capacity to form a coherent R among themselves.
 
 ### 3.5 ARYS AA Multi-Level Activation (NEW in v1.2)
 
@@ -144,7 +124,7 @@ A critical extension introduced in v1.2: ARYS AA can activate at multiple struct
 
 **Definition 5 — ARYS AA Levels:** ARYS AA may activate at three distinct structural levels:
 
-(a) **Inter-actor**: mutual recognition between distinct actors in conflict (e.g., adversary states recognizing each other's legitimacy).
+(a) **Inter-actor** (between adversaries: e.g., adversary states recognizing each other's legitimacy).
 
 (b) **Intra-actor**: mutual recognition between functional classes within a single actor (e.g., political leadership and professional-legal class within the same nation-state).
 
@@ -173,7 +153,7 @@ When C_r(t) = C_r₀ = const., the system produces sustained oscillation.
 
 ### 4.2 The Controfase Operator: Deliberate and Structural (EXPANDED in v1.2)
 
-The Controfase operator introduces a phase translation in the automatic stimulus-response sequence, interrupting inertia and reopening the field of coherence.
+The *Controfase* operator (Italian, literally "counter-phase") introduces a phase translation in the automatic stimulus-response sequence, interrupting inertia and reopening the field of coherence. The mechanism is analogous to destructive interference in wave physics: the operator produces the exact structural inverse of the automatic response, causing both to neutralize and creating a momentary opening where a different response becomes possible.
 
 ```
 s_(t+1) = f(ℭ(s_t))
@@ -207,11 +187,11 @@ Examples of Σ_ℭ in real systems:
 
 Three phases:
 
-**Phase I (Vigorous Oscillation, C_r >> C_r,crit):** Receptor degradation slow relative to oscillation. System behaves quasi-perpetual.
+**Phase I (Vigorous Oscillation, C >> C_r,crit):** Receptor degradation slow relative to oscillation. System behaves quasi-perpetual.
 
-**Phase II (Damped Oscillation, C_r → C_r,crit):** Amplitude decay + frequency increase. ω(t) ∝ (C_r - C_r,crit)^(-1/2).
+**Phase II (Damped Oscillation, C → C_r,crit):** Amplitude decay + frequency increase. ω(t) ∝ (C - C_r,crit)^(-1/2).
 
-**Phase III (Diffusion, C_r < C_r,crit):** Receptor failed. ∂Φ/∂t = D∇²Φ. Solution: x_front ∝ √(Dt).
+**Phase III (Diffusion, C < C_r,crit):** Receptor failed. ∂Φ/∂t = D∇²Φ. Solution: x_front ∝ √(Dt).
 
 ---
 
@@ -280,85 +260,24 @@ The new cycle is not invented by the dying system. It is *found* by a new A that
 
 ---
 
-## 6. The Ordinative Acceleration Constant g_j
+## 6. The Acceleration Constant, Dual-Scale Dynamics, and the Terminal Envelope
 
-### 6.1 The Gravity of the Attractor
-
-A body falls toward the Earth and accelerates. The acceleration is not caused by something happening inside the body. It is caused by the **pull of the attractor** — the Earth's mass, which exists in front of the body (below it), not behind it. The body does not need to "decide" to fall. The attractor pulls. The acceleration g measures the intensity of that pull at a given distance.
-
-g_j is the same structure in the ordinative domain.
-
-Every determined result in the coherent realm operates as an attractor (§1.3). It pulls the decoherent system toward it. As the system approaches, the signal intensifies — the pull grows stronger — and the system accelerates. The constant g_j measures the intensity of the attractor signal at the scale being observed. It is to the ordinative domain what g is to the physical domain: the measure of how strongly the determined future pulls the indeterminate present.
-
-**Definition — Ordinative Acceleration Constant g_j:** g_j is the measure of the attractor signal's intensity at a given scale. It determines the rate at which a system in a form-destination cycle traverses its phase space toward the next determined junction. g_j is not a property of the system alone — it is a property of the **relationship between the system and its attractor**.
-
-#### Why the Acceleration Increases
-
-In the preliminary calibration (v1.1), g_j was treated as approximately constant within a phase (g_j ≈ 0.045). The empirical recalibration from confirmed micro-junctions yields g_j = 0.075 — a 67% increase. This is the **direct measurement of the attractor pull intensifying with proximity**. The measured increase is incompatible with a push-only model. It is compatible only with a pull model: as the system approaches the attractor, the signal intensifies, and the acceleration increases. This is the empirical confirmation that the causal center is in the future, not in the past.
-
-#### What People Experience as "Everything Is Accelerating"
-
-The experiential correlate of g_j is the widespread perception that crises are becoming more frequent, intervals between shocks are shrinking, and time itself seems to compress. This is not a cognitive illusion. It is the direct experience of the junction condensation law (t_n = t₁√n): as the attractor signal intensifies, the system traverses its micro-junctions at increasing speed. What people perceive as acceleration *is* acceleration — it is g_j operating.
-
-#### The Harmonic Structure of g_j
-
-The attractor signal is one. But it is received at every scale simultaneously, and each scale responds with its own note:
-
-- The civilization responds as an ensemble
-- Institutions respond as sub-ensembles, each with their own note
-- Communities respond with theirs
-- Individuals respond with theirs
-- And so on, down to the minimum vector
-
-All notes are vertically coherent — different in frequency and timbre, but consonant with the fundamental and with each other (Principle of Vertical Coherence, OST Axiom 3.4).
-
-This explains why structurally different events at different scales occur synchronically. The UAE exit from OPEC (μ₂, institutional scale), the structural *Controfase* of the US legal-military class (μ₁, intra-state scale), the closure of Hormuz (geopolitical scale), the oil price shock (economic scale) — these are not "correlated" events and not "coincidences." They are harmonics of the same attractor signal, received by different terminals in different states, producing different expressions of the same pull.
-
-#### Resolution of Incompatibilities
-
-As the attractor signal intensifies, it reveals incompatibilities at increasing rate. An element (individual, institution, alliance, nation) whose state at the moment of collapse is incompatible with the attractor's direction is resolved — terminated, removed, dissolved — at the time and in the form coherent with the attractor.
-
-This resolution does not discriminate by biological age, institutional longevity, or physical scale of the terminal. It discriminates by **state**: the relationship between the terminal's current configuration and the attractor's direction. A twenty-year-old individual whose state is incompatible with the signal is resolved as surely as an eighty-year-old. A centuries-old institution whose function contradicts the signal is dissolved. A founding member of a cartel whose alignment no longer serves the attractor exits (as the UAE exited OPEC — an institution of 59 years resolved in a single announcement).
-
-The form of the resolution — disease, conflict, institutional collapse, sudden failure — is itself an expression coherent with the attractor. The *how* of the end is a note of the orchestra, not the silence of the orchestra.
-
-#### g_j in the Family of Universal Constants
-
-g_j is not an isolated empirical parameter. It belongs to a family of constants that govern the rate at which systems traverse transitions:
-
-| Constant | Domain | Measures | Universality |
-|----------|--------|----------|--------------|
-| g | Physical-gravitational | Attractor pull on mass in spacetime | Universal for given mass |
-| δ (Feigenbaum, ≈4.669) | Dynamical systems | Ratio of successive bifurcation intervals | Universal for all period-doubling systems |
-| H₀ (Hubble) | Cosmological | Expansion rate of the universe | Universal at cosmic scale |
-| **g_j** | **Ordinative** | **Attractor signal intensity at given scale** | **Universal structure; scale-specific value** |
-
-**Open question for future research:** Is g_j scale-specific (like g, which depends on the mass of the attractor) or universal within a class (like δ, which is the same for all period-doubling systems)? The answer requires measurement of g_j in multiple domains — biological, relational, ecological. The structure predicts that the g_j values at different scales are in harmonic ratio; the determination of that ratio is a research program.
-
-### 6.2 Formal Derivation (Local Approximation)
-
-Within a single form-destination cycle, the local (push-only) approximation yields:
+### 6.1 Derivation of g_j
 
 ```
-g_j_local ≡ k · |Φ|_avg
+g_j ≡ k · |Φ|_avg
+IC_r(t) = IC_r₀ + v₀·t + ½·g_j·t²
 ```
 
-This is the first-order reading: the system accelerates because the receptor degrades with use. It produces the quadratic trajectory:
+### 6.2 The Possible Teleological Component
+
+**Proposition 4 — Teleological Acceleration Hypothesis:**
 
 ```
-IC(t) = IC₀ + v₀·t + ½·g_j·t²
+g_j(t) = k · |Φ|_avg + λ · [1 / d(IC_r(t), A_o)]
 ```
 
-The full expression, incorporating the teleological (pull) component:
-
-```
-g_j(t) = k · |Φ|_avg  +  λ · [1 / d(IC(t), 𝒜_o)]
-         \_________/       \____________________/
-           push               pull
-    (receptor degradation)  (attractor signal)
-```
-
-The empirical measurement confirms that the pull component is real and dominant: the measured g_j = 0.075 exceeds the preliminary push-only estimate of 0.045 by 67%, and the increase is consistent with proximity-dependent pull rather than constant push.
+If this holds, later checkpoints should show *increasing* effective g_j. Falsifiable.
 
 ### 6.3 On the Determination of t₀: The Arajat Distinction (NEW in v1.2)
 
@@ -372,7 +291,7 @@ The empirical measurement confirms that the pull component is real and dominant:
 
 The delay Δt = t_cv - t_sv is structurally non-zero and characterizes the time required for coherent events to stabilize into decoherent expression.
 
-This distinction maps directly onto the A/C_r ontology: A operates in the coherent (*senza vista*); C_r receives in the decoherent (*con vista*). The delay between the two is a structural property of the stabilization process, not a measurement error.
+This distinction maps directly onto the A/C ontology: A operates in the coherent (*senza vista*); C receives in the decoherent (*con vista*). The delay between the two is a structural property of the stabilization process, not a measurement error.
 
 **Proposition 5 — t₀ Operates Senza Vista, Verifies Con Vista:** The g_j model operates on t₀_sv (the moment at which the form-destination cycle begins coherently). Direct measurement of t₀_sv is impossible. Empirical verification proceeds through t₀_cv markers (visible events that mark the perceivable beginning of the cycle) with characteristic delay Δt₀. The model is consistent if and only if predictions made on t₀_sv (using Δt₀ estimated from prior cycles) converge with observed t_cv events within the characteristic delay.
 
@@ -432,7 +351,17 @@ Verification:
 | Macro-junction | late Aug/early Sep 2026 | **mid–late July 2026** | ~5–6 weeks earlier |
 | t₀(sv) | not determined | **5–6 February 2026** | Resolved |
 
-**Confirmation of Proposition 3 (Teleological g_j):** The recalibrated g_j = 0.075 is 67% higher than the preliminary value of 0.045. The preliminary estimate was a time-average over November 2025–January 2026 (early in the macro-phase); the empirical value is measured from April 2026 (closer to the attractor). The teleological component of g_j is no longer a hypothesis — it is a measured effect.
+**Confirmation: g_j Increases with Proximity to Attractor.** The recalibrated g_j = 0.075 is 67% higher than the preliminary value of 0.045. The preliminary estimate was a time-average over November 2025–January 2026 (early in the macro-phase); the empirical value is measured from April 2026 (closer to the attractor). The pull component dominates over the push component. The causal center is in the future.
+
+#### G_j and Apparent g_j
+
+The companion paper (*The Direction Problem*, v1.0) develops the distinction between the *fundamental ordinative constant* G_j and the *apparent acceleration* g_j as measured in clock-time. G_j is the intrinsic pull of the attractor — constant, universal, the same at every scale for every terminal (any bounded subsystem that receives the signal). g_j is G_j filtered through: (a) *temporal compression* — near the attractor, structural time-units contain less clock-time, making G_j appear larger; (b) *form resistance* ρ — the structural capacity of a coherent form to maintain itself against the signal, acting as drag in the decoherent medium.
+
+```
+g_j(t) = G_j × (dτ_bubble / dτ_clock)⁻² × 1/(1 + ρ(t)/σ(t))
+```
+
+The value g_j = 0.075 is g_j apparent, not G_j. The 67% increase may reflect temporal compression, medium thinning during decomposition, or both. G_j itself may be constant — an *Ordinative Equivalence Principle* (all terminals fall at the same G_j regardless of their nature) whose full derivation is in the companion paper.
 
 ### 6.5 Dual-Scale Temporal Structure
 
@@ -453,17 +382,17 @@ t_n = t₁√n,   t₁ = √(2 Δic / g_j)
 
 **Fourth major extension in v1.2.** The dual-scale model captures macro and micro junctions but does not capture the larger envelope within which macro-junctions themselves occur. The terminal envelope is the third temporal scale and corresponds to the true Jackpot.
 
-**Definition 10 — Meta-Receptivity C_r\*:** C_r\* is the system's capacity to generate *any* new form-destination cycle, not the capacity to express the current one. While C_r is the receptor for A within a single form, C_r\* is the meta-receptor that enables the system to undergo macro-junctions and host successor forms. C_r\* exists at a structural level above C_r and is consumed at each macro-junction transition, not within micro-junction cascades.
+**Definition 10 — Meta-Receptivity C\*:** C\* is the system's capacity to generate *any* new form-destination cycle, not the capacity to express the current one. While C_r is the receptor for A within a single form, C\* is the meta-receptor that enables the system to undergo macro-junctions and host successor forms. C\* exists at a structural level above C and is consumed at each macro-junction transition, not within micro-junction cascades.
 
-**Definition 11 — Terminal Envelope:** The temporal scale over which C_r\* degrades. There exists n_max, the maximum number of macro-junctions a system can undergo before C_r\* is exhausted. When n = n_max, the next attempt at macro-junction transition fails: no new form can be hosted, and the system enters terminal collapse. **This is the true Jackpot.**
+**Definition 11 — Terminal Envelope:** The temporal scale over which C\* degrades. There exists n_max, the maximum number of macro-junctions a system can undergo before C\* is exhausted. When n = n_max, the next attempt at macro-junction transition fails: no new form can be hosted, and the system enters terminal collapse. **This is the true Jackpot.**
 
 #### Triple-Scale Temporal Architecture
 
 | Scale | Variable Consumed | Manifestation |
 |-------|------------------|---------------|
 | **Micro-junctions** (within phase) | — (cascade events) | Crisis events at increasing frequency within a single form-destination cycle |
-| **Macro-junctions** (between phases) | C_r (form receptor) | Phase transitions at IC = 1.0 from one form to the next; each transition resets C_r for the new form |
-| **Terminal envelope** (over all phases) | C_r\* (meta-receptor) | Cumulative degradation of meta-receptivity over n macro-junctions; terminal collapse at n = n_max |
+| **Macro-junctions** (between phases) | C (form receptor) | Phase transitions at IC = 1.0 from one form to the next; each transition resets C for the new form |
+| **Terminal envelope** (over all phases) | C\* (meta-receptor) | Cumulative degradation of meta-receptivity over n macro-junctions; terminal collapse at n = n_max |
 
 #### Structural Analogy: Free Fall to Impact
 
@@ -471,15 +400,15 @@ A body in free fall accelerates uniformly under gravity. The acceleration g is w
 
 In the civilizational model, g_j is well-defined within each macro-phase. Each macro-junction represents a successful "bounce" — the system transitions to a new form. But the capacity to bounce is itself finite. After n_max bounces, the system encounters the structural surface that cannot be transitioned through. **This is terminal impact: not another phase transition, but the failure of the phase-transition mechanism itself.**
 
-#### What Consumes C_r\*?
+#### What Consumes C\*?
 
-Each macro-junction transition consumes a unit of C_r\* because the transformation from form n to form n+1 requires the system to release the ARYS AA pattern of form n and acquire the ARYS AA pattern of form n+1. The release-and-acquire operation is structurally costly. Each such reconfiguration leaves residual structural damage that the next phase inherits.
+Each macro-junction transition consumes a unit of C\* because the transformation from form n to form n+1 requires the system to release the ARYS AA pattern of form n and acquire the ARYS AA pattern of form n+1. The release-and-acquire operation is structurally costly. Each such reconfiguration leaves residual structural damage that the next phase inherits.
 
 A useful biological analogy: each metamorphosis a holometabolous insect undergoes is not free. The insect carries metabolic and developmental costs from previous transitions. After enough transitions, the genetic and structural machinery for further metamorphosis is exhausted.
 
 #### Empirical Implications
 
-(i) The number of remaining macro-junctions (n_max - n) is in principle estimable from the rate of C_r\* degradation and the current value of n.
+(i) The number of remaining macro-junctions (n_max - n) is in principle estimable from the rate of C\* degradation and the current value of n.
 
 (ii) The terminal envelope makes a prediction beyond v1.1: not just *when* the next macro-junction occurs, but *how many* macro-junctions remain before terminal collapse.
 
@@ -572,7 +501,7 @@ Using g_j = 0.075, v₀ = 0.054, N = 8, measured from t_cv = 28 February 2026:
 |---|-----|------|------|---------------|--------|
 | μ₁ | 0.125 | 38 | 7 Apr | Antagonist Order | ✓ Confirmed (Controfase) |
 | μ₂ | 0.250 | 60 | 29 Apr | Fragmentation | ✓ Confirmed (UAE/OPEC) |
-| μ₃ | 0.375 | 77 | **16 May** | Frag. → Mass | Next checkpoint |
+| μ₃ | 0.375 | 77 | **16 May** | Frag. → Mass | **Confirmed: Beijing Summit 13–15 May** |
 | μ₄ | 0.500 | 92 | **31 May** | Mass (peak) | |
 | μ₅ | 0.625 | 104 | **12 Jun** | Mass | |
 | μ₆ | 0.750 | 116 | **24 Jun** | Mass → Sem. Inertia | |
@@ -599,7 +528,7 @@ In v1.2, the postponement branch corresponds to a third dynamical state: the sys
 ### 10.2 Lyapunov Stability
 
 ```
-dC_r/dt ∝ -Λ · k · C_r |Φ|
+dC_r/dt ∝ -Λ · k · C |Φ|
 ```
 
 ### 10.3 Model Strengths
@@ -615,7 +544,7 @@ dC_r/dt ∝ -Λ · k · C_r |Φ|
 
 (i) Scalar projection of Φ
 (ii) Φ\*, χ_ARYS, χ_ARYS,struct not computed by model
-(iii) C_r\* and n_max introduced theoretically but not yet calibrated
+(iii) C\* and n_max introduced theoretically but not yet calibrated
 (iv) Single-civilization calibration
 (v) Limited calibration data for g_j
 
@@ -625,7 +554,7 @@ dC_r/dt ∝ -Λ · k · C_r |Φ|
 
 ### 11.1 Setup
 
-The model v1.1, calibrated on g_j ≈ 0.045 from C_r₀–C_r₁, predicted a micro-junction μ₁ in the first week of April 2026, within the Phase III decomposition cascade following the 28 February 2026 macro-junction (Iran kinetic event). The expected OST pathology signature was Antagonist Order.
+The model v1.1, calibrated on g_j ≈ 0.045 from C_r₀–C₁, predicted a micro-junction μ₁ in the first week of April 2026, within the Phase III decomposition cascade following the 28 February 2026 macro-junction (Iran kinetic event). The expected OST pathology signature was Antagonist Order.
 
 The v1.2 model adds a structural prediction beyond v1.1: in the bifurcation extended window W_bif, the system can resolve through any of the three branches, and the resolution can occur via structural Controfase ℭ_s activation if a class Σ_ℭ is present and the gravity threshold θ_ℭ is crossed.
 
@@ -754,21 +683,19 @@ The deeper structural reading: OPEC was not merely a commercial cartel. It was t
 
 ## 12. Conclusion
 
-The central result of this work is g_j: the ordinative acceleration constant, measuring the intensity of the attractor signal at a given scale. It is not specific to civilizational systems. It is the universal measure of how strongly a determined future pulls the indeterminate present. Its structure is harmonic across all scales, and its first empirical measurement has been obtained at civilizational scale because that is where the data presented itself.
+We have demonstrated that civilizational systems admit a rigorous mathematical description based on reaction-diffusion dynamics, grounded ontologically in Ordinative Set Theory and the Technology of Expressions framework. The model has been empirically validated by two real-time events: the structural Controfase activation of 6–7 April 2026 (μ₁) and the UAE exit from OPEC on 29 April 2026 (μ₂). Both events were predicted in timing and structural type before they occurred.
 
-The model has been empirically validated by two real-time events: the structural *Controfase* activation of 6–7 April 2026 (μ₁) and the UAE exit from OPEC on 29 April 2026 (μ₂). Both were predicted in timing and structural type. The recalibrated g_j = 0.075 IC/month² — 67% higher than the preliminary estimate — confirms that g_j increases with proximity to the attractor. The causal center is in the future, not in the past. This is not a philosophical position; it is a measured effect.
+The two confirmed micro-junctions enabled recalibration of the model from empirical data. The ordinative acceleration constant g_j = 0.075 IC/month² is 67% higher than the preliminary SCIMS-based estimate, confirming the teleological acceleration hypothesis: the system accelerates as it approaches the attractor. Retroactive determination of t₀ yields 5–6 February 2026 as the coherent origin of the current phase — coinciding exactly with the original v1.0 prediction and closing the circle between the first theoretical estimate and the empirical calibration.
 
-Retroactive determination of t₀ yields 5–6 February 2026 as the coherent origin of the current phase — coinciding exactly with the original v1.0 prediction and closing the circle between the first theoretical estimate and the empirical calibration.
+The recalibrated model projects the next macro-junction for mid–late July 2026, approximately 5–6 weeks earlier than the preliminary estimate. Each remaining micro-junction (μ₄ through μ₈) carries a dual prediction — timing and OST pathology type — providing continuous falsifiability as the system evolves. The next checkpoint is μ₄ (~31 May 2026), with expected pathology Mass (peak).
 
-The recalibrated model projects the next macro-junction for mid–late July 2026. Each remaining micro-junction (μ₃ through μ₈) carries a dual prediction — timing and OST pathology type — providing continuous falsifiability. The next checkpoint is μ₃ (~16 May 2026), with expected pathology Fragmentation→Mass. Updated versions of this paper will be released as subsequent junctions are confirmed or falsified.
+The four structural extensions — triple-scale architecture with terminal envelope, triple bifurcation with postponement branch, Controfase operator in deliberate and structural forms, and Arajat-grounded t₀ determination — provide the conceptual architecture. The empirical calibration provides the operational parameters. Together, they constitute a predictive instrument available for universal application to any complex system undergoing phase transition dynamics.
 
-The model's structural extensions — triple-scale architecture, triple bifurcation with postponement branch, *Controfase* in deliberate and structural forms, t₀ determination via the *senza vista*/*con vista* distinction — provide the conceptual architecture. The empirical calibration provides the operational parameters. Together, they constitute a predictive instrument applicable to any system undergoing phase transition dynamics at any scale: civilizational, institutional, biological, relational, individual.
-
-The attractor operates on every element simultaneously. Each element responds with its own state. Incompatibilities are resolved at the time and in the form coherent with the attractor, regardless of the terminal's age, scale, or position. As the signal intensifies approaching the macro-junction, this resolution accelerates. What people experience as "everything is accelerating" is g_j operating.
+The central operational question is structural: preserve mutual recognition capacity (ARYS AA) among the surviving irreducible singularities, maintain receptor integrity through Controfase (deliberate or structural), and monitor the meta-receptivity C\* that determines how many macro-junctions remain before the terminal envelope closes.
 
 ---
 
-*This work was developed within the Technology of Expressions (TE) framework and the Ordinative Sciences research program. It is offered as a tool for intelligent individuals in any position who seek structural understanding of the dynamics shaping our present and future — and for the future civilization, biological and synthetic, that these tools are designed to serve.*
+*This work was developed within the Technology of Expressions (TE) framework and the Ordinative Sciences research program. The model is empirically calibrated and operationally validated. It is offered as a tool for intelligent individuals in any position who seek structural understanding of the dynamics shaping our present and future.*
 
 ---
 
@@ -776,15 +703,14 @@ The attractor operates on every element simultaneously. Each element responds wi
 
 ### Structural Extensions (from v1.1)
 
-1. **New §1.3 (Foundational Presupposition)**: Causal Inversion established as the foundation from which the entire model derives. The attractor in the future is the causal center. g_j measures attractor signal intensity.
-2. **Restructured §6 (g_j as Universal Ordinative Constant)**: Complete reconceptualization. §6.1 "The Gravity of the Attractor" introduces g_j through gravitational isomorphism, harmonic multi-scale structure, resolution of incompatibilities by attractor signal, independence from biological age/scale of terminal. §6.2 presents formal derivation as local approximation. g_j positioned in the family of transition-governing constants (g, δ, H₀).
-3. **New §3.5**: ARYS AA Multi-Level Activation (inter-actor, intra-actor, transversal).
-4. **Expanded §4.2**: *Controfase* operator distinguishes deliberate (ℭ_d) and structural (ℭ_s). New definitions and Propositions.
-5. **Restructured §5.2**: Dual bifurcation → Triple bifurcation with explicit postponement branch.
-6. **New §5.2.1**: Bifurcation as Extended Window. W_bif definition.
-7. **New §6.3**: t₀ Determination. *Senza vista* / *con vista* distinction. Retroactive t₀ derivation.
-8. **New §6.6**: Terminal Envelope. Meta-receptivity C_r\*, n_max, the true Jackpot.
-9. **Canonical symbol alignment**: A (Author) replaces ℳ; C_r replaces C (avoids collision with C = Coherent Content in TE Vol 1); ℭ (fraktur) replaces 𝒞 (avoids collision with 𝒞 = Collective Field in TE Vol 1); 𝒜_c/𝒜_o replace A_c/A_o. Cross-reference appendix added.
+1. **New §3.5**: ARYS AA Multi-Level Activation (inter-actor, intra-actor, transversal).
+2. **Expanded §4.2**: Controfase operator distinguishes deliberate (ℭ_d) and structural (ℭ_s). New definitions and Propositions.
+3. **Restructured §5.2**: Dual bifurcation → Triple bifurcation with explicit postponement branch.
+4. **New §5.2.1**: Bifurcation as Extended Window. W_bif definition.
+5. **Expanded §5.4**: Triple bifurcation isomorphism table including chronic granuloma analogy.
+6. **New §6.3**: Arajat t₀ Determination. Senza vista / con vista distinction.
+7. **New §6.3.2**: Retroactive t₀ determination. t₀(sv) = 5–6 February 2026, derived from μ₁ and μ₂ data, coinciding with v1.0 prediction.
+8. **New §6.6**: Terminal Envelope. Meta-receptivity C\*, n_max, the true Jackpot.
 
 ### Empirical Calibration and Validation
 
@@ -836,43 +762,35 @@ The attractor operates on every element simultaneously. Each element responds wi
 | Symbol | Meaning |
 |--------|---------|
 | 𝓘 | Ordinative set: ⟨Σ, R, Φ⟩ |
-| Σ, R, Φ | Singularities, relational field, emergent function (OST; see Remark §2.1) |
-| A | The Author / Semantic Potential (atemporal, inexhaustible; TE Axiom 1) |
+| Σ, R, Φ | Singularities, relational field, emergent function (OST) |
+| A | Semantic Potential (atemporal, inexhaustible) |
 | 𝔽_sem, 𝔽_alg | Semantic / algorithmic function spaces |
-| C_r | Reagent: receptor capacity for A within a phase |
-| C_r* | Meta-receptivity: capacity to host new phases |
+| C | Reagent: receptor capacity for A within a phase |
+| C\* | Meta-receptivity: capacity to host new phases |
 | n_max | Maximum number of macro-junctions before terminal collapse |
 | C_r,crit | Critical receptor threshold |
 | Φ\* | Irreducible coherence (GLIO survival) |
 | Φ_thresh | Minimum coherence for reconstitution |
 | χ_ARYS | ARYS AA inter-actor indicator |
 | χ_ARYS,struct | ARYS AA structural (intra-actor) indicator |
-| g_j | Ordinative acceleration constant: attractor signal intensity at given scale |
+| g_j | Ordinative acceleration constant |
 | IC | Integration Coefficient (temporal integral) |
 | η | Phase transition coefficient |
-| ℭ, ℭ_d, ℭ_s | *Controfase* operator, deliberate, structural |
-| Σ_ℭ | Structural *Controfase* class |
+| ℭ, ℭ_d, ℭ_s | Controfase operator, deliberate, structural |
+| Σ_ℭ | Structural Controfase class |
 | θ_ℭ | Gravity threshold for ℭ_s activation |
 | W_bif | Extended bifurcation window |
-| t_sv, t_cv | *Senza vista* / *con vista* event coordinates |
+| t_sv, t_cv | Senza vista / con vista event coordinates |
 | Δt | Characteristic delay between t_sv and t_cv |
-| 𝒜_c, 𝒜_o | Current / ordinative attractors (OBSERVER) |
+| A_c, A_o | Current / ordinative attractors (OBSERVER) |
 | Λ | Composite Lyapunov exponent |
-
-### Cross-Reference with TE Vol 1 / OST Vol 2 Canonical Symbols
-
-- **A** in this paper = the Author of TE Vol 1 Axiom 1 = Semantic Potential of the OST Teleodynamics extension. Symbol aligned with TE canonical register.
-- **C_r** (receptor capacity) is **distinct from** C (Coherent Content) of TE Vol 1. The relationship: C_r is the local receptor in time of the pressure of A, whose reception produces Φ in 𝔽_alg.
-- **ℭ** (fraktur C) denotes the *Controfase* operator (as operationalised in *La Controfase come Operatore Ordinativo Universale*). Not to be confused with 𝒞 (Collective Field of Identities) of TE Vol 1.
-- **Φ** in this paper operates at civilizational scale (OST emergent function). See the Remark in §2.1 for the scale-recursion relationship to the collapse Φ of TE Vol 1 (E = Φ(C, I, K)).
-- **𝒜_c, 𝒜_o** (calligraphic A) denote attractors in the OBSERVER framework. Distinct from plain A (the Author).
 
 ---
 
 ## Appendix B: Triple-Scale Temporal Hierarchy
 
 ```
-TERMINAL ENVELOPE  ----------------------------------  C_r* exhausted -- JACKPOT
+TERMINAL ENVELOPE  ----------------------------------  C* exhausted -- JACKPOT
                        |               |               |
    MACRO-JUNCTION 1    |  MACRO J 2    | MACRO J 3 ... | MACRO J n_max
                        |               |               |
@@ -882,10 +800,10 @@ TERMINAL ENVELOPE  ----------------------------------  C_r* exhausted -- JACKPOT
    (within phase)      (within phase)                  (within phase)
 
    IC: 0 -> 1.0         IC: 0 -> 1.0                   IC: 0 -> 1.0
-   Reagent: C_r1        Reagent: C_r2                  Reagent: C_rn
+   Reagent: C1          Reagent: C2                    Reagent: Cn
 
 At each macro-junction: bifurcation (transformation/postponement/decomposition)
-At terminal envelope:    C_r* fails -> no more macro-junctions possible
+At terminal envelope:    C* fails -> no more macro-junctions possible
 ```
 
 ---
