@@ -36,7 +36,7 @@ Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
 *Cosa significa la formula ℐ = ⟨Σ, R, Φ⟩.* La notazione canonica esprime il campo come *tripla strutturata*: insieme delle singolarità Σ, insieme delle relazioni R fra di esse, funzione emergente Φ che il campo produce. Le parentesi angolari ⟨…⟩ indicano che le tre componenti non sono separabili — il campo *è* la loro composizione strutturata. Il simbolo ℐ (la lettera I in carattere script) è la designazione canonica del campo ordinativo. Vedremo le tre componenti in dettaglio nelle sezioni 5, 6, 7.
 
-Il programma del capitolo è dunque chiaro. Prima formalizziamo la formula canonica ℐ = ⟨Σ, R, Φ⟩ (sezione 3). Poi vediamo cosa l'assioma 14 *rifiuta* — la teoria classica degli insiemi come ontologia (sezione 4). Poi articoliamo le tre componenti del campo ordinativo: Σ (sezione 5), R (sezione 6), Φ (sezione 7). Poi gli esempi, la diagnostica, il vaglio, e il ponte verso l'assioma 15.
+Il programma del capitolo è dunque chiaro. Prima formalizziamo la formula canonica ℐ = ⟨Σ, R, Φ⟩ (sezione 3). Poi vediamo cosa l'assioma 14 *rifiuta* — la teoria classica degli insiemi come ontologia (sezione 4). Poi articoliamo le tre componenti del campo ordinativo: Σ (sezione 5), R (sezione 6), Φ (sezione 7). Poi gli esempi, la diagnostica, il setaccio, e il ponte verso l'assioma 15.
 
 ## La formula canonica: ℐ = ⟨Σ, R, Φ⟩
 

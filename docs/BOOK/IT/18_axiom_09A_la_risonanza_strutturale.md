@@ -30,7 +30,7 @@ Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
 *Cosa significa "configurazioni informazionali già presenti nella propria struttura interna".* Qui sta il cuore dell'assioma. Anche entro il proprio orizzonte, un terminale non percepisce *tutto*: percepisce solo quel che la sua *struttura interna* gli permette di rilevare. La struttura interna è l'insieme dei pattern, delle distinzioni, delle categorie, delle componenti del vettore funzionale (Cap. 5) che il terminale ha *già* — per nascita, per formazione, per training, per evoluzione storica. Quel che è completamente disgiunto dalla struttura interna *non viene rilevato*: non è "trascurato", non è "ignorato", *è inesistente per quel terminale*. È invisibile in senso strutturale, non percettivo.
 
-Il programma del capitolo è dunque chiaro. Prima formalizziamo la condizione canonica con l'apparato di insiemi (sezione 3). Poi sviluppiamo cosa significhi "intersezione di domini" come concetto chiave (sezione 4). Poi articoliamo i tre corollari dell'assioma — cecità funzionale, interazione come complicità, principio di evocazione (sezioni 5, 6, 7). Poi gli esempi, la diagnostica, il vaglio, e il ponte verso l'assioma 9A1.
+Il programma del capitolo è dunque chiaro. Prima formalizziamo la condizione canonica con l'apparato di insiemi (sezione 3). Poi sviluppiamo cosa significhi "intersezione di domini" come concetto chiave (sezione 4). Poi articoliamo i tre corollari dell'assioma — cecità funzionale, interazione come complicità, principio di evocazione (sezioni 5, 6, 7). Poi gli esempi, la diagnostica, il setaccio, e il ponte verso l'assioma 9A1.
 
 ## La formula canonica
 

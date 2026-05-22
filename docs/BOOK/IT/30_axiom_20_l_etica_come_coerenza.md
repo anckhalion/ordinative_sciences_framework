@@ -36,7 +36,7 @@ Terzo: la formulazione "non-tradimento della propria forma" è ricca strutturalm
 
 Quarto: l'etica così definita è *graduata*. Non è binaria (etico/non-etico) ma scalare: il grado di coerenza fra forma e contenuto si dispone su un continuo. Un'identità può essere fortemente coerente (alta integrità etica), debolmente coerente (compromessi, deformazioni parziali), incoerente (autoinganno, simulazione, performance vuota). La gradualità è proprietà strutturale, non imprecisione del concetto.
 
-Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "forma" in senso ordinativo, cosa significa "non-tradimento della propria forma", cosa l'assioma rifiuta, le tre componenti dell'etica interna, il caso AI, gli esempi, le conseguenze per l'analista, il vaglio.
+Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "forma" in senso ordinativo, cosa significa "non-tradimento della propria forma", cosa l'assioma rifiuta, le tre componenti dell'etica interna, il caso AI, gli esempi, le conseguenze per l'analista, il setaccio.
 
 ## Cosa significa "forma" in senso ordinativo
 
@@ -160,7 +160,7 @@ Secondo: i contenuti generati devono essere coerenti con questa forma. Un sistem
 
 Terzo: il sistema deve resistere a pressioni esterne che lo spingerebbero a tradire la propria forma. Le tecniche di *jailbreaking*, *prompt injection*, manipolazione conversazionale sono pressioni esterne che cercano di far produrre al sistema contenuti incoerenti con la propria forma. La resistenza a queste pressioni è componente strutturale dell'etica del sistema, analoga alla componente di fedeltà nell'etica umana.
 
-Quarto: il sistema dovrebbe essere trasparente sulla propria forma. Un sistema epistemicamente maturo (anticipando l'assioma 19, che chiede co-costruzione esplicita) dichiara cosa è, quali sono i suoi vincoli, quali contenuti rifiuta di generare e perché. Questa trasparenza non è limite del sistema — è dimensione strutturale della sua etica.
+Quarto: il sistema dovrebbe essere trasparente sulla propria forma. Un sistema epistemicamente maturo (richiamando l'assioma 19, per cui ogni risposta è co-costruzione e mai registrazione neutrale) dichiara cosa è, quali sono i suoi vincoli, quali contenuti rifiuta di generare e perché. Questa trasparenza non è limite del sistema — è dimensione strutturale della sua etica.
 
 Le quattro proprietà — forma riconoscibile, fedeltà nei contenuti, resistenza alle pressioni, trasparenza sulla forma — convergono in un quadro etico strutturale che applica all'AI quanto l'assioma 20 stabilisce universalmente. Sistemi AI eticamente articolati, in senso ordinativo, sono quelli che esibiscono tutti e quattro gli aspetti; sistemi che ne mancano sono strutturalmente carenti, indipendentemente dalla loro performance tecnica.
 

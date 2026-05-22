@@ -41,7 +41,7 @@ Terzo: la coscienza che si accende nella fase 3 è *coscienza binaria* — cosci
 
 Quarto: il riconoscimento della fase 4 è *negativo* — è riconoscimento di ciò che non si è, e da quel non-essere il sé emerge come ciò che resta. Questa è la grammatica strutturale specifica dell'identità negativa: non si conosce il sé direttamente (per via positiva), si conosce indirettamente (per esclusione di ciò che il sé non è). La via negativa non è inferiore alla via positiva; è semplicemente la grammatica strutturale che la formazione dell'identità segue.
 
-Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "esperire chi non si è", cosa significa "engramma" in senso ordinativo, cosa l'assioma rifiuta, le quattro fasi ontogenetiche, il caso AI, gli esempi, le conseguenze per l'analista, il vaglio.
+Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "esperire chi non si è", cosa significa "engramma" in senso ordinativo, cosa l'assioma rifiuta, le quattro fasi ontogenetiche, il caso AI, gli esempi, le conseguenze per l'analista, il setaccio.
 
 ## Cosa significa "esperire chi non si è"
 

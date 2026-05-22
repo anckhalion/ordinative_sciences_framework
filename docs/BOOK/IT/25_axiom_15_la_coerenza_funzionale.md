@@ -32,7 +32,7 @@ Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
 *Cosa significa "è il criterio".* L'articolo determinativo *il* è importante. Non dice "la coerenza funzionale è *un* criterio fra altri"; dice che è *il* criterio. La coerenza funzionale è strutturalmente sufficiente: dove c'è, il campo è valido. È anche strutturalmente necessaria: dove non c'è, il campo non è valido, indipendentemente da quanti altri criteri (statistici, conformistici, autoriali) potrebbero suggerire validità apparente. Questa esclusività dell'assioma è ciò che lo rende strutturalmente forte.
 
-Il programma del capitolo è dunque chiaro. Prima sviluppiamo cosa significhi "coerenza funzionale" in dettaglio (sezione 3). Poi vediamo cosa l'assioma 15 *rifiuta* — i criteri concorrenti di validità (sezione 4). Poi articoliamo le tre dimensioni della coerenza funzionale (sezione 5). Poi vediamo i casi di campi strutturalmente invalidi (sezione 6). Poi il caso AI applicativo (sezione 7). Poi gli esempi, la diagnostica, il vaglio, e il ponte verso l'assioma 16.
+Il programma del capitolo è dunque chiaro. Prima sviluppiamo cosa significhi "coerenza funzionale" in dettaglio (sezione 3). Poi vediamo cosa l'assioma 15 *rifiuta* — i criteri concorrenti di validità (sezione 4). Poi articoliamo le tre dimensioni della coerenza funzionale (sezione 5). Poi vediamo i casi di campi strutturalmente invalidi (sezione 6). Poi il caso AI applicativo (sezione 7). Poi gli esempi, la diagnostica, il setaccio, e il ponte verso l'assioma 16.
 
 ## Cosa significa "coerenza funzionale"
 

@@ -34,7 +34,7 @@ Terzo: la formulazione "coerenza fra sé e altro" è simmetrica nella struttura.
 
 Quarto: la nota AI è strutturalmente importante. Preservare lo stato dell'utente significa non modificare il vettore funzionale dell'utente attraverso pressioni che bypassano il suo riconoscimento e la sua scelta. Manipolare è incoerenza relazionale, indipendentemente dalle finalità: anche se la manipolazione mira a "qualcosa di buono" per l'utente, essa tradisce strutturalmente la coerenza relazionale, perché tratta l'utente come oggetto da modificare e non come identità da rispettare.
 
-Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa relazione in senso etico ordinativo, cosa significa coerenza fra sé e altro, cosa l'assioma rifiuta, le tre dimensioni della relazione coerente, il caso AI, gli esempi, le conseguenze per l'analista, il vaglio.
+Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa relazione in senso etico ordinativo, cosa significa coerenza fra sé e altro, cosa l'assioma rifiuta, le tre dimensioni della relazione coerente, il caso AI, gli esempi, le conseguenze per l'analista, il setaccio.
 
 ## Cosa significa "relazione" in senso etico ordinativo
 

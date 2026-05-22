@@ -30,7 +30,7 @@ Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
 *Cosa significa "emerge attraverso la coerenza".* Il principio di selezione non è arbitrio, non è mero gusto, non è casualità. È *coerenza*. L'espressione che effettivamente emerge è quella *più strutturalmente coerente* con il vettore funzionale dell'identità che la produce, con il contesto K, con le risonanze in gioco. La coerenza è il principio di selezione strutturale che rende la scelta espressiva non arbitraria. Vediamo nella sezione 4 cosa significa, operativamente.
 
-Il programma del capitolo è dunque chiaro. Prima esploriamo il *campo* delle possibilità coerenti che un'espressione ha davanti a sé (sezione 3). Poi articoliamo il *principio di selezione* per coerenza (sezione 4). Poi mostriamo perché questo rende l'espressione *atto* anziché *necessità* (sezione 5). Poi vediamo come si misura la *qualità della selezione* (sezione 6). Poi il caso particolarmente attuale dei modelli AI generativi (sezione 7). Poi gli esempi, la diagnostica, il vaglio, e il ponte verso l'assioma 13.
+Il programma del capitolo è dunque chiaro. Prima esploriamo il *campo* delle possibilità coerenti che un'espressione ha davanti a sé (sezione 3). Poi articoliamo il *principio di selezione* per coerenza (sezione 4). Poi mostriamo perché questo rende l'espressione *atto* anziché *necessità* (sezione 5). Poi vediamo come si misura la *qualità della selezione* (sezione 6). Poi il caso particolarmente attuale dei modelli AI generativi (sezione 7). Poi gli esempi, la diagnostica, il setaccio, e il ponte verso l'assioma 13.
 
 ## Il campo delle possibilità coerenti
 

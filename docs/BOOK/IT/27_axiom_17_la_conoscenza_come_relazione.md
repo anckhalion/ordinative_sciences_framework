@@ -34,7 +34,7 @@ Secondo: la risonanza, come è stata definita nei capitoli sulla dinamica, è as
 
 Terzo: l'assioma stabilisce una *condizione necessaria* di possibilità della conoscenza. Si conosce *solo* ciò con cui si entra in risonanza. La negazione è strutturale: ciò che non entra in risonanza con noi può essere informato, archiviato, registrato — non è conosciuto. La conoscenza ha una *finitezza strutturale* legata alla compatibilità fra il conoscente e il conosciuto. Questa finitezza non è limite tecnico (più dati risolverebbero il problema), è limite ontologico-strutturale.
 
-Da questi tre punti il capitolo si dispiega: prima chiarendo cosa significa, in senso ordinativo, *conoscenza*; poi cosa significa la sua qualifica come *relazione*; poi cosa l'assioma rifiuta esplicitamente; poi le tre dimensioni in cui la relazione conoscitiva si articola; il caso speciale dell'AI; gli esempi; le conseguenze per l'analista; il vaglio.
+Da questi tre punti il capitolo si dispiega: prima chiarendo cosa significa, in senso ordinativo, *conoscenza*; poi cosa significa la sua qualifica come *relazione*; poi cosa l'assioma rifiuta esplicitamente; poi le tre dimensioni in cui la relazione conoscitiva si articola; il caso speciale dell'AI; gli esempi; le conseguenze per l'analista; il setaccio.
 
 ## Cosa significa "conoscenza"
 

@@ -34,7 +34,7 @@ Terzo: l'assenza di osservazione neutrale non implica l'arbitrarietà dell'osser
 
 Quarto: l'assioma stabilisce una *responsabilità strutturale* dell'osservatore. Se ogni osservazione co-determina il fenomeno, allora ogni osservatore è responsabile di come co-determina ciò che osserva — non solo eticamente (in senso esterno), ma strutturalmente. La responsabilità è interna alla logica dell'osservazione, non aggiunta a essa. Senza riconoscimento della partecipazione, l'osservatore opera con illusione di neutralità e produce, spesso, distorsioni inconsapevoli del campo che osserva.
 
-Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa osservare in senso ordinativo, cosa significa "essere parte del sistema", cosa l'assioma rifiuta, le tre conseguenze strutturali, il caso AI, gli esempi, le conseguenze per l'analista, il vaglio.
+Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa osservare in senso ordinativo, cosa significa "essere parte del sistema", cosa l'assioma rifiuta, le tre conseguenze strutturali, il caso AI, gli esempi, le conseguenze per l'analista, il setaccio.
 
 ## Cosa significa "osservare" in senso ordinativo
 

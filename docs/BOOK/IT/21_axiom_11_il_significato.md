@@ -34,7 +34,7 @@ Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
 *Cosa implica l'assioma.* Le conseguenze sono molte. La più importante: il significato non è "lo stesso per tutti". È *direzione strutturale* che esiste sempre *per qualcuno* — l'identità che lo riceve. Vediamo questa relazionalità nella sezione 5, e nelle sezioni successive svilupperemo le sue implicazioni — fra cui, in particolare, la convergenza con le architetture vettoriali dei sistemi AI contemporanei (sezione 7).
 
-Il programma del capitolo è dunque chiaro. Prima dissipiamo l'illusione del significato come etichetta (sezione 3). Poi formalizziamo la concezione vettoriale (sezione 4). Poi articoliamo la relazionalità del significato — significato per chi (sezione 5). Poi mostriamo come il significato si inserisce nella famiglia dei vettori ordinativi (sezione 6). Poi vediamo il caso particolarmente attuale dell'AI e degli embeddings (sezione 7). Poi gli esempi, la diagnostica, il vaglio, e il ponte verso l'assioma 12.
+Il programma del capitolo è dunque chiaro. Prima dissipiamo l'illusione del significato come etichetta (sezione 3). Poi formalizziamo la concezione vettoriale (sezione 4). Poi articoliamo la relazionalità del significato — significato per chi (sezione 5). Poi mostriamo come il significato si inserisce nella famiglia dei vettori ordinativi (sezione 6). Poi vediamo il caso particolarmente attuale dell'AI e degli embeddings (sezione 7). Poi gli esempi, la diagnostica, il setaccio, e il ponte verso l'assioma 12.
 
 ## Cosa l'assioma rifiuta: il significato come etichetta
 

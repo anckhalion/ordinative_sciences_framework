@@ -34,7 +34,7 @@ Terzo: l'assioma stabilisce una *condizione*, non una *definizione operativa*. D
 
 Quarto: la verità così definita è *graduata*. Non è binaria (vero/falso) ma scalare. Un enunciato può essere fortemente coerente con il sistema, debolmente coerente, parzialmente coerente, incoerente. La gradualità non è imprecisione del linguaggio comune che andrebbe corretta — è proprietà strutturale del concetto stesso di verità in senso ordinativo. La logica binaria classica è caso limite di sistemi specifici (logica formale, matematica) in cui la coerenza si misura su due valori; nei sistemi reali, la verità è continua come la coerenza che la fonda.
 
-Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "coerenza strutturale", cosa significa "verità" in senso ordinativo, cosa l'assioma rifiuta, le tre componenti della verità strutturale, il caso AI, gli esempi, le conseguenze per l'analista, il vaglio.
+Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "coerenza strutturale", cosa significa "verità" in senso ordinativo, cosa l'assioma rifiuta, le tre componenti della verità strutturale, il caso AI, gli esempi, le conseguenze per l'analista, il setaccio.
 
 ## Cosa significa "coerenza strutturale"
 

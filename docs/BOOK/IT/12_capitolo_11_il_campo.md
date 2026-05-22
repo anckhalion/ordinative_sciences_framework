@@ -34,7 +34,7 @@ Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
 *Cosa significa "genera".* La generazione, qui, è un atto strutturale: dato un certo livello di compatibilità fra le identità in gioco, *si verifica* l'apparizione di un'identità di livello superiore, con la propria coerenza interna. Sotto la soglia di co-risonanza, le identità coesistono senza generare nulla di collettivo; sopra la soglia, l'identità collettiva *appare*. Vediamo questa dinamica nella sezione 6.
 
-Il programma del capitolo è dunque chiaro. Prima dissipiamo la confusione fra identità collettiva e aggregato di individui — confusione tenace, che il senso comune e molta sociologia continuano a sostenere. Poi introduciamo κ, la funzione di compatibilità fra identità. Poi introduciamo 𝒞, il campo collettivo come oggetto ordinativo. Poi mostriamo la *ricorsività*: l'identità collettiva è un'identità, e tutto l'apparato dei capitoli precedenti vi si applica. Poi gli esempi, la diagnostica per l'analista, il vaglio, e il ponte verso il prossimo orizzonte.
+Il programma del capitolo è dunque chiaro. Prima dissipiamo la confusione fra identità collettiva e aggregato di individui — confusione tenace, che il senso comune e molta sociologia continuano a sostenere. Poi introduciamo κ, la funzione di compatibilità fra identità. Poi introduciamo 𝒞, il campo collettivo come oggetto ordinativo. Poi mostriamo la *ricorsività*: l'identità collettiva è un'identità, e tutto l'apparato dei capitoli precedenti vi si applica. Poi gli esempi, la diagnostica per l'analista, il setaccio, e il ponte verso il prossimo orizzonte.
 
 ## L'aggregato non basta
 

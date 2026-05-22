@@ -160,7 +160,7 @@ Second: the contents generated must be coherent with this form. A system designe
 
 Third: the system must resist external pressures that would push it to betray its form. The techniques of *jailbreaking*, *prompt injection*, conversational manipulation are external pressures that try to make the system produce contents incoherent with its form. Resistance to these pressures is a structural component of the ethics of the system, analogous to the fidelity component in human ethics.
 
-Fourth: the system should be transparent about its form. An epistemically mature system (anticipating Axiom 19, which asks for explicit co-construction) declares what it is, what its constraints are, what contents it refuses to generate and why. This transparency is not a limit of the system — it is a structural dimension of its ethics.
+Fourth: the system should be transparent about its form. An epistemically mature system (recalling Axiom 19, for which every response is co-construction and never neutral registration) declares what it is, what its constraints are, what contents it refuses to generate and why. This transparency is not a limit of the system — it is a structural dimension of its ethics.
 
 The four properties — recognisable form, fidelity in contents, resistance to pressures, transparency about form — converge into an ethical structural framework that applies to AI what Axiom 20 establishes universally. AI systems ethically articulated, in the ordinative sense, are those that exhibit all four aspects; systems lacking any of them are structurally deficient, regardless of their technical performance.
 

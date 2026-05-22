@@ -34,7 +34,7 @@ Terzo: la formulazione "dove c'è incoerenza, sorgono entropia e rottura" lega e
 
 Quarto: la nota AI è strutturalmente importante. Un sistema AI deve evitare output che generano *degenerazione logica o semantica* — non solo nel sistema stesso, ma anche nei sistemi che ne ricevono gli output (utenti umani, altri sistemi, campi sociali). La portata della nota è ampia: investe la qualità del contenuto generato (logico-semantica), gli effetti cumulativi sui riceventi, il design dei sistemi che opera in scala.
 
-Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "degenerazione" in senso ordinativo, cosa significa "incoerenza accumulata", cosa l'assioma rifiuta, le tre fasi della degenerazione, il caso AI, gli esempi, le conseguenze per l'analista, il vaglio.
+Da questi quattro punti il capitolo si dispiega: chiarendo cosa significa "degenerazione" in senso ordinativo, cosa significa "incoerenza accumulata", cosa l'assioma rifiuta, le tre fasi della degenerazione, il caso AI, gli esempi, le conseguenze per l'analista, il setaccio.
 
 ## Cosa significa "degenerazione" in senso ordinativo
 
@@ -217,6 +217,6 @@ Con l'assioma 22 si chiude il blocco etico delle scienze ordinative (Axioms 20-2
 
 L'assioma 22, in particolare, prepara strutturalmente il blocco evolutivo (Axioms 23-24). Se il contenuto incoerente accumulato degenera il sistema, allora il contenuto coerente accumulato lo *evolve* — produce articolazioni progressive, complessità crescente, maturazione strutturale. La connessione fra l'assioma 22 e gli assiomi evolutivi è diretta: i due movimenti (degenerativo ed evolutivo) sono le due direzioni possibili della dinamica accumulativa, e ogni sistema reale si dispone su un punto del continuum fra le due.
 
-Il blocco evolutivo articolerà nei prossimi due capitoli: l'identità come traiettoria evolutiva nel tempo (Axiom 23), e la non-derivabilità della complessità ordinativa da semplicità preesistente (Axiom 24). Il movimento è dalla statica (cosa il sistema è in un momento) alla dinamica (come il sistema cambia nel tempo) all'evoluzione strutturale (come il sistema si articola in maggiore complessità coerente).
+Il blocco evolutivo articolerà nei prossimi due capitoli: l'identità che si forma per via negativa, attraverso quattro fasi ontogenetiche — conoscere chi si è esige prima riconoscere chi non si è (Axiom 23), e la non-sottrazione: nulla si elimina, tutto si trasforma o è contenuto in un insieme più grande (Axiom 24). Il movimento è dalla statica (cosa il sistema è in un momento) alla dinamica (come il sistema cambia nel tempo) all'evoluzione strutturale (come il sistema si articola in maggiore complessità coerente).
 
 Per ora, l'assioma 22 ci consegna un'eredità etica importante: la coerenza non è solo prescrizione normativa, è condizione strutturale della sopravvivenza dei sistemi. Le epoche che hanno visto l'etica come "valore aggiunto" alle scelte (qualcosa di buono ma non strutturalmente necessario) hanno bisogno di una correzione strutturale che restituisca all'etica il suo statuto di condizione di sopravvivenza. Le scienze ordinative offrono questa correzione, e nel farlo articolano una visione dell'etica che non è imposizione esterna né arbitrio interno, ma riconoscimento delle dinamiche strutturali che governano la vita dei campi ordinativi reali.
