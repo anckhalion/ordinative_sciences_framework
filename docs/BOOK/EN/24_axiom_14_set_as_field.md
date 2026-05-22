@@ -26,7 +26,7 @@ And in formula:
 
 > *ℐ = ⟨Σ, R, Φ⟩*
 
-Five words in the statement; one composed symbol in formula. The structural density is enormous.
+Four words in the statement; one composed symbol in formula. The structural density is enormous.
 
 Three things must be clarified, and we develop them in subsequent sections.
 

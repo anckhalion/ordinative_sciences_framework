@@ -22,7 +22,7 @@ L'assioma nove si formula così:
 
 > *Il tempo è generato, non dato.*
 
-Quattro parole, di cui le prime due dichiarative e le ultime due restrittive. Letto in superficie, l'enunciato sembra solo togliere qualcosa: nega che il tempo abbia uno statuto fondamentale, nega che sia dato come premessa del reale. Letto in profondità, costruisce: dichiara che il tempo, nel quadro ordinativo, è oggetto derivato — e che ha *una specifica grammatica di derivazione* di cui il framework si occupa.
+Cinque parole, di cui le prime tre dichiarative e le ultime due restrittive. Letto in superficie, l'enunciato sembra solo togliere qualcosa: nega che il tempo abbia uno statuto fondamentale, nega che sia dato come premessa del reale. Letto in profondità, costruisce: dichiara che il tempo, nel quadro ordinativo, è oggetto derivato — e che ha *una specifica grammatica di derivazione* di cui il framework si occupa.
 
 La grammatica completa è la seguente. Esiste una funzione, scritta τ (la lettera greca tau minuscola), che si chiama *funzione pulsazionale* e che produce il tempo come effetto dell'arco coerente-decoerente. La formula canonica del testo fondativo della TE è:
 

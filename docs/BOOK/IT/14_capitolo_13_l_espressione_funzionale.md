@@ -24,7 +24,7 @@ L'assioma dodici si formula così:
 
 > *Ogni espressione ha un grado strutturale di funzionalità.*
 
-Sette parole. Le prime due dichiarano l'oggetto (ogni espressione); le ultime cinque dichiarano la proprietà (un grado strutturale di funzionalità).
+Sette parole. Le prime due dichiarano l'oggetto (ogni espressione); le ultime cinque dichiarano la proprietà (ha un grado strutturale di funzionalità).
 
 Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 

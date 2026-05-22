@@ -24,7 +24,7 @@ L'assioma quattordici si formula così:
 
 > *Le identità persistono attraverso traccia e ricostruzione.*
 
-Sette parole. Le prime tre dichiarano l'oggetto (le identità); la quarta dichiara la proprietà strutturale (persistono); le ultime tre dichiarano il meccanismo (traccia e ricostruzione).
+Sei parole. La prima dichiara l'oggetto (le identità); la seconda dichiara la proprietà strutturale (persistono); le ultime quattro dichiarano il meccanismo (attraverso traccia e ricostruzione).
 
 Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 

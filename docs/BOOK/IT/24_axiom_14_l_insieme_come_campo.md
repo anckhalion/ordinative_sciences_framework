@@ -26,7 +26,7 @@ E in formula:
 
 > *ℐ = ⟨Σ, R, Φ⟩*
 
-Cinque parole nell'enunciato; un simbolo composto in formula. La densità strutturale è enorme.
+Quattro parole nell'enunciato; un simbolo composto in formula. La densità strutturale è enorme.
 
 Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 

@@ -22,7 +22,7 @@ The ninth axiom is formulated thus:
 
 > *Time is generated, not given.*
 
-Five words, of which the first two are declarative and the last three restrictive. Read on the surface, the statement seems only to remove something: it denies that time has a foundational status, denies that it is given as a premise of the real. Read in depth, it builds: it declares that time, in the ordinative frame, is a derived object — and that it has *a specific grammar of derivation* with which the framework concerns itself.
+Five words, of which the first three are declarative and the last two restrictive. Read on the surface, the statement seems only to remove something: it denies that time has a foundational status, denies that it is given as a premise of the real. Read in depth, it builds: it declares that time, in the ordinative frame, is a derived object — and that it has *a specific grammar of derivation* with which the framework concerns itself.
 
 The complete grammar is the following. There exists a function, written τ (the lowercase Greek letter tau), called the *pulsational function*, which produces time as the effect of the coherent-decoherent arc. The canonical formula of the foundational text of TE is:
 

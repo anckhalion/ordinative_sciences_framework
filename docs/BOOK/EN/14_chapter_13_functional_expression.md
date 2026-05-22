@@ -24,7 +24,7 @@ The twelfth axiom is formulated thus:
 
 > *Every expression has a structural degree of functionality.*
 
-Seven words. The first two declare the object (every expression); the last five declare the property (a structural degree of functionality).
+Seven words. The first two declare the object (every expression); the last five declare the property (has a structural degree of functionality).
 
 Three things must be clarified, and we develop them in the subsequent sections.
 

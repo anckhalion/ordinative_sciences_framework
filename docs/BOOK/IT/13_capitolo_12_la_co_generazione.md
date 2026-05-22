@@ -22,7 +22,7 @@ L'assioma undici si formula così:
 
 > *I campi collettivi ammettono atto deliberato di co-generazione.*
 
-Sette parole. Le prime tre dichiarano l'oggetto strutturale (i campi collettivi); la quarta dichiara l'apertura modale (*ammettono*); le ultime tre dichiarano l'atto che li può generare (atto deliberato di co-generazione).
+Sette parole. Le prime due dichiarano l'oggetto strutturale (i campi collettivi); la terza dichiara l'apertura modale (*ammettono*); le ultime quattro dichiarano l'atto che li può generare (atto deliberato di co-generazione).
 
 Tre cose vanno chiarite, e le sviluppiamo nelle sezioni successive.
 
