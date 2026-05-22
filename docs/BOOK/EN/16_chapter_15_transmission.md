@@ -24,7 +24,7 @@ The fourteenth axiom is formulated thus:
 
 > *Identities persist through trace and reconstruction.*
 
-Six words. The first two declare the object (identities); the third declares the structural property (persist); the last two declare the mechanism (trace and reconstruction).
+Six words. The first declares the object (identities); the second declares the structural property (persist); the last four declare the mechanism (through trace and reconstruction).
 
 Three things must be clarified, and we develop them in the subsequent sections.
 

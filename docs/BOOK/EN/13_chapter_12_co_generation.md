@@ -22,7 +22,7 @@ The eleventh axiom is formulated thus:
 
 > *Collective fields admit deliberate acts of co-generation.*
 
-Six words. The first two declare the structural object (collective fields); the third declares the modal opening (*admit*); the last three declare the act that can generate them (deliberate acts of co-generation).
+Seven words. The first two declare the structural object (collective fields); the third declares the modal opening (*admit*); the last four declare the act that can generate them (deliberate acts of co-generation).
 
 Three things must be clarified, and we develop them in the subsequent sections.
 

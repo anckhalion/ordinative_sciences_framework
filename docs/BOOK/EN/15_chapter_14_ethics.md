@@ -28,7 +28,7 @@ The thirteenth axiom is formulated thus:
 
 > *Every functional expression admits structural ethical evaluation.*
 
-Six words. The first three declare the scope of application (every functional expression); the fourth declares the modal opening (*admits*); the last two declare the new property (structural ethical evaluation).
+Seven words. The first three declare the scope of application (every functional expression); the fourth declares the modal opening (*admits*); the last three declare the new property (structural ethical evaluation).
 
 Three things must be clarified, and we develop them in the subsequent sections.
 
