@@ -102,7 +102,7 @@ No need to proceed: the statement is local to the human social domain — and ev
 
 ## 7. Sources
 
-- `docs/CORE/TE_CORE_v5_1_EN.md` §2.0 — primary formulation of Axiom 0 and the four-test table.
-- `docs/CORE/TE_CORE_v5_1_EN.md` §0.3 — "Universal Scope", ontological context within which Axiom 0 operates.
-- `docs/OST/Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md` — formal theory that Axiom 0 filters.
+- `docs/framework/core/TE_CORE.md` §2.0 — primary formulation of Axiom 0 and the four-test table.
+- `docs/framework/core/TE_CORE.md` §0.3 — "Universal Scope", ontological context within which Axiom 0 operates.
+- `docs/framework/ost/OST_Concise_Guide.md` — formal theory that Axiom 0 filters.
 - Internal manual references: Ch. 20 (Axiom 16), Ch. 22 (Axiom 18), Ch. 19 (Axiom 15), Ch. 26 (Axiom 22).

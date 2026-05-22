@@ -51,6 +51,6 @@ Readers configuring an AI agent: Part II (ontology) + Part V (self-correction) +
 
 ## On synchrony with the repository
 
-The manual lives in the same repository as the framework (`ordinative_sciences_framework`). Every chapter contains, in its *Sources* section, references to the repository files (`docs/CORE/`, `docs/OST/`, `docs/MODULES/`) from which it derives. If a manual entry diverges from an operative document, the operative document prevails: the manual reports, it does not redefine.
+The manual lives in the same repository as the framework (`ordinative_sciences_framework`). Every chapter contains, in its *Sources* section, references to the repository files (`docs/framework/core/`, `docs/framework/ost/`, `docs/framework/modules/`) from which it derives. If a manual entry diverges from an operative document, the operative document prevails: the manual reports, it does not redefine.
 
 When an operative document is updated, the manual will flag the divergence in the editorial changelog (Appendix E) and realign the chapter in the following revision.

@@ -1,10 +1,10 @@
-# BOOK — Ordinative Sciences (long-form essay)
+# BOOK — *La porta. Una grammatica della coerenza* (long-form essay)
 
-This folder contains the source of the **book** version of the work — the essay-form, narrative companion to the technical reference held in `docs/MANUAL/`.
+This folder contains the source of the **book** version of the work — working title ***La porta. Una grammatica della coerenza*** (EN: *The Door. A Grammar of Coherence*) — the essay-form, narrative companion to the technical reference held in `docs/manual/`.
 
 Two distinct objects, two distinct destinations:
 
-| | `docs/MANUAL/` | `docs/BOOK/` |
+| | `docs/manual/` | `docs/book/` |
 | --- | --- | --- |
 | **Genre** | Reference manual — schematic, citable, lookup-friendly. | Long-form essay — continuous prose, designed to be read front to back. |
 | **Voice** | Institutional, neutral, procedural. | Authorial: clear cadence, earned transitions, stakes named. |
@@ -13,11 +13,11 @@ Two distinct objects, two distinct destinations:
 | **Status of priority** | Maintained as parallel reference. | Primary writing investment. |
 | **Relationship** | Stand-alone reference. | Cites the MANUAL where rigour is needed; never paraphrases it. |
 
-Both are bilingual: `IT/` (authorial source) and `EN/` (parallel edition, not a calque). `shared/` is reserved for diagrams, bibliography, and assets used across editions.
+Both are bilingual: `it/` (authorial source) and `en/` (parallel edition, not a calque). `shared/` is reserved for diagrams, bibliography, and assets used across editions.
 
 ## Editorial register (BOOK)
 
-These rules govern *how* the book is written, not what it says. The substance comes from the framework documents (`docs/CORE/`, `docs/OST/`, `docs/MODULES/`); the manual condenses; the book *narrates*.
+These rules govern *how* the book is written, not what it says. The substance comes from the framework documents (`docs/framework/core/`, `docs/framework/ost/`, `docs/framework/modules/`); the manual condenses; the book *narrates*.
 
 1. **Prose carries.** Numbered sub-sections and tabular fragments are admitted only when the content is genuinely tabular. Default form is a continuous paragraph that respects the reader's breath.
 2. **Stakes named, not asserted.** Every chapter opens by making clear what is at risk if the reader does not understand what follows. No throat-clearing, no roll-call of citations.
@@ -33,19 +33,19 @@ These rules govern *how* the book is written, not what it says. The substance co
 The book layout is intentionally lighter than the manual's. No fixed Parts/Sub-folders are imposed up front: the architecture of the book emerges from the writing. Files are numbered for ordering only.
 
 ```
-IT/
+it/
 ├── 00_nota_autore.md       # Nota dell'autore — opening address
 ├── 01_prologo.md           # Prologue
 ├── 02_*.md                 # Chapter 1 …
-└── 99_chiusura.md          # Closing chapter, acknowledgements, references
+└── 99_*.md                 # Closing chapter, glossary, references
 
-EN/
+en/
 ├── 00_authors_note.md
 ├── 01_prologue.md
 └── …
 ```
 
-Once the book has matured enough to need Parts, we introduce them as named sub-folders (e.g. `IT/parte_prima_soglie/`) — never as numbered abstractions.
+Once the book has matured enough to need Parts, we introduce them as named sub-folders (e.g. `it/parte_prima_soglie/`) — never as numbered abstractions.
 
 ## KDP target
 
@@ -57,4 +57,4 @@ Once the book has matured enough to need Parts, we introduce them as named sub-f
 
 The MANUAL grows as a **subsequent condensation** of the book. Each chapter of the book that fixes an axiom, a definition, a module, will have a corresponding compact entry in the MANUAL — written *afterwards*, when the chapter has stabilised. The book is the writing; the manual is the index.
 
-If a discrepancy ever arises between BOOK and MANUAL on a point of doctrine, the source-of-truth is the operative repository (`docs/CORE/`, `docs/OST/`, `docs/MODULES/`). Both BOOK and MANUAL are derivatives.
+If a discrepancy ever arises between BOOK and MANUAL on a point of doctrine, the source-of-truth is the operative framework (`docs/framework/core/`, `docs/framework/ost/`, `docs/framework/modules/`). Both BOOK and MANUAL are derivatives.

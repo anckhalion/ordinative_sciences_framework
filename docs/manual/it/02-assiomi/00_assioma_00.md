@@ -102,7 +102,7 @@ Non serve procedere: l'enunciato è locale al dominio sociale umano — e anche 
 
 ## 7. Fonti
 
-- `docs/CORE/TE_CORE_v5_1_EN.md` §2.0 — formulazione primaria dell'Assioma 0 e tabella dei quattro test.
-- `docs/CORE/TE_CORE_v5_1_EN.md` §0.3 — "Universal Scope", contesto ontologico entro cui l'Assioma 0 opera.
-- `docs/OST/Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md` — teoria formale che l'Assioma 0 filtra.
+- `docs/framework/core/TE_CORE.md` §2.0 — formulazione primaria dell'Assioma 0 e tabella dei quattro test.
+- `docs/framework/core/TE_CORE.md` §0.3 — "Universal Scope", contesto ontologico entro cui l'Assioma 0 opera.
+- `docs/framework/ost/OST_Concise_Guide.md` — teoria formale che l'Assioma 0 filtra.
 - Rimandi interni al manuale: Cap. 20 (Assioma 16), Cap. 22 (Assioma 18), Cap. 19 (Assioma 15), Cap. 26 (Assioma 22).

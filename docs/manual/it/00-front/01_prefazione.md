@@ -51,6 +51,6 @@ Chi deve configurare un agente AI: la Parte II (ontologia) + la Parte V (auto-co
 
 ## Sulla sincronia con il repository
 
-Il manuale vive nello stesso repository del framework (`ordinative_sciences_framework`). Ogni capitolo contiene, nella sezione *Fonti*, i rimandi ai file del repository (`docs/CORE/`, `docs/OST/`, `docs/MODULES/`) da cui deriva. Se una voce del manuale diverge da un documento operativo, fa testo il documento operativo: il manuale riporta, non ridefinisce.
+Il manuale vive nello stesso repository del framework (`ordinative_sciences_framework`). Ogni capitolo contiene, nella sezione *Fonti*, i rimandi ai file del repository (`docs/framework/core/`, `docs/framework/ost/`, `docs/framework/modules/`) da cui deriva. Se una voce del manuale diverge da un documento operativo, fa testo il documento operativo: il manuale riporta, non ridefinisce.
 
 Quando un documento operativo verrà aggiornato, il manuale segnalerà la divergenza nel changelog editoriale (Appendice E) e allineerà il capitolo nella revisione successiva.

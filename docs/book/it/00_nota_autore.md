@@ -16,6 +16,6 @@ Compongo in italiano — lingua madre — perché ogni traduzione, fatta in fase
 
 Le formule, i diagrammi, le tabelle compaiono solo quando un'idea è genuinamente formula, diagramma, o tabella. La forma di default è la prosa. Se in un capitolo non si trovano numeri, non è perché ne ho tagliati: è perché in quel capitolo non se ne aveva bisogno.
 
-I rinvii al repertorio tecnico — `docs/CORE/`, `docs/OST/`, `docs/MODULES/`, e il manuale di riferimento in `docs/MANUAL/` — sono espliciti ma rari. Non voglio spezzare la lettura. Chi vorrà verificare, troverà tutto. Chi vorrà solo leggere, leggerà.
+I rinvii al repertorio tecnico — `docs/framework/core/`, `docs/framework/ost/`, `docs/framework/modules/`, e il manuale di riferimento in `docs/manual/` — sono espliciti ma rari. Non voglio spezzare la lettura. Chi vorrà verificare, troverà tutto. Chi vorrà solo leggere, leggerà.
 
 Questo libro è una soglia. Le pagine che seguono cominciano da una porta, prima ancora dell'edificio che la porta protegge. È la sequenza giusta. Se la porta tiene, il resto del libro accade da sé.

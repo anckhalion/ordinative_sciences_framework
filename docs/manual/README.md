@@ -8,19 +8,21 @@ This folder contains the source of a book-length work whose final destination is
 
 | Folder | Edition | Status |
 | --- | --- | --- |
-| `IT/` | Edizione italiana (lingua di scrittura primaria dell'autore) | in progress |
-| `EN/` | English edition (translated alongside IT) | in progress |
-| `shared/` | Language-neutral assets: diagrams, figures, bibliography, build scripts | in progress |
+| `it/` | Edizione italiana (lingua di scrittura primaria dell'autore) | in progress |
+| `en/` | English edition (translated alongside IT) | in progress |
+| `shared/` | Language-neutral assets: diagrams, figures, bibliography, build scripts | planned |
 
 The IT edition is the authorial source. The EN edition is maintained in sync but is not a word-for-word translation: concepts that would be "lost in translation" are re-expressed rather than calqued.
 
-## Folder layout (per edition)
+## Folder layout (per edition) — planned
+
+This is the **target** layout. The manual is written as a subsequent condensation of the book, so it grows incrementally: today only `00-front/` and `02-assiomi/` (resp. `02-axioms/`) are populated. Sub-folders are created when their first chapter is written, not as empty scaffolding.
 
 ```
-IT/
-├── 00-front/          # Nota sull'intento, Prefazione, Indice generale
+it/
+├── 00-front/          # Nota sull'intento, Prefazione, Indice generale   [present]
 ├── 01-propedeutica/   # Cosa sono le scienze ordinative, Come leggere, Arajat (intro)
-├── 02-assiomi/        # Assiomi 0–24 (+ 9A, 9A1) — uno per capitolo salvo fusioni motivate
+├── 02-assiomi/        # Assiomi 0–24 (+ 9A, 9A1) — uno per capitolo salvo fusioni motivate   [present]
 ├── 03-ost/            # Ordinative Set Theory: fondamenti, triade ⟨Σ, R, Φ⟩, proprietà
 ├── 04-arajat/         # Arajat (introduzione; branch in sviluppo)
 ├── 05-controfase/     # Controfase e P-AI
@@ -29,7 +31,7 @@ IT/
 └── 99-appendici/      # Glossario, tavola sinottica, bibliografia, indice analitico, changelog
 ```
 
-EN/ mirrors this layout with English-language folder names.
+`en/` mirrors this layout with English-language folder names (`00-front`, `02-axioms`, `03-ost`, `04-arajat`, `05-controphase`, `06-modules`, `07-practice`, `99-appendix`).
 
 ## Editorial conventions
 

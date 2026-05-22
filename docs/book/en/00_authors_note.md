@@ -16,6 +16,6 @@ I compose in Italian — my native tongue — because every translation done at 
 
 Formulas, diagrams, tables appear only where an idea is genuinely a formula, a diagram, or a table. The default form is prose. If a chapter has no numbers, it is not because I have removed them: that chapter did not need them.
 
-References to the technical apparatus — `docs/CORE/`, `docs/OST/`, `docs/MODULES/`, and the reference manual in `docs/MANUAL/` — are explicit but rare. I do not want to break the reading. Anyone who wishes to verify will find everything. Anyone who wishes only to read will read.
+References to the technical apparatus — `docs/framework/core/`, `docs/framework/ost/`, `docs/framework/modules/`, and the reference manual in `docs/manual/` — are explicit but rare. I do not want to break the reading. Anyone who wishes to verify will find everything. Anyone who wishes only to read will read.
 
 This book is a threshold. The pages that follow begin from a door, before the building the door is protecting. That is the right order. If the door holds, the rest of the book takes care of itself.

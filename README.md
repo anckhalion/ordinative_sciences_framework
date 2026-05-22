@@ -34,30 +34,41 @@ The TE Framework was designed to:
 
 The framework is highly modular. It consists of a "Physical Law" (Core/OST) and several external loading modules triggered dynamically based on the domain being analyzed:
 
+Document versions are tracked in `CHANGELOG.md`, not in filenames, so links and citations stay stable across releases. Start from `docs/README.md` for a guided map.
+
 ```text
 ordinative-sciences-framework/
-├── docs/
-│   ├── CORE/
-│   │   ├── TE_CORE_v5_1_EN.md          # 🧠 The OS and Foundational Axioms for AI
-│   │   └── TE_BOOTLOADER_v6_0_EN.md    # ⚙️ Operative Instructions & Router 
-│   ├── OST/
-│   │   ├── Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md  # 📐 Mathematical & Semantic Foundation
-│   │   └── OST_Extension_Teleodynamics_Causal_Inversion_v1_1.md      # ⏳ Advanced Causal Inversion
-│   └── MODULES/
-│       ├── TE_MODULE_SVP_v5_1_EN.md    # 🔎 Source Verification Protocol (MANDATORY GATE)
-│       ├── TE_MODULE_LENS_v5_1_EN.md   # 👥 Integral Human Figure Analysis
-│       ├── TE_MODULE_VERI_v1_0_EN.md   # ⚖️ Functional Impact Verification (Participant Analysis)
-│       ├── TE_MODULE_PPRO_v5_2_EN.md   # 🕸️ Psycho-Political Pattern Recognition
-│       ├── TE_MODULE_SCIMS_v5_1_EN.md  # 🌍 Smart Correlation Intelligence Monitoring (Complex Systems)
-│       └── TE_OBSERVER_v1_1_EN.md      # 👁️ Integrated Observation & Lyapunov Trajectories
+├── README.md            # this file
+├── LICENSE              # MIT
+├── CHANGELOG.md         # version history of the framework documents
+├── CITATION.cff · CONTRIBUTING.md · ECOSYSTEM.md
+└── docs/
+    ├── README.md        # 🗺️ documentation map — start here
+    ├── framework/       # ⚙️ operative framework — source of truth (AI agents & analysts)
+    │   ├── core/
+    │   │   ├── TE_CORE.md          # 🧠 OS and Foundational Axioms for AI
+    │   │   └── TE_BOOTLOADER.md    # ⚙️ Operative Instructions & Router
+    │   ├── ost/
+    │   │   ├── OST_Concise_Guide.md                 # 📐 Mathematical & Semantic Foundation
+    │   │   └── OST_Teleodynamics_Causal_Inversion.md # ⏳ Advanced Causal Inversion
+    │   └── modules/
+    │       ├── TE_MODULE_SVP.md    # 🔎 Source Verification Protocol (MANDATORY GATE)
+    │       ├── TE_MODULE_LENS.md   # 👥 Integral Human Figure Analysis
+    │       ├── TE_MODULE_VERI.md   # ⚖️ Functional Impact Verification
+    │       ├── TE_MODULE_PPRO.md   # 🕸️ Psycho-Political Pattern Recognition
+    │       ├── TE_MODULE_SCIMS.md  # 🌍 Smart Correlation Intelligence Monitoring
+    │       └── TE_OBSERVER.md      # 👁️ Integrated Observation & Lyapunov Trajectories
+    ├── manual/          # 📕 reference manual (condensation) — bilingual it/en
+    ├── book/            # 📖 "La porta" — long-form essay — bilingual it/en
+    └── papers/          # 📄 abstracts & academic artifacts
 ```
 
 ## Getting Started for AI Agents
 
 To configure an AI Agent (e.g., in a System Prompt or Custom GPT) to use the TE Framework, you only need to provide the Bootloader and the Core. The AI must be instructed to access other modules dynamically (using RAG or external tools) when encountering specific triggers (e.g., verifying a source requires `SVP`, analyzing a public figure requires `LENS`).
 
-1. Read `docs/CORE/TE_CORE_v5_1_EN.md` to understand the ontology, the Arajat logograms, and the `Controfase` mechanism.
-2. Read `docs/CORE/TE_BOOTLOADER_v6_0_EN.md` to configure the systemic interaction and execute the `P-AI` continuous self-diagnostic algorithm.
+1. Read `docs/framework/core/TE_CORE.md` to understand the ontology, the Arajat logograms, and the `Controfase` mechanism.
+2. Read `docs/framework/core/TE_BOOTLOADER.md` to configure the systemic interaction and execute the `P-AI` continuous self-diagnostic algorithm.
 3. **Always** apply `TE_MODULE_SVP` before analyzing anything.
 
 ## The Arajat Logograms
