@@ -15,6 +15,7 @@ Before submitting an issue or a Pull Request, please ensure your contribution ad
 
 ### 1. New Analysis Modules (`TE_MODULE_*`)
 If you want to apply Ordinative Set Theory to a new domain (e.g., `TE_MODULE_BIO` for biological systems, or `TE_MODULE_ECON` for economic architectures):
+- **Where it lives**: new module files belong under [`docs/framework/modules/`](docs/framework/modules/), named after the identifier (e.g. `TE_MODULE_BIO.md`). Do not embed version numbers in the filename — versions are tracked in [`CHANGELOG.md`](CHANGELOG.md).
 - **Isomorphism Check**: Ensure that the foundational principles (STEER, SHACK, ERES, AA, GLIO) remain exactly the same, merely translated into the specific domain syntax.
 - **Demonization Controfase**: Even in new modules, you must include a mandatory step to seek "Comprehensible motivations" before diagnosing severe entropy.
 

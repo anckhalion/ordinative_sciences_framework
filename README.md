@@ -1,10 +1,21 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19337545.svg)](https://doi.org/10.5281/zenodo.19337545)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # Ordinative Sciences Framework (TE)
 
 Welcome to the official repository of the **Technology of Expressions (TE) Framework**, a universal architecture based on **Ordinative Set Theory (OST)**.
 
 This repository provides an open-source operating philosophy and a complete set of analytical modules designed for Artificial Intelligences and human analysts. Unlike traditional frameworks that rely on statistical probability, sentiment analysis, or consensus, the TE Framework evaluates systems based on **Structural Coherence**, **Vectors of Identity**, and **Emergent Function**.
+
+## Quick navigation
+
+| If you are… | Go to |
+| --- | --- |
+| getting oriented for the first time | 🗺️ [`docs/README.md`](docs/README.md) — documentation map |
+| an **AI agent or analyst** configuring TE | ⚙️ [`docs/framework/`](docs/framework/) — operative source of truth |
+| a **reader** wanting the argument front-to-back | 📖 [`docs/book/`](docs/book/) — *La porta. Una grammatica della coerenza* (IT/EN) |
+| looking up a **definition, axiom, or module** | 📕 [`docs/manual/`](docs/manual/) — reference manual (IT/EN) |
+| **citing** the work in research | 📄 [`CITATION.cff`](CITATION.cff) + [`docs/papers/`](docs/papers/) |
 
 ## Part of a Larger Ecosystem
 
