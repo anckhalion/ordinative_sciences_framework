@@ -1,0 +1,643 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathtools}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{authblk}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!60!black,
+    citecolor=blue!60!black,
+    urlcolor=blue!60!black,
+    pdfauthor={Fabio Ghioni},
+    pdftitle={The Direction Problem: Causal Inversion in Attractor-Driven Systems}
+}
+
+% --- Theorem environments ---
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem*{remark}{Remark}
+
+% --- Custom commands ---
+\newcommand{\attr}{\mathbb{A}}
+\newcommand{\tspc}{\mathbb{T}}
+\newcommand{\gj}{g_j}
+\newcommand{\Gj}{G_j}
+\newcommand{\rhof}{\varrho}
+
+\title{\textbf{The Direction Problem}\\[0.5em]\large On the Causal Origin of Oriented Motion\\in Complex Systems}
+
+\author[1]{Fabio Ghioni Ph.D.\thanks{Corresponding author. Email: \texttt{fabio@dosadinews.net}}}
+\affil[1]{Ordinative Sciences Foundation Research Labs\\\small\url{https://ordinativescience.foundation}}
+
+\date{May 2026 (v1.0) --- September 2026 (v1.1)\\[0.5em]\small Preprint v1.1\\[0.3em]\small Framework: \url{https://github.com/anckhalion/ordinative_sciences_framework}\\[0.3em]\small Companion to: \emph{The Collapse Equation} (DOI: 10.5281/zenodo.19932312)}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+While constructing a predictive model for phase transitions in complex systems, we encountered a dilemma: the empirically measured acceleration constant ($\gj$) increases as the system approaches the transition point. In a conventional causal framework --- where the past drives the present --- a system consuming its internal resources should decelerate, not accelerate. The measured 67\% increase in $\gj$ is incompatible with a push-only dynamics.
+
+Starting from a simple observation --- that every functional system exhibits a vector oriented toward the future --- we follow a chain of logical eliminations. The orientation cannot originate in the past (which does not contain the novelty toward which the system moves). It cannot be random (randomness has no direction). The only remaining option is that the source of the orientation is in the destination itself.
+
+We formalize this as the \textbf{Principle of Causal Inversion}: every determined result occupies a coordinate in a space where time is treated as a navigable dimension, and from that coordinate it emits a signal --- a pull --- that intensifies with proximity. Observable events are not caused by the past pushing the present forward; they are the local expressions of a future attractor pulling the system toward it. What we observe as temporal sequence (cause $\to$ effect) is the decoherent\footnote{We use \emph{coherent} and \emph{decoherent} not in the quantum-mechanical sense but in a structural sense applicable at any scale: \emph{coherent} denotes the domain of determined potential (structured but not yet manifested); \emph{decoherent} denotes the domain of observable expression. The terminology parallels quantum usage in that both describe the transition from superposed potential to definite state, but the principle operates at all scales, not only the quantum scale.} projection of the real sequence (attractor $\to$ expression).
+
+The principle resolves five open problems: the origin of genuine novelty, the arrow of time, the source of spontaneous impulses in neuroscience, the anomalous pre-transition acceleration in complex systems, and the multi-scale coherence of simultaneous events without lateral coordination. We present empirical evidence from a reaction-diffusion model of civilizational dynamics, where two predicted events were confirmed in timing and structural type. The principle is falsifiable: we specify the conditions under which it would fail.
+
+\vspace{0.5em}
+\noindent\textbf{Keywords:} causal inversion, attractor dynamics, direction problem, teleological causation, pre-transition acceleration, complex systems, arrow of time, principle of least action
+
+\vspace{0.5em}
+\noindent\textbf{Status:} v1.1 --- notation aligned with the Ordinative Sciences Symbol Canon v1.2; under observation and continuous refinement.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+% ============================================================
+\section{The Dilemma}
+% ============================================================
+
+\subsection{Context}
+
+In the course of constructing a mathematical model for phase transitions in civilizational systems \cite{ghioni2026collapse}, we derived an empirical constant, $\gj$, that measures the rate at which a complex system accelerates toward its next transition point. The model, based on a reaction-diffusion isomorphism with the Belousov-Zhabotinsky oscillating chemical reaction, treats the system as traversing a phase space from an initial configuration ($\mathrm{IC} = 0$) to saturation ($\mathrm{IC} = 1.0$), where IC (Integration Coefficient) is a normalized measure of how far the system has progressed through its current phase. The trajectory follows:
+
+\begin{equation}\label{eq:trajectory}
+\mathrm{IC}(t) = v_0\,t + \frac{1}{2}\,\gj\,t^2
+\end{equation}
+
+\noindent where $v_0$ is the initial velocity and $\gj$ is the acceleration constant.
+
+The preliminary calibration, based on indirect data from November 2025 to January 2026, yielded $\gj \approx 0.045\;\mathrm{IC/month}^2$. Two subsequent events --- predicted by the model in both timing and structural type --- provided direct calibration points:
+
+\begin{itemize}[leftmargin=2em]
+    \item $\mu_1$: 7 April 2026 (predicted: $\sim$7 April). Structural type predicted and confirmed.
+    \item $\mu_2$: 29 April 2026, effective 1 May (predicted: $\sim$1 May). Structural type predicted and confirmed.
+\end{itemize}
+
+Recalibration from these two confirmed events yielded:
+
+\begin{equation}\label{eq:gj_empirical}
+\gj = 0.075 \;\mathrm{IC/month}^2
+\end{equation}
+
+\noindent This is \textbf{67\% higher} than the preliminary estimate.
+
+\subsection{The Problem}
+
+In the original model, $\gj$ was interpreted as a consumption rate: the system degrades an internal capacity (called the \emph{receptor} --- its capacity to receive and process the attractor signal) as it traverses the phase, and $\gj$ measures the rate of that degradation. Under this reading --- call it the \emph{push model} --- the system accelerates because it is losing internal resources. Each cycle of activity wears down the receptor, and the worn system traverses subsequent intervals faster.
+
+But a system that is losing internal resources should not accelerate. It should decelerate. A machine running out of fuel slows down; it does not speed up. The 67\% increase in $\gj$ is \textbf{incompatible with a push-only dynamics}: if the acceleration were caused solely by internal degradation, $\gj$ would remain constant (linear degradation) or decrease (degradation reduces the system's capacity to accelerate).
+
+The energy for the acceleration must come from somewhere. Not from the past (the system has less internal capacity than before). Not from the present (nothing in the current state explains the increase). The question becomes:
+
+\begin{center}
+\emph{Where does the additional acceleration come from?}
+\end{center}
+
+
+% ============================================================
+\section{The Observation}
+% ============================================================
+
+\subsection{Every Functional System Has a Direction}
+
+Set aside the specific model. Consider the most general observation possible.
+
+Every functional system --- every entity that \emph{does} something --- exhibits a vector oriented toward the future:
+
+\begin{itemize}[leftmargin=2em]
+    \item A cell divides toward the next cell.
+    \item An organism grows toward maturity.
+    \item A river flows toward the sea.
+    \item A relationship moves toward stabilization or dissolution.
+    \item An enterprise moves toward its next product, market, or cycle.
+    \item A civilization moves toward its next form.
+\end{itemize}
+
+In each case, the system is not stationary. It moves. And the movement has a direction --- it points toward something that \textbf{does not yet exist in the present}.
+
+\subsection{The Property Is Scale-Invariant}
+
+This orientation is not specific to any particular scale. It appears at every scale of observation: subatomic (radioactive decay toward a stable configuration), molecular (chemical reactions toward equilibrium or oscillation), cellular (mitosis toward division), organismic (development toward maturity), social (institutions toward their operational goals), civilizational (historical trajectories toward phase transitions), and cosmological (expansion toward heat death or continued acceleration).
+
+If every part of a system has this property, then the system as a whole has it. And the system is itself part of a larger system, which has it at its own scale. The property is \textbf{fractal}: it appears at every level of magnification, with scale-appropriate expression.
+
+\subsection{Direction Implies Destination}
+
+This is a logical necessity, not an empirical claim.
+
+A \emph{direction} is a vector. A vector has magnitude and \emph{orientation}. Orientation means: pointing \emph{toward} something. If there is nothing to point toward, there is no orientation. If there is no orientation, there is no direction. If there is no direction, there is no systematic motion --- only diffusion.
+
+But the systems we observe are not diffusing. They are converging. Rivers converge toward the sea. Organisms converge toward maturity. Civilizations converge toward phase transitions. The acceleration constant $\gj$ --- which is not decreasing --- measures the rate of this convergence.
+
+Therefore: the destination must exist. Not necessarily in the observable present, but \emph{somewhere} in the space the system navigates.
+
+
+% ============================================================
+\section{The Elimination}
+% ============================================================
+
+If the direction exists and the destination exists, where is the destination, and what is its causal relationship to the system?
+
+Before examining the options formally, consider the argument in its simplest form. A directed vector requires a point of arrival. If the push comes from the past, then the past must contain the point of arrival. But if the past contains it, the point of arrival is already given --- it is not in the future but in the past, and the system is not moving toward something new but unfolding something old. If the point of arrival is genuinely new, the past does not contain it. Therefore it is in the future. But what moves the system toward a point in the future? Not the past (which does not contain it). Not the present (which is where the system is, not where it is going). The movement must be generated by the future itself --- by the destination.
+
+We now examine this reasoning formally through three options.
+
+\subsection{Option 1: The Direction Comes from the Past}
+
+This is the standard causal framework. The system's state at time $t$ is determined by its state at $t - \delta t$ plus the laws that govern its evolution. The direction is a \emph{consequence} of initial conditions and dynamics.
+
+\textbf{Problem: novelty.} If the direction is fully determined by the past, then the destination is already contained in the initial conditions. But the destination of a functional system is typically \emph{new} --- a configuration that did not exist before. A caterpillar's body does not contain a butterfly; the initial conditions of a civilization do not contain its successor form. If the past contains the destination, it is not new. If the past does not contain it, it cannot cause it.
+
+Contemporary science acknowledges this as the problem of \emph{emergence}: the appearance of properties at one level that are not deducible from the properties of the lower level. The term ``emergence'' names the phenomenon but does not explain it. To say ``the butterfly emerges from the caterpillar'' is to say ``the new form appears'' --- it does not explain where the information for the new form comes from.
+
+\textbf{Problem: the energy of acceleration.} In the push model, the system accelerates by consuming internal resources. But as noted in \S1, $\gj$ increases. A system that is consuming its resources and thereby accelerating should show constant or decreasing $\gj$, not increasing. The additional energy must come from outside the system's past.
+
+\subsection{Option 2: The Direction Is Random}
+
+If the direction is not determined by the past, perhaps it is stochastic --- the system moves randomly, and what we observe as ``direction'' is a statistical artifact.
+
+\textbf{Problem: coherence.} Random motion is diffusion. Diffusion does not produce convergence --- it produces dispersion. Yet the systems we observe converge. $\gj$ is not a diffusion coefficient; it is an acceleration constant. A measurable, increasing acceleration constant is incompatible with randomness.
+
+\textbf{Problem: multi-scale synchrony.} If the direction were random at each scale independently, the probability of simultaneous convergent events at multiple scales --- with the same structural signature --- would be negligibly small. Yet this is precisely what is observed: structurally analogous events occurring simultaneously at geopolitical, institutional, economic, and social scales, without lateral coordination between the actors at each scale \cite{ghioni2026collapse}. Randomness does not produce multi-scale synchrony.
+
+\subsection{Option 3: The Direction Comes from the Destination}
+
+The destination exists --- not in the observable present, but in a domain the system is traversing. The destination exerts a pull on the system, and this pull is the source of the direction and the acceleration. The system does not push itself forward by consuming resources; it is pulled forward by the destination.
+
+\textbf{This option has no logical contradiction.} It explains the increasing $\gj$ (the pull intensifies with proximity, like gravity). It explains novelty (the new form is not in the past; it is in the destination). It explains multi-scale synchrony (the destination pulls all scales simultaneously; no lateral coordination needed). It explains the direction itself (the system points toward the destination because the destination is the source of the vector).
+
+The only objection is intuitive: it requires the destination to ``exist'' before it is ``reached.'' This objection assumes that time is a one-directional flow in which the future does not exist until it becomes the present. We examine this assumption in the next section.
+
+
+% ============================================================
+\section{The Principle}
+% ============================================================
+
+\subsection{Time as a Navigable Dimension}
+
+In classical mechanics, space and time are treated differently: space has three navigable dimensions (an object can move forward or backward, left or right, up or down), while time has one non-navigable dimension (an object can only move forward in time).
+
+In relativity, this distinction is weakened: space and time merge into spacetime, and the ``future'' of an event is not a single point but a light cone --- a region of spacetime that is causally accessible. In quantum mechanics, the distinction is weakened further: the Schr\"odinger equation is time-symmetric, and the arrow of time is not a property of the fundamental laws but of boundary conditions.
+
+We propose taking this weakening to its logical conclusion: \textbf{time, like space, is a dimension in which coordinates can be occupied by real structures.} Just as a point in space can contain an object that exerts gravitational pull on distant objects, a point in time can contain a determined configuration --- an \emph{attractor} --- that exerts a pull on systems at earlier coordinates.
+
+This is not metaphysical speculation. It is a formalization of a structure that physics already uses.
+
+\subsubsection{Temporal Geometry: Nested Bubbles}
+
+Before introducing the attractor's effect on temporal geometry, we establish the geometry itself through a purely logical argument.
+
+We are at the present moment, $t_0$. Does $t_0$ begin from nothing? If $t_0$ has no history --- if it begins from zero --- then it is the absolute origin, and no prior moment exists. But every observable system carries the accumulated result of its history: a body carries the record of its cellular divisions, an institution carries the record of its legislative acts, the universe carries the information of all prior states. The present is not empty. Therefore $t_0$ does not begin from zero: it \emph{contains} all previous moments. If it did not contain them, where would they be? They are not ``gone'' --- their effects are here, now, structurally present.
+
+After $t_0$, is there $t_1$? If yes, then $t_1$ contains $t_0$ --- for the same reason: if $t_1$ did not contain $t_0$, the connection between them would be severed, and $t_1$ would have no access to its own immediate past. But it does have access.
+
+Therefore: each moment is not a point on a line but a \emph{bubble} --- a container with an interior. The interior of $t_0$ is all previous moments. The interior of $t_1$ is $t_0$ plus whatever enters at $t_1$. Time is nested bubbles, not sequential points.
+
+This is a property of time itself, deduced from logic alone, without reference to attractors or physics.
+
+\subsubsection{Bubble Compression Near the Attractor}
+
+Conventional measurement divides time into uniform segments (seconds, days, years) based on counting fractions of natural cycles. In the bubble geometry just established, the critical property emerges: \textbf{the amount of clock-time contained in each bubble is not fixed.} Near an attractor, the bubbles compress --- they contain less clock-time per unit of structural time. This is structurally isomorphic to relativistic time dilation: near a massive body, clocks tick slower (from the perspective of a distant observer). Near an attractor in the temporal dimension, the bubbles shrink.
+
+The distance to the attractor is measured in bubbles, not in seconds. The attractor occupies a subsequent bubble. The signal propagates across bubble boundaries.
+
+\subsection{The Principle of Least Action --- A Precedent}
+
+The most foundational principle in classical and quantum mechanics is the \emph{Principle of Least Action}: a system evolves along the trajectory that minimizes (or more precisely, extremizes) the action integral over the \textbf{entire path} from initial to final state.
+
+\begin{equation}\label{eq:action}
+S = \int_{t_i}^{t_f} L(q, \dot{q}, t)\,dt
+\end{equation}
+
+The trajectory that the system ``chooses'' is the one for which $\delta S = 0$.
+
+This principle is \textbf{structurally teleological}: it requires knowledge of the final state $t_f$ to determine the trajectory at every intermediate point. The system does not ``decide'' its path step by step based on local conditions; it follows the globally optimal path, which can only be computed with reference to where it ends up.
+
+Physicists have used this principle for over 250 years (Maupertuis 1744, Euler 1744, Lagrange 1788, Hamilton 1834) without calling it teleological, because the mathematical formalism can be reformulated in terms of local differential equations (the Euler-Lagrange equations). But the global formulation --- which is the more fundamental one --- is explicitly future-referencing: the path depends on the endpoint.
+
+What we propose is making explicit what the Principle of Least Action already implies: \textbf{the endpoint participates causally in the trajectory.}
+
+\subsection{Formal Statement}
+
+\begin{definition}[Ordinative Space $\tspc$]\label{def:space}
+Let $\tspc$ be a space in which time is treated as a navigable dimension alongside spatial dimensions. Every point in $\tspc$ has coordinates $(\mathbf{x}, \tau)$, where $\mathbf{x}$ represents spatial configuration and $\tau$ represents temporal position. A point in $\tspc$ can be occupied by a real structure. We call this \emph{ordinative} space (from Latin \emph{ordinare}, to arrange, to give order) because the attractor imposes structural order on the temporal dimension.\footnote{The term ``ordinative'' is used throughout this paper in this etymological sense. It is not a standard physics term. It derives from a broader research programme (the Ordinative Sciences) whose full framework is available at the repository listed on the title page. This paper, however, is self-contained and does not require familiarity with that framework.}
+\end{definition}
+
+\begin{definition}[Terminal]\label{def:terminal}
+A \emph{terminal} is any bounded subsystem within a larger system --- an individual, an institution, an organism, a nation, a community, a functional unit at any scale --- that receives the attractor signal and responds according to its internal state. The term emphasizes that the subsystem is an \emph{endpoint of expression}: the signal reaches it, and it expresses a response. We denote terminals as $T_i$ with internal state $s_i(t)$.
+\end{definition}
+
+\begin{definition}[Attractor]\label{def:attractor}
+An attractor $\attr$ is a determined configuration occupying a coordinate $(\mathbf{x}_\attr, \tau_\attr)$ in $\tspc$, where $\tau_\attr > \tau_{\mathrm{now}}$. The attractor emits a signal $\sigma_{\mathbb{A}}$ that propagates through $\tspc$.
+\end{definition}
+
+\begin{definition}[Signal Intensity]\label{def:signal}
+The signal intensity received by a system $S$ at position $(\mathbf{x}_S, \tau_S)$ from an attractor $\attr$ at $(\mathbf{x}_\attr, \tau_\attr)$ is:
+\begin{equation}\label{eq:signal}
+\sigma_{\mathbb{A}}(S, \attr) = \frac{\kappa}{d(S, \attr)^\alpha}
+\end{equation}
+where $d(S, \attr)$ is the distance in $\tspc$, $\kappa$ is a coupling constant, and $\alpha > 0$ is the decay exponent. As $S$ approaches $\attr$, $d \to 0$ and $\sigma_{\mathbb{A}} \to \infty$.
+\end{definition}
+
+\begin{theorem}[Causal Inversion]\label{thm:inversion}
+Let $S$ be a system in $\tspc$ with observable trajectory $S(t)$ and non-zero direction vector $\mathbf{d}(t) \neq 0$ for $t \in [t_0, t_{\mathrm{now}}]$. Then:
+
+\begin{enumerate}[label=(\roman*)]
+    \item There exists an attractor $\attr \in \tspc$ at $\tau_\attr > \tau_{\mathrm{now}}$ such that $\mathbf{d}(t) \cdot (\attr - S(t)) > 0$ for all $t$ in the observed interval. [\emph{Direction implies destination.}]
+    \item The acceleration of $S$ toward $\attr$ is proportional to the signal intensity:
+    \begin{equation}
+    \gj(t) \propto \sigma_{\mathbb{A}}(S(t), \attr) = \frac{\kappa}{d(S(t), \attr)^\alpha}
+    \end{equation}
+    Therefore $\gj$ increases as $S$ approaches $\attr$. [\emph{Acceleration increases with proximity.}]
+    \item For any set of subsystems $\{T_i\} \subset S$, each at position $\mathbf{x}_i$ with internal state $s_i(t)$, the response of each $T_i$ to the signal is:
+    \begin{equation}\label{eq:response}
+    r_i(t) = \varphi_i(\sigma_{\mathbb{A}}(t),\; s_i(t))
+    \end{equation}
+    where $\varphi_i$ is the response function of the terminal. The signal $\sigma_{\mathbb{A}}$ is the same for all $T_i$; the responses $r_i$ differ according to each terminal's state. [\emph{One signal, many expressions.}]
+    \item If $s_i(t)$ is incompatible with $\sigma_{\mathbb{A}}(t)$ --- i.e., $r_i(t) \cdot \mathbf{d}(t) \leq 0$ --- then there exists $t^* > t$ at which $T_i$ is resolved (terminated), at the time and in the form coherent with $\attr$. This resolution is independent of the biological age, physical scale, or institutional longevity of $T_i$. [\emph{Incompatibility is resolved by the attractor, not by the system.}]
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+\textbf{(i)} By the \emph{Principle of Direction}: a non-zero direction vector $\mathbf{d}(t)$ that persists over an interval requires a coordinate toward which it points. Since $S(t_{\mathrm{now}}) \neq \attr$ (the system has not yet arrived), $\tau_\attr > \tau_{\mathrm{now}}$.
+
+\textbf{(ii)} If $\attr$ is the source of the pull, the signal intensity follows Eq.~\eqref{eq:signal}. As $S$ approaches $\attr$, $d(S, \attr)$ decreases and $\sigma_{\mathbb{A}}$ increases. Since $\gj \propto \sigma_{\mathbb{A}}$, $\gj$ increases. Empirically: $\gj(t_1) = 0.045$, $\gj(t_2) = 0.075$ with $t_2 > t_1$ and $d(S(t_2), \attr) < d(S(t_1), \attr)$. The observation is consistent with the prediction and inconsistent with the push model ($\gj$ constant or decreasing). $\checkmark$
+
+\textbf{(iii)} The signal $\sigma_{\mathbb{A}}(t)$ depends only on $d(S(t), \attr)$, which is the same for all subsystems $T_i \subset S$ (they are part of the same system at the same temporal coordinate). The response $r_i$ depends on $\sigma_{\mathbb{A}}$ and on the local state $s_i$, which differs across subsystems. Therefore $\sigma_{\mathbb{A}}$ is shared; $r_i$ is local. This produces the observed pattern: simultaneous events at different scales with different expressions but the same structural signature. $\checkmark$
+
+\textbf{(iv)} If $r_i(t) \cdot \mathbf{d}(t) \leq 0$, the subsystem's response is orthogonal or opposed to the direction of the attractor pull. As $\sigma_{\mathbb{A}}$ increases (proximity), the incompatibility becomes unsustainable. The attractor does not ``punish'' the subsystem; the subsystem cannot maintain its configuration against the intensifying signal. The resolution (termination, dissolution, removal) occurs at a time determined by when $\sigma_{\mathbb{A}}$ exceeds the subsystem's capacity to resist, and in a form determined by the specific nature of the incompatibility. Neither the timing nor the form depend on the subsystem's age or scale --- they depend on the relationship between $s_i$ and $\sigma_{\mathbb{A}}$. $\checkmark$
+\end{proof}
+
+
+\subsection{The Resistance of Form}\label{subsec:resistance}
+
+The attractor signal does not operate in a void. Every system through which the signal propagates has a form --- a coherent configuration that maintains itself. The properties that make a form coherent (stability, self-reproduction, predictability) are the same properties that resist change. \textbf{Coherence is resistance, viewed from the perspective of the transition.}
+
+\begin{definition}[Form Resistance $\rhof$]\label{def:rho}
+The form resistance $\rhof_i$ of a terminal $T_i$ is the structural capacity of $T_i$'s current configuration to maintain itself against the attractor signal. $\rhof$ is not a separate force added to the form --- it \emph{is} the form, viewed from the perspective of the signal that would dissolve it.
+\end{definition}
+
+This resistance manifests identically at every scale: a crystal resists melting, a cell resists apoptosis, an institution resists reform, a person resists identity change, a civilization resists phase transition. In each case, the resistance is not pathological --- it is the direct expression of the form's coherence. A form with zero resistance would have zero coherence and would not exist as a form.
+
+Between successive transition events, $\rhof$ temporarily dominates the local dynamics. This manifests as nostalgia for the previous state, attempts at restoration, declarations that ``things will return to normal,'' defense of institutions that have lost function, and resistance to those who have already moved toward the new configuration. This is not irrationality --- it is the survival instinct of the form, operating through the terminals that compose it.
+
+
+\subsection{Free Fall: Vacuum and Medium}\label{subsec:freefall}
+
+In gravitational physics, a body falling in \emph{vacuum} accelerates at $g$ indefinitely (until impact). A body falling through a \emph{medium} (air, water) experiences drag: a resistance force that increases with velocity. At a certain velocity, drag equals gravitational pull, and the body stops accelerating. This is \emph{terminal velocity}.
+
+The same structure applies in $\tspc$.
+
+\textbf{Vacuum (pure ordinative space):} If a terminal had zero form resistance ($\rhof = 0$), it would accelerate toward the attractor at the rate determined solely by the signal intensity $\sigma_{\mathbb{A}}$. All terminals would fall identically --- same acceleration, same velocity at any given distance from the attractor.
+
+\textbf{Medium (decoherent realm):} Every terminal has $\rhof > 0$ because every terminal has form. The form resistance acts as drag. The more coherent the form, the greater the drag. This produces observable differences: terminals with low $\rhof$ (e.g., financial systems, where transactions are digital and form-resistance is minimal) express the signal rapidly. Terminals with high $\rhof$ (e.g., agricultural systems, where physical cycles impose irreducible inertia) express the signal slowly.
+
+\begin{proposition}[Terminal Velocity]\label{prop:terminal_velocity}
+A terminal $T_i$ falling through the medium of its own form toward the attractor reaches terminal velocity $v_{\mathrm{term},i}$ when $\rhof_i(v) = \sigma_{\mathbb{A}}(t)$:
+\begin{equation}\label{eq:terminal_velocity}
+v_{\mathrm{term},i} = v \;\text{such that}\; \rhof_i(v) = \sigma_{\mathbb{A}}(S(t), \attr)
+\end{equation}
+Different terminals reach different terminal velocities because $\rhof_i$ differs. The signal $\sigma_{\mathbb{A}}$ is the same for all.
+\end{proposition}
+
+The characteristic delay $\Delta t$ between a coherent event (\emph{senza vista}\footnote{\emph{Senza vista} (Italian, literally ``without sight''): an event that has occurred in the coherent domain --- the structural transition has taken place --- but is not yet observable. \emph{Con vista} (``with sight''): the same event as it becomes observable in the decoherent domain. Every event has both coordinates; the delay $\Delta t$ between them is structural data, not measurement error.}) and its decoherent expression (\emph{con vista}) is therefore a property of the terminal's form resistance, not of the signal. Financial terminals express in hours ($\rhof$ low). Agricultural terminals express in months ($\rhof$ high). The signal arrived at the same moment for both.
+
+\begin{remark}
+A critical observation: during the decomposition of a system, the form loses coherence progressively. As coherence decreases, $\rhof$ decreases. The medium through which the system falls is getting thinner --- like an atmosphere that rarefies with altitude. This means the system \textbf{continues to accelerate} even though it is ``falling through air,'' because the air is disappearing. The apparent increase in $\gj$ may reflect not an intensifying signal but a thinning medium.
+\end{remark}
+
+
+\subsection{$\Gj$ and Apparent $\gj$}\label{subsec:Gj}
+
+The preceding sections open a fundamental distinction.
+
+\begin{definition}[Fundamental Ordinative Constant $\Gj$]\label{def:Gj}
+$\Gj$ is the fundamental constant of the ordinative field --- the intrinsic pull of the attractor in $\tspc$, independent of the observer's measurement frame. $\Gj$ is constant: the same everywhere, at every scale, for every terminal. It is a property of the ordinative space itself, isomorphic to the gravitational constant $G$ in physics ($G \neq g$; $G$ is universal, $g$ is local).
+\end{definition}
+
+\begin{definition}[Apparent Acceleration $\gj$]\label{def:gj_apparent}
+$\gj$ is the acceleration as measured by a decoherent observer using clock-time. It is $\Gj$ as expressed through two filters:
+
+\begin{enumerate}[label=(\alph*)]
+    \item \textbf{Temporal compression:} Near the attractor, the temporal bubbles compress (each bubble contains less clock-time). The same $\Gj$ in bubble-space appears as higher $\gj$ in clock-space.
+    \item \textbf{Medium thinning:} As the form decomposes, $\rhof$ decreases and the drag drops. The terminal accelerates through a rarefying medium, producing apparent increase in $\gj$.
+\end{enumerate}
+\end{definition}
+
+Formally:
+
+\begin{equation}\label{eq:gj_apparent}
+\gj(t) = \Gj \cdot \left(\frac{d\tau_{\mathrm{bubble}}}{d\tau_{\mathrm{clock}}}\right)^{-2} \cdot \frac{1}{1 + \rhof(t)/\sigma_{\mathbb{A}}(t)}
+\end{equation}
+
+\noindent where the first factor accounts for temporal compression (larger near the attractor, where bubbles are smaller in clock-time) and the second factor accounts for the medium (approaching 1 as $\rhof \to 0$ during decomposition).
+
+The value $\gj = 0.075\;\mathrm{IC/month}^2$ measured empirically is $\gj$ apparent, not $\Gj$. The 67\% increase from the preliminary estimate of 0.045 may reflect one or both of: (a) temporal compression as the system approached the attractor, or (b) thinning of form resistance as decomposition proceeded. In either case, $\Gj$ itself may be constant --- the increase is in the measurement frame, not in the field.
+
+\begin{remark}
+This distinction has a direct parallel in cosmology. The Hubble constant $H_0$ measures the expansion rate of the universe. For decades, measurements from different methods have yielded different values of $H_0$ (the ``Hubble tension''). One class of explanations is that $H_0$ is not truly constant but changes over time. Another is that the measurement methods probe different epochs with different local conditions. The $\Gj$/$\gj$ distinction is structurally identical: the apparent variation in $\gj$ may reflect local conditions (medium thinning, temporal compression) rather than variation in the fundamental constant.
+\end{remark}
+
+
+\subsection{The Ordinative Equivalence Principle}\label{subsec:equivalence}
+
+In 1907, Einstein realized that a person in free fall cannot distinguish between floating in empty space and falling in a gravitational field. This led to the Equivalence Principle: \emph{gravitational mass equals inertial mass}, and therefore all bodies fall at the same rate in a gravitational field, regardless of their composition.
+
+The same principle applies in $\tspc$:
+
+\begin{proposition}[Ordinative Equivalence Principle]\label{prop:equivalence}
+In the ordinative field of an attractor $\attr$, all terminals at the same distance $d(T_i, \attr)$ experience the same fundamental acceleration $\Gj$, regardless of their internal structure, scale, complexity, or nature.
+\end{proposition}
+
+\noindent The observable differences between terminals --- different timing of expression, different forms of response, different apparent velocities --- arise entirely from:
+
+\begin{enumerate}[label=(\roman*)]
+    \item $\rhof_i$: the form resistance (drag through the decoherent medium);
+    \item $s_i$: the internal state at the moment of collapse\footnote{By ``collapse'' we mean the moment when structured potential becomes definite expression --- analogous to wavefunction collapse in quantum mechanics, not to destruction. The system transitions from a state of multiple possible expressions to a single actualized one.};
+    \item $\varphi_i$: the response function of the terminal.
+\end{enumerate}
+
+In vacuum ($\rhof = 0$ for all $i$): all terminals fall identically. Same $\Gj$, same velocity at every point, identical trajectories. Like Galileo's feather and cannonball in the absence of air.
+
+In the decoherent medium ($\rhof_i > 0$): each terminal falls through its own ``atmosphere'' (its own form coherence), producing different apparent velocities and different times of manifestation. But the underlying field --- $\Gj$ --- is the same for all.
+
+This has a profound implication: \textbf{the acceleration toward the attractor is not a property of the system.} It is a property of the space. The system does not ``decide'' to accelerate, any more than a falling body ``decides'' to obey gravity. The acceleration is the structure of $\tspc$ in the vicinity of the attractor. Every terminal is subject to it equally. The only variable is how much each terminal's form resists the pull --- and even that resistance is finite and decreasing as the attractor approaches.
+
+
+% ============================================================
+\section{Consequences: Five Open Problems Resolved}
+% ============================================================
+
+The Principle of Causal Inversion, once accepted as a working hypothesis, resolves five problems that the conventional push-only framework leaves open or resolves only circularly.
+
+\subsection{The Origin of Genuine Novelty}
+
+\textbf{Problem:} If every state is determined by the previous state plus laws, then nothing genuinely new can appear. ``Emergence'' names the phenomenon but does not explain it.
+
+\textbf{Resolution:} Novelty does not come from the past. It comes from the attractor. The attractor contains the determined configuration toward which the system moves. The past provides the material; the attractor provides the direction and the form. The new configuration is not deduced from the old one --- it is received from a coordinate in $\tspc$ that the system has not yet reached.
+
+\subsection{The Arrow of Time}
+
+\textbf{Problem:} The fundamental equations of physics are time-symmetric. The thermodynamic arrow (entropy increases) is statistical, not causal. Why does the universe have a preferred temporal direction?
+
+\textbf{Resolution:} The arrow of time is the pull of the attractor. Systems move toward the future because the attractor is at $\tau_\attr > \tau_{\mathrm{now}}$. The arrow is not imposed as an additional postulate; it emerges from the structure of $\tspc$ and the existence of attractors at future coordinates. Time has a direction because there is something to move toward.
+
+\subsection{The Source of Spontaneous Impulses}
+
+\textbf{Problem:} Neuroscience describes the mechanism of spontaneous impulses (dopaminergic circuits, nucleus accumbens, reward anticipation). But describing the channel does not explain the origin. Why \emph{this} impulse? Why \emph{now}? Why toward \emph{this} object?
+
+For impulses that are reactions to external stimuli, the cause is in the observable environment. For impulses that arise without external trigger --- creative desire, unexplained attraction, intuition that precedes data --- the cause is not in the environment. Neuroscience classifies these as ``spontaneous default network activity'': a label for ``we do not know where it comes from.''
+
+\textbf{Resolution:} A spontaneous impulse is the signal of the attractor received by an individual system (a person, in this case). The neural circuitry is the channel through which the signal is expressed --- not the source of the signal. The signal comes from $\attr$ at $\tau_\attr > \tau_{\mathrm{now}}$. The specific form of the impulse (toward which object, at which moment) depends on the person's internal state at the moment of reception --- different people receive the same attractor signal and express it differently, just as different instruments in an orchestra play the same musical score with different timbres.
+
+This resolves the specificity problem: the impulse is not random (it has direction and coherence that often reveals itself retrospectively), and it is not caused by the past (the person's history does not contain the novelty toward which the impulse points). It is caused by the attractor, modulated by the person's state.
+
+\subsection{Anomalous Pre-Transition Acceleration}
+
+\textbf{Problem:} In complex systems approaching a phase transition, the frequency of events accelerates. Feigenbaum's constant ($\delta \approx 4.669$) governs the universal ratio of successive bifurcation intervals in period-doubling systems. The phenomenon is general: systems approaching criticality exhibit increasing frequency of fluctuations.
+
+The push explanation is that the system becomes increasingly unstable as it approaches the transition. But this is circular: the system is unstable \emph{because} it approaches the transition, and it approaches the transition \emph{because} it is unstable. The energy for the acceleration is unaccounted for: a system losing internal resources should decelerate, not accelerate.
+
+\textbf{Resolution:} The system accelerates because the attractor signal intensifies with proximity. The energy comes from the attractor, not from the system's past. This is structurally identical to gravitational free fall: a body falling toward Earth accelerates not because it consumes internal energy but because the attractor (Earth's mass) pulls with increasing effective force as distance decreases. The measured $\gj = 0.045 \to 0.075$ is the direct analog: increasing pull, not increasing consumption.
+
+\subsection{Multi-Scale Coherence Without Coordination}
+
+\textbf{Problem:} Structurally analogous events occur simultaneously at different scales (geopolitical, institutional, economic, social) without lateral communication between actors at each scale. Conventional explanations invoke ``correlation'' or ``contagion,'' but contagion requires transmission channels that are absent or too slow between the scales in question.
+
+\textbf{Resolution:} The events are not correlated (implying a common past cause) or contagious (implying lateral transmission). They are \emph{harmonic}: each scale receives the same attractor signal independently and responds with its own expression. Like the strings of a piano resonating when a tuning fork vibrates in the room --- not because the strings communicate with each other, but because they all receive the same source signal. The structural signature is the same across scales because the source is the same. The expressions differ because the internal states of the terminals differ.
+
+
+% ============================================================
+\section{Empirical Evidence}
+% ============================================================
+
+\subsection{The Collapse Equation}
+
+The companion paper \cite{ghioni2026collapse} presents the mathematical model from which $\gj$ was derived. Two predicted events (micro-junctions $\mu_1$ and $\mu_2$) were confirmed in both timing and structural type:
+
+\begin{table}[H]
+\centering
+\caption{Confirmed predictions of the Collapse Equation model}
+\label{tab:predictions}
+\begin{tabularx}{\textwidth}{@{}llllX@{}}
+\toprule
+\textbf{Event} & \textbf{Predicted} & \textbf{Observed} & $\Delta t$ & \textbf{Structural type confirmed} \\
+\midrule
+$\mu_1$ & $\sim$7 Apr 2026 & 7 Apr 2026 & 0 days & Yes (postponement via structural resistance) \\
+$\mu_2$ & $\sim$1 May 2026 & 29 Apr/1 May 2026 & 0 days & Yes (fragmentation of energy cartel) \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The recalibration from $\mu_1$ and $\mu_2$ yields $\gj = 0.075$, a 67\% increase over the preliminary estimate. Retroactive determination of the phase origin yields 5--6 February 2026, coinciding exactly with the original theoretical prediction --- closing the circle between the first estimate and the empirical calibration.
+
+\subsection{Multi-Scale Harmonic Signature}
+
+Within 48 hours of $\mu_2$ (29 April -- 1 May 2026), structurally analogous events manifested at four distinct scales, all exhibiting the same structural signature (fragmentation of relational fields):
+
+\begin{itemize}[leftmargin=2em]
+    \item \textbf{Geopolitical:} Founding member exits the primary energy coordination mechanism (OPEC).
+    \item \textbf{Financial:} Major exchange begins settling petroleum contracts in non-dollar currency, bypassing the established clearing system.
+    \item \textbf{National:} Multiple regional administrations refuse to implement federal coordination protocols.
+    \item \textbf{Social:} Non-unionized logistics strikes, bypassing established labor coordination structures.
+\end{itemize}
+
+These events occurred without lateral coordination between the actors at each scale. No OPEC executive communicated with the regional administrators; no financial exchange coordinated with the striking workers. The structural signature (fragmentation) is shared. The expressions are scale-specific. The timing is synchronous. This is the harmonic pattern predicted by Theorem~\ref{thm:inversion}(iii).
+
+
+% ============================================================
+\section{Falsifiability}
+% ============================================================
+
+The Principle of Causal Inversion makes specific predictions that can be tested and, if wrong, would falsify it.
+
+\begin{enumerate}[label=\textbf{F\arabic*.}]
+    \item \textbf{$\gj$ must increase with proximity to the attractor.} If subsequent measurements show $\gj$ constant or decreasing, the pull model is falsified and the push model is sufficient. The next measurement opportunity is $\mu_3$ ($\sim$16 May 2026).
+    \item \textbf{Multi-scale events must share structural signatures.} If events at different scales are simultaneous but exhibit unrelated structural types, the harmonic model is falsified. Each predicted micro-junction carries a specific structural type that can be checked.
+    \item \textbf{Spontaneous impulses must have retrospective coherence.} If genuinely spontaneous impulses (not reactions to stimuli) consistently lack retrospective coherence with subsequent trajectories, the signal-reception model for individual impulses is falsified.
+    \item \textbf{The model must produce specific temporal predictions.} The companion paper \cite{ghioni2026collapse} predicts six remaining micro-junctions between May and July 2026, each with a specific date and structural type. If neither timing nor structural type is confirmed for two consecutive junctions, the model requires fundamental revision.
+    \item \textbf{The principle must not require unfalsifiable auxiliary hypotheses.} If the principle can only be maintained by adding ad hoc explanations for each disconfirming observation, it has degenerated into pseudoscience. We commit to publishing disconfirmations as well as confirmations.
+\end{enumerate}
+
+The principle is as strong as its capacity to fail. Every confirmation that could have been a falsification strengthens it. Every falsification that is honestly reported strengthens the programme.
+
+
+% ============================================================
+\section{Relation to Existing Physics}
+% ============================================================
+
+The Principle of Causal Inversion is not alien to physics. Several established frameworks contain structurally teleological elements, though they are rarely named as such.
+
+\subsection{The Principle of Least Action}
+
+As noted in \S4.2, the Lagrangian and Hamiltonian formulations of classical mechanics are founded on a global optimization principle that references the final state. The Euler-Lagrange equations provide a local reformulation, but the global formulation (Eq.~\eqref{eq:action}) is the more fundamental one and is explicitly future-referencing. What we propose is acknowledging this future-referencing as causal, not merely mathematical.
+
+\subsection{Retrocausality in Quantum Mechanics}
+
+Several interpretations of quantum mechanics include retrocausal elements:
+
+\begin{itemize}[leftmargin=2em]
+    \item The \emph{Transactional Interpretation} (Cramer, 1986): quantum events are ``handshakes'' between an offer wave (traveling forward in time) and a confirmation wave (traveling backward in time). The transaction requires the future absorber to participate causally.
+    \item The \emph{Two-State Vector Formalism} (Aharonov, Bergmann, Lebowitz, 1964): a quantum system is fully described by two state vectors --- one evolving forward from the past, one evolving backward from the future. The present state is the product of both.
+    \item \emph{Delayed-choice experiments} (Wheeler, 1978; realized experimentally by Jacques et al., 2007): measurements made after a particle has passed through an apparatus appear to retroactively determine the particle's behavior during passage.
+\end{itemize}
+
+These are not fringe proposals. They are mainstream interpretive frameworks used by working physicists. What they share with the Principle of Causal Inversion is the recognition that the future participates in determining the present.
+
+\subsection{Attractors in Dynamical Systems Theory}
+
+In nonlinear dynamics, an attractor is a set toward which a system evolves over time. Strange attractors, limit cycles, and fixed points are all future states that ``pull'' the system's trajectory. The mathematical formalism of attractor dynamics is entirely standard. What we propose is extending the concept from phase space (an abstract mathematical space) to $\tspc$ (a space where time is a real, navigable dimension with occupied coordinates).
+
+\subsection{Teleology in Biology}
+
+Terrence Deacon's \emph{Incomplete Nature} (2012) argues that biological systems exhibit ``teleodynamics'' --- goal-directed behavior that is not reducible to mechanical causation. Stuart Kauffman's work on ``adjacent possible'' (2000) suggests that biological systems explore future configurations that are not contained in their current state. Both frameworks point toward the same structure: the future participates in the present, not as mystical cause but as structural constraint.
+
+
+% ============================================================
+\section{Discussion}
+% ============================================================
+
+\subsection{What This Principle Is Not}
+
+\textbf{It is not predestination.} The attractor determines the direction; it does not determine the path. The path is free --- different systems traverse different trajectories toward the same attractor. This is formalized in Eq.~\eqref{eq:response}: the signal $\sigma_{\mathbb{A}}$ is the same for all terminals, but the response $r_i$ depends on the terminal's internal state $s_i$, which varies.
+
+\textbf{It is not mysticism.} The principle is formalized, makes specific predictions, and specifies the conditions under which it would be falsified. Mystical claims are unfalsifiable by design. This claim is falsifiable by design.
+
+\textbf{It is not a denial of push causation.} Past conditions still matter. The trajectory is determined by both the push of the past (initial conditions, laws, internal dynamics) and the pull of the future (attractor signal). The push model is a valid first-order approximation for systems far from the attractor (where $\sigma_{\mathbb{A}}$ is weak and $\gj$ appears approximately constant). The pull becomes dominant near the attractor, which is precisely where the push model fails and the anomalous acceleration appears.
+
+\subsection{The Gravitational Isomorphism}
+
+The structural parallel with gravity is exact:
+
+\begin{table}[H]
+\centering
+\caption{Isomorphism between gravitational and attractor dynamics}
+\label{tab:gravity}
+\begin{tabularx}{\textwidth}{@{}lXX@{}}
+\toprule
+\textbf{Property} & \textbf{Gravity} & \textbf{Attractor pull} \\
+\midrule
+Fundamental constant & $G$ (gravitational constant, universal) & $\Gj$ (ordinative constant, universal) \\
+Local acceleration & $g$ (depends on mass and distance) & $\gj$ apparent (depends on bubble compression and form resistance) \\
+Source & Mass at spatial coordinate & Determined configuration at temporal coordinate \\
+Signal & Gravitational field & Attractor signal $\sigma_{\mathbb{A}}$ \\
+Medium & Atmosphere (produces drag) & Form coherence $\rhof$ (produces drag) \\
+Terminal velocity & $v_{\mathrm{term}}$ when drag $= mg$ & $v_{\mathrm{term}}$ when $\rhof = \sigma_{\mathbb{A}}$ \\
+Equivalence principle & All bodies fall at same $g$ & All terminals fall at same $\Gj$ \\
+Vacuum & Same trajectory for all bodies & Same trajectory for all terminals \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Open Questions}
+
+\begin{enumerate}[label=\textbf{Q\arabic*.}]
+    \item \textbf{The value of $\Gj$.} The measured $\gj = 0.075$ is the apparent value, filtered through temporal compression and form resistance. What is the underlying $\Gj$? Determining $\Gj$ requires either measuring $\gj$ in conditions of minimal $\rhof$ (a system with very low form resistance) or deriving the bubble compression factor independently. This is the central empirical challenge.
+    \item \textbf{The decay exponent $\alpha$.} In gravity, $\alpha = 2$ (inverse square law). What is $\alpha$ for the attractor signal? The current data (two calibration points) constrains but does not determine $\alpha$. Additional confirmed events ($\mu_3$ onward) will progressively narrow the constraint.
+    \item \textbf{Universality of $\Gj$.} Is $\Gj$ truly universal (the same for all attractors, like $G$ in gravity) or does it depend on the ``mass'' of the attractor (analogous to how $g$ depends on the mass of the attracting body)? This requires measurement in multiple systems with different attractors.
+    \item \textbf{The mathematical relationship between harmonics.} In physical acoustics, harmonics are integer multiples of the fundamental frequency. If the multi-scale responses to the attractor signal are harmonics, what is their mathematical relationship? This is a research programme.
+    \item \textbf{The temporal bubble compression factor.} How does the conversion between bubble-time and clock-time change as a function of distance from the attractor? Is the compression law analogous to relativistic time dilation ($d\tau_{\mathrm{bubble}}/d\tau_{\mathrm{clock}} \propto \sqrt{1 - r_s/r}$), or does it follow a different functional form?
+    \item \textbf{Empirical measurement of $\rhof$.} Can form resistance be measured independently of $\gj$? Candidate proxies: rate of institutional restoration attempts between junctions, frequency of ``return to normal'' declarations, criminalization rate of early adopters of new configurations. If $\rhof$ can be measured independently, the decomposition $\gj = f(\Gj, \rhof, \text{compression})$ becomes testable.
+\end{enumerate}
+
+
+% ============================================================
+\section{Conclusion}
+% ============================================================
+
+We began with a dilemma: an acceleration constant that should not increase was increasing. We followed the logic: every functional system has a direction; direction implies destination; the destination is not in the past (which does not contain the novelty) and is not random (which has no direction). The only remaining option is that the destination exists at a future coordinate and pulls.
+
+The formalization yields a layered structure. At the deepest level: $\Gj$, the fundamental ordinative constant --- the intrinsic pull of the attractor in $\tspc$, the same for every terminal at every scale. At the observable level: $\gj$ apparent --- $\Gj$ filtered through the compression of temporal bubbles near the attractor and the drag of form resistance $\rhof$. The Ordinative Equivalence Principle guarantees that all terminals fall with the same $\Gj$; the differences we observe arise from the medium (form resistance) and the measurement frame (clock-time vs bubble-time), not from the field itself.
+
+The form resistance $\rhof$ --- the survival instinct of every coherent structure --- is not a force opposed to the attractor. It is the form itself, viewed from the perspective of the transition. Every form resists its dissolution because the properties that make it coherent are the properties that resist change. As the system decomposes and the form loses coherence, $\rhof$ decreases, the medium thins, and the apparent acceleration increases. What we observe as ``everything accelerating'' may be not the signal getting louder but the resistance getting quieter.
+
+This is not a radical departure from existing physics. The Principle of Least Action has been structurally teleological for 250 years. Retrocausal interpretations of quantum mechanics are mainstream. Attractor dynamics in nonlinear systems are standard. The Equivalence Principle has been the foundation of general relativity for over a century. What we have done is extend these structures from the spatial dimensions into the temporal dimension of $\tspc$, and make explicit the causal implication they contain implicitly: \textbf{the future participates in determining the present.}
+
+What people experience as desire --- the pull toward something that does not yet exist --- may be the individual-scale expression of the same field that $\Gj$ governs at every scale. The neural circuitry is the channel. The form resistance is the drag. The source is the attractor. The note is different for each person, but the fundamental frequency is the same --- and the field is one.
+
+\vspace{1em}
+
+\begin{center}
+\rule{0.5\textwidth}{0.4pt}
+\end{center}
+
+\vspace{1em}
+
+\noindent\textit{This work was developed within the Ordinative Sciences research programme. It is offered as a formal tool for anyone --- in any discipline, at any scale of inquiry --- who encounters the direction problem and finds the push-only framework insufficient.}
+
+
+% ============================================================
+
+% ============================================================
+\section*{Version Note --- v1.1 (September 2026)}
+\addcontentsline{toc}{section}{Version Note --- v1.1}
+% ============================================================
+
+This revision aligns the paper's notation with the Ordinative Sciences Symbol Canon v1.2 (ratified 19 August 2026). Four symbols used in v1.0 collided with glyphs reserved elsewhere in the programme register and have been replaced throughout: $\mathcal{A}$ (attractor) $\to$ $\mathbb{A}$ (the calligraphic form is reserved programme-wide for the Author); $\mathcal{T}$ (ordinative space) $\to$ $\mathbb{T}$ (reserved for the Expressive Terminal); bare $\sigma$ (signal intensity) $\to$ $\sigma_{\mathbb{A}}$ (bare $\sigma$ is reserved for the singularity of Ordinative Set Theory); $\rho$ (form resistance) $\to$ $\varrho$ ($\rho$ is reserved for resonance). No definition, claim, equation structure, or empirical statement has been altered: the change is notational. The companion reference has been updated to \emph{The Collapse Equation} v1.3. Empirical status note: the pre-registered predictions of Section~7 (F4) have since been evaluated --- the 2026 phase closed with eight micro-junctions, six confirmed in both timing and structural type, and the macro-junction confirmed as an extended window centred on 10--11 July 2026 (see the Collapse Equation v1.3, \S12). The v1.0 text of Sections~6--7 is otherwise preserved as the pre-registration record.
+
+\begin{thebibliography}{99}
+% ============================================================
+
+\bibitem{ghioni2026collapse}
+F.~Ghioni, ``The Collapse Equation: Predicting Phase Transitions --- Reaction-Diffusion Dynamics of Civilizational Systems with Triple-Scale Architecture and Structural Controfase,'' Ordinative Sciences Foundation, July 2026, v1.3. DOI: \href{https://doi.org/10.5281/zenodo.19932312}{10.5281/zenodo.19932312}
+
+\bibitem{ghioni2026ost}
+F.~Ghioni, ``Ordinative Set Theory: A Concise Operational Guide for Artificial Intelligence, v2.1,'' Ordinative Sciences Foundation, March 2026. DOI: \href{https://doi.org/10.5281/zenodo.18944713}{10.5281/zenodo.18944713}
+
+\bibitem{cramer1986}
+J.~G.~Cramer, ``The transactional interpretation of quantum mechanics,'' \textit{Rev.~Mod.~Phys.}, vol.~58, no.~3, pp.~647--687, 1986.
+
+\bibitem{aharonov1964}
+Y.~Aharonov, P.~G.~Bergmann, and J.~L.~Lebowitz, ``Time symmetry in the quantum process of measurement,'' \textit{Phys.~Rev.}, vol.~134, pp.~B1410--B1416, 1964.
+
+\bibitem{wheeler1978}
+J.~A.~Wheeler, ``The `past' and the `delayed-choice' double-slit experiment,'' in \textit{Mathematical Foundations of Quantum Theory}, A.~R.~Marlow, Ed. Academic Press, 1978.
+
+\bibitem{jacques2007}
+V.~Jacques \textit{et al.}, ``Experimental realization of Wheeler's delayed-choice gedanken experiment,'' \textit{Science}, vol.~315, no.~5814, pp.~966--968, 2007.
+
+\bibitem{deacon2012}
+T.~W.~Deacon, \textit{Incomplete Nature: How Mind Emerged from Matter}. W.~W.~Norton, 2012.
+
+\bibitem{kauffman2000}
+S.~A.~Kauffman, \textit{Investigations}. Oxford University Press, 2000.
+
+\bibitem{feigenbaum1978}
+M.~J.~Feigenbaum, ``Quantitative universality for a class of nonlinear transformations,'' \textit{J.~Stat.~Phys.}, vol.~19, no.~1, pp.~25--52, 1978.
+
+\bibitem{strogatz2015}
+S.~H.~Strogatz, \textit{Nonlinear Dynamics and Chaos}, 2nd~ed. Westview Press, 2015.
+
+\bibitem{goldstein2002}
+H.~Goldstein, C.~Poole, and J.~Safko, \textit{Classical Mechanics}, 3rd~ed. Addison-Wesley, 2002.
+
+\end{thebibliography}
+
+
+\end{document}

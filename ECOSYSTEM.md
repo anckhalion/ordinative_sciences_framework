@@ -2,7 +2,7 @@
 
 This file explains how the four public repositories connect.
 
-## Four Repositories, Four Roles
+## Five Repositories, Five Roles
 
 | Repository | Role | Function |
 | --- | --- | --- |
@@ -10,6 +10,7 @@ This file explains how the four public repositories connect.
 | `te-ordinative-lora` | Practice | Implements TE principles in model fine-tuning workflows. |
 | `te-oct-framework-en` | Validation | Publishes the English OCT corpus with reproducibility assets and benchmarks. |
 | `te-ordinative-algebras-en` | Algebras | Publishes the SA (Semantic Algebra) and PA (Proportional Algebra) frameworks — the analytical operators and the proportional space they live in. |
+| `te-controfase` | Treatise | Publishes *The Technology of Counter-phase, Vol. 1: Fondamenti* — the founding treatise of the Controfase operator — with its bilingual LoRA dataset. DOI [10.5281/zenodo.22542621](https://doi.org/10.5281/zenodo.22542621). |
 
 ## Conceptual Flow
 

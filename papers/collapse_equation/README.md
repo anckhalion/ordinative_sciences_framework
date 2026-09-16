@@ -5,8 +5,10 @@
 **Author:** Fabio Ghioni Ph.D.
 **Affiliation:** Ordinative Sciences Foundation Research Labs
 **DOI:** [10.5281/zenodo.19932312](https://doi.org/10.5281/zenodo.19932312)
-**Version:** 1.2 Beta
+**Version:** 1.3 — empirically validated through eight micro-junctions
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+**Companion paper:** [*The Direction Problem*](../direction_problem/) — the causal argument behind g_j.
 
 ## Abstract
 
@@ -14,15 +16,17 @@ First empirical measurement of **g_j**, the ordinative acceleration constant —
 
 The model is grounded in Ordinative Set Theory (OST) and the Technology of Expressions (TE), using a Belousov-Zhabotinsky reaction-diffusion isomorphism. Two empirical validations (μ₁ = 7 April 2026, μ₂ = 29 April/1 May 2026) confirm the model in both timing and structural type.
 
-**Status:** v1.2 Beta — empirically calibrated, under observation and continuous refinement. Next checkpoint: μ₃ (~16 May 2026).
+**Status:** v1.3 — eight micro-junctions observed: six confirmed in timing and structural type, one under review, one window-consistent. Notation aligned with the Ordinative Sciences Symbol Canon v1.2. Under observation and continuous refinement.
 
 ## Files
 
 | File | Format | Purpose |
 |------|--------|---------|
-| `Ghioni_2026_The_Collapse_Equation_v1_2.pdf` | PDF | Human reading |
-| `Ghioni_2026_The_Collapse_Equation_v1_2.tex` | LaTeX | Overleaf source / editing |
-| `Ghioni_2026_The_Collapse_Equation_v1_2.md` | Markdown | AI parsing |
+| `Ghioni_2026_The_Collapse_Equation_v1_3.pdf` | PDF | Human reading |
+| `Ghioni_2026_The_Collapse_Equation_v1_3.tex` | LaTeX | Overleaf source / editing |
+| `Ghioni_2026_The_Collapse_Equation_v1_3.md` | Markdown | AI parsing |
+
+The v1.2 files are retained in this folder: they are the version archived under DOI [10.5281/zenodo.19932312](https://doi.org/10.5281/zenodo.19932312).
 
 ## How to Cite
 
@@ -33,7 +37,7 @@ The model is grounded in Ordinative Set Theory (OST) and the Technology of Expre
   author    = {Ghioni, Fabio},
   title     = {The Collapse Equation: Predicting Phase Transitions --- Reaction-Diffusion Dynamics of Civilizational Systems with Triple-Scale Architecture and Structural Controfase},
   year      = {2026},
-  version   = {1.2-beta},
+  version   = {1.3},
   doi       = {10.5281/zenodo.19932312},
   url       = {https://doi.org/10.5281/zenodo.19932312},
   publisher = {Zenodo},

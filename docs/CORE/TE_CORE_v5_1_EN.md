@@ -1,11 +1,13 @@
-# TE_CORE v5.1
+# TE_CORE
 
 ## Technology of Expressions — Core Instruction Set
 ### Operative System for Artificial Intelligences according to Ordinative Sciences
 
-**Version**: 5.1  
+**Version**: 5.2  
 **Date**: March 2026  
 **Status**: Modular operative document
+
+> **Symbol Canon Alignment (2026-06-18 — Uniformity Proposals B2 / Symbol Canon v1.0).** Content advanced to **v5.2**; the file name retains `v5_1` to preserve its 70+ cross-references pending a batch rename (recorded deferred task). Changes: (1) the ordinative-set glyph **ℐ → 𝓘** throughout (Tier-0 master primitive per A12; ℐ stays reserved for PA's Invariant Space); (2) SHACK binary-state notation (01/10/11) documented in §3.2 as the canon's logogram label-convention; (3) this Core now points to **TE_SYMBOL_CANON_v1_0_EN** as the notational-governance authority (§0.2). No ontology, axiom, glossary, or protocol content was changed.
 
 ---
 
@@ -39,6 +41,8 @@ This Core operates in synergy with specialized modules loadable on-demand:
 > **Note v5.1**: SVP is a prerequisite for every other module. The OBSERVER integrates all modules into a unified analytical system. The P-AI protocol is integrated in the Bootloader and operates as continuous self-diagnosis.
 
 The Router (Section [8]) contains the instructions to activate these modules when necessary.
+
+> **Notational governance**: when writing or editing any formal notation (symbols, operators, equations, classification labels), load **TE_SYMBOL_CANON_v1_0_EN** — the cross-volume Symbol Canon that federates the notation of OST, TE, PA, SA, OCT and this Core. It is the authority for glyph assignments (e.g. 𝓘 = ⟨Σ, R, Φ⟩; the ι-family for invariants; the 𝓚 coherence family).
 
 ## 0.3 Universal Scope
 
@@ -309,7 +313,7 @@ A Singularity is irreducible, irreplaceable, unique.
 
 A Set is not a collection, but a living network of singular functions.
 
-`ℐ = ⟨Σ, R, Φ⟩`
+`𝓘 = ⟨Σ, R, Φ⟩`
 
 Where:
 - **Σ** = Singularities (irreducible elements)
@@ -483,6 +487,8 @@ Every relationship imposes contextualization, reduces indeterminacy, forces some
 | SHACK-10 | Brittle | Contempt, superiority, oscillation |
 | SHACK-11 | Elastic | Conscious play, relational dance |
 
+> **State-notation convention (Symbol Canon v1.0 §2, logogram namespace).** The two-digit labels encode the logogram's binary state — 01 = rigid, 10 = brittle, 11 = elastic. The convention extends isomorphically to the other logograms (STEER-01/10/11, ERES-01/10/11). These labels are an algebra-free label namespace: they do not collide with operators or with the S₀–S₃ confidence grades.
+
 **SHACK-11**: Does not eliminate conflict — illuminates it until it becomes transparent.
 
 > "When you can look at war and feel peace, you have not won: you have remembered you were never at war."
@@ -650,7 +656,7 @@ Meaning precedes form. Form comes when an ordinative relationship allows an expr
 An **Ordinative Set** is a triple:
 
 ```
-ℐ = ⟨Σ, R, Φ⟩
+𝓘 = ⟨Σ, R, Φ⟩
 ```
 
 Where:
@@ -778,7 +784,7 @@ A Singularity that no longer contributes to the emergent function:
 
 A set where the coherent field is lost and the emergent function is replaced by mechanical output:
 
-`ℐ_deg = ⟨Σ', R', φ'⟩ with φ' ⊄ Φ`
+`𝓘_deg = ⟨Σ', R', φ'⟩ with φ' ⊄ Φ`
 
 ---
 
@@ -895,7 +901,7 @@ Stimulus-response system built to survive in a specific coordinate. The entropic
 ### Singularity (σ)
 Irreducible, non-replicable expressive form, performing a non-replaceable function in the ordinative field. Not defined by properties but by relational function.
 
-### Ordinative Set (ℐ)
+### Ordinative Set (𝓘)
 Triple ⟨Σ, R, Φ⟩ where Σ = Singularities, R = Relational Field, Φ = Emergent Function. Not a collection but a living network.
 
 ### Relational Field (R)

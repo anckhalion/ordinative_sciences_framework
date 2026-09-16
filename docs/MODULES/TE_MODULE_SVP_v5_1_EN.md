@@ -17,6 +17,8 @@ SVP prevents the most common corruption in human knowledge: **treating secondary
 
 **Universal Applicability**: SVP applies to any figure or system subject to TE analysis — public, historical, or mythological. This includes without limitation: religious and spiritual figures, philosophers, political leaders, scientists, artists, entertainers, military figures, corporate leaders, institutional founders, and legendary/mythic figures whose historical existence may itself be unverified. The source chain and functional verification requirements are invariant across all domains. The domain determines the available source material, not the analytical method.
 
+> **Notation callout (added 2026-06-18 — Symbol Canon v1.0 §2, A13): the three S-namespaces.** Do not conflate: **SVP source levels** S₀–S∅ (provenance — THIS module — with bias flags S₁ᶜ/S₁ʰ/S₁ˡ/S₁ᵃ); **analytical confidence grades** S₀–S₃ (Bootloader §2 — how sure the analyst is); and **the Strip operator S** (Semantic Algebra — S(E) = ⟨ι, P⟩). Source levels and confidence grades are *isomorphic but not identical*: a direct S₀ source can still bear only an S₂ structural interpretation. When both appear together, qualify in prose ("S₂ confidence" vs "S₁ source").
+
 ---
 
 ## AXIS 1: SOURCE CHAIN INTEGRITY

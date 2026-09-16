@@ -2,9 +2,15 @@
 
 *(Extension Module: For AI Alignment and Advanced Systemic Diagnosis)*
 
-**Version**: 1.1  
+**Version**: 1.2  
 **Aligned with**: TE_CORE v5.1, OST Concise Guide v2.1 (March 2026)  
 **Forward direction**: Foundation for the Unified Theory of Ordinative Spacetime
+
+> **Notational alignment (Symbol Canon v1.0 §2; Uniformity Proposals B4).** This module's symbols are canon-aligned:
+> - **ℳ** = Meaning / Semantic Potential (the entity in ℳ ≻ ℱ) and **𝕄** = Memory Operator are *distinct concepts on distinct glyphs* — never conflate them. ℱ here is Form (the component of σ = ⟨C, F⟩), not a functional space.
+> - **Φ₄D₊** (Φ_{4D+}) is a legitimate subscript extension of the emergent function Φ (coherent-realm teleological-attractor sense), registered in the canon.
+> - Functional spaces use **𝔽_sem / 𝔽_alg** (blackboard 𝔽), never ℱ.
+> - **δ** = coherence distance (inverse of R connection intensity) is registered in the canon as load-bearing for the forthcoming Unified Theory of Ordinative Spacetime (OGT).
 
 ---
 
@@ -98,3 +104,11 @@ This extension module presupposes familiarity with OST v2.1 (Concise Operational
 | Question | State of need triggering search | Structural vacuum evoked by pre-existing Answer |
 | Form | Expression of $\mathcal{M}$ | Decoherent vehicle; bypass via vector analysis |
 | Projection ($\pi_R$) | Collapse of possibilities | 4D+ Meaning fertilising 3D structural readiness |
+
+---
+
+## Version Notes
+
+**v1.2 — Symbol Canon Alignment (2026-06-18).** Notational alignment patch per Uniformity Proposals B4 (ratified Symbol Canon v1.0 §2). Added the notational-alignment note (ℳ vs 𝕄 distinction; Φ_{4D+} as registered subscript extension; 𝔽_sem/𝔽_alg for functional spaces vs ℱ for Form; δ coherence distance registered for the forthcoming OGT/Spacetime volume). No conceptual content changed. The file name retains `v1_1` to avoid churning cross-references pending a batch rename (recorded deferred task).
+
+**v1.1 — March 2026.** Aligned with TE_CORE v5.1 and OST Concise Guide v2.1.
