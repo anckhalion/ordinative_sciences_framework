@@ -2,7 +2,7 @@
 
 Technical preparation for the pilot of 2026-09-17. Method: LEXX 0.1, internal to the Technology of Expressions (TE). Read `../03_PRE_PILOT_PROTOCOL.md` first. Earlier alpha runtimes are historical; new cases run on this version. Status recorded in `../release.json`: `pre_pilot_not_empirically_validated`, `empirical_runs_completed: 0`.
 
-Revision of 2026-09-23, at first publication and with the runtime version unchanged: `runtime/prepare_run.py` resolves the frozen methodology documents by edition (see below), one test covers the resolution, and the package digest pinned in `CASEWORK/compatibility.json` is computed on the published bytes.
+Revision of 2026-09-23, at first publication and with the runtime version unchanged: `runtime/prepare_run.py` resolves the frozen methodology documents by edition (see below), the placeholder texts of the draft (`output_draft.json`) are in English, one test covers the resolution, and the package digest pinned in `CASEWORK/compatibility.json` is computed on the published bytes.
 
 ## Environment
 

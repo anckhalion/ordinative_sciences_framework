@@ -31,19 +31,19 @@ def package_documents(folder):
 
 
 def template(source_hash, ledger, run_id=None):
-    limit = "Da esaminare; nessuna conclusione disponibile."
+    limit = "To be examined; no conclusion available."
     return {
-        "accordo": "Da identificare", "versione_modulo": "LEXX v0.2-alpha.3",
+        "accordo": "To be identified", "versione_modulo": "LEXX v0.2-alpha.3",
         "methodology_version": "0.1", "run_id": run_id or str(uuid.uuid4()),
         "source_sha256": source_hash, "prospettiva": "neutra", "modalita": "diagnostica",
         "run_states": ["LLM_ONLY_UNVERIFIED", "DOCUMENT_ONLY"], "dependency_ledger": ledger,
-        "jurisdiction_gate": {"jurisdiction": None, "choice_of_law": None, "document_type": "da identificare",
+        "jurisdiction_gate": {"jurisdiction": None, "choice_of_law": None, "document_type": "to be identified",
                               "sources_as_of_date": None, "external_sources_verified": False,
-                              "limits": ["Fonti esterne non verificate: analisi documentale soltanto."]},
-        "insed": {"stato": "da accertare", "qualificazione_parti": "UNKNOWN", "perimetro_analisi": "documento_solo",
+                              "limits": ["External sources unverified: documentary analysis only."]},
+        "insed": {"stato": "to be ascertained", "qualificazione_parti": "UNKNOWN", "perimetro_analisi": "documento_solo",
                   "limiti": [limit], "copertura": {"stato": "non_eseguita",
-                  "clausole_totali": ["DOCUMENTO_DA_SEGMENTARE"],
-                  "clausole_non_esaminate": ["DOCUMENTO_DA_SEGMENTARE"], "nota_limite": limit}},
+                  "clausole_totali": ["DOCUMENT_TO_BE_SEGMENTED"],
+                  "clausole_non_esaminate": ["DOCUMENT_TO_BE_SEGMENTED"], "nota_limite": limit}},
         "strip": [], "campo_relazionale_R": [],
         "phi_accordo": {"dichiarata": "", "effettiva": "", "delta": "", "confidence": "S3"},
         "consistenza": {"aritmetica": [], "nota_aritmetica": limit, "temporale": [], "nota_temporale": limit},
@@ -55,10 +55,10 @@ def template(source_hash, ledger, run_id=None):
         "lyapunov_globale": {"mode": "qualitative", "lambda_segno": "vuoto", "argomento": limit},
         "non_falle_verificate": [], "note_negoziali": [], "verdetto_generale": "non_valutabile",
         "verdetti": {"testo": {"esito": "non_valutabile", "motivazione": limit, "confidence": "S3"},
-                     "sistema": {"esito": "non_valutabile", "nota_limite": "Fonti esterne e revisione giuridica assenti."}},
+                     "sistema": {"esito": "non_valutabile", "nota_limite": "External sources and legal review absent."}},
         "tre_mappe": {"cosa_dice": "", "cosa_non_dice": "", "cosa_dice_senza_dirlo": ""},
         "meta_pai": {"bias_rilevati": [], "note_trasparenza": limit,
-                     "phi_test": {"funzione_attesa": "Esaminare l'accordo e motivare i risultati.",
+                     "phi_test": {"funzione_attesa": "Examine the agreement and give reasons for the findings.",
                                   "riscontro": limit, "limiti_residui": [limit]}},
         "verification": {"executor": "llm_only", "anchors": "unverified", "schema": "unverified", "round_trip": "unverified"},
     }

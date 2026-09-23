@@ -84,7 +84,7 @@
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/runtime/prepare_run.py",
-          "sha256": "d3f0662bddaf4a64e43326b3ef3d4a8da190ac6bb7df867ca3de7b67fd6c03f8"
+          "sha256": "bdccf43aa960e881ac86e833f2e27776dbb005c9854e3169935de168b8ea1397"
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/runtime/validate_lexx_output.py",
@@ -99,14 +99,14 @@
           "sha256": "eec1bc75b8334885f84ff5381522bee8ffc08f3c853e705c1d66bcb8b69d1f60"
         }
       ],
-      "package_digest": "c5272c73ceb5a42ddbb77ff0705020a6a70c9289eaf765543263abc8025465ba"
+      "package_digest": "6f7ca20c40a262b4b3a1175241e41ad1eafb08ff9ae7305bcea3e52e906d7ec0"
     },
     "TE_CASEWORK": {
       "version": "0.1.0-alpha.1",
       "files": [
         {
           "relative_path": "CASEWORK/compatibility.json",
-          "sha256": "1079438fa62345aa54b0fd40cb2875ea7678504d3a4bdc76971023a060241b7e"
+          "sha256": "58cf569124697a5f91d5177fc80c2d210120d60c3fb6f105f52e0b356818f090"
         },
         {
           "relative_path": "CASEWORK/release.json",
@@ -145,7 +145,7 @@
           "sha256": "dec89983b28ff02a28ec24eeecc7494d0bbe5f272256af33279f84a00d8c810f"
         }
       ],
-      "package_digest": "84591ad569a5f3115f543198fbe5b3c1cd7d10c94d98459730742a6601b8366b"
+      "package_digest": "f98b0029de3670723c8b8af38acb1d0eca1ff440d30bf9ec344f94c11b0006e7"
     }
   }
 }
