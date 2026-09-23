@@ -6,7 +6,7 @@ This file explains how the four public repositories connect.
 
 | Repository | Role | Function |
 | --- | --- | --- |
-| `ordinative_sciences_framework` | Theory | Defines TE foundations, ontology, and full module architecture. |
+| `ordinative_sciences_framework` | Theory | Defines TE foundations, ontology, and full module architecture; hosts the domain frameworks LEXX (agreements) and CASEWORK (documentary audit and investigation) with their runtimes, under `FRAMEWORKS/`. |
 | `te-ordinative-lora` | Practice | Implements TE principles in model fine-tuning workflows. |
 | `te-oct-framework-en` | Validation | Publishes the English OCT corpus with reproducibility assets and benchmarks. |
 | `te-ordinative-algebras-en` | Algebras | Publishes the SA (Semantic Algebra) and PA (Proportional Algebra) frameworks — the analytical operators and the proportional space they live in. |

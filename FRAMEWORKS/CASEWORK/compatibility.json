@@ -1,0 +1,71 @@
+{
+  "runtime_version": "0.1.0-alpha.1",
+  "review_scope": "Exact current TE snapshot; documentary protocols only",
+  "dependencies": [
+    {
+      "family": "TE_BOOTLOADER",
+      "version": "7.1.1",
+      "digest": "d785cbea550e8ce59e28738a23fdfebefabb72ba5cb4ed15e999a44f7543c0a3"
+    },
+    {
+      "family": "TE_PROTOCOLS",
+      "version": "1.1",
+      "digest": "b5a425aaceb8f77e02cb873ddfcbdceeae77696629d0036ec03272c4832c506f"
+    },
+    {
+      "family": "TE_CORE",
+      "version": "5.2.1",
+      "digest": "4bda3705182a5030bda9bafd7ee63024e308fefb8cd94b8654da8e873822380a"
+    },
+    {
+      "family": "TE_OST",
+      "version": "2.1",
+      "digest": "da3c7e9b60ed91030007f8f2a3b1702d0bcd67e205e8dd8736bc1391eda4390f"
+    },
+    {
+      "family": "TE_OST_TELEODYNAMICS",
+      "version": "1.2",
+      "digest": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff"
+    },
+    {
+      "family": "TE_SYMBOL_CANON",
+      "version": "1.2",
+      "digest": "1573fff3a6b070495a684eec36f420db787846be04ae62bd10196d94cf883540"
+    },
+    {
+      "family": "TE_MODULE_SVP",
+      "version": "5.1",
+      "digest": "2bb6da6b9cd663648088f0d8ee022d29859b6d77f51f81caa5b3dd450b4eedda"
+    },
+    {
+      "family": "TE_MODULE_LENS",
+      "version": "5.1",
+      "digest": "9b8fa5777a7802e3c6c6780dcd04130af2ee9de601c5fe60930b9521bd5fa161"
+    },
+    {
+      "family": "TE_MODULE_PPRO",
+      "version": "5.2",
+      "digest": "e0590a5c74733cb81606b1bd9ab26d505311515962f45372f02451d778ca59e5"
+    },
+    {
+      "family": "TE_MODULE_SCIMS",
+      "version": "5.1",
+      "digest": "a2f7125b494de3b2bb74b5e8e96a22820f203f74b225c26638ee470519deb9dc"
+    },
+    {
+      "family": "TE_MODULE_VERI",
+      "version": "1.0",
+      "digest": "7a7997305a6f9b6e71553729f7360b892c488ee0eb0727d315a32e6cda1fb8e5"
+    },
+    {
+      "family": "TE_OBSERVER",
+      "version": "1.1",
+      "digest": "401ae556debccc110a7015908ed22b436d4d649ae5af8f9b86e948f2f270c175"
+    },
+    {
+      "family": "TE_MODULE_LEXX",
+      "version": "0.2.0-alpha.3",
+      "digest": "ef1dadb4b5fe2831043e0841e4c774684650d957c18f4388acb2d0490cdb0e6a"
+    }
+  ]
+}

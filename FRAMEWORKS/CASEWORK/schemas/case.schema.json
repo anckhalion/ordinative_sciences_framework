@@ -1,0 +1,808 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "runtime_version",
+    "case_id",
+    "manifest_sha256",
+    "wave1_complete",
+    "documents",
+    "derivatives",
+    "evidence",
+    "gaps",
+    "legal_references",
+    "analysis",
+    "audit",
+    "hypotheses",
+    "chronology",
+    "relationships"
+  ],
+  "properties": {
+    "runtime_version": {
+      "const": "0.1.0-alpha.1"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "wave1_complete": {
+      "type": "boolean"
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "reading",
+          "reading_note",
+          "reviewer",
+          "relevance",
+          "relevance_reason",
+          "exclusion_recheck",
+          "source_group",
+          "group_reason"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "reading": {
+            "enum": [
+              "pending",
+              "read",
+              "unreadable",
+              "restricted"
+            ]
+          },
+          "reading_note": {
+            "type": "string"
+          },
+          "reviewer": {
+            "type": "string"
+          },
+          "relevance": {
+            "enum": [
+              "deferred",
+              "include",
+              "exclude_provisional"
+            ]
+          },
+          "relevance_reason": {
+            "type": "string"
+          },
+          "exclusion_recheck": {
+            "type": "string"
+          },
+          "source_group": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "group_reason": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "derivatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "document_id",
+          "path",
+          "sha256",
+          "method",
+          "operator",
+          "created_at"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "document_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "method": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "operator": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "document_id",
+          "derivative_id",
+          "locator",
+          "quote",
+          "confidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "document_id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "derivative_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "confidence": {
+            "enum": [
+              "S0",
+              "S1",
+              "S2",
+              "S3"
+            ]
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "expected_record",
+          "expectation_basis",
+          "search_performed",
+          "status",
+          "next_step"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "expected_record": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "expectation_basis": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "search_performed": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "status": {
+            "enum": [
+              "not_provided",
+              "not_found",
+              "inaccessible",
+              "resolved"
+            ]
+          },
+          "next_step": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "legal_references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "official_url",
+          "provision",
+          "jurisdiction",
+          "relevant_date",
+          "checked_at",
+          "checked_by",
+          "applicability_note",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "official_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "provision": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "jurisdiction": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "relevant_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "checked_by": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "applicability_note": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "status": {
+            "const": "reference_only_professional_validation_pending"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "analysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "complete",
+        "summary",
+        "limitations"
+      ],
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 0
+        }
+      }
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "complete",
+        "checks",
+        "findings"
+      ],
+      "properties": {
+        "complete": {
+          "type": "boolean"
+        },
+        "checks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "area",
+              "status",
+              "procedure",
+              "population_and_scope",
+              "result_note",
+              "result",
+              "evidence_ids",
+              "finding_ids"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "area": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "status": {
+                "enum": [
+                  "pending",
+                  "tested",
+                  "not_testable",
+                  "not_applicable"
+                ]
+              },
+              "procedure": {
+                "type": "string"
+              },
+              "population_and_scope": {
+                "type": "string"
+              },
+              "result_note": {
+                "type": "string"
+              },
+              "result": {
+                "enum": [
+                  "pending",
+                  "no_exception",
+                  "exception",
+                  "inconclusive",
+                  "not_applicable"
+                ]
+              },
+              "evidence_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "uniqueItems": true
+              },
+              "finding_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "uniqueItems": true
+              }
+            }
+          },
+          "minItems": 1
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "category",
+              "statement",
+              "criterion",
+              "supporting_evidence",
+              "opposing_evidence",
+              "counterevidence_search",
+              "alternatives",
+              "confidence",
+              "impact",
+              "next_steps",
+              "disposition"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "category": {
+                "enum": [
+                  "anomaly",
+                  "control_weakness",
+                  "possible_abuse",
+                  "possible_fraud",
+                  "possible_corruption",
+                  "possible_violation"
+                ]
+              },
+              "statement": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "criterion": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "description",
+                  "evidence_ids",
+                  "legal_reference_ids"
+                ],
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "policy",
+                      "contract",
+                      "expected_control",
+                      "legal_question"
+                    ]
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "\\S"
+                  },
+                  "evidence_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "uniqueItems": true
+                  },
+                  "legal_reference_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "uniqueItems": true
+                  }
+                }
+              },
+              "supporting_evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "uniqueItems": true
+              },
+              "opposing_evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "uniqueItems": true
+              },
+              "counterevidence_search": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "alternatives": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "explanation",
+                    "test",
+                    "outcome",
+                    "evidence_ids"
+                  ],
+                  "properties": {
+                    "explanation": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "test": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "\\S"
+                    },
+                    "outcome": {
+                      "enum": [
+                        "pending",
+                        "supported",
+                        "refuted",
+                        "unresolved"
+                      ]
+                    },
+                    "evidence_ids": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "\\S"
+                      },
+                      "uniqueItems": true
+                    }
+                  }
+                },
+                "minItems": 1
+              },
+              "confidence": {
+                "enum": [
+                  "S1",
+                  "S2",
+                  "S3"
+                ]
+              },
+              "impact": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "next_steps": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "minItems": 1
+              },
+              "disposition": {
+                "enum": [
+                  "open",
+                  "supported",
+                  "not_supported",
+                  "unresolved"
+                ]
+              }
+            }
+          },
+          "minItems": 0
+        }
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "proposition",
+          "supporting_evidence",
+          "opposing_evidence",
+          "counterevidence_search",
+          "falsifier",
+          "next_check",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "kind": {
+            "enum": [
+              "adverse",
+              "non_criminal",
+              "exculpatory",
+              "alternative_cause"
+            ]
+          },
+          "proposition": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "supporting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "uniqueItems": true
+          },
+          "opposing_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "uniqueItems": true
+          },
+          "counterevidence_search": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "falsifier": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "next_check": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "status": {
+            "enum": [
+              "open",
+              "supported",
+              "disfavored",
+              "unresolved"
+            ]
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "chronology": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "event",
+          "time_description",
+          "time_kind",
+          "evidence_ids",
+          "confidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "event": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "time_description": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "time_kind": {
+            "enum": [
+              "event",
+              "document",
+              "registration",
+              "inferred",
+              "unknown"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "uniqueItems": true
+          },
+          "confidence": {
+            "enum": [
+              "S0",
+              "S1",
+              "S2",
+              "S3"
+            ]
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "from_entity",
+          "to_entity",
+          "relation",
+          "evidence_ids",
+          "confidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "from_entity": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "to_entity": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "relation": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "uniqueItems": true
+          },
+          "confidence": {
+            "enum": [
+              "S0",
+              "S1",
+              "S2",
+              "S3"
+            ]
+          }
+        }
+      },
+      "minItems": 0
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,103 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_sha256",
+    "manifest_sha256",
+    "reviewer",
+    "reviewer_role",
+    "decision",
+    "rationale",
+    "reviewed_at",
+    "checks",
+    "legal_use"
+  ],
+  "properties": {
+    "case_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "reviewer_role": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "pending",
+        "accept",
+        "revise"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "reviewed_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "coverage",
+        "anchors_and_interpretation",
+        "source_independence",
+        "alternatives",
+        "bounded_conclusions"
+      ],
+      "properties": {
+        "coverage": {
+          "enum": [
+            "pending",
+            "accept",
+            "revise"
+          ]
+        },
+        "anchors_and_interpretation": {
+          "enum": [
+            "pending",
+            "accept",
+            "revise"
+          ]
+        },
+        "source_independence": {
+          "enum": [
+            "pending",
+            "accept",
+            "revise"
+          ]
+        },
+        "alternatives": {
+          "enum": [
+            "pending",
+            "accept",
+            "revise"
+          ]
+        },
+        "bounded_conclusions": {
+          "enum": [
+            "pending",
+            "accept",
+            "revise"
+          ]
+        }
+      }
+    },
+    "legal_use": {
+      "const": "not_authorized_by_runtime"
+    }
+  }
+}
