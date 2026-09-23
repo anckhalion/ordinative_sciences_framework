@@ -8,7 +8,7 @@
       "component": "TE_BOOTLOADER",
       "version": "7.1.1",
       "file": "TE_BOOTLOADER_v7_1_1_EN.md",
-      "sha256": "d785cbea550e8ce59e28738a23fdfebefabb72ba5cb4ed15e999a44f7543c0a3"
+      "sha256": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb"
     },
     {
       "component": "TE_PROTOCOLS",
@@ -20,7 +20,7 @@
       "component": "TE_CORE",
       "version": "5.2.1",
       "file": "TE_CORE_v5_2_1_EN.md",
-      "sha256": "4bda3705182a5030bda9bafd7ee63024e308fefb8cd94b8654da8e873822380a"
+      "sha256": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8"
     },
     {
       "component": "TE_OST",
@@ -44,7 +44,7 @@
       "component": "TE_MODULE_LENS",
       "version": "5.1",
       "file": "TE_MODULE_LENS_v5_1_EN.md",
-      "sha256": "9b8fa5777a7802e3c6c6780dcd04130af2ee9de601c5fe60930b9521bd5fa161"
+      "sha256": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06"
     },
     {
       "component": "TE_MODULE_PPRO",
@@ -62,7 +62,7 @@
       "component": "TE_OBSERVER",
       "version": "1.1",
       "file": "TE_OBSERVER_v1_1_EN.md",
-      "sha256": "401ae556debccc110a7015908ed22b436d4d649ae5af8f9b86e948f2f270c175"
+      "sha256": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6"
     },
     {
       "component": "TE_OST_TELEODYNAMICS",

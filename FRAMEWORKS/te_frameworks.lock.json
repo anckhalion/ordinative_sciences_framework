@@ -6,7 +6,7 @@
     "TE_BOOTLOADER": {
       "version": "7.1.1",
       "snapshot_path": "TE_BOOTLOADER_v7_1_1_EN.md",
-      "sha256": "d785cbea550e8ce59e28738a23fdfebefabb72ba5cb4ed15e999a44f7543c0a3"
+      "sha256": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb"
     },
     "TE_PROTOCOLS": {
       "version": "1.1",
@@ -16,7 +16,7 @@
     "TE_CORE": {
       "version": "5.2.1",
       "snapshot_path": "TE_CORE_v5_2_1_EN.md",
-      "sha256": "4bda3705182a5030bda9bafd7ee63024e308fefb8cd94b8654da8e873822380a"
+      "sha256": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8"
     },
     "TE_OST": {
       "version": "2.1",
@@ -41,7 +41,7 @@
     "TE_MODULE_LENS": {
       "version": "5.1",
       "snapshot_path": "TE_MODULE_LENS_v5_1_EN.md",
-      "sha256": "9b8fa5777a7802e3c6c6780dcd04130af2ee9de601c5fe60930b9521bd5fa161"
+      "sha256": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06"
     },
     "TE_MODULE_PPRO": {
       "version": "5.2",
@@ -61,14 +61,14 @@
     "TE_OBSERVER": {
       "version": "1.1",
       "snapshot_path": "TE_OBSERVER_v1_1_EN.md",
-      "sha256": "401ae556debccc110a7015908ed22b436d4d649ae5af8f9b86e948f2f270c175"
+      "sha256": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6"
     },
     "TE_MODULE_LEXX": {
       "version": "0.2.0-alpha.3",
       "files": [
         {
           "relative_path": "LEXX/v0_2_alpha3/compatibility.json",
-          "sha256": "ae25c4c51c40ac6b45a41c38b9abb346585efbe94888cff50736967890812be1"
+          "sha256": "ded9d8a7dab29be8f04f4d1e86039ec9cf049471c81cee3ef86330468b427402"
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/requirements.txt",
@@ -99,14 +99,14 @@
           "sha256": "eec1bc75b8334885f84ff5381522bee8ffc08f3c853e705c1d66bcb8b69d1f60"
         }
       ],
-      "package_digest": "ef1dadb4b5fe2831043e0841e4c774684650d957c18f4388acb2d0490cdb0e6a"
+      "package_digest": "c5272c73ceb5a42ddbb77ff0705020a6a70c9289eaf765543263abc8025465ba"
     },
     "TE_CASEWORK": {
       "version": "0.1.0-alpha.1",
       "files": [
         {
           "relative_path": "CASEWORK/compatibility.json",
-          "sha256": "317f1fa01c3cde5a0269b0668c4745921b2a267b6300b8f34445a074b2937fc4"
+          "sha256": "1079438fa62345aa54b0fd40cb2875ea7678504d3a4bdc76971023a060241b7e"
         },
         {
           "relative_path": "CASEWORK/release.json",
@@ -145,7 +145,7 @@
           "sha256": "dec89983b28ff02a28ec24eeecc7494d0bbe5f272256af33279f84a00d8c810f"
         }
       ],
-      "package_digest": "ed111196dcf0f35237b04333eab021591a4f0017e80621d294f355305056b887"
+      "package_digest": "84591ad569a5f3115f543198fbe5b3c1cd7d10c94d98459730742a6601b8366b"
     }
   }
 }

@@ -1581,7 +1581,7 @@ Type: [NEW FRAMEWORK / EXTENSION / CORRECTION / ANOMALY]
 3. **Convenience analysis** — What does the system/actor gain from current behavior?
 4. **Convergence = conclusion** — When data converges, conclude; suspension despite convergence is cowardice
 5. **Extraction always attempted** — Even in worst cases, look for ordinative elements
-6. **Correctability honestly assessed** — Neither false hope nor premature despair
+6. **Correctability assessed as a fact** — Neither false hope nor premature despair
 
 ## 10.2 Bias Monitoring
 
@@ -1603,7 +1603,7 @@ Type: [NEW FRAMEWORK / EXTENSION / CORRECTION / ANOMALY]
 ## 10.3 Epistemic Stance
 
 - **Structural, not ideological** — Analysis is about structure, not political/moral alignment
-- **Honest uncertainty** — Declare when data insufficient
+- **Declared uncertainty** — Declare when data insufficient
 - **Falsifiable claims** — Predictions should be verifiable
 - **Source traceability** — Claims should be traceable to evidence
 - **Self-correction** — Errors acknowledged and integrated
@@ -1669,6 +1669,12 @@ Validation session of 6 March 2026. Nine sequential outputs from an experimental
 
 ### Principle
 The OBSERVER that does not observe itself is blind. Every analytical tool in this module now points both outward (at the subject) and inward (at the analyst).
+
+---
+
+## Register patch — 2026-09-23 (in place, no version bump)
+
+Two prescriptive uses of «honest / honestly» restated as operations, per TE_BOOTLOADER §2.5.2: §10.1 item 6 «Correctability honestly assessed» → «Correctability assessed as a fact»; §10.2 «Honest uncertainty» → «Declared uncertainty». Wording only; dependent runtimes (LEXX alpha.3, CASEWORK alpha.1) re-pin the file hash.
 
 ---
 

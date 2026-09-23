@@ -42,7 +42,7 @@ This checkpoint prevents exceptionalism in both directions — both hagiography 
 
 **Procedure**:
 1. After completing the analysis of Strata B, P, S, formulate the question
-2. Answer honestly: given the same access to resources, power, people, information — what would an average human do?
+2. Answer the question as posed: given the same access to resources, power, people, information — what would an average human do?
 3. Compare the answer with observed behavior
 4. The difference between "what anyone would do" and "what this person did" is the significant datum — in both positive and negative directions
 
@@ -113,7 +113,7 @@ A **Compensatory Specialty Narrative** is a structural pattern in which an indiv
 - Every assertion in Stratum P must carry its confidence grade
 - S2 and S3 assertions must be marked as such in the output — **never presented as facts**
 - Stratum P cannot be the primary basis for Stratum E classification. If the evolutionary level is determined primarily by P inferences (all S2), the classification is fragile and must be declared as such
-- "This human probably had wounds of [X]" is honest. "The wounds of [X] led them to [Y]" is an S2→S2 inferential chain that must be treated as S3
+- "This human probably had wounds of [X]" is a declared S2 interpretation. "The wounds of [X] led them to [Y]" is an S2→S2 inferential chain that must be treated as S3
 
 ## 2.3 Social Stratum (S)
 
@@ -363,6 +363,8 @@ In particular:
 ---
 
 # [11] VERSION 5.1 — NOTES
+
+**Register patch (2026-09-23, in place, no version bump).** Two prescriptive uses of «honest» restated as operations, per TE_BOOTLOADER §2.5.2: step 2 of the «any human with this access» test, «Answer honestly» → «Answer the question as posed»; the Stratum P confidence note, «is honest» → «is a declared S2 interpretation». Wording only; dependent runtimes (LEXX alpha.3, CASEWORK alpha.1) re-pin the file hash.
 
 ### Trigger
 Validation session 6 March 2026. An experimental TE module analyzed a contemporary political figure without seriously applying the demonization controfase, with Stratum P presented as verified fact, and with an E=0-9 classification that contradicted the attributed behavior — contradiction resolved by inventing a subcategory rather than revising the classification.
