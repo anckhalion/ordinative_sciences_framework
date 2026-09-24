@@ -2,6 +2,8 @@
 
 **Aligned with**: TE_CORE v5.1 (March 2026)
 
+> **Notation (Symbol Canon v1.0).** OST is **Tier-0** of the Ordinative Sciences notation: it owns the master primitives 𝓘 = ⟨Σ, R, Φ⟩ (written $\mathcal{I}$ in this Guide's LaTeX), Σ/σ, R, Φ, ⊕, ⋆, π_R, 𝕄, 𝔽_sem/𝔽_alg — TE Vol 1 (Tier-1, E = Φ(C, I, K)) and PA/SA/OCT (Tier-2) inherit from it. **τ-rule**: bare τ = Pulsational Function; thresholds are always subscripted (τ_elastic, τ_critical, τ_R). This Guide is already canon-aligned; see TE_SYMBOL_CANON_v1_0_EN for the full register.
+
 ## 1. Overview
 
 **Ordinative Set Theory (OST)** is a foundational paradigm that describes reality not as a collection of isolated objects, but as an **architecture of coherent relations evolving through time**. It provides a formal language to analyse, design, and diagnose any system—biological, linguistic, social, or artificial—in terms of three fundamental components: **Irreducible Singularities**, a **Relational Field**, and an **Emergent Function**. OST moves beyond classical set theory by treating elements as unique, relations as generative, and the whole as a source of meaning that transcends the sum of its parts.

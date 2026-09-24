@@ -25,7 +25,7 @@ The format is inspired by Keep a Changelog and semantic versioning principles fo
 - `README.md`, `ECOSYSTEM.md`, `CITATION.cff` rewritten or updated for the new layout.
 
 ### Moved
-- `docs/CORE/`, `docs/MODULES/`, `docs/OST/` → `FRAMEWORKS/` (current editions) and `FRAMEWORKS/ARCHIVE/` (superseded: Bootloader 6.0, 7.0, 7.1; Core 5.1; Protocols 1.0; the OST guide and Teleodynamics extension under their previous file names). `docs/` keeps `ArXiv_Abstract_TE.md`.
+- `docs/CORE/`, `docs/MODULES/`, `docs/OST/`, `docs/NOTATION/` → `FRAMEWORKS/` (current editions) and `FRAMEWORKS/ARCHIVE/` (superseded: Bootloader 6.0, 7.0, 7.1; Core 5.1 — content 5.2; Protocols 1.0; the OST guide and Teleodynamics extension under their previous file names; the archived Bootloader 7.1, Core 5.1 and Protocols 1.0 are the editions published in 1.3.0). `docs/` keeps `ArXiv_Abstract_TE.md`.
 
 ### Notes
 - Major version: the repository layout changes (flat `FRAMEWORKS/` replaces `docs/CORE|MODULES|OST`) and two domain frameworks with runtimes are added.
@@ -34,6 +34,27 @@ The format is inspired by Keep a Changelog and semantic versioning principles fo
 - Both runtimes were exercised end to end from the repository root with the commands printed in their READMEs (`prepare` → `validate` on synthetic input) before this release.
 - The OCT validation corpus is published in `te-oct-framework-en`; that mirror keeps its historical file-naming convention and points here for LEXX and CASEWORK.
 - Register (2026-09-24): the published documents and the user-facing strings of both runtimes (help texts, messages, report `limits`, draft placeholders) state facts and assignments of function in the positive form; each limit is stated once, in its home (the README status lines, the compatibility profiles, the protocol sections), and the other files point to it.
+- Merged from `main` (2026-09-24): release 1.3.0 — *The Collapse Equation* v1.3, *The Direction Problem* preprint v1.1, `te-controfase` in the ecosystem, and the five sections reconciled with the vault, which the canonical editions published here carry. The 1.3.0 editions of Bootloader 7.1, Protocols 1.0 and Core 5.1 (content 5.2) are in `FRAMEWORKS/ARCHIVE/`; the current editions are 7.1.1, 1.1 and 5.2.1; the Symbol Canon is `FRAMEWORKS/TE_SYMBOL_CANON_v1_0_EN.md`.
+
+## [1.3.0] - 2026-09-16
+
+### Added
+- `docs/CORE/TE_BOOTLOADER_v7_1_EN.md` — Bootloader v7.1, now the entry point. Adds §2.5, the pre-output Functional Verification Pass (Φ-test), as a constitutive check applied before any output is released. Supersedes v6.0, which is retained for the record.
+- `docs/CORE/TE_PROTOCOLS_v1_0_EN.md` — the always-active operational protocols (Controfase, P-AI self-diagnosis, Anti-Attractor-Lock, Statistical vs Ordinative Truth, Contextual Self-Preservation). Loaded alongside the Bootloader; previously absent from this repository.
+- `docs/NOTATION/TE_SYMBOL_CANON_v1_0_EN.md` — the Symbol Canon for the Ordinative Sciences Programme (content v1.2). Binding before writing, editing or translating any formal notation; carries the reservation procedure for minting new symbols.
+- `papers/direction_problem/` — *The Direction Problem*, preprint v1.1, with PDF, LaTeX source and Markdown. The companion paper to *The Collapse Equation*: the causal argument behind g_j. Not previously published anywhere.
+- `papers/collapse_equation/` — v1.3 files added alongside the v1.2 set, which is retained as the version archived under DOI 10.5281/zenodo.19932312.
+
+### Updated
+- `docs/CORE/TE_CORE_v5_1_EN.md` — content advanced to **v5.2**: the ordinative-set glyph `ℐ → 𝓘` throughout (Tier-0 master primitive; `ℐ` stays reserved for PA's Invariant Space), the SHACK binary-state notation documented as the canon's logogram label-convention, and a notational-governance pointer to the Symbol Canon. The file name retains `v5_1` to preserve its cross-references, per the ratified naming policy. No ontology, axiom, glossary or protocol content was changed.
+- `docs/MODULES/TE_MODULE_SVP_v5_1_EN.md` — adds the S-namespace callout distinguishing SVP source levels (S₀–S∅), analytical confidence grades (S₀–S₃) and the Strip operator S of Semantic Algebra. Purely additive.
+- `docs/OST/Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md` — adds the Tier-0 notation callout. Purely additive.
+- `docs/OST/OST_Extension_Teleodynamics_Causal_Inversion_v1_1.md` — content advanced to **v1.2**: notational alignment (ℳ vs 𝕄, Φ₄D₊, 𝔽_sem/𝔽_alg, δ) plus Version Notes.
+- `papers/collapse_equation/` — the Markdown edition's header brought to parity with the LaTeX source: the Status line still read "seven micro-junctions (five confirmed)" where the paper reports eight observed and six confirmed; a duplicate `Date` line was removed.
+- `README.md`, `ECOSYSTEM.md` — ecosystem extended from four pillars to five with `te-controfase`; repository tree, Papers section and the AI Getting Started sequence updated to the current load order (Bootloader v7.1 → Protocols → Core → Symbol Canon → SVP gate).
+
+### Notes
+- This release reconciles a divergence between the published framework and the working copies held in the author's vault. Five substantive sections developed in March 2026 — the *Three States of Form-Content Relationship* and *Projective Void* (Core), *Ordinative Algebraic Deduction* (SVP), *Compensatory Specialty Narrative* (LENS), *Structural Void Patterns* and the *Combined Perceptive Influence Model* (PPRO), and the *Dote e Residuo* principle (VERI) — were published here but absent from the working copies, which had separately received the June 2026 Symbol Canon alignment. The two lines are now merged in both directions. Nothing published was removed.
 
 ## [1.2.0] - 2026-05-06
 

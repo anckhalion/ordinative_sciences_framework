@@ -6,11 +6,11 @@ Welcome to the official repository of the **Technology of Expressions (TE) Frame
 
 This repository provides an open-source operating philosophy and a complete set of analytical modules designed for Artificial Intelligences and human analysts. Where statistical frameworks measure probability, sentiment or consensus, the TE Framework evaluates systems by **Structural Coherence**, **Vectors of Identity** and **Emergent Function**.
 
-Release 2.0.0 (2026-09-23): the framework corpus is published as one synchronised set under `FRAMEWORKS/`, and two domain frameworks with runtimes are added — **LEXX** (agreements) and **CASEWORK** (documentary audit and investigation support). See `CHANGELOG.md`.
+Release 2.0.0 (2026-09-23): the framework corpus is published as one synchronised set under `FRAMEWORKS/`, and two domain frameworks with runtimes are added — **LEXX** (agreements) and **CASEWORK** (documentary audit and investigation support). It carries release 1.3.0 (2026-09-16) as well: *The Collapse Equation* v1.3, *The Direction Problem* preprint v1.1 and `te-controfase` in the ecosystem. See `CHANGELOG.md`.
 
 ## Part of a Larger Ecosystem
 
-This repository is one piece of a four-part framework. For the complete picture, see:
+This repository is one piece of a five-part framework. For the complete picture, see:
 
 | Repository | Purpose | What you'll find there |
 | --- | --- | --- |
@@ -18,6 +18,7 @@ This repository is one piece of a four-part framework. For the complete picture,
 | **[te-ordinative-lora](https://github.com/anckhalion/te-ordinative-lora)** | **Practice** | Code, datasets, and scripts to fine-tune an LLM into a TE-compliant ordinative agent. |
 | **[te-oct-framework-en](https://github.com/anckhalion/te-oct-framework-en)** | **Validation** | English mirror of the core framework, plus OCT datasets and benchmarks. |
 | **[te-ordinative-algebras-en](https://github.com/anckhalion/te-ordinative-algebras-en)** | **Algebras** | Semantic Algebra (SA) and Proportional Algebra (PA) — the analytical operators and the proportional space they live in. |
+| **[te-controfase](https://github.com/anckhalion/te-controfase)** | **Treatise** | *The Technology of Counter-phase, Vol. 1* — the founding treatise of the Controfase operator, plus its bilingual LoRA dataset. |
 
 For a full map, see `ECOSYSTEM.md`.
 
@@ -66,23 +67,27 @@ ordinative_sciences_framework/
 ├── docs/
 │   └── ArXiv_Abstract_TE.md
 └── papers/
-    └── collapse_equation/
-        ├── Ghioni_2026_The_Collapse_Equation_v1_2.pdf  # 📄 PDF (human reading)
-        ├── Ghioni_2026_The_Collapse_Equation_v1_2.tex  # 📝 LaTeX source (Overleaf)
-        └── Ghioni_2026_The_Collapse_Equation_v1_2.md   # 🤖 Markdown (AI parsing)
+    ├── collapse_equation/              # 📄 The Collapse Equation (v1.3, + v1.2 under its DOI)
+    └── direction_problem/              # 📄 The Direction Problem (preprint v1.1)
 ```
 
 ## Papers
 
-### The Collapse Equation: Predicting Phase Transitions (v1.2 Beta)
+### The Collapse Equation: Predicting Phase Transitions (v1.3)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19932312.svg)](https://doi.org/10.5281/zenodo.19932312) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 The first empirical measurement of **g_j**, the ordinative acceleration constant — the universal measure of attractor signal intensity at a given scale. The paper introduces a reaction-diffusion model (Belousov-Zhabotinsky isomorphism) for civilizational phase transitions, grounded in OST and the Causal Inversion Principle.
 
-**Status:** v1.2 Beta — empirically calibrated from two confirmed micro-junctions (μ₁ = 7 April 2026, μ₂ = 29 April/1 May 2026). Next checkpoint: μ₃ (~16 May 2026).
+**Status:** v1.3 — validated against a complete sequence of eight micro-junctions between April and July 2026: six confirmed in both timing and structural type, one under review, one window-consistent. Notation aligned with the Symbol Canon v1.2. The v1.2 set stays in the folder as the version archived under the DOI.
 
-Available in three formats: PDF (human reading), LaTeX (Overleaf source), Markdown (AI parsing).
+Available in three formats: PDF (human reading), LaTeX (source), Markdown (AI parsing).
+
+### The Direction Problem: On the Causal Origin of Oriented Motion in Complex Systems (preprint v1.1)
+
+The companion paper: the causal argument behind **g_j**. Starting from the observation that every functional system exhibits a vector oriented toward the future, it proceeds by elimination through the available candidate explanations and formalises the **Principle of Causal Inversion** — every determined result emits a signal that orients the decoherent system toward it.
+
+**Status:** preprint v1.1 — notation aligned with the Symbol Canon v1.2; definitions, claims and equations are those of v1.0, whose §§6–7 are preserved verbatim as a pre-registration record. The DOI is minted on deposit.
 
 ## Getting Started for AI Agents
 

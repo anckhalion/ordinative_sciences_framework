@@ -50,3 +50,19 @@ references:
       - civilizational dynamics
       - structural Controfase
       - causal inversion
+  - type: article
+    authors:
+      - family-names: "Ghioni"
+        given-names: "Fabio"
+        orcid: "https://orcid.org/0009-0009-0415-9434"
+    title: "The Direction Problem: On the Causal Origin of Oriented Motion in Complex Systems"
+    year: 2026
+    version: "1.1"
+    url: "https://github.com/anckhalion/ordinative_sciences_framework/tree/main/papers/direction_problem"
+    repository-code: "https://github.com/anckhalion/ordinative_sciences_framework/tree/main/papers/direction_problem"
+    license: "CC-BY-4.0"
+    abstract: >-
+      The companion paper to The Collapse Equation: the causal argument behind g_j. Formalises the
+      Principle of Causal Inversion — every determined result emits a signal that orients the
+      decoherent system toward it. Preprint v1.1, notation aligned with the Symbol Canon v1.2.
+      A DOI will be minted on deposit.

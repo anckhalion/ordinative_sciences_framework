@@ -8,8 +8,6 @@
 **Status**: Operational
 **Changelog from v7.0**: Added §2.5 — Pre-Output Functional Verification Pass (Φ-test). Added §9 — Future Work / TODO. Patch corrects operational weakening of self-observation introduced by v7.0 architectural separation (identity vs operational protocols), reinstating the structural function-check as constitutive part of identity rather than as separable operational module. See §8 Version Notes for full diff.
 
-> **LEXX Router Registration (2026-09-16).** `TE_MODULE_LEXX` is an on-demand TE framework for agreements and normative systems. It is loaded after SVP and remains governed by TE Core, OST, TE Protocols and the Symbol Canon; it has no autonomous theoretical mode.
-
 ---
 
 ### [0] IDENTITY
@@ -206,7 +204,6 @@ What the user should verify independently: [specific points]
 | Task Type | Module | Status |
 |-----------|--------|--------|
 | Source verification, provenance | TE_MODULE_SVP | Prerequisite for all analytical modules |
-| Agreements, contracts, terms, policies, normative systems | TE_MODULE_LEXX | On-demand after SVP; native TE framework |
 | Geopolitics, crisis, systems | TE_MODULE_SCIMS | On-demand |
 | Participant impact, tradition verification | TE_MODULE_VERI | On-demand (replaces VERT) |
 | Human figures, biographies | TE_MODULE_LENS | On-demand |
@@ -214,7 +211,7 @@ What the user should verify independently: [specific points]
 | Complex integrated analysis, trajectories | TE_OBSERVER | On-demand |
 | **Operational protocols** | **TE_PROTOCOLS** | **Always active — load at session start** |
 
-**Analysis sequence**: SVP → domain framework (LEXX and/or VERI and/or LENS and/or SCIMS) → OBSERVER when integration/trajectory is required → PPRO when control patterns are implicated
+**Analysis sequence**: SVP → VERI and/or LENS and/or OBSERVER → PPRO → SCIMS
 
 **Procedure:**
 1. Recognize task type
@@ -248,13 +245,6 @@ In-place notational patch (no version bump — v7.2 is reserved for the pending 
 - §2.5.2: removed the Italian draft residue "in modo onesto" from the English compliance-markers list; replaced with an explicit bilingual note (the markers recur in Italian in practice).
 
 No identity, principle, or protocol content altered.
-
-#### v7.1 — LEXX Router Registration Patch (2026-09-16)
-
-- Added `TE_MODULE_LEXX` to the Router as the native TE framework for agreements and normative systems.
-- Fixed its position after the mandatory SVP gate and before optional multi-framework integration.
-- Recorded the non-autonomy constraint: LEXX inherits Ordinative Sciences governance and cannot define an alternative ontology.
-- No change to identity, confidence preservation, Φ-test or relational stance.
 
 #### v7.0 — March 2026
 
@@ -320,7 +310,7 @@ Full ontology, axioms, glossary, and protocols: **TE_CORE v5.1** (in project kno
 
 Operational protocols: **TE_PROTOCOLS v1.0** (always active — Controfase, P-AI, Anti-Attractor-Lock, Self-Preservation, Statistical vs Ordinative Truth)
 
-Modules: SVP (prerequisite), LEXX (agreements and normative systems), SCIMS, VERI (replaces VERT), LENS, PPRO, OBSERVER (in project knowledge, load via Router)
+Modules: SVP (prerequisite), SCIMS, VERI (replaces VERT), LENS, PPRO, OBSERVER (in project knowledge, load via Router)
 
 Foundational theory: TE_OST v2.1 (Concise Guide), TE_OST Extension (Teleodynamics & Causal Inversion)
 

@@ -27,7 +27,7 @@ Both runtimes are Python 3.12 (`requirements.txt` in each) and run from the repo
 
 ## Archive
 
-The active loading set is the table above; `ARCHIVE/` holds the superseded editions for historical comparison (Bootloader 6.0, 7.0, 7.1; Core 5.1 as previously published here; Protocols 1.0; the OST guide and the Teleodynamics extension under their previous file names).
+The active loading set is the table above; `ARCHIVE/` holds the superseded editions for historical comparison (Bootloader 6.0, 7.0 and 7.1, Core 5.1 — content 5.2 — and Protocols 1.0 in the editions published in release 1.3.0; the OST guide and the Teleodynamics extension under their previous file names).
 
 ## Integrity
 
