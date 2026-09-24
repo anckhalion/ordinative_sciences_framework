@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "TE-LEXX-CONFORMANCE-0.1",
+  "current_runtime_profile": "v0_2_alpha3/compatibility.json",
+  "current_runtime_version": "0.2.0-alpha.3",
+  "current_execution_protocol": "03_PRE_PILOT_PROTOCOL.md",
+  "open_gaps_note": "The open_gaps_for_v0.2 list is the historical plan; current status is recorded below and in the pre-pilot protocol.",
+  "current_gap_status": {
+    "full_json_schema_validation": "implemented_alpha2",
+    "automatic_dependency_ledger": "implemented_with_real_file_hashes_alpha2",
+    "evidence_confidence_separation": "implemented_alpha2_not_a_semantic_truth_test",
+    "dual_text_system_verdict": "implemented_system_verdict_not_assessed_in_document_only",
+    "counterproposal_review_workflow": "implemented_hash_bound_external_review",
+    "fully_automatic_semantic_round_trip": "open",
+    "external_legal_source_verification": "open_document_only_required",
+    "quantitative_engines_and_formal_oct_interface": "open_qualitative_profile_only",
+    "blind_empirical_validation_cycle": "open_pilot_protocol_prepared"
+  },
+  "decision_date": "2026-09-16",
+  "status": "binding_for_lexx_v0.1_experimental",
+  "classification": {
+    "ecosystem": "Ordinative Sciences",
+    "framework": "Technology of Expressions",
+    "module": "TE_MODULE_LEXX",
+    "domain": [
+      "agreements",
+      "contracts",
+      "normative_systems"
+    ],
+    "autonomous_theoretical_mode": false
+  },
+  "precedence": [
+    "Ordinative Sciences canon",
+    "OST and TE Core",
+    "TE Protocols and Symbol Canon",
+    "invoked TE frameworks",
+    "LEXX foundations",
+    "LEXX operational pipeline",
+    "document-specific application"
+  ],
+  "mandatory_stack": [
+    {
+      "component": "TE_BOOTLOADER",
+      "version": "7.1",
+      "file": "../TE_BOOTLOADER_v7_1_EN.md",
+      "on_missing": "INCOMPATIBLE_STOP"
+    },
+    {
+      "component": "TE_PROTOCOLS",
+      "version": "1.0",
+      "file": "../TE_PROTOCOLS_v1_0_EN.md",
+      "on_missing": "INCOMPATIBLE_STOP"
+    },
+    {
+      "component": "TE_CORE",
+      "version": "5.2",
+      "file": "../TE_CORE_v5_1_EN.md",
+      "filename_version_note": "Historical filename retained; internal content version is 5.2.",
+      "on_missing": "INCOMPATIBLE_STOP"
+    },
+    {
+      "component": "OST",
+      "version": "2.1",
+      "file": "../TE_OST_v2_1_EN.md",
+      "on_missing": "INCOMPATIBLE_STOP"
+    },
+    {
+      "component": "TE_SYMBOL_CANON",
+      "version": "1.2",
+      "file": "../TE_SYMBOL_CANON_v1_0_EN.md",
+      "filename_version_note": "Historical filename retained; internal status version is 1.2.",
+      "on_missing": "VERBAL_ONLY_OR_INCOMPATIBLE_STOP"
+    },
+    {
+      "component": "TE_MODULE_SVP",
+      "version": "5.1",
+      "file": "../TE_MODULE_SVP_v5_1_EN.md",
+      "on_missing": "INCOMPATIBLE_STOP"
+    }
+  ],
+  "stage_dependencies": [
+    {
+      "stage": "0_INSED",
+      "components": ["SVP 5.1"],
+      "mode": "mandatory"
+    },
+    {
+      "stage": "1_STRIP_FIELD_R",
+      "components": ["OST 2.1", "SA/PA repository release 2.0.0"],
+      "mode": "canonical_two_channel_strip"
+    },
+    {
+      "stage": "2_FLAW_VECTORS",
+      "components": ["LEXX v0.1", "OST 2.1", "SA/PA repository release 2.0.0"],
+      "mode": "V-OM_V-AM_V-IN_V-TEMP"
+    },
+    {
+      "stage": "3_VECTOR_INVERSION",
+      "components": ["TE Core 5.2", "LENS 5.1", "P-PRO 5.2", "SA/PA repository release 2.0.0"],
+      "mode": "graded_structural_inference_not_subjective_intent_fact"
+    },
+    {
+      "stage": "4_PROPORTION",
+      "components": ["PA repository release 2.0.0"],
+      "mode": "qualitative_band_until_engine_is_connected"
+    },
+    {
+      "stage": "5_TRAJECTORY",
+      "components": ["TE_OBSERVER 1.1", "Teleodynamics content 1.2"],
+      "mode": "qualitative_sign_and_bifurcations"
+    },
+    {
+      "stage": "6_CLASS_RESIDUE",
+      "components": ["OCT repository release 5.3.2", "VERI 1.0"],
+      "mode": "argued_classification_not_formal_certification"
+    },
+    {
+      "stage": "7_CONTRARY_TEST",
+      "components": ["TE Protocols 1.0", "Controfase"],
+      "mode": "mandatory"
+    },
+    {
+      "stage": "8_COUNTERPROPOSAL",
+      "components": ["SA pi operator", "trajectory retest"],
+      "mode": "executor_emits_restrip_external_verification_required"
+    },
+    {
+      "stage": "9_VERDICT",
+      "components": ["full prior pipeline"],
+      "mode": "inherits_weakest_confidence_grade"
+    }
+  ],
+  "run_states": [
+    "CONFORMANT_VERIFIED",
+    "CONFORMANT_QUALITATIVE",
+    "LLM_ONLY_UNVERIFIED",
+    "DOCUMENT_ONLY",
+    "INCOMPATIBLE_STOP",
+    "INVALID_OUTPUT"
+  ],
+  "degradation_rules": {
+    "svp_missing": "INCOMPATIBLE_STOP",
+    "anchoring_orchestrator_missing": "LLM_ONLY_UNVERIFIED",
+    "pa_engine_missing": "QUALITATIVE_BANDS_ONLY",
+    "phase_space_or_temporal_data_missing": "QUALITATIVE_SIGN_OR_EMPTY",
+    "external_legal_sources_missing": "DOCUMENT_ONLY",
+    "independent_review_missing": "NO_SUBJECTIVE_INTENT_ATTRIBUTION",
+    "schema_validator_missing": "NOT_MACHINE_VALIDATED",
+    "unsupported_field": "EMPTY_WITH_LIMIT_NOTE"
+  },
+  "open_gaps_for_v0.2": [
+    "anchoring_and_round_trip_orchestrator",
+    "canonical_json_schema_and_validator",
+    "automatic_dependency_ledger",
+    "machine_readable_evidence_confidence_separation",
+    "jurisdiction_choice_of_law_and_source_date_gate",
+    "dual_text_system_verdict",
+    "formal_lexx_oct_interface",
+    "blind_empirical_validation_cycle"
+  ]
+}

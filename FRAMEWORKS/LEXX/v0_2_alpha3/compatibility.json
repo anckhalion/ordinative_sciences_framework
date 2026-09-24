@@ -1,0 +1,81 @@
+{
+  "profile_id": "TE-LEXX-PILOT-0.2-alpha.3",
+  "methodology_version": "0.1",
+  "runtime_version": "0.2.0-alpha.3",
+  "dependency_policy": "exact reviewed versions and SHA256; newer requires compatibility review",
+  "dependencies": [
+    {
+      "component": "TE_BOOTLOADER",
+      "version": "7.1.1",
+      "file": "TE_BOOTLOADER_v7_1_1_EN.md",
+      "sha256": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb"
+    },
+    {
+      "component": "TE_PROTOCOLS",
+      "version": "1.1",
+      "file": "TE_PROTOCOLS_v1_1_EN.md",
+      "sha256": "b5a425aaceb8f77e02cb873ddfcbdceeae77696629d0036ec03272c4832c506f"
+    },
+    {
+      "component": "TE_CORE",
+      "version": "5.2.1",
+      "file": "TE_CORE_v5_2_1_EN.md",
+      "sha256": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8"
+    },
+    {
+      "component": "TE_OST",
+      "version": "2.1",
+      "file": "TE_OST_v2_1_EN.md",
+      "sha256": "da3c7e9b60ed91030007f8f2a3b1702d0bcd67e205e8dd8736bc1391eda4390f"
+    },
+    {
+      "component": "TE_SYMBOL_CANON",
+      "version": "1.2",
+      "file": "TE_SYMBOL_CANON_v1_0_EN.md",
+      "sha256": "1573fff3a6b070495a684eec36f420db787846be04ae62bd10196d94cf883540"
+    },
+    {
+      "component": "TE_MODULE_SVP",
+      "version": "5.1",
+      "file": "TE_MODULE_SVP_v5_1_EN.md",
+      "sha256": "2bb6da6b9cd663648088f0d8ee022d29859b6d77f51f81caa5b3dd450b4eedda"
+    },
+    {
+      "component": "TE_MODULE_LENS",
+      "version": "5.1",
+      "file": "TE_MODULE_LENS_v5_1_EN.md",
+      "sha256": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06"
+    },
+    {
+      "component": "TE_MODULE_PPRO",
+      "version": "5.2",
+      "file": "TE_MODULE_PPRO_v5_2_EN.md",
+      "sha256": "e0590a5c74733cb81606b1bd9ab26d505311515962f45372f02451d778ca59e5"
+    },
+    {
+      "component": "TE_MODULE_VERI",
+      "version": "1.0",
+      "file": "TE_MODULE_VERI_v1_0_EN.md",
+      "sha256": "7a7997305a6f9b6e71553729f7360b892c488ee0eb0727d315a32e6cda1fb8e5"
+    },
+    {
+      "component": "TE_OBSERVER",
+      "version": "1.1",
+      "file": "TE_OBSERVER_v1_1_EN.md",
+      "sha256": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6"
+    },
+    {
+      "component": "TE_OST_TELEODYNAMICS",
+      "version": "1.2",
+      "file": "TE_OST_Extension_Teleodynamics_v1_1_EN.md",
+      "sha256": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff"
+    }
+  ],
+  "not_loaded_as_full_engines": [
+    "SA",
+    "PA",
+    "OCT",
+    "Lyapunov"
+  ],
+  "derived_profile": "Canonical qualitative operations defined in LEXX foundations, TE module and Symbol Canon; no formal OCT certification or quantitative engine."
+}

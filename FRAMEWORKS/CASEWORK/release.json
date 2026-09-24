@@ -1,0 +1,10 @@
+{
+  "framework_name": "TE_CASEWORK",
+  "methodology_version": "0.1",
+  "runtime_version": "0.1.0-alpha.1",
+  "runtime_directory": "runtime",
+  "release_date": "2026-09-17",
+  "status": "pre_pilot_not_empirically_validated",
+  "investigation_status": "documentary_support_only_professional_review_pending",
+  "empirical_runs_completed": 0
+}

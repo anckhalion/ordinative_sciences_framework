@@ -1,0 +1,1190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lexx:output:0.2-alpha.3",
+  "title": "LEXX v0.2-alpha.3",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "accordo",
+    "versione_modulo",
+    "methodology_version",
+    "run_id",
+    "source_sha256",
+    "prospettiva",
+    "modalita",
+    "run_states",
+    "dependency_ledger",
+    "jurisdiction_gate",
+    "insed",
+    "strip",
+    "campo_relazionale_R",
+    "phi_accordo",
+    "consistenza",
+    "falle",
+    "vettore_intenzione",
+    "proporzione",
+    "lyapunov_globale",
+    "non_falle_verificate",
+    "note_negoziali",
+    "verdetto_generale",
+    "verdetti",
+    "tre_mappe",
+    "meta_pai",
+    "verification"
+  ],
+  "properties": {
+    "accordo": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "versione_modulo": {
+      "const": "LEXX v0.2-alpha.3"
+    },
+    "methodology_version": {
+      "const": "0.1"
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "prospettiva": {
+      "enum": [
+        "proponente",
+        "destinatario",
+        "neutra"
+      ]
+    },
+    "modalita": {
+      "const": "diagnostica"
+    },
+    "run_states": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "CONFORMANT_QUALITATIVE",
+          "LLM_ONLY_UNVERIFIED",
+          "DOCUMENT_ONLY",
+          "INCOMPATIBLE_STOP",
+          "INVALID_OUTPUT"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "dependency_ledger": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dependency"
+      },
+      "minItems": 11
+    },
+    "jurisdiction_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "jurisdiction",
+        "choice_of_law",
+        "document_type",
+        "sources_as_of_date",
+        "external_sources_verified",
+        "limits"
+      ],
+      "properties": {
+        "jurisdiction": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "choice_of_law": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "document_type": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "sources_as_of_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "external_sources_verified": {
+          "const": false
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "insed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stato",
+        "qualificazione_parti",
+        "perimetro_analisi",
+        "limiti",
+        "copertura"
+      ],
+      "properties": {
+        "stato": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "qualificazione_parti": {
+          "enum": [
+            "B2C",
+            "B2B",
+            "C2C",
+            "PA",
+            "UNKNOWN"
+          ]
+        },
+        "perimetro_analisi": {
+          "const": "documento_solo"
+        },
+        "limiti": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 0
+        },
+        "copertura": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "stato",
+            "clausole_totali",
+            "clausole_non_esaminate",
+            "nota_limite"
+          ],
+          "properties": {
+            "stato": {
+              "enum": [
+                "completa",
+                "parziale",
+                "non_eseguita"
+              ]
+            },
+            "clausole_totali": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "clausole_non_esaminate": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "nota_limite": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        }
+      }
+    },
+    "strip": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clausola",
+          "evidence",
+          "iota",
+          "f_dichiarata",
+          "f_effettiva",
+          "payload"
+        ],
+        "properties": {
+          "clausola": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "evidence": {
+            "$ref": "#/$defs/evidence"
+          },
+          "iota": {
+            "type": "string"
+          },
+          "f_dichiarata": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "f_effettiva": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "payload": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "minItems": 0
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "campo_relazionale_R": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clausole_in_intersezione",
+          "giunzione",
+          "evidence"
+        ],
+        "properties": {
+          "clausole_in_intersezione": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "minItems": 2,
+            "uniqueItems": true
+          },
+          "giunzione": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            },
+            "minItems": 2
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "phi_accordo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dichiarata",
+        "effettiva",
+        "delta",
+        "confidence"
+      ],
+      "properties": {
+        "dichiarata": {
+          "type": "string"
+        },
+        "effettiva": {
+          "type": "string"
+        },
+        "delta": {
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "S0",
+            "S1",
+            "S2",
+            "S3"
+          ]
+        }
+      }
+    },
+    "consistenza": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "aritmetica",
+        "nota_aritmetica",
+        "temporale",
+        "nota_temporale"
+      ],
+      "properties": {
+        "aritmetica": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/arithmetic"
+          },
+          "minItems": 0
+        },
+        "nota_aritmetica": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "temporale": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "verifica",
+              "data_riferimento",
+              "esito",
+              "motivazione",
+              "evidence"
+            ],
+            "properties": {
+              "verifica": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "data_riferimento": {
+                "type": "string",
+                "format": "date"
+              },
+              "esito": {
+                "enum": [
+                  "coerente",
+                  "incoerente",
+                  "non_valutabile"
+                ]
+              },
+              "motivazione": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/evidence"
+                },
+                "minItems": 1
+              }
+            }
+          },
+          "minItems": 0
+        },
+        "nota_temporale": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    },
+    "falle": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/flaw"
+      },
+      "minItems": 0
+    },
+    "vettore_intenzione": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "semantic_scope",
+        "dichiarato",
+        "effettivo",
+        "delta_vettore",
+        "tomografia",
+        "lens",
+        "confidence",
+        "nota_limite"
+      ],
+      "properties": {
+        "semantic_scope": {
+          "const": "vettore_strutturalmente_abilitato_non_intenzione_soggettiva"
+        },
+        "dichiarato": {
+          "type": "string"
+        },
+        "effettivo": {
+          "type": "string"
+        },
+        "delta_vettore": {
+          "type": "string"
+        },
+        "tomografia": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "clausola",
+              "payload",
+              "direzione"
+            ],
+            "properties": {
+              "clausola": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "payload": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "direzione": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            }
+          },
+          "minItems": 0
+        },
+        "lens": {
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "S1",
+            "S2",
+            "S3"
+          ]
+        },
+        "nota_limite": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    },
+    "proporzione": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "band",
+        "criterion",
+        "classe_equita"
+      ],
+      "properties": {
+        "mode": {
+          "const": "qualitative"
+        },
+        "band": {
+          "enum": [
+            "alta",
+            "media",
+            "bassa",
+            "vuoto"
+          ]
+        },
+        "criterion": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "classe_equita": {
+          "enum": [
+            "equilibrata",
+            "asimmetrica_dichiarata",
+            "asimmetrica_occulta",
+            "non_valutabile"
+          ]
+        }
+      }
+    },
+    "lyapunov_globale": {
+      "$ref": "#/$defs/trajectory"
+    },
+    "non_falle_verificate": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clausola",
+          "sospetto",
+          "perche_non_falla",
+          "evidence"
+        ],
+        "properties": {
+          "clausola": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "sospetto": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "perche_non_falla": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/evidence"
+            },
+            "minItems": 1
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "note_negoziali": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "clausola",
+          "nota"
+        ],
+        "properties": {
+          "clausola": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "nota": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      },
+      "minItems": 0
+    },
+    "verdetto_generale": {
+      "$ref": "#/$defs/verdict"
+    },
+    "verdetti": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "testo",
+        "sistema"
+      ],
+      "properties": {
+        "testo": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "esito",
+            "motivazione",
+            "confidence"
+          ],
+          "properties": {
+            "esito": {
+              "$ref": "#/$defs/verdict"
+            },
+            "motivazione": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "confidence": {
+              "enum": [
+                "S0",
+                "S1",
+                "S2",
+                "S3"
+              ]
+            }
+          }
+        },
+        "sistema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "esito",
+            "nota_limite"
+          ],
+          "properties": {
+            "esito": {
+              "const": "non_valutabile"
+            },
+            "nota_limite": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        }
+      }
+    },
+    "tre_mappe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cosa_dice",
+        "cosa_non_dice",
+        "cosa_dice_senza_dirlo"
+      ],
+      "properties": {
+        "cosa_dice": {
+          "type": "string"
+        },
+        "cosa_non_dice": {
+          "type": "string"
+        },
+        "cosa_dice_senza_dirlo": {
+          "type": "string"
+        }
+      }
+    },
+    "meta_pai": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bias_rilevati",
+        "note_trasparenza",
+        "phi_test"
+      ],
+      "properties": {
+        "bias_rilevati": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 0
+        },
+        "note_trasparenza": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "phi_test": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "funzione_attesa",
+            "riscontro",
+            "limiti_residui"
+          ],
+          "properties": {
+            "funzione_attesa": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "riscontro": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "limiti_residui": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "minItems": 1
+            }
+          }
+        }
+      }
+    },
+    "verification": {
+      "const": {
+        "executor": "llm_only",
+        "anchors": "unverified",
+        "schema": "unverified",
+        "round_trip": "unverified"
+      }
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "anchor_type",
+            "quote",
+            "evidence_level"
+          ],
+          "properties": {
+            "anchor_type": {
+              "const": "literal_quote"
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "evidence_level": {
+              "enum": [
+                "E0",
+                "E1",
+                "E2",
+                "E3"
+              ]
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "anchor_type",
+            "context_before",
+            "context_after",
+            "missing_slot",
+            "evidence_level"
+          ],
+          "properties": {
+            "anchor_type": {
+              "const": "structural_absence"
+            },
+            "context_before": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "context_after": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "missing_slot": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "evidence_level": {
+              "enum": [
+                "E1",
+                "E2",
+                "E3"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "dependency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "component",
+        "version",
+        "status",
+        "source_file",
+        "sha256"
+      ],
+      "properties": {
+        "component": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "status": {
+          "const": "available_verified"
+        },
+        "source_file": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "trajectory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "lambda_segno",
+        "argomento"
+      ],
+      "properties": {
+        "mode": {
+          "const": "qualitative"
+        },
+        "lambda_segno": {
+          "enum": [
+            "neg",
+            "pos",
+            "vuoto"
+          ]
+        },
+        "argomento": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      }
+    },
+    "counterproposal": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "tipo",
+            "forma_equa",
+            "iota_originale",
+            "ri_strip",
+            "lambda_post",
+            "argomento_lambda_post"
+          ],
+          "properties": {
+            "status": {
+              "const": "proposed"
+            },
+            "tipo": {
+              "enum": [
+                "riscrittura_pi",
+                "neutralizzazione_giunzione",
+                "contro_diritto"
+              ]
+            },
+            "forma_equa": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "iota_originale": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "ri_strip": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "iota_primo",
+                "payload_primo",
+                "argomento_preservazione"
+              ],
+              "properties": {
+                "iota_primo": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                },
+                "payload_primo": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "\\S"
+                  },
+                  "minItems": 0
+                },
+                "argomento_preservazione": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "\\S"
+                }
+              }
+            },
+            "lambda_post": {
+              "enum": [
+                "neg",
+                "pos",
+                "vuoto"
+              ]
+            },
+            "argomento_lambda_post": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "nota_limite"
+          ],
+          "properties": {
+            "status": {
+              "const": "not_proposed"
+            },
+            "nota_limite": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "flaw": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "clausole",
+        "vettore_primario",
+        "evidence",
+        "mechanism",
+        "impact",
+        "confidence",
+        "scenario_6_fasi",
+        "test_contrario",
+        "classe_oct",
+        "motivazione_classe",
+        "dote_residuo",
+        "motivazione_residuo",
+        "lyapunov",
+        "cvi_banda",
+        "criterio_cvi",
+        "mitigazione_esterna",
+        "controproposta"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^FX-[1-9][0-9]*$"
+        },
+        "clausole": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "vettore_primario": {
+          "enum": [
+            "V-OM",
+            "V-AM",
+            "V-IN",
+            "V-TEMP"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "mechanism": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "impact": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "confidence": {
+          "enum": [
+            "S0",
+            "S1",
+            "S2",
+            "S3"
+          ]
+        },
+        "scenario_6_fasi": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "minItems": 6,
+          "maxItems": 6
+        },
+        "test_contrario": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "esito",
+            "interpretazione_alternativa",
+            "motivazione"
+          ],
+          "properties": {
+            "esito": {
+              "enum": [
+                "confermata",
+                "declassata",
+                "scartata"
+              ]
+            },
+            "interpretazione_alternativa": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            },
+            "motivazione": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "\\S"
+            }
+          }
+        },
+        "classe_oct": {
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "non_valutabile"
+          ]
+        },
+        "motivazione_classe": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "dote_residuo": {
+          "enum": [
+            0,
+            1,
+            2,
+            3,
+            null
+          ]
+        },
+        "motivazione_residuo": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "lyapunov": {
+          "$ref": "#/$defs/trajectory"
+        },
+        "cvi_banda": {
+          "enum": [
+            "alta",
+            "media",
+            "bassa",
+            "vuoto"
+          ]
+        },
+        "criterio_cvi": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "mitigazione_esterna": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "controproposta": {
+          "$ref": "#/$defs/counterproposal"
+        }
+      }
+    },
+    "verdict": {
+      "enum": [
+        "accordo_solido",
+        "falle_puntuali",
+        "falle_strutturali",
+        "device",
+        "degenerato",
+        "fortezza_valida",
+        "non_valutabile"
+      ]
+    },
+    "arithmetic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verifica",
+        "operazione",
+        "operandi",
+        "risultato_dichiarato",
+        "esito",
+        "evidence"
+      ],
+      "properties": {
+        "verifica": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "operazione": {
+          "enum": [
+            "sum",
+            "product",
+            "percentage"
+          ]
+        },
+        "operandi": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^-?(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$",
+            "maxLength": 80
+          },
+          "minItems": 2,
+          "maxItems": 20
+        },
+        "risultato_dichiarato": {
+          "type": "string",
+          "pattern": "^-?(?:0|[1-9][0-9]*)(?:\\.[0-9]+)?$",
+          "maxLength": 80
+        },
+        "esito": {
+          "enum": [
+            "coerente",
+            "incoerente"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        }
+      }
+    }
+  }
+}

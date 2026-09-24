@@ -1,0 +1,9 @@
+{
+  "framework_name": "LEXX",
+  "methodology_version": "0.1",
+  "runtime_version": "0.2.0-alpha.3",
+  "runtime_directory": "v0_2_alpha3",
+  "release_date": "2026-09-17",
+  "status": "pre_pilot_not_empirically_validated",
+  "empirical_runs_completed": 0
+}

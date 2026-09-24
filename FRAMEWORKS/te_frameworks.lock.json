@@ -1,0 +1,151 @@
+{
+  "lock_format": "te_frameworks.lock/1",
+  "package_digest_algorithm": "sha256 over lines '<relative_path>  <sha256>\\n' sorted by relative_path (UTF-8 byte order)",
+  "framework_root": "FRAMEWORKS",
+  "families": {
+    "TE_BOOTLOADER": {
+      "version": "7.1.1",
+      "snapshot_path": "TE_BOOTLOADER_v7_1_1_EN.md",
+      "sha256": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb"
+    },
+    "TE_PROTOCOLS": {
+      "version": "1.1",
+      "snapshot_path": "TE_PROTOCOLS_v1_1_EN.md",
+      "sha256": "b5a425aaceb8f77e02cb873ddfcbdceeae77696629d0036ec03272c4832c506f"
+    },
+    "TE_CORE": {
+      "version": "5.2.1",
+      "snapshot_path": "TE_CORE_v5_2_1_EN.md",
+      "sha256": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8"
+    },
+    "TE_OST": {
+      "version": "2.1",
+      "snapshot_path": "TE_OST_v2_1_EN.md",
+      "sha256": "da3c7e9b60ed91030007f8f2a3b1702d0bcd67e205e8dd8736bc1391eda4390f"
+    },
+    "TE_OST_TELEODYNAMICS": {
+      "version": "1.2",
+      "snapshot_path": "TE_OST_Extension_Teleodynamics_v1_1_EN.md",
+      "sha256": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff"
+    },
+    "TE_SYMBOL_CANON": {
+      "version": "1.2",
+      "snapshot_path": "TE_SYMBOL_CANON_v1_0_EN.md",
+      "sha256": "1573fff3a6b070495a684eec36f420db787846be04ae62bd10196d94cf883540"
+    },
+    "TE_MODULE_SVP": {
+      "version": "5.1",
+      "snapshot_path": "TE_MODULE_SVP_v5_1_EN.md",
+      "sha256": "2bb6da6b9cd663648088f0d8ee022d29859b6d77f51f81caa5b3dd450b4eedda"
+    },
+    "TE_MODULE_LENS": {
+      "version": "5.1",
+      "snapshot_path": "TE_MODULE_LENS_v5_1_EN.md",
+      "sha256": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06"
+    },
+    "TE_MODULE_PPRO": {
+      "version": "5.2",
+      "snapshot_path": "TE_MODULE_PPRO_v5_2_EN.md",
+      "sha256": "e0590a5c74733cb81606b1bd9ab26d505311515962f45372f02451d778ca59e5"
+    },
+    "TE_MODULE_SCIMS": {
+      "version": "5.1",
+      "snapshot_path": "TE_MODULE_SCIMS_v5_1_EN.md",
+      "sha256": "a2f7125b494de3b2bb74b5e8e96a22820f203f74b225c26638ee470519deb9dc"
+    },
+    "TE_MODULE_VERI": {
+      "version": "1.0",
+      "snapshot_path": "TE_MODULE_VERI_v1_0_EN.md",
+      "sha256": "7a7997305a6f9b6e71553729f7360b892c488ee0eb0727d315a32e6cda1fb8e5"
+    },
+    "TE_OBSERVER": {
+      "version": "1.1",
+      "snapshot_path": "TE_OBSERVER_v1_1_EN.md",
+      "sha256": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6"
+    },
+    "TE_MODULE_LEXX": {
+      "version": "0.2.0-alpha.3",
+      "files": [
+        {
+          "relative_path": "LEXX/v0_2_alpha3/compatibility.json",
+          "sha256": "ded9d8a7dab29be8f04f4d1e86039ec9cf049471c81cee3ef86330468b427402"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/requirements.txt",
+          "sha256": "3a0bf02b2c8a6116e5c60dfd4655461d293e5beca344167cc2becaf79e544c82"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/runtime/build_schema.py",
+          "sha256": "0a6ffad561c089abb8eddb05657c45736cb43a89d14d6746ac5dc1475bb22425"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/runtime/prepare_review.py",
+          "sha256": "384f5e9e9d879ea96015246fd1a75a00c038a836459083955497428342361f50"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/runtime/prepare_run.py",
+          "sha256": "6cc6070b97b9d73ef742d98f1aa0dcb5a46abe329364a900be6917e3afa1609d"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/runtime/validate_lexx_output.py",
+          "sha256": "4eead77b34c8f2046567d48166a0f4c73e0fc722af318d826b32a89c2cce8e2d"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/schemas/lexx_output.schema.json",
+          "sha256": "57d8b597bae6a11a7f2733c8b8a5ec8072319fc0004f38a713acd841d1c51a6d"
+        },
+        {
+          "relative_path": "LEXX/v0_2_alpha3/tests/test_runtime.py",
+          "sha256": "eec1bc75b8334885f84ff5381522bee8ffc08f3c853e705c1d66bcb8b69d1f60"
+        }
+      ],
+      "package_digest": "18c58c9f29557a09cbbf36d603cba737ad317463cb24009d4068bd3a1b53a17b"
+    },
+    "TE_CASEWORK": {
+      "version": "0.1.0-alpha.1",
+      "files": [
+        {
+          "relative_path": "CASEWORK/compatibility.json",
+          "sha256": "236bf7836c5a7cc8534860a868a9b8d53a35342bbc46a01ecfb3facbfb204dfa"
+        },
+        {
+          "relative_path": "CASEWORK/release.json",
+          "sha256": "ffdd3cd5cbda714c05e5a3f1b457d766192632bd6fbf1d22aeef3af368e3f150"
+        },
+        {
+          "relative_path": "CASEWORK/requirements.txt",
+          "sha256": "4eb9cfe0c3362dd936c342e18d06310a4046978fd002e96bb99bf68e7a9a532d"
+        },
+        {
+          "relative_path": "CASEWORK/runtime/casework.py",
+          "sha256": "44a35e2067563d94ac52e518b65aaed133431aed9538a5f4ee8c38828821b5ea"
+        },
+        {
+          "relative_path": "CASEWORK/runtime/casework_schema.py",
+          "sha256": "577e5e682b6c213ecb0ff3f9c34a548f2514f852e0f0d323fdc395153eaf2872"
+        },
+        {
+          "relative_path": "CASEWORK/runtime/make_lock.py",
+          "sha256": "035cba9c5e436bae2452262bca8fee08d73007bbeddec5c7889471efb0707e78"
+        },
+        {
+          "relative_path": "CASEWORK/schemas/case.schema.json",
+          "sha256": "cd081769d614093fb343b4f066413c8e19799cc9ebb07aea1eab133e106ee438"
+        },
+        {
+          "relative_path": "CASEWORK/schemas/manifest.schema.json",
+          "sha256": "fd746cd7707c57c261395c49d173046b48597e65e878200080dfe6a4035a0c56"
+        },
+        {
+          "relative_path": "CASEWORK/schemas/review.schema.json",
+          "sha256": "41a0489213c3936ff54265e1c0a23d111bad4097f3838f7ddd73d84bfea50408"
+        },
+        {
+          "relative_path": "CASEWORK/tests/test_casework.py",
+          "sha256": "9dfc9fab7fcfa6dfbad7d995e4780c799129da72fe5d2b3d2c30f41f0d8773cb"
+        }
+      ],
+      "package_digest": "6f28e2aecccdc703340c3d5ef933e88ca9a3dfd2782e64368e703d9155f7f7d8"
+    }
+  }
+}
