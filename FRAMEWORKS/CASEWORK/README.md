@@ -11,7 +11,7 @@ Method **0.1**, runtime **0.1.0-alpha.1**. A native package of the Technology of
 
 The runtime prepares copies and an inventory and checks the work that analyst and reviewer record; reading, extraction and reconciliation are the analyst's, recorded in the run; collection and investigative acts belong to the persons the mandate names (`TE_CASEWORK_v0_1_EN.md` §2). Scanned, image and office documents enter the analysis through verified extractions, with the originals preserved.
 
-A passing test suite certifies that the software constraints hold on the recorded state. Effectiveness is measured by the pilot; truth of the facts, independence of the sources and lawfulness of the acquisitions are established by analyst and reviewer; use in proceedings is decided by counsel. Investigations are documentary support. Status: runtime 0.1.0-alpha.1; the 42 tests run on synthetic material; the professional review of the penal profile and the field trials are the next two steps (`PILOT_PLAN.md`; `release.json`: `empirical_runs_completed: 0`).
+A passing test suite certifies that the software constraints hold on the recorded state. Effectiveness is measured by the pilot; truth of the facts and independence of the sources are established by analyst and reviewer; the authority for each acquisition is verified by the case owner (`TE_CASEWORK_v0_1_EN.md` §6); use in proceedings is decided by counsel. Investigations are documentary support. Status: runtime 0.1.0-alpha.1; the 42 tests run on synthetic material; the professional review of the penal profile and the field trials are the next two steps (`PILOT_PLAN.md`; `release.json`: `empirical_runs_completed: 0`).
 
 ## Before use
 
