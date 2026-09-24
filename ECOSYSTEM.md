@@ -48,4 +48,4 @@ This file explains how the four public repositories connect.
 
 ## Note
 
-The four repositories are designed to work together. Reading one in isolation can lead to incomplete understanding. The ordering above reflects a recommended sequence for new readers: foundations first, then formal operators, then validation cycles, then practical implementation.
+The four repositories form one system: read them together. The order above is the sequence for a new reader: foundations first, then formal operators, then validation cycles, then practical implementation.

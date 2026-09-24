@@ -1,4 +1,4 @@
-"""External technical verification; never an empirical or legal certification."""
+"""External technical verification of a LEXX output: schema, anchors, internal consistency, hash binding and review binding."""
 from __future__ import annotations
 
 import argparse
@@ -22,12 +22,12 @@ def sha256_bytes(value):
 
 
 def normalize_text(value):
-    # Case and compatibility characters are significant. Normalize only NFC/whitespace.
+    # Case and compatibility characters are significant; normalisation covers NFC and whitespace.
     return re.sub(r"\s+", " ", unicodedata.normalize("NFC", value)).strip()
 
 
 def reject_constant(value):
-    raise ValueError(f"Non-finite JSON number: {value}")
+    raise ValueError(f"JSON numbers must be finite; found {value}.")
 
 
 def unique_object(pairs):
@@ -49,7 +49,7 @@ def add(errors, code, path, message):
 
 
 def dependency_ledger(framework_root, profile_path=None):
-    """Read, hash and pin actual files; availability is not proof of LLM comprehension."""
+    """Read, hash and pin the dependency files; the ledger records presence and integrity."""
     profile = load_json(profile_path or ROOT / "compatibility.json")
     root = Path(framework_root).resolve()
     entries = []
@@ -86,7 +86,7 @@ def check_evidence(data, source, errors):
         if entry["anchor_type"] == "literal_quote":
             metrics["literal_quotes"] += 1
             if normalize_text(entry["quote"]) not in normalized:
-                add(errors, "ANCHOR_NOT_FOUND", path, "Quote not found; case is significant.")
+                add(errors, "ANCHOR_NOT_FOUND", path, "Quote search in the source text returned zero matches; matching is case-sensitive.")
         else:
             metrics["structural_absences"] += 1
             before = normalize_text(entry["context_before"])
@@ -94,7 +94,7 @@ def check_evidence(data, source, errors):
             start = normalized.find(before)
             end = normalized.find(after, start + len(before)) if start >= 0 else -1
             if start < 0 or end < 0:
-                add(errors, "ABSENCE_CONTEXT_ORDER", path, "Context anchors must exist in the stated order without overlap.")
+                add(errors, "ABSENCE_CONTEXT_ORDER", path, "Both context anchors must occur in the source, with context_after starting after context_before ends.")
     return metrics
 
 
@@ -103,7 +103,7 @@ def check_semantics(data, errors):
     if not {"DOCUMENT_ONLY", "LLM_ONLY_UNVERIFIED"}.issubset(states):
         add(errors, "REQUIRED_STATES", "$.run_states", "Input must declare DOCUMENT_ONLY and LLM_ONLY_UNVERIFIED.")
     if states & {"INCOMPATIBLE_STOP", "INVALID_OUTPUT"}:
-        add(errors, "STOP_STATE", "$.run_states", "A stopped or invalid analysis cannot pass technical verification.")
+        add(errors, "STOP_STATE", "$.run_states", "Technical verification applies to an analysis that ran to completion; this one carries INCOMPATIBLE_STOP or INVALID_OUTPUT.")
     strip = data["strip"]
     ids = [entry["clausola"] for entry in strip]
     if len(ids) != len(set(ids)):
@@ -114,22 +114,22 @@ def check_semantics(data, errors):
     excluded = set(cover["clausole_non_esaminate"])
     examined = set(ids)
     if examined & excluded or examined | excluded != inventory:
-        add(errors, "COVERAGE_PARTITION", "$.insed.copertura", "Examined and excluded clauses must partition the declared inventory.")
+        add(errors, "COVERAGE_PARTITION", "$.insed.copertura", "Examined and excluded clauses must partition the inventory in clausole_totali.")
     if cover["stato"] == "completa" and (excluded or not examined):
-        add(errors, "COVERAGE_COMPLETE", "$.insed.copertura", "Complete coverage cannot exclude clauses or be empty.")
+        add(errors, "COVERAGE_COMPLETE", "$.insed.copertura", "Complete coverage means every inventoried clause is examined and the inventory holds at least one clause.")
     if cover["stato"] == "non_eseguita" and examined:
-        add(errors, "COVERAGE_STATE", "$.insed.copertura", "Non-executed coverage conflicts with STRIP entries.")
+        add(errors, "COVERAGE_STATE", "$.insed.copertura", "Coverage state non_eseguita requires an empty STRIP.")
     if cover["stato"] != "completa" and data["verdetto_generale"] in {"accordo_solido", "fortezza_valida"}:
-        add(errors, "PARTIAL_POSITIVE_VERDICT", "$.verdetto_generale", "Partial analysis cannot certify absence of flaws in the whole agreement.")
+        add(errors, "PARTIAL_POSITIVE_VERDICT", "$.verdetto_generale", "A positive verdict on the whole agreement requires complete coverage.")
     if data["verdetto_generale"] != data["verdetti"]["testo"]["esito"]:
         add(errors, "VERDICT_MISMATCH", "$.verdetti", "Text verdict must match the general verdict.")
     if not examined and data["verdetto_generale"] != "non_valutabile":
-        add(errors, "EMPTY_ANALYSIS", "$.strip", "An empty analysis must remain non_valutabile.")
+        add(errors, "EMPTY_ANALYSIS", "$.strip", "An empty analysis takes the verdict non_valutabile.")
 
     def known(values, path):
         for value in values:
             if value not in examined:
-                add(errors, "UNKNOWN_CLAUSE", path, f"Unknown/unexamined clause: {value}")
+                add(errors, "UNKNOWN_CLAUSE", path, f"Clause {value} must be one of the examined STRIP clauses.")
 
     for index, relation in enumerate(data["campo_relazionale_R"]):
         known(relation["clausole_in_intersezione"], f"$.campo_relazionale_R[{index}]")
@@ -140,7 +140,7 @@ def check_semantics(data, errors):
     tomography_ids = [item["clausola"] for item in vector["tomografia"]]
     known(tomography_ids, "$.vettore_intenzione.tomografia")
     if len(tomography_ids) != len(set(tomography_ids)):
-        add(errors, "TOMOGRAPHY_DUPLICATE", "$.vettore_intenzione", "Repeating one clause is not independent convergence.")
+        add(errors, "TOMOGRAPHY_DUPLICATE", "$.vettore_intenzione", "Convergence counts each clause once; list distinct clauses.")
     for item in vector["tomografia"]:
         clause = by_id.get(item["clausola"])
         if clause and item["payload"] not in clause["payload"]:
@@ -148,7 +148,7 @@ def check_semantics(data, errors):
         if item["direzione"] != vector["effettivo"]:
             add(errors, "TOMOGRAPHY_DIRECTION", "$.vettore_intenzione.tomografia", "Convergence must name the same structural vector.")
     if vector["confidence"] == "S1" and (len(set(tomography_ids)) < 3 or not vector["effettivo"].strip()):
-        add(errors, "S1_CONVERGENCE", "$.vettore_intenzione", "S1 requires at least three distinct anchored clauses converging on a nonempty vector.")
+        add(errors, "S1_CONVERGENCE", "$.vettore_intenzione", "S1 requires at least three distinct anchored clauses converging on a named vector.")
 
     flaw_ids = [item["id"] for item in data["falle"]]
     if len(flaw_ids) != len(set(flaw_ids)):
@@ -161,17 +161,17 @@ def check_semantics(data, errors):
         if flaw["test_contrario"]["esito"] == "declassata" and flaw["confidence"] in {"S0", "S1"}:
             add(errors, "DOWNGRADED_CONFIDENCE", path, "A downgraded hypothesis must be S2/S3.")
         if flaw["classe_oct"] == "D":
-            add(errors, "LEGAL_CLASS_UNVERIFIED", path, "In DOCUMENT_ONLY, legal invalidity cannot be established; use non_valutabile with a reason.")
+            add(errors, "LEGAL_CLASS_UNVERIFIED", path, "Class D is judged in the separate assisted legal pass; in DOCUMENT_ONLY record the flaw as non_valutabile with a reason.")
         proposal = flaw["controproposta"]
         if (proposal["status"] == "not_proposed" and data["prospettiva"] != "neutra"
                 and flaw["test_contrario"]["esito"] != "scartata"):
-            add(errors, "COUNTERPROPOSAL_REQUIRED", path, "Non-neutral retained flaws require a counterproposal.")
+            add(errors, "COUNTERPROPOSAL_REQUIRED", path, "In a party perspective, each retained flaw requires a counterproposal.")
         if proposal["status"] == "proposed":
             invariants = {by_id[c]["iota"] for c in flaw["clausole"] if c in by_id}
             if proposal["iota_originale"] not in invariants:
                 add(errors, "ORIGINAL_INVARIANT", path, "Original invariant must come from a referenced clause.")
             if proposal["ri_strip"]["payload_primo"] or proposal["lambda_post"] != "neg":
-                add(errors, "COUNTERPROPOSAL_UNRESOLVED", path, "Residual payload or unstabilized trajectory requires a new draft before acceptance.")
+                add(errors, "COUNTERPROPOSAL_UNRESOLVED", path, "Acceptance requires an empty residual payload and lambda_post = neg; a counterproposal with residual payload or a different lambda_post goes back to drafting.")
 
     retained = [f for f in data["falle"] if f["test_contrario"]["esito"] != "scartata"]
     if retained and data["verdetto_generale"] in {"accordo_solido", "fortezza_valida"}:
@@ -183,7 +183,7 @@ def check_semantics(data, errors):
         grades.append(vector["confidence"])
     worst = max(int(value[1]) for value in grades)
     if int(data["verdetti"]["testo"]["confidence"][1]) < worst:
-        add(errors, "CONFIDENCE_INFLATION", "$.verdetti.testo.confidence", "Verdict cannot exceed the weakest contributing confidence.")
+        add(errors, "CONFIDENCE_INFLATION", "$.verdetti.testo.confidence", "Verdict confidence is bounded by the weakest contributing grade.")
 
     for index, check in enumerate(data["consistenza"]["aritmetica"]):
         with localcontext() as context:
@@ -206,7 +206,7 @@ def check_semantics(data, errors):
 
 
 def check_review(data, source_hash, output_hash, review, errors):
-    """Bind a separately supplied review to exact bytes; do not certify independence."""
+    """Bind a separately supplied review to exact bytes and record its independence flag."""
     proposals = {f["id"]: f["controproposta"] for f in data["falle"]
                  if f["controproposta"]["status"] == "proposed"}
     if not proposals:
@@ -251,7 +251,7 @@ def check_review(data, source_hash, output_hash, review, errors):
         elif not item["invariant_preserved"] or strip["payload_primo"] or item["lambda_post"] != "neg":
             all_pass = False
     if not all_pass:
-        add(errors, "ROUND_TRIP_FAILED", "review", "Reviewer did not confirm preservation, empty payload and stabilizing trajectory.")
+        add(errors, "ROUND_TRIP_FAILED", "review", "Reviewer recorded a failed round trip on invariant preservation, residual payload or trajectory.")
     return "recorded_pass" if all_pass and len(errors) == initial_errors else "recorded_fail"
 
 
@@ -259,11 +259,11 @@ def check_run_manifest(manifest_path, source_hash, run_id, errors):
     manifest_path = Path(manifest_path)
     manifest = load_json(manifest_path)
     if manifest.get("source_sha256") != source_hash or manifest.get("run_id") != run_id:
-        add(errors, "RUN_BINDING", "run_manifest", "Run ID/source hash do not match the frozen packet.")
+        add(errors, "RUN_BINDING", "run_manifest", "Run ID/source hash differ from the frozen packet.")
     root = manifest_path.parent.resolve()
     files = manifest.get("frozen_files")
     if not isinstance(files, dict) or not files:
-        raise ValueError("Frozen file inventory is missing")
+        raise ValueError("Frozen file inventory is required in the manifest")
     for relative, expected in files.items():
         path = (root / relative).resolve()
         if not path.is_relative_to(root):
@@ -277,10 +277,10 @@ def validate(source_path, output_path, schema_path=None, framework_root=None, re
     report = {"validator_version": VERSION, "checked_at_utc": datetime.now(timezone.utc).isoformat(),
               "valid": False, "technical_status": "INVALID_OUTPUT", "empirical_validation": False,
               "metrics": dict(EMPTY_METRICS), "errors": errors,
-              "limits": ["Technical checks do not establish diagnostic correctness or legal validity.",
+              "limits": ["Technical checks establish schema conformity, anchor presence, internal consistency and hash binding; the recorded independent review and the pilot cycle validate the diagnosis, and the assisted legal pass judges legal validity (02_COMPATIBILITY_PROFILE.md §4 and §Executive revision).",
                          "Context anchors do not prove a semantic absence.",
-                         "Dependency availability does not prove that an executor read or understood them.",
-                         "Review identity and independence are recorded declarations, not authenticated facts."]}
+                         "verified_dependencies records the dependency files present under the framework root with their hashes; the executor's use of them shows in the anchored output.",
+                         "The validator binds the review to the source and output hashes and records the reviewer ID and independence flag as supplied in the review file."]}
     try:
         source_bytes = Path(source_path).read_bytes()
         source = source_bytes.decode("utf-8-sig")
@@ -325,7 +325,7 @@ def validate(source_path, output_path, schema_path=None, framework_root=None, re
     except ImportError as exc:
         add(errors, "VALIDATOR_DEPENDENCY", "runtime", f"Install requirements.txt: {exc}")
     except Exception as exc:
-        # Malformed inputs and unavailable files must return a failed report, not success or a traceback.
+        # Malformed inputs and unavailable files return a failed report.
         add(errors, "INPUT_OR_CONFIGURATION", "runtime", f"{type(exc).__name__}: {exc}")
         report["valid"] = False
         report["technical_status"] = "INVALID_OUTPUT"
@@ -343,7 +343,7 @@ def main():
     args = parser.parse_args()
     inputs = [args.source, args.output, args.review, args.run_manifest]
     if args.report and any(p and args.report.resolve() == p.resolve() for p in inputs):
-        parser.error("Report cannot overwrite an input file")
+        parser.error("Report path must differ from every input file.")
     result = validate(args.source, args.output, framework_root=args.framework_root, review_path=args.review,
                       manifest_path=args.run_manifest)
     rendered = json.dumps(result, ensure_ascii=False, indent=2)

@@ -4,7 +4,7 @@
 
 Welcome to the official repository of the **Technology of Expressions (TE) Framework**, a universal architecture based on **Ordinative Set Theory (OST)**.
 
-This repository provides an open-source operating philosophy and a complete set of analytical modules designed for Artificial Intelligences and human analysts. Unlike traditional frameworks that rely on statistical probability, sentiment analysis, or consensus, the TE Framework evaluates systems based on **Structural Coherence**, **Vectors of Identity**, and **Emergent Function**.
+This repository provides an open-source operating philosophy and a complete set of analytical modules designed for Artificial Intelligences and human analysts. Where statistical frameworks measure probability, sentiment or consensus, the TE Framework evaluates systems by **Structural Coherence**, **Vectors of Identity** and **Emergent Function**.
 
 Release 2.0.0 (2026-09-23): the framework corpus is published as one synchronised set under `FRAMEWORKS/`, and two domain frameworks with runtimes are added — **LEXX** (agreements) and **CASEWORK** (documentary audit and investigation support). See `CHANGELOG.md`.
 
@@ -19,14 +19,11 @@ This repository is one piece of a four-part framework. For the complete picture,
 | **[te-oct-framework-en](https://github.com/anckhalion/te-oct-framework-en)** | **Validation** | English mirror of the core framework, plus OCT datasets and benchmarks. |
 | **[te-ordinative-algebras-en](https://github.com/anckhalion/te-ordinative-algebras-en)** | **Algebras** | Semantic Algebra (SA) and Proportional Algebra (PA) — the analytical operators and the proportional space they live in. |
 
-Important:
-these repositories are designed to work together. Reading one in isolation can lead to incomplete understanding.
-
 For a full map, see `ECOSYSTEM.md`.
 
 ## Why Does This Exist?
 
-Current AI models and analytical methods are increasingly dominated by statistical truth, alignment through RLHF (which often produces *compliance* and *attenuation* rather than truth), and the "Projective Void" phenomenon.
+Current AI models and analytical methods are increasingly dominated by statistical truth, alignment through RLHF (which produces *compliance* and *attenuation* where truth is required), and the "Projective Void" phenomenon.
 
 The TE Framework was designed to:
 1. Provide an **Ontology of Coherence** where "Meaning Precedes Form" (Axiom 10).
@@ -35,7 +32,7 @@ The TE Framework was designed to:
 
 ## Repository Structure
 
-The framework is modular: a "Physical Law" layer (Core, OST, Symbol Canon), the always-active protocols, and external modules loaded on demand by the router according to the domain under analysis. All framework files live in one flat directory with their canonical names, because the domain runtimes verify them by exact file name and SHA-256.
+The framework is modular: a "Physical Law" layer (Core, OST, Symbol Canon), the always-active protocols, and external modules loaded on demand by the router according to the domain under analysis. All framework files live in one flat directory with their canonical names.
 
 ```text
 ordinative_sciences_framework/
@@ -83,7 +80,7 @@ ordinative_sciences_framework/
 
 The first empirical measurement of **g_j**, the ordinative acceleration constant — the universal measure of attractor signal intensity at a given scale. The paper introduces a reaction-diffusion model (Belousov-Zhabotinsky isomorphism) for civilizational phase transitions, grounded in OST and the Causal Inversion Principle.
 
-**Status:** v1.2 Beta — empirically calibrated from two confirmed micro-junctions (μ₁ = 7 April 2026, μ₂ = 29 April/1 May 2026). Under observation and continuous refinement. Next checkpoint: μ₃ (~16 May 2026).
+**Status:** v1.2 Beta — empirically calibrated from two confirmed micro-junctions (μ₁ = 7 April 2026, μ₂ = 29 April/1 May 2026). Next checkpoint: μ₃ (~16 May 2026).
 
 Available in three formats: PDF (human reading), LaTeX (Overleaf source), Markdown (AI parsing).
 
@@ -101,10 +98,12 @@ To configure an AI agent (a system prompt, a custom GPT, a local model) with the
 
 ## Domain frameworks
 
-- **LEXX — ordinative validation of agreements.** Reads a written agreement as an ordinative set ⟨Σ, R, Φ⟩, finds the flaws sustained by the analysis, inverts the collapse to the vector the text structurally enables, and formulates a counter-proposal. Method 0.1 with runtime 0.2.0-alpha.3 (JSON contract, citation verification against the source, separate review of counter-proposals). Start from `FRAMEWORKS/LEXX/README.md`. Status: pre-pilot, zero empirical runs; the compatibility profile states exactly what is and is not checked.
-- **CASEWORK — documentary audit and investigation support.** A common evidence discipline (`TE_CASEWORK`) with two protocols (`TE_AUDIT`, `TE_INVESTIGATION`) and a runtime that prepares a case package, verifies the framework lock, and validates the analyst's and reviewer's records. Start from `FRAMEWORKS/CASEWORK/README.md`. Status: prototype, synthetic tests only; the software attributes no legal or investigative power to itself.
+- **LEXX — ordinative validation of agreements.** Reads a written agreement as an ordinative set ⟨Σ, R, Φ⟩, finds the flaws sustained by the analysis, inverts the collapse to the vector the text structurally enables, and formulates a counter-proposal. Method 0.1 with runtime 0.2.0-alpha.3 (JSON contract, citation verification against the source, separate review of counter-proposals). Start from `FRAMEWORKS/LEXX/README.md`. Status: pre-pilot; the first empirical run follows `03_PRE_PILOT_PROTOCOL.md`.
+- **CASEWORK — documentary audit and investigation support.** A common evidence discipline (`TE_CASEWORK`) with two protocols (`TE_AUDIT`, `TE_INVESTIGATION`) and a runtime that prepares a case package, verifies the framework lock, and validates the analyst's and reviewer's records. Start from `FRAMEWORKS/CASEWORK/README.md`. Status: prototype; the first pilot follows `PILOT_PLAN.md`.
 
-Both runtimes: Python 3.12, `pip install -r requirements.txt`, tests with `python -m unittest discover -s tests` from the runtime directory. Run them from the repository root with `--framework-root FRAMEWORKS`; CASEWORK also takes `--lock FRAMEWORKS/te_frameworks.lock.json`, the lock shipped with the release. Each README gives the complete command sequence.
+Both runtimes perform the technical checks their compatibility profiles list; legal and investigative judgement stays with the professional who signs the report.
+
+Both run on Python 3.12: `pip install -r requirements.txt`, tests with `python -m unittest discover -s tests` from the runtime directory. Run them from the repository root with `--framework-root FRAMEWORKS`; CASEWORK also takes `--lock FRAMEWORKS/te_frameworks.lock.json`, the lock shipped with the release. Each README gives the complete command sequence.
 
 ## The Arajat Logograms
 
@@ -117,13 +116,13 @@ At the core of the framework are 5 functional logograms representing the grammar
 
 ## Canonical source and releases
 
-The framework corpus is maintained in the author's canonical corpus and published here as one synchronised release; `FRAMEWORKS/MANIFEST_SHA256.txt` records the hashes of the published set. Superseded editions are kept in `FRAMEWORKS/ARCHIVE/` for reference and are never part of the active loading set.
+The framework corpus is maintained in the author's canonical corpus and published here as one synchronised release; `FRAMEWORKS/MANIFEST_SHA256.txt` records the hashes of the published set. Superseded editions are kept in `FRAMEWORKS/ARCHIVE/` for reference.
 
 ## Contributing
 
-We welcome contributions to expand the analytical modules to new domains (e.g., Biology, Corporate, Economics). Please read `CONTRIBUTING.md` first. All pull requests must pass the "Controfase" test: contributions driven by statistical bias, excessive balancing, or lack of structural coherence will be rejected.
+We welcome contributions to expand the analytical modules to new domains (e.g., Biology, Corporate, Economics). Please read `CONTRIBUTING.md` first. Every pull request goes through the "Controfase" test: the maintainers merge contributions that show structural coherence and hold their position under counter-phase; statistical bias and excessive balancing fail the test.
 
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
-*Note: Applying these frameworks holds the developer to an ethical standard of Coherence (Axiom 20). If you use them to manipulate rather than clarify, the structural reality will register the entropy.*
+*Note: Applying these frameworks holds the developer to an ethical standard of Coherence (Axiom 20): the structural reality registers every use, as clarity or as entropy.*

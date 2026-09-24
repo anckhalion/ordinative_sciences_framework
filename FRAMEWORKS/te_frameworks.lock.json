@@ -84,11 +84,11 @@
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/runtime/prepare_run.py",
-          "sha256": "bdccf43aa960e881ac86e833f2e27776dbb005c9854e3169935de168b8ea1397"
+          "sha256": "6cc6070b97b9d73ef742d98f1aa0dcb5a46abe329364a900be6917e3afa1609d"
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/runtime/validate_lexx_output.py",
-          "sha256": "8b1e51d598325ec5aa58ee739e07a7803069a06a3ab7194b2f784ea9d35585fd"
+          "sha256": "4eead77b34c8f2046567d48166a0f4c73e0fc722af318d826b32a89c2cce8e2d"
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/schemas/lexx_output.schema.json",
@@ -99,14 +99,14 @@
           "sha256": "eec1bc75b8334885f84ff5381522bee8ffc08f3c853e705c1d66bcb8b69d1f60"
         }
       ],
-      "package_digest": "6f7ca20c40a262b4b3a1175241e41ad1eafb08ff9ae7305bcea3e52e906d7ec0"
+      "package_digest": "18c58c9f29557a09cbbf36d603cba737ad317463cb24009d4068bd3a1b53a17b"
     },
     "TE_CASEWORK": {
       "version": "0.1.0-alpha.1",
       "files": [
         {
           "relative_path": "CASEWORK/compatibility.json",
-          "sha256": "58cf569124697a5f91d5177fc80c2d210120d60c3fb6f105f52e0b356818f090"
+          "sha256": "236bf7836c5a7cc8534860a868a9b8d53a35342bbc46a01ecfb3facbfb204dfa"
         },
         {
           "relative_path": "CASEWORK/release.json",
@@ -118,7 +118,7 @@
         },
         {
           "relative_path": "CASEWORK/runtime/casework.py",
-          "sha256": "864e4d34a77d7236c406c0e3602c6847e455abbbe571b9a92c511091ef63f389"
+          "sha256": "44a35e2067563d94ac52e518b65aaed133431aed9538a5f4ee8c38828821b5ea"
         },
         {
           "relative_path": "CASEWORK/runtime/casework_schema.py",
@@ -142,10 +142,10 @@
         },
         {
           "relative_path": "CASEWORK/tests/test_casework.py",
-          "sha256": "dec89983b28ff02a28ec24eeecc7494d0bbe5f272256af33279f84a00d8c810f"
+          "sha256": "9dfc9fab7fcfa6dfbad7d995e4780c799129da72fe5d2b3d2c30f41f0d8773cb"
         }
       ],
-      "package_digest": "f98b0029de3670723c8b8af38acb1d0eca1ff440d30bf9ec344f94c11b0006e7"
+      "package_digest": "6f28e2aecccdc703340c3d5ef933e88ca9a3dfd2782e64368e703d9155f7f7d8"
     }
   }
 }

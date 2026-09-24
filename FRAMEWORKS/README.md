@@ -1,6 +1,6 @@
 # FRAMEWORKS — the Technology of Expressions loading set
 
-This directory is the public publication target of the Ordinative Sciences framework corpus, synchronised as one release (2.0.0, 2026-09-23). File names are the canonical ones: the domain runtimes (`LEXX/`, `CASEWORK/`) verify these files by exact name and SHA-256, so the layout is flat and byte-exact (`.gitattributes`: `FRAMEWORKS/** -text`).
+This directory is the public publication target of the Ordinative Sciences framework corpus, synchronised as one release (2.0.0, 2026-09-23). File names are the canonical ones: the domain runtimes (`LEXX/`, `CASEWORK/`) verify these files by exact name and SHA-256, so the layout is flat and byte-exact: `.gitattributes` (`FRAMEWORKS/** -text`) stores and checks them out byte for byte, and the pinned hashes hold on every platform.
 
 ## Active loading set (load in this order)
 
@@ -20,14 +20,14 @@ Minimal profile for a constrained context: 1, 2, 3, 6.
 
 ## Domain frameworks
 
-- `LEXX/` — ordinative validation of agreements: method 0.1 (English edition), runtime 0.2.0-alpha.3. Start from `LEXX/README.md`. Status: pre-pilot, zero empirical runs.
-- `CASEWORK/` — documentary audit and investigation support: method 0.1, runtime 0.1.0-alpha.1. Start from `CASEWORK/README.md`. Status: prototype, synthetic tests only.
+- `LEXX/` — ordinative validation of agreements: method 0.1 (English edition), runtime 0.2.0-alpha.3. Start from `LEXX/README.md`.
+- `CASEWORK/` — documentary audit and investigation support: method 0.1, runtime 0.1.0-alpha.1. Start from `CASEWORK/README.md`.
 
-Both runtimes are Python 3.12 (`requirements.txt` in each) and run from the repository root with `--framework-root FRAMEWORKS`; CASEWORK also takes `--lock FRAMEWORKS/te_frameworks.lock.json`. Both refuse to attribute to the software any legal or investigative power: the reports they emit distinguish technical checks from professional review and from empirical validation, which is still to come.
+Both runtimes are Python 3.12 (`requirements.txt` in each) and run from the repository root with `--framework-root FRAMEWORKS`; CASEWORK also takes `--lock FRAMEWORKS/te_frameworks.lock.json`. The reports they emit separate three layers: the technical checks the runtime performs, the professional review, and the empirical validation scheduled by the pilot plans (`LEXX/03_PRE_PILOT_PROTOCOL.md`, `CASEWORK/PILOT_PLAN.md`).
 
 ## Archive
 
-`ARCHIVE/` holds superseded editions kept for reference only (Bootloader 6.0, 7.0, 7.1; Core 5.1 as previously published here; Protocols 1.0; the OST guide and the Teleodynamics extension under their previous file names). They are never part of the active loading set.
+The active loading set is the table above; `ARCHIVE/` holds the superseded editions for historical comparison (Bootloader 6.0, 7.0, 7.1; Core 5.1 as previously published here; Protocols 1.0; the OST guide and the Teleodynamics extension under their previous file names).
 
 ## Integrity
 
@@ -37,9 +37,9 @@ Both runtimes are Python 3.12 (`requirements.txt` in each) and run from the repo
 cd FRAMEWORKS && shasum -a 256 -c MANIFEST_SHA256.txt
 ```
 
-The hashes pinned by `LEXX/v0_2_alpha3/compatibility.json` and `CASEWORK/compatibility.json` are those of the files as stored here; the `-text` attribute keeps them stable across platforms.
+The hashes pinned by `LEXX/v0_2_alpha3/compatibility.json` and `CASEWORK/compatibility.json` are those of the files as stored here.
 
-`te_frameworks.lock.json` is the framework lock the CASEWORK runtime consumes: one entry per framework family, single files by SHA-256 and the two runtime packages (`LEXX/v0_2_alpha3/`, `CASEWORK/`) by file list and `package_digest`. It is built by `CASEWORK/runtime/make_lock.py`, which declares the digest algorithm; regenerate it from the repository root with `python FRAMEWORKS/CASEWORK/runtime/make_lock.py --framework-root FRAMEWORKS --out FRAMEWORKS/te_frameworks.lock.json --force` after any change to a listed file.
+`te_frameworks.lock.json` is the framework lock the CASEWORK runtime consumes: one entry per framework family, single files by SHA-256 and the two runtime packages (`LEXX/v0_2_alpha3/`, `CASEWORK/`) by file list and `package_digest`. It is built by `CASEWORK/runtime/make_lock.py`, which writes the digest algorithm into the lock as `package_digest_algorithm`; regenerate it from the repository root with `python FRAMEWORKS/CASEWORK/runtime/make_lock.py --framework-root FRAMEWORKS --out FRAMEWORKS/te_frameworks.lock.json --force` after any change to a listed file.
 
 ## Register patch of 2026-09-23
 

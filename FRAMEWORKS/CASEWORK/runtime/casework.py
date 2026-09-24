@@ -1,6 +1,6 @@
-"""Prepare/freeze a local dossier and validate declared documentary workflow.
+"""Prepare and freeze a local dossier, then validate the documentary workflow recorded in it.
 
-No OCR, inference engine, surveillance, witness contact, legal verdict or network.
+The runtime copies and hashes local files, freezes the framework snapshot and checks the case record against its schema and rules, offline.
 """
 from __future__ import annotations
 
@@ -46,7 +46,7 @@ def tool_versions():
 
 
 def source_inventory(source):
-    """Do not silently omit an inaccessible subtree, link or special file."""
+    """Inventory every regular file; an inaccessible subtree, a link or a special file raises."""
     def fail(error):
         raise error
     inventory = []
@@ -56,7 +56,7 @@ def source_inventory(source):
         for name in names:
             path = Path(directory) / name
             if not stat.S_ISREG(path.stat().st_mode):
-                raise ValueError(f"Non-regular input file: {path}")
+                raise ValueError(f"Input files must be regular files; {path} is a special file.")
             inventory.append(path)
     return sorted(inventory)
 
@@ -70,7 +70,7 @@ def load_json(path):
             result[key] = value
         return result
     def bad_number(value):
-        raise ValueError(f"Non-finite JSON number: {value}")
+        raise ValueError(f"JSON numbers must be finite; found {value}.")
     return json.loads(Path(path).read_text(encoding="utf-8-sig"),
                       object_pairs_hook=pairs, parse_constant=bad_number)
 
@@ -90,16 +90,16 @@ def check_schema(value, schema):
 def no_link(path):
     info = Path(path).lstat()
     if stat.S_ISLNK(info.st_mode) or getattr(info, "st_file_attributes", 0) & stat.FILE_ATTRIBUTE_REPARSE_POINT:
-        raise ValueError(f"Symlink/reparse-point source not supported: {path}")
+        raise ValueError(f"Sources must be real files and directories; {path} is a symlink or reparse point.")
 
 
 def within(root, relative):
-    """Reject traversal, Windows ADS/absolute paths, and link traversal."""
+    """Resolve a plain POSIX relative path below the root; traversal, Windows ADS or absolute paths and links raise."""
     if not isinstance(relative, str) or "\\" in relative or ":" in relative:
-        raise ValueError("Unsafe relative path")
+        raise ValueError("Relative path must be a plain POSIX path below its root.")
     rel = PurePosixPath(relative)
     if rel.is_absolute() or not rel.parts or any(part in (".", "..") for part in rel.parts):
-        raise ValueError("Unsafe relative path")
+        raise ValueError("Relative path must be a plain POSIX path below its root.")
     base = Path(root).resolve()
     candidate = base.joinpath(*rel.parts)
     if not candidate.resolve().is_relative_to(base):
@@ -134,11 +134,11 @@ def verify_frameworks(framework_root, lock):
     for entry in profile["dependencies"]:
         actual = lock["families"].get(entry["family"])
         if not actual or actual["version"] != entry["version"]:
-            raise ValueError(f"Unreviewed dependency version: {entry['family']}")
+            raise ValueError(f"Dependency version differs from the reviewed compatibility profile: {entry['family']}.")
         actual_hash = actual.get("sha256", actual.get("package_digest"))
         if actual_hash != entry["digest"]:
-            raise ValueError(f"Unreviewed dependency content: {entry['family']}")
-    # Executing code must be the frozen/reviewed code, not an unrelated script.
+            raise ValueError(f"Dependency digest differs from the reviewed compatibility profile: {entry['family']}.")
+    # The executing code is the frozen, reviewed code: its hash matches the snapshot.
     for name in ("casework.py", "casework_schema.py"):
         if file_hash(Path(__file__).parent / name) != expected.get(f"CASEWORK/runtime/{name}"):
             raise ValueError("Executing runtime differs from snapshot")
@@ -151,7 +151,7 @@ def blank_case(manifest, manifest_hash):
         "wave1_complete": False,
         "documents": [{"id": d["id"], "reading": "pending", "reading_note": "", "reviewer": "",
             "relevance": "deferred", "relevance_reason": "", "exclusion_recheck": "",
-            "source_group": d["sha256"], "group_reason": "Initial byte-origin grouping; semantic independence unreviewed."}
+            "source_group": d["sha256"], "group_reason": "Initial grouping by byte origin; the analyst records semantic independence after reading."}
             for d in manifest["documents"]],
         "derivatives": [], "evidence": [], "gaps": [], "legal_references": [],
         "analysis": {"complete": False, "summary": "", "limitations": []},
@@ -168,9 +168,9 @@ def prepare(source, destination, frameworks, lock_path, **metadata):
         raise ValueError("Destination exists; use a new run directory")
     no_link(source)
     if not source.is_dir():
-        raise ValueError("Source must be an authorized directory")
+        raise ValueError("Source must be an authorised directory")
     if destination.resolve().is_relative_to(source.resolve()):
-        raise ValueError("Run directory cannot be inside source")
+        raise ValueError("Run directory must be separate from the source tree.")
     for parent in (source, *source.parents, destination.parent, *destination.parent.parents):
         if parent.exists():
             no_link(parent)
@@ -196,7 +196,7 @@ def prepare(source, destination, frameworks, lock_path, **metadata):
         copied = within(destination, record["path"])
         shutil.copyfile(path, copied)
         if file_hash(copied) != record["sha256"] or file_hash(path) != record["sha256"]:
-            raise ValueError("Source changed during acquisition; incomplete packet retained")
+            raise ValueError("Source changed during acquisition; the partial packet stays on disk for inspection.")
     for relative in expected:
         target = within(destination / "frameworks", relative)
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -206,8 +206,8 @@ def prepare(source, destination, frameworks, lock_path, **metadata):
         raise ValueError("Lock changed during preparation")
     verify_frameworks(destination / "frameworks", lock)
     if source_inventory(source) != inventory or any(file_hash(path) != record["sha256"] for path, record in zip(inventory, records)):
-        raise ValueError("Source inventory/content changed during acquisition; incomplete packet retained")
-    # Completion marker is written only after successful copies and checks.
+        raise ValueError("Source inventory or content changed during acquisition; the partial packet stays on disk for inspection.")
+    # The copies and checks succeed first; then the completion marker is written.
     write_new(destination / "manifest.json", manifest)
     write_new(destination / "case.json", blank_case(manifest, file_hash(destination / "manifest.json")))
     return destination
@@ -240,7 +240,7 @@ def validate(run, review_path=None):
     if data["manifest_sha256"] != file_hash(run / "manifest.json") or data["case_id"] != manifest["case_id"]:
         raise ValueError("Case/manifest binding changed")
     if manifest["mode"] == "investigation" and not (manifest["investigation_mandate_ref"].strip() and manifest["supervising_role"].strip()):
-        raise ValueError("Missing investigative mandate/role")
+        raise ValueError("Investigation mode requires an investigative mandate reference and a supervising role")
     if file_hash(run / "te_frameworks.lock.json") != manifest["lock_sha256"]:
         raise ValueError("Frozen lock changed")
     expected = verify_frameworks(run / "frameworks", load_json(run / "te_frameworks.lock.json"))
@@ -250,7 +250,7 @@ def validate(run, review_path=None):
     docs = indexed(manifest["documents"])
     states = indexed(data["documents"])
     if docs.keys() != states.keys():
-        raise ValueError("Coverage inventory missing or adds documents")
+        raise ValueError("Coverage inventory must list exactly the manifest documents")
     if len({d["path"] for d in docs.values()}) != len(docs):
         raise ValueError("Two acquired objects share a storage path")
     original_paths = {p.relative_to(run).as_posix() for p in (run / "originals").rglob("*") if p.is_file()}
@@ -266,17 +266,17 @@ def validate(run, review_path=None):
         state = states[doc_id]
         previous = hash_groups.setdefault(doc["sha256"], state["source_group"])
         if previous != state["source_group"]:
-            raise ValueError("Identical bytes cannot count as independent source groups")
+            raise ValueError("Identical bytes form one source group.")
         if data["wave1_complete"] and state["reading"] == "pending":
-            raise ValueError("Wave 1 incomplete")
+            raise ValueError("Wave 1 closes once every document is read or its limitation is recorded.")
         if state["reading"] != "pending" and not (state["reading_note"].strip() and state["reviewer"].strip()):
             raise ValueError("Reading or limitation needs reviewer and rationale")
         if not data["wave1_complete"] and state["relevance"] != "deferred":
-            raise ValueError("Relevance judgment before first-wave boundary")
+            raise ValueError("Relevance judgement before first-wave boundary")
         if state["relevance"] != "deferred" and not state["relevance_reason"].strip():
-            raise ValueError("Relevance rationale missing")
+            raise ValueError("Relevance decision requires a rationale")
         if state["relevance"] == "exclude_provisional" and state["reading"] != "read":
-            raise ValueError("Unread/restricted material cannot be irrelevant")
+            raise ValueError("Exclusion requires a completed reading of the document.")
         if data["audit"]["complete"] and state["relevance"] == "exclude_provisional" and not state["exclusion_recheck"].strip():
             raise ValueError("Audit must reconsider exclusions")
     derivatives = indexed(data["derivatives"])
@@ -284,13 +284,13 @@ def validate(run, review_path=None):
         raise ValueError("Duplicate derivative path")
     for derivative in derivatives.values():
         if derivative["document_id"] not in docs or not derivative["path"].startswith("derived/"):
-            raise ValueError("Invalid derivative parent/path")
+            raise ValueError("Derivative must name a manifest document and a path below derived/")
         if file_hash(within(run, derivative["path"])) != derivative["sha256"]:
             raise ValueError("Derivative changed")
     evidence = indexed(data["evidence"])
     for item in evidence.values():
         if item["document_id"] not in docs:
-            raise ValueError("Unknown evidence document")
+            raise ValueError("Evidence document ID must be one of the manifest DOC-ids.")
         doc = docs[item["document_id"]]
         if item["derivative_id"] is not None:
             doc = derivatives.get(item["derivative_id"])
@@ -298,13 +298,13 @@ def validate(run, review_path=None):
                 raise ValueError("Evidence derivative parent mismatch")
         text = within(run, doc["path"]).read_text(encoding="utf-8-sig")
         if item["quote"] not in text:
-            raise ValueError(f"Quotation not found: {item['id']}")
+            raise ValueError(f"Quotation search in the document text returned zero matches: {item['id']}.")
     def refs(values, target=evidence):
         if any(value not in target for value in values):
-            raise ValueError("Unresolved evidence/record reference")
+            raise ValueError("Every evidence/record reference must name an ID present in the case record.")
     def confidence(value, supports):
         if supports and int(value[1]) < max(int(evidence[x]["confidence"][1]) for x in supports):
-            raise ValueError("Confidence inflated beyond supporting premise")
+            raise ValueError("Confidence is at most that of the weakest supporting premise")
     legal = indexed(data["legal_references"])
     indexed(data["gaps"])
     findings = indexed(data["audit"]["findings"])
@@ -315,14 +315,14 @@ def validate(run, review_path=None):
         refs(finding["criterion"]["evidence_ids"])
         refs(finding["criterion"]["legal_reference_ids"], legal)
         if not supports:
-            raise ValueError("Finding requires documentary support; use a gap or hypothesis instead")
+            raise ValueError("A finding rests on documentary support; record a claim that awaits documents as a gap or a hypothesis.")
         if finding["criterion"]["kind"] in ("policy", "contract") and not finding["criterion"]["evidence_ids"]:
             raise ValueError("Contract/policy criterion needs an anchor")
         if finding["criterion"]["kind"] == "legal_question" and not finding["criterion"]["legal_reference_ids"]:
-            raise ValueError("Legal question requires a reference, not an assumed rule")
+            raise ValueError("A legal question requires a cited legal reference.")
         confidence(finding["confidence"], supports)
         if finding["confidence"] == "S1" and len({states[evidence[x]["document_id"]]["source_group"] for x in supports}) < 2:
-            raise ValueError("Triangulation requires at least two declared origin groups")
+            raise ValueError("Triangulation requires evidence from at least two source groups.")
         for alt in finding["alternatives"]:
             refs(alt["evidence_ids"])
             if alt["outcome"] in ("supported", "refuted") and not alt["evidence_ids"]:
@@ -331,7 +331,7 @@ def validate(run, review_path=None):
     required = set(AUDIT_AREAS if manifest["mode"] == "audit" else INVESTIGATION_AREAS)
     counts = Counter(check["area"] for check in checks.values())
     if any(counts[area] != 1 for area in required):
-        raise ValueError("Mandatory audit/check area missing or duplicated")
+        raise ValueError("Each mandatory audit/check area appears exactly once")
     for check in checks.values():
         refs(check["evidence_ids"])
         refs(check["finding_ids"], findings)
@@ -346,12 +346,12 @@ def validate(run, review_path=None):
         if check["result"] == "exception" and not check["finding_ids"]:
             raise ValueError("Exception must reference a finding")
         if data["audit"]["complete"] and check["status"] == "pending":
-            raise ValueError("Mandatory audit pass incomplete")
+            raise ValueError("Audit closes once every mandatory check is tested, not_testable or not_applicable.")
     if data["analysis"]["complete"] and (not data["wave1_complete"] or not data["analysis"]["summary"].strip()
             or any(d["relevance"] == "deferred" for d in states.values())):
         raise ValueError("Analysis completion requires first-wave and relevance gates")
     if data["audit"]["complete"] and not data["analysis"]["complete"]:
-        raise ValueError("Audit cannot close before analysis")
+        raise ValueError("Audit closes after analysis completes.")
     hypotheses = indexed(data["hypotheses"])
     for hypothesis in hypotheses.values():
         refs(hypothesis["supporting_evidence"])
@@ -374,12 +374,12 @@ def validate(run, review_path=None):
         review = load_json(review_path)
         check_schema(review, review_contract())
         if review["case_sha256"] != file_hash(run / "case.json") or review["manifest_sha256"] != file_hash(run / "manifest.json"):
-            raise ValueError("Review invalidated by changed case/manifest")
+            raise ValueError("Review binds to a previous case/manifest state; the current state needs a new review")
         if review["decision"] != "pending":
             if not all(str(review[k] or "").strip() for k in ("reviewer", "reviewer_role", "rationale", "reviewed_at")):
                 raise ValueError("Completed review needs identity, role, date and rationale")
             if review["reviewer"].strip().casefold() == manifest["analyst"].strip().casefold():
-                raise ValueError("Reviewer must be declared distinct from analyst")
+                raise ValueError("Reviewer and analyst must be two different people; the reviewer name equals the analyst name.")
         if review["decision"] == "accept" and (not data["audit"]["complete"] or any(v != "accept" for v in review["checks"].values())):
             raise ValueError("Acceptance requires completed pass and all review checks")
         review_status = "accept_recorded_identity_unverified" if review["decision"] == "accept" else review["decision"]
@@ -401,9 +401,9 @@ def validate(run, review_path=None):
         "document_count": len(docs), "finding_count": len(findings), "review": review_status,
         "case_sha256": file_hash(run / "case.json"), "manifest_sha256": file_hash(run / "manifest.json"),
         "empirical_performance": "not_assessed", "legal_use": "not_authorized_by_runtime",
-        "limits": ["Checks validate declared records, not truth, actual reading, independent origin or lawful authority.",
-                   "No immutable custody log, trusted timestamp, encryption or access control is implemented.",
-                   "No automated OCR, fraud detection, professional opinion or absence-of-wrongdoing verdict."]}
+        "limits": ["Checks validate the records written in case.json, manifest.json and the review file; truth of content, actual reading and source independence rest with the analyst and the reviewer; the case owner verifies acquisition authority (TE_CASEWORK_v0_1_EN.md §6).",
+                   "The run records a SHA-256 hash for every original, derivative, framework file and lock in manifest.json and case.json; custody, timestamping and access control rest with the working environment the case owner approves (TE_CASEWORK_v0_1_EN.md §2).",
+                   "Fraud assessment, professional opinion and the verdict on wrongdoing rest with the analyst and the reviewer; the runtime checks structure, anchors and hashes."]}
 
 
 def main():

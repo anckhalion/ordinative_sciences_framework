@@ -1,4 +1,4 @@
-"""Prepare a local run packet without making any analytical finding."""
+"""Prepare a local run packet: freeze the source, the dependencies and the methodology, and write the empty output draft."""
 import argparse
 import json
 import shutil
@@ -7,8 +7,8 @@ from pathlib import Path
 
 from validate_lexx_output import ROOT, dependency_ledger, sha256_bytes
 
-# The methodology documents frozen with every run, each under the names its edition may
-# carry: the canonical corpus and the public repository ship the same runtime with the
+# The methodology documents frozen with every run, each under the names its edition
+# carries: the canonical corpus and the public repository ship the same runtime with the
 # documentation composed in different languages. Every edition present is frozen.
 PACKAGE_DOCUMENTS = (
     ("README.md",),
@@ -25,13 +25,13 @@ def package_documents(folder):
     for candidates in PACKAGE_DOCUMENTS:
         present = [folder / name for name in candidates if (folder / name).is_file()]
         if not present:
-            raise FileNotFoundError(f"Package document missing in {folder}: one of {', '.join(candidates)}")
+            raise FileNotFoundError(f"Package document required in {folder}: one of {', '.join(candidates)}")
         found.extend(present)
     return found
 
 
 def template(source_hash, ledger, run_id=None):
-    limit = "To be examined; no conclusion available."
+    limit = "To be examined."
     return {
         "accordo": "To be identified", "versione_modulo": "LEXX v0.2-alpha.3",
         "methodology_version": "0.1", "run_id": run_id or str(uuid.uuid4()),
@@ -39,7 +39,7 @@ def template(source_hash, ledger, run_id=None):
         "run_states": ["LLM_ONLY_UNVERIFIED", "DOCUMENT_ONLY"], "dependency_ledger": ledger,
         "jurisdiction_gate": {"jurisdiction": None, "choice_of_law": None, "document_type": "to be identified",
                               "sources_as_of_date": None, "external_sources_verified": False,
-                              "limits": ["External sources unverified: documentary analysis only."]},
+                              "limits": ["Documentary analysis of the supplied text."]},
         "insed": {"stato": "to be ascertained", "qualificazione_parti": "UNKNOWN", "perimetro_analisi": "documento_solo",
                   "limiti": [limit], "copertura": {"stato": "non_eseguita",
                   "clausole_totali": ["DOCUMENT_TO_BE_SEGMENTED"],
@@ -55,7 +55,7 @@ def template(source_hash, ledger, run_id=None):
         "lyapunov_globale": {"mode": "qualitative", "lambda_segno": "vuoto", "argomento": limit},
         "non_falle_verificate": [], "note_negoziali": [], "verdetto_generale": "non_valutabile",
         "verdetti": {"testo": {"esito": "non_valutabile", "motivazione": limit, "confidence": "S3"},
-                     "sistema": {"esito": "non_valutabile", "nota_limite": "External sources and legal review absent."}},
+                     "sistema": {"esito": "non_valutabile", "nota_limite": "System verdict follows external sources and legal review."}},
         "tre_mappe": {"cosa_dice": "", "cosa_non_dice": "", "cosa_dice_senza_dirlo": ""},
         "meta_pai": {"bias_rilevati": [], "note_trasparenza": limit,
                      "phi_test": {"funzione_attesa": "Examine the agreement and give reasons for the findings.",
@@ -72,7 +72,7 @@ def prepare(source, frameworks, destination):
         raise ValueError("Empty source")
     ledger = dependency_ledger(frameworks)
     if destination.exists():
-        raise ValueError("Run directory already exists; use a new one to preserve previous runs")
+        raise ValueError("Run directory already exists; each attempt takes a new one")
     destination.mkdir(parents=True)
     (destination / "source.txt").write_bytes(raw)
     copied = destination / "frameworks"
@@ -94,8 +94,7 @@ def prepare(source, frameworks, destination):
                 "original_source": str(source.resolve()), "runtime_version": "0.2.0-alpha.3",
                 "frozen_files": {path.relative_to(destination).as_posix(): sha256_bytes(path.read_bytes())
                                  for path in copied.rglob("*") if path.is_file()},
-                "limits": ["Hash freezing does not prove reading or understanding.",
-                           "The draft is an empty template, not an analysis."]}
+                "limits": ["output_draft.json is the template the executor fills."]}
     (destination / "run_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     return destination
 

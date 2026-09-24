@@ -101,7 +101,7 @@ class CaseworkTests(unittest.TestCase):
             cw.prepare(self.source, self.run, self.frameworks, self.lock, **self.metadata)
 
     def test_run_inside_source_rejected(self):
-        with self.assertRaisesRegex(ValueError, "inside source"):
+        with self.assertRaisesRegex(ValueError, "separate from the source"):
             cw.prepare(self.source, self.source / "run", self.frameworks, self.lock, **self.metadata)
 
     def test_empty_input_rejected(self):
@@ -116,7 +116,7 @@ class CaseworkTests(unittest.TestCase):
 
     def test_wave_pending_rejected(self):
         self.data["wave1_complete"] = True
-        self.rejected("Wave 1 incomplete")
+        self.rejected("Wave 1 closes")
 
     def test_false_reading_without_reviewer_rejected(self):
         self.data["documents"][0]["reading"] = "read"
@@ -141,12 +141,12 @@ class CaseworkTests(unittest.TestCase):
     def test_literal_quote_required(self):
         self.evidence()
         self.data["evidence"][0]["quote"] = "Invented confession"
-        self.rejected("Quotation not found")
+        self.rejected("returned zero matches")
 
     def test_unresolved_reference_rejected(self):
         self.finding()
         self.data["audit"]["findings"][0]["opposing_evidence"] = ["nonexistent"]
-        self.rejected("Unresolved")
+        self.rejected("must name an ID present")
 
     def test_alternative_explanation_required(self):
         self.finding()
@@ -156,12 +156,12 @@ class CaseworkTests(unittest.TestCase):
     def test_confidence_inflation_rejected(self):
         self.finding()
         self.data["evidence"][0]["confidence"] = "S3"
-        self.rejected("Confidence inflated")
+        self.rejected("at most that of the weakest")
 
     def test_single_origin_not_triangulation(self):
         self.finding()
         self.data["audit"]["findings"][0].update(confidence="S1", supporting_evidence=["E1"])
-        self.rejected("two declared origin")
+        self.rejected("at least two source groups")
 
     def test_identical_copies_not_independent(self):
         duplicate_source = self.root / "duplicates"
@@ -179,7 +179,7 @@ class CaseworkTests(unittest.TestCase):
     def test_unreadable_cannot_be_irrelevant(self):
         self.wave()
         self.data["documents"][0].update(reading="unreadable", relevance="exclude_provisional")
-        self.rejected("Unread/restricted")
+        self.rejected("requires a completed reading")
 
     def test_analysis_automatically_requires_audit(self):
         self.wave()
@@ -190,11 +190,11 @@ class CaseworkTests(unittest.TestCase):
         self.wave()
         self.data["analysis"].update(complete=True, summary="Synthetic analysis")
         self.data["audit"]["complete"] = True
-        self.rejected("Mandatory audit pass incomplete")
+        self.rejected("is tested, not_testable or not_applicable")
 
     def test_area_removal_rejected(self):
         self.data["audit"]["checks"].pop()
-        self.rejected("area missing")
+        self.rejected("area appears exactly once")
 
     def test_audit_reconsiders_exclusions(self):
         self.closed()
@@ -232,7 +232,7 @@ class CaseworkTests(unittest.TestCase):
         self.closed()
         path = self.review()
         self.data["analysis"]["summary"] = "Revision"
-        with self.assertRaisesRegex(ValueError, "Review invalidated"):
+        with self.assertRaisesRegex(ValueError, "binds to a previous"):
             self.validate(path)
 
     def test_self_review_rejected(self):
@@ -241,7 +241,7 @@ class CaseworkTests(unittest.TestCase):
         review = cw.load_json(path)
         review["reviewer"] = "  TEST ANALYST "
         path.write_text(json.dumps(review), encoding="utf-8")
-        with self.assertRaisesRegex(ValueError, "distinct"):
+        with self.assertRaisesRegex(ValueError, "two different people"):
             self.validate(path)
 
     def test_investigation_requires_explicit_mandate(self):
@@ -324,7 +324,7 @@ class CaseworkTests(unittest.TestCase):
     def test_legal_question_requires_reference(self):
         self.finding()
         self.data["audit"]["findings"][0]["criterion"]["kind"] = "legal_question"
-        self.rejected("requires a reference")
+        self.rejected("requires a cited legal reference")
 
     def test_execution_environment_change_rejected(self):
         with patch.object(cw, "tool_versions", return_value={"python": "different", "jsonschema": "different"}):
