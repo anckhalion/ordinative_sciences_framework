@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local runs of the LEXX and CASEWORK runtimes (case material never enters the repository)
+runs/
+tmp/
+
+# Build output that is not committed
+dist/*.zip
+
+# Editors and systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

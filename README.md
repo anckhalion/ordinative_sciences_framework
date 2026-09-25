@@ -8,6 +8,19 @@ This repository provides an open-source operating philosophy and a complete set 
 
 Release 2.0.0 (2026-09-23): the framework corpus is published as one synchronised set under `FRAMEWORKS/`, and two domain frameworks with runtimes are added — **LEXX** (agreements) and **CASEWORK** (documentary audit and investigation support). It carries release 1.3.0 (2026-09-16) as well: *The Collapse Equation* v1.3, *The Direction Problem* preprint v1.1 and `te-controfase` in the ecosystem. See `CHANGELOG.md`.
 
+## Download and load
+
+| I want to… | Take |
+| --- | --- |
+| load the whole framework into an LLM as one file | [`dist/TE_LOADING_SET_FULL.md`](dist/TE_LOADING_SET_FULL.md): the twelve active documents in loading order (about 100k tokens) |
+| load the minimal profile (Bootloader, Protocols, Core, SVP) | [`dist/TE_LOADING_SET_MINIMAL.md`](dist/TE_LOADING_SET_MINIMAL.md) (about 40k tokens), the rest on demand |
+| analyse agreements, or run a documentary audit or investigation | the loading set, then [`dist/TE_LEXX_METHOD.md`](dist/TE_LEXX_METHOD.md) or [`dist/TE_CASEWORK_METHOD.md`](dist/TE_CASEWORK_METHOD.md); the runtimes stay in `FRAMEWORKS/` |
+| route or retrieve the documents programmatically | [`dist/catalog.json`](dist/catalog.json) (documents, versions, roles, triggers, section outlines, hashes) and [`llms.txt`](llms.txt) |
+| download everything as one archive | `te-frameworks-<version>.zip`, attached to each GitHub release (`make package` builds it locally) |
+| learn to use the framework, as a person | [`docs/handbook/00_START_HERE.md`](docs/handbook/00_START_HERE.md) |
+
+The canonical files stay in `FRAMEWORKS/`, byte-exact and SHA-256 pinned. Everything under `dist/` and `llms.txt` is generated from them by `tools/build_dist.py`, and `make check` fails when the two drift; see [`dist/README.md`](dist/README.md).
+
 ## Part of a Larger Ecosystem
 
 This repository is one piece of a five-part framework. For the complete picture, see:
@@ -64,11 +77,18 @@ ordinative_sciences_framework/
 │   │   ├── compatibility.json · release.json · requirements.txt
 │   │   └── runtime/ · schemas/ · tests/            # case preparation, validation, lock builder, tests
 │   └── ARCHIVE/                                    # superseded editions, reference only
+├── dist/                                           # 📦 generated: one-file loading sets, catalog.json, SHA256SUMS (dist/README.md)
 ├── docs/
+│   ├── README.md                                   # documentation index
+│   ├── handbook/                                   # 🎓 for humans: start here, concepts, setup, workflow, training path, module guides
 │   └── ArXiv_Abstract_TE.md
-└── papers/
-    ├── collapse_equation/              # 📄 The Collapse Equation (v1.3, + v1.2 under its DOI)
-    └── direction_problem/              # 📄 The Direction Problem (preprint v1.1)
+├── papers/
+│   ├── collapse_equation/              # 📄 The Collapse Equation (v1.3, + v1.2 under its DOI)
+│   └── direction_problem/              # 📄 The Direction Problem (preprint v1.1)
+├── tools/                                          # build_dist.py (derived layer), check_repo.py (consistency checks), loading_set.json
+├── llms.txt                                        # index for LLM tools
+├── Makefile                                        # make test · check · dist · manifest · lock · package
+└── LICENSE                                         # MIT (papers: CC BY 4.0)
 ```
 
 ## Papers
@@ -91,6 +111,8 @@ The companion paper: the causal argument behind **g_j**. Starting from the obser
 
 ## Getting Started for AI Agents
 
+The quickest route is one file: `dist/TE_LOADING_SET_FULL.md` holds the whole active loading set in loading order, and `dist/TE_LOADING_SET_MINIMAL.md` the minimal profile for a constrained context. `docs/handbook/02_SETUP_FOR_LLMS.md` covers hosted assistants, APIs, local models and retrieval setups, with a ten-item smoke test that verifies the framework is operating. The order below is the one the bundles follow.
+
 To configure an AI agent (a system prompt, a custom GPT, a local model) with the TE Framework, load the files in this order and instruct the agent to fetch the other modules on demand (RAG or tools) when a trigger appears — verifying a source requires `SVP`, analysing a public figure requires `LENS`, reading an agreement requires `LEXX`.
 
 1. `FRAMEWORKS/TE_BOOTLOADER_v7_1_1_EN.md` — identity, the seven core principles, confidence grades S₀–S₃, the pre-output Φ-test, the router.
@@ -109,6 +131,20 @@ To configure an AI agent (a system prompt, a custom GPT, a local model) with the
 Both runtimes perform the technical checks their compatibility profiles list; legal and investigative judgement stays with the professional who signs the report.
 
 Both run on Python 3.12: `pip install -r requirements.txt`, tests with `python -m unittest discover -s tests` from the runtime directory. Run them from the repository root with `--framework-root FRAMEWORKS`; CASEWORK also takes `--lock FRAMEWORKS/te_frameworks.lock.json`, the lock shipped with the release. Each README gives the complete command sequence.
+
+## Documentation for humans
+
+The framework documents are written as instructions to an AI. `docs/handbook/` is for people who use them:
+
+| Read | For |
+| --- | --- |
+| [`00_START_HERE.md`](docs/handbook/00_START_HERE.md) | what the framework is and is not, the map of the corpus, where to begin |
+| [`01_CORE_CONCEPTS.md`](docs/handbook/01_CORE_CONCEPTS.md) | the ideas an operator must hold, each with its canonical section |
+| [`02_SETUP_FOR_LLMS.md`](docs/handbook/02_SETUP_FOR_LLMS.md) | loading the framework into a model and verifying it |
+| [`03_RUNNING_AN_ANALYSIS.md`](docs/handbook/03_RUNNING_AN_ANALYSIS.md) | the analyst's workflow: gate, routing, prompts, reading the output, challenging it |
+| [`04_TRAINING_PATH.md`](docs/handbook/04_TRAINING_PATH.md) | a four-level curriculum with exercises and self-checks |
+| [`modules/`](docs/handbook/modules/README.md) | one guide per framework document and domain framework |
+| [`05_GLOSSARY.md`](docs/handbook/05_GLOSSARY.md), [`06_FAQ_AND_TROUBLESHOOTING.md`](docs/handbook/06_FAQ_AND_TROUBLESHOOTING.md), [`07_MAINTAINERS_GUIDE.md`](docs/handbook/07_MAINTAINERS_GUIDE.md) | reference, troubleshooting, the release procedure |
 
 ## The Arajat Logograms
 
@@ -129,5 +165,5 @@ We welcome contributions to expand the analytical modules to new domains (e.g., 
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+The framework, the runtimes and the documentation are licensed under the MIT License; see the `LICENSE` file. The papers in `papers/` are licensed under CC BY 4.0, as stated in their READMEs.
 *Note: Applying these frameworks holds the developer to an ethical standard of Coherence (Axiom 20): the structural reality registers every use, as clarity or as entropy.*

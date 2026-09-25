@@ -1,1 +1,3 @@
 FRAMEWORKS/** -text
+dist/** -text
+llms.txt -text

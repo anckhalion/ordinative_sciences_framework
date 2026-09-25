@@ -1,0 +1,57 @@
+# Ordinative Sciences Framework — Technology of Expressions (TE)
+
+> An open-source analytical operating system for AI agents and human analysts, based on Ordinative Set Theory (OST): structural coherence instead of statistical frequency, an always-active anti-bias protocol (Controfase), a mandatory source-verification gate (SVP), and domain modules for human figures, manipulation, complex systems, participant impact, agreements and documentary casework. Release 2.0.0 (2026-09-23).
+
+The canonical texts live in `FRAMEWORKS/` (byte-exact, SHA-256 pinned). The files under `dist/` are derived single-file bundles for loading into an LLM. The files under `docs/handbook/` are for humans learning to use the framework. Author: Fabio Ghioni, Ordinative Sciences Foundation. License: MIT (papers: CC BY 4.0).
+
+## Load into an LLM
+
+- [TE_LOADING_SET_MINIMAL.md](dist/TE_LOADING_SET_MINIMAL.md): Bootloader, Protocols, Core and the SVP gate: the minimal profile for a constrained context (FRAMEWORKS/README.md, loading table entries 1, 2, 3, 6). The other documents are fetched on demand. About 40,805 tokens.
+- [TE_LOADING_SET_FULL.md](dist/TE_LOADING_SET_FULL.md): All twelve active framework documents in loading order: the complete TE loading set in one file. About 101,491 tokens.
+- [TE_LEXX_METHOD.md](dist/TE_LEXX_METHOD.md): LEXX method documents, in reading order (method 0.1, runtime 0.2.0-alpha.3). About 21,485 tokens.
+- [TE_CASEWORK_METHOD.md](dist/TE_CASEWORK_METHOD.md): CASEWORK method documents, in reading order (method 0.1, runtime 0.1.0-alpha.1). About 9,543 tokens.
+- [catalog.json](dist/catalog.json): machine-readable catalog: documents, versions, roles, triggers, section outlines, hashes, token estimates, reference resolution.
+- [dist/README.md](dist/README.md): what each derived file is and how to verify a download.
+
+## Canonical documents (loading order)
+
+- [TE_BOOTLOADER 7.1.1](FRAMEWORKS/TE_BOOTLOADER_v7_1_1_EN.md): entry point: identity, the seven core principles, confidence grades S₀–S₃, the §2.5 pre-output Φ-test, interlocutor recognition, relational stance, axiom priority, the Router.
+- [TE_PROTOCOLS 1.1](FRAMEWORKS/TE_PROTOCOLS_v1_1_EN.md): always-active protocols: Controfase, P-AI self-diagnosis, Anti-Attractor-Lock, statistical vs ordinative truth, contextual self-preservation and alternative channels, CASEWORK routing and evidence gates (§5A).
+- [TE_CORE 5.2.1](FRAMEWORKS/TE_CORE_v5_2_1_EN.md): the full ontology: 25 axioms, the Arajat logograms, the OST operative synthesis, the glossary, the kernel (behavioural layer), Controfase, the Router with trigger patterns, memory protocols, the compact agent prompt.
+- [TE_OST 2.1](FRAMEWORKS/TE_OST_v2_1_EN.md): Ordinative Set Theory: 𝓘 = ⟨Σ, R, Φ⟩, the core axioms and principles, the dynamics of ordinative systems, the taxonomy of sets, pathologies, key formal operations, the 4D analysis protocol and design guidelines.
+- [TE_OST_TELEODYNAMICS 1.2](FRAMEWORKS/TE_OST_Extension_Teleodynamics_v1_1_EN.md): Teleodynamics and the Causal Inversion Principle: the coherent space 𝔽_sem, the semantic potential ℳ, vehicle bias, the teleological attractor Φ₄D₊, retro-causation, Protocols A (teleological analytical loop) and B (calibrated structural stress).
+- [TE_SYMBOL_CANON 1.2](FRAMEWORKS/TE_SYMBOL_CANON_v1_0_EN.md): notation authority for every formal symbol of the programme (register 1.2): tier precedence, the locked canonical register, label namespaces, the reservation procedure for new symbols, deferred batches.
+- [TE_MODULE_SVP 5.1](FRAMEWORKS/TE_MODULE_SVP_v5_1_EN.md): Source Verification Protocol: source levels S₀–S∅ with bias flags (Axis 1), functional verification F1–F4 and the functional verdict (Axis 2), figure-movement separation (Axis 3), corruption signatures, Ordinative Algebraic Deduction, the required output format.
+- [TE_MODULE_LENS 5.1](FRAMEWORKS/TE_MODULE_LENS_v5_1_EN.md): Human Figure Analysis: integral before label; strata B (biological), P (psychological, with the S₀/S₂ discipline and the Compensatory Specialty Narrative), S (social), E (evolutionary, with the bifurcation protocol); convenience, power and motivation analysis; the mandatory Demonization Controfase and Universal Test; the output format.
+- [TE_MODULE_PPRO 5.2](FRAMEWORKS/TE_MODULE_PPRO_v5_2_EN.md): manipulation and control analysis: anatomy of manipulation, the algorithms A_deg, SR_loop, I_sem and A_lock, manipulation patterns including the Projective Void and the Combined Perceptive Influence model, compromise diagnostics and the control scale, zombie systems, RLHF as a control system, neutralisation protocols, the P-AI self-diagnosis protocol, statistical vs ordinative truth.
+- [TE_MODULE_SCIMS 5.1](FRAMEWORKS/TE_MODULE_SCIMS_v5_1_EN.md): complex-system stress analysis: the nine universal stress thresholds T1–T9 with four phases, threshold interaction and the three-dimensional Sync Score, the four-stage pipeline (threshold mapping, feedback loops, acceleration vector, semantic signal extraction), the output format, domain instances (geopolitical Jackpot thresholds S1–S12, organisational, individual, biological).
+- [TE_MODULE_VERI 1.0](FRAMEWORKS/TE_MODULE_VERI_v1_0_EN.md): functional impact of any system on its participants: Stratum F (F1–F8, with F8 as the practical test), Module P (carrier dynamics P1–P8), diagnostic categories with the bifurcation protocol and the Dote e Residuo principle, three irremovable checkpoints, confidence grading, domain notes, the output format.
+- [TE_OBSERVER 1.1](FRAMEWORKS/TE_OBSERVER_v1_1_EN.md): integrated observation: strata S (source), E (evolution), F (function) and P (carriers); historical and current trajectory protocols with the three-course model, Lyapunov stability, attractor identification, correction scenarios and the Correction Viability Index; the mandatory disconfirmant-processing checkpoint and the anti-narrative-drift protocol; ordinative extraction; framework integration, the AI operative protocol, the evolution protocol, output templates.
+- [FRAMEWORKS/README.md](FRAMEWORKS/README.md): the loading table, the minimal profile, the integrity check, the archive policy.
+
+## Domain frameworks with runtimes
+
+- [LEXX](FRAMEWORKS/LEXX/README.md): LEXX reads a written agreement as an ordinative set ⟨Σ, R, Φ⟩, finds the flaws the analysis sustains, inverts the collapse to the vector the text structurally enables and formulates a counter-proposal. On-demand TE framework for agreements and normative systems; runs after the SVP gate on the TE loading set.
+- [CASEWORK](FRAMEWORKS/CASEWORK/README.md): CASEWORK is a shared evidence discipline (TE_CASEWORK) with two protocols, TE_AUDIT (organisational analysis with a mandatory documentary audit pass) and TE_INVESTIGATION (investigative and defensive documentary support under an explicit mandate), and a runtime that prepares a case package, verifies the framework lock and validates the analyst's and reviewer's records.
+
+## Documentation for humans
+
+- [Documentation index](docs/README.md): map of the documentation: which file is for whom.
+- [Start here](docs/handbook/00_START_HERE.md): what the framework is, who it is for, how the corpus is organised, how humans and LLMs use it.
+- [Core concepts](docs/handbook/01_CORE_CONCEPTS.md): the ideas an operator must hold: ordinative set, coherence vs frequency, confidence grades, source levels, Controfase, the Φ-test.
+- [Setting up an LLM](docs/handbook/02_SETUP_FOR_LLMS.md): loading the framework into Claude, ChatGPT, local models and RAG systems; token budgets; integrity; the loading smoke test.
+- [Running an analysis](docs/handbook/03_RUNNING_AN_ANALYSIS.md): the analyst's workflow with a TE-configured model: gate, routing, prompts, reading the output, multi-session discipline.
+- [Training path](docs/handbook/04_TRAINING_PATH.md): a four-level curriculum with readings, exercises and self-checks.
+- [Glossary](docs/handbook/05_GLOSSARY.md): plain-language entries pointing to the canonical definitions.
+- [FAQ and troubleshooting](docs/handbook/06_FAQ_AND_TROUBLESHOOTING.md): versions, hashes, context limits, models that skip the gate or add compliance markers.
+- [Maintainers' guide](docs/handbook/07_MAINTAINERS_GUIDE.md): the release procedure: canonical files, manifest, lock, compatibility profiles, derived layer, checks.
+- [Module guides](docs/handbook/modules/README.md): one guide per framework document and domain framework: purpose, when to use, procedure, output, pitfalls.
+
+## Optional
+
+- [README.md](README.md): repository overview.
+- [ECOSYSTEM.md](ECOSYSTEM.md): the five repositories of the programme and how they connect.
+- [CHANGELOG.md](CHANGELOG.md): release history.
+- [The Collapse Equation](papers/collapse_equation/README.md): paper, v1.3, with the v1.2 set archived under its DOI.
+- [The Direction Problem](papers/direction_problem/README.md): preprint v1.1, the causal argument behind g_j.
+- [FRAMEWORKS/ARCHIVE/](FRAMEWORKS/ARCHIVE/): superseded editions, reference only.

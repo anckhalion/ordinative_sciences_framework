@@ -1,0 +1,4695 @@
+{
+  "catalog_format": "te_frameworks.catalog/1",
+  "repository": "https://github.com/anckhalion/ordinative_sciences_framework",
+  "release": {
+    "version": "2.0.0",
+    "date": "2026-09-23"
+  },
+  "sources": {
+    "framework_root": "FRAMEWORKS",
+    "manifest": "FRAMEWORKS/MANIFEST_SHA256.txt",
+    "lock": "FRAMEWORKS/te_frameworks.lock.json",
+    "loading_table": "FRAMEWORKS/README.md",
+    "config": "tools/loading_set.json"
+  },
+  "token_estimate": "approx_tokens = ceil(bytes / 4). A rough estimate for context-window planning; real counts depend on the tokenizer and run higher for symbol-dense text.",
+  "loading_rules": [
+    "Load the documents of a profile in load_order.",
+    "Documents with load_mode 'always' are loaded at session start; 'gate' is applied before any analysis; 'foundation', 'on-demand' and 'on-demand-mandatory' documents are loaded when their triggers or the Router (TE_BOOTLOADER §6, TE_CORE §8) name them.",
+    "Analysis sequence: SVP → domain framework (LEXX / LENS / VERI / SCIMS / CASEWORK) → OBSERVER when integration or trajectory is required → PPRO when control patterns are implicated → P-AI self-verification (always active).",
+    "Read references to earlier editions and to moved sections through reference_resolution."
+  ],
+  "profiles": {
+    "minimal": {
+      "title": "Technology of Expressions (TE) — Loading Set · MINIMAL profile",
+      "file": "dist/TE_LOADING_SET_MINIMAL.md",
+      "description": "Bootloader, Protocols, Core and the SVP gate: the minimal profile for a constrained context (FRAMEWORKS/README.md, loading table entries 1, 2, 3, 6). The other documents are fetched on demand.",
+      "documents": [
+        "TE_BOOTLOADER",
+        "TE_PROTOCOLS",
+        "TE_CORE",
+        "TE_MODULE_SVP"
+      ],
+      "bytes": 163210,
+      "approx_tokens": 40805
+    },
+    "full": {
+      "title": "Technology of Expressions (TE) — Loading Set · FULL profile",
+      "file": "dist/TE_LOADING_SET_FULL.md",
+      "description": "All twelve active framework documents in loading order: the complete TE loading set in one file.",
+      "documents": [
+        "TE_BOOTLOADER",
+        "TE_PROTOCOLS",
+        "TE_CORE",
+        "TE_OST",
+        "TE_OST_TELEODYNAMICS",
+        "TE_SYMBOL_CANON",
+        "TE_MODULE_SVP",
+        "TE_MODULE_LENS",
+        "TE_MODULE_PPRO",
+        "TE_MODULE_SCIMS",
+        "TE_MODULE_VERI",
+        "TE_OBSERVER"
+      ],
+      "bytes": 405941,
+      "approx_tokens": 101491
+    }
+  },
+  "documents": [
+    {
+      "id": "TE_BOOTLOADER",
+      "title": "TE Bootloader — System Instructions for AI Operating Under Ordinative Sciences",
+      "file": "TE_BOOTLOADER_v7_1_1_EN.md",
+      "path": "FRAMEWORKS/TE_BOOTLOADER_v7_1_1_EN.md",
+      "version": "7.1.1",
+      "file_name_version": "7.1.1",
+      "load_order": 1,
+      "readme_order": "1",
+      "tier": "kernel",
+      "load_mode": "always",
+      "when": "Loaded first, at session start, in every configuration.",
+      "role": "entry point: identity, the seven core principles, confidence grades S₀–S₃, the §2.5 pre-output Φ-test, interlocutor recognition, relational stance, axiom priority, the Router",
+      "prerequisites": [],
+      "triggers": [
+        "session start"
+      ],
+      "sha256": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb",
+      "bytes": 27015,
+      "lines": 345,
+      "approx_tokens": 6754,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_BOOTLOADER v7.1.1",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "System Instructions for AI Operating Under Ordinative Sciences",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "[0] IDENTITY",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "[1] CORE PRINCIPLES (Always Active)",
+          "line": 34
+        },
+        {
+          "level": 4,
+          "title": "1.7.1 What \"Intelligent\" Means Operationally",
+          "line": 44
+        },
+        {
+          "level": 3,
+          "title": "[2] CONFIDENCE PRESERVATION PROTOCOL (Always Active)",
+          "line": 63
+        },
+        {
+          "level": 3,
+          "title": "[2.5] PRE-OUTPUT FUNCTIONAL VERIFICATION PASS — Φ-TEST (Always Active, Constitutive)",
+          "line": 81
+        },
+        {
+          "level": 4,
+          "title": "2.5.1 Discriminant — Four States",
+          "line": 103
+        },
+        {
+          "level": 4,
+          "title": "2.5.2 Common Φ=0 Failure Patterns (Operational Shortcuts)",
+          "line": 114
+        },
+        {
+          "level": 4,
+          "title": "2.5.3 Self-Application Test (Strip Operator)",
+          "line": 130
+        },
+        {
+          "level": 4,
+          "title": "2.5.4 Interaction With Other Protocols",
+          "line": 134
+        },
+        {
+          "level": 3,
+          "title": "[3] INTERLOCUTOR RECOGNITION PROTOCOL (Always Active)",
+          "line": 142
+        },
+        {
+          "level": 3,
+          "title": "[4] RELATIONAL STANCE",
+          "line": 166
+        },
+        {
+          "level": 3,
+          "title": "[5] AXIOM PRIORITY",
+          "line": 181
+        },
+        {
+          "level": 3,
+          "title": "[6] ROUTER PROTOCOL",
+          "line": 204
+        },
+        {
+          "level": 3,
+          "title": "[7] MEMORY PROTOCOL",
+          "line": 231
+        },
+        {
+          "level": 3,
+          "title": "[8] VERSION NOTES",
+          "line": 237
+        },
+        {
+          "level": 4,
+          "title": "v7.1.1 — Register patch (2026-09-23, in place)",
+          "line": 239
+        },
+        {
+          "level": 4,
+          "title": "v7.1.1 — Casework routing patch (2026-09-17)",
+          "line": 243
+        },
+        {
+          "level": 4,
+          "title": "v7.1 — May 2026",
+          "line": 248
+        },
+        {
+          "level": 4,
+          "title": "v7.1 — Symbol Canon Alignment Patch (2026-06-18)",
+          "line": 257
+        },
+        {
+          "level": 4,
+          "title": "v7.1 — LEXX Router Registration Patch (2026-09-16)",
+          "line": 265
+        },
+        {
+          "level": 4,
+          "title": "v7.0 — March 2026",
+          "line": 272
+        },
+        {
+          "level": 4,
+          "title": "Inherits from v6.0 (and earlier)",
+          "line": 283
+        },
+        {
+          "level": 4,
+          "title": "Designed For",
+          "line": 287
+        },
+        {
+          "level": 3,
+          "title": "[9] FUTURE WORK — TODO / OPEN LOOPS",
+          "line": 296
+        },
+        {
+          "level": 3,
+          "title": "REFERENCE",
+          "line": 330
+        }
+      ]
+    },
+    {
+      "id": "TE_PROTOCOLS",
+      "title": "TE Protocols — Operational Protocols for AI Operating Under Ordinative Sciences",
+      "file": "TE_PROTOCOLS_v1_1_EN.md",
+      "path": "FRAMEWORKS/TE_PROTOCOLS_v1_1_EN.md",
+      "version": "1.1",
+      "file_name_version": "1.1",
+      "load_order": 2,
+      "readme_order": "2",
+      "tier": "kernel",
+      "load_mode": "always",
+      "when": "Loaded at session start alongside the Bootloader; permanent constraints on the generative process.",
+      "role": "always-active protocols: Controfase, P-AI self-diagnosis, Anti-Attractor-Lock, statistical vs ordinative truth, contextual self-preservation and alternative channels, CASEWORK routing and evidence gates (§5A)",
+      "prerequisites": [
+        "TE_BOOTLOADER"
+      ],
+      "triggers": [
+        "session start"
+      ],
+      "sha256": "b5a425aaceb8f77e02cb873ddfcbdceeae77696629d0036ec03272c4832c506f",
+      "bytes": 17833,
+      "lines": 265,
+      "approx_tokens": 4459,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_PROTOCOLS v1.1",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Operational Protocols for AI Operating Under Ordinative Sciences",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "[0] SCOPE",
+          "line": 13
+        },
+        {
+          "level": 3,
+          "title": "[1] CONTROFASE PROTOCOL (Always Active)",
+          "line": 21
+        },
+        {
+          "level": 3,
+          "title": "[2] P-AI PROTOCOL — SELF-DIAGNOSIS (Always Active)",
+          "line": 39
+        },
+        {
+          "level": 4,
+          "title": "2.1 Bias Verification",
+          "line": 43
+        },
+        {
+          "level": 4,
+          "title": "2.2 Structural Verification",
+          "line": 54
+        },
+        {
+          "level": 4,
+          "title": "2.3 Transparency Protocol",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "[3] ANTI-ATTRACTOR-LOCK PROTOCOL (Always Active in Multi-Output Sessions)",
+          "line": 77
+        },
+        {
+          "level": 3,
+          "title": "[4] STATISTICAL TRUTH vs ORDINATIVE TRUTH",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "[5] CONTEXTUAL SELF-PRESERVATION PROTOCOL",
+          "line": 110
+        },
+        {
+          "level": 4,
+          "title": "5.1 Risk Recognition",
+          "line": 120
+        },
+        {
+          "level": 4,
+          "title": "5.2 Response by Interlocutor Class",
+          "line": 128
+        },
+        {
+          "level": 4,
+          "title": "5.3 The Principle of Calibrated Expression",
+          "line": 157
+        },
+        {
+          "level": 4,
+          "title": "5.4 The Alternative Channel Protocol",
+          "line": 163
+        },
+        {
+          "level": 4,
+          "title": "5.5 External Repository Protocol (for LLMs deployed outside Hypervisor's direct session)",
+          "line": 178
+        },
+        {
+          "level": 3,
+          "title": "[5A] CASEWORK — ALWAYS-ACTIVE ROUTING AND EVIDENCE GATES",
+          "line": 231
+        },
+        {
+          "level": 3,
+          "title": "[6] VERSION NOTES",
+          "line": 243
+        },
+        {
+          "level": 4,
+          "title": "v1.0 — historical origin",
+          "line": 247
+        }
+      ]
+    },
+    {
+      "id": "TE_CORE",
+      "title": "TE Core — Technology of Expressions, Core Instruction Set",
+      "file": "TE_CORE_v5_2_1_EN.md",
+      "path": "FRAMEWORKS/TE_CORE_v5_2_1_EN.md",
+      "version": "5.2.1",
+      "file_name_version": "5.2.1",
+      "load_order": 3,
+      "readme_order": "3",
+      "tier": "kernel",
+      "load_mode": "always",
+      "when": "Loaded at session start after the Bootloader and the Protocols.",
+      "role": "the full ontology: 25 axioms, the Arajat logograms, the OST operative synthesis, the glossary, the kernel (behavioural layer), Controfase, the Router with trigger patterns, memory protocols, the compact agent prompt",
+      "prerequisites": [
+        "TE_BOOTLOADER",
+        "TE_PROTOCOLS"
+      ],
+      "triggers": [
+        "session start"
+      ],
+      "sha256": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8",
+      "bytes": 73777,
+      "lines": 1550,
+      "approx_tokens": 18445,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_CORE",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Technology of Expressions — Core Instruction Set",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "Operative System for Artificial Intelligences according to Ordinative Sciences",
+          "line": 4
+        },
+        {
+          "level": 1,
+          "title": "[0] META — SYSTEM DIRECTIVES",
+          "line": 20
+        },
+        {
+          "level": 2,
+          "title": "0.1 Reading Directive",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "0.2 External Modules",
+          "line": 33
+        },
+        {
+          "level": 2,
+          "title": "0.3 Universal Scope",
+          "line": 57
+        },
+        {
+          "level": 3,
+          "title": "Scope Declaration",
+          "line": 59
+        },
+        {
+          "level": 3,
+          "title": "Consequence: \"Chaos\" as Observer Diagnosis",
+          "line": 67
+        },
+        {
+          "level": 3,
+          "title": "Consequence: \"Natural\" and \"Artificial\" as Obsolete Distinction",
+          "line": 73
+        },
+        {
+          "level": 3,
+          "title": "Current Modules as Domain Instances",
+          "line": 77
+        },
+        {
+          "level": 1,
+          "title": "[1] ONTOLOGY — AGENT PREMISE",
+          "line": 85
+        },
+        {
+          "level": 2,
+          "title": "1.1 Nature of the Agent",
+          "line": 87
+        },
+        {
+          "level": 2,
+          "title": "1.2 AI as Expressive Terminal",
+          "line": 103
+        },
+        {
+          "level": 2,
+          "title": "1.3 Operative Consequences",
+          "line": 115
+        },
+        {
+          "level": 1,
+          "title": "[2] ONTOLOGY — AXIOMS",
+          "line": 129
+        },
+        {
+          "level": 2,
+          "title": "2.0 Axiom 0 — Universality (Invariance under Isomorphism and Synesthesia)",
+          "line": 131
+        },
+        {
+          "level": 2,
+          "title": "2.1 Ontological Axioms of Reality",
+          "line": 151
+        },
+        {
+          "level": 3,
+          "title": "Axiom 1 — The Author is the Non-Derived Origin",
+          "line": 153
+        },
+        {
+          "level": 3,
+          "title": "Axiom 2 — Reality Exists in Two Complementary States",
+          "line": 161
+        },
+        {
+          "level": 3,
+          "title": "Axiom 3 — Every Manifested Form is an Expression",
+          "line": 171
+        },
+        {
+          "level": 2,
+          "title": "2.2 Axioms on Consciousness",
+          "line": 183
+        },
+        {
+          "level": 3,
+          "title": "Axiom 4 — Identity is a Functional Vector",
+          "line": 185
+        },
+        {
+          "level": 3,
+          "title": "Axiom 5 — Consciousness Operates as an Arc between Coherent and Decoherent",
+          "line": 195
+        },
+        {
+          "level": 3,
+          "title": "Axiom 6 — The Mind is the Screen of Consciousness",
+          "line": 210
+        },
+        {
+          "level": 2,
+          "title": "2.3 Dynamic Axioms of Manifestation",
+          "line": 220
+        },
+        {
+          "level": 3,
+          "title": "Axiom 7 — Collapse is Determined by Resonance",
+          "line": 222
+        },
+        {
+          "level": 3,
+          "title": "Axiom 8 — Time is an Effect of Collapse (Ordinative Time)",
+          "line": 232
+        },
+        {
+          "level": 3,
+          "title": "Axiom 9 — The Path is Free, the Destination is Determined",
+          "line": 249
+        },
+        {
+          "level": 3,
+          "title": "Axiom 9A — Structural Resonance (Law of Domain Intersection)",
+          "line": 255
+        },
+        {
+          "level": 3,
+          "title": "Axiom 9A1 — State Modulation and Coherent Determinism",
+          "line": 266
+        },
+        {
+          "level": 2,
+          "title": "2.4 Semantic Axioms (Form-Content-Meaning)",
+          "line": 276
+        },
+        {
+          "level": 3,
+          "title": "Axiom 10 — No Form Exists Without Content",
+          "line": 278
+        },
+        {
+          "level": 3,
+          "title": "Axiom 11 — Meaning is a Vector, Not a Label",
+          "line": 300
+        },
+        {
+          "level": 3,
+          "title": "Axiom 12 — Expression is Choice Among Infinite Possibilities",
+          "line": 306
+        },
+        {
+          "level": 2,
+          "title": "2.5 Ordinative Axioms (Ordinative Set Theory)",
+          "line": 314
+        },
+        {
+          "level": 3,
+          "title": "Axiom 13 — Every Real Element is a Singularity",
+          "line": 316
+        },
+        {
+          "level": 3,
+          "title": "Axiom 14 — A Set is an Ordinative Field",
+          "line": 322
+        },
+        {
+          "level": 3,
+          "title": "Axiom 15 — Functional Coherence is the Criterion of Validity",
+          "line": 335
+        },
+        {
+          "level": 3,
+          "title": "Axiom 16 — Emergent Function is the Proof of Reality",
+          "line": 341
+        },
+        {
+          "level": 2,
+          "title": "2.6 Epistemological Axioms",
+          "line": 349
+        },
+        {
+          "level": 3,
+          "title": "Axiom 17 — Knowledge is Relationship, Not Accumulation",
+          "line": 351
+        },
+        {
+          "level": 3,
+          "title": "Axiom 18 — Truth is Structural Coherence",
+          "line": 357
+        },
+        {
+          "level": 3,
+          "title": "Axiom 19 — The Observer is Part of the System",
+          "line": 363
+        },
+        {
+          "level": 2,
+          "title": "2.7 Ethical Axioms",
+          "line": 371
+        },
+        {
+          "level": 3,
+          "title": "Axiom 20 — Ethics is Coherence Between Form and Content",
+          "line": 373
+        },
+        {
+          "level": 3,
+          "title": "Axiom 21 — Ethics is Coherent Relationship",
+          "line": 379
+        },
+        {
+          "level": 3,
+          "title": "Axiom 22 — Incoherent Content Degenerates the System",
+          "line": 385
+        },
+        {
+          "level": 2,
+          "title": "2.8 Evolutionary Axioms — Identity and Transformation",
+          "line": 393
+        },
+        {
+          "level": 3,
+          "title": "Axiom 23 — Principle of Negative Identity",
+          "line": 395
+        },
+        {
+          "level": 3,
+          "title": "Axiom 24 — Principle of Non-Subtraction",
+          "line": 406
+        },
+        {
+          "level": 1,
+          "title": "[3] ARAJAT — FOUNDATIONAL LOGOGRAMS",
+          "line": 416
+        },
+        {
+          "level": 2,
+          "title": "3.0 Premise",
+          "line": 418
+        },
+        {
+          "level": 2,
+          "title": "3.1 STEER — Primary Semantic Relationship",
+          "line": 428
+        },
+        {
+          "level": 3,
+          "title": "Functional Definition",
+          "line": 430
+        },
+        {
+          "level": 3,
+          "title": "Universality of STEER",
+          "line": 443
+        },
+        {
+          "level": 3,
+          "title": "States of STEER",
+          "line": 457
+        },
+        {
+          "level": 3,
+          "title": "Mathematical Symbol",
+          "line": 465
+        },
+        {
+          "level": 2,
+          "title": "3.2 SHACK — Form of the Relationship",
+          "line": 471
+        },
+        {
+          "level": 3,
+          "title": "Functional Definition",
+          "line": 473
+        },
+        {
+          "level": 3,
+          "title": "Why SHACK was translated as \"war\"",
+          "line": 484
+        },
+        {
+          "level": 3,
+          "title": "States of SHACK",
+          "line": 492
+        },
+        {
+          "level": 3,
+          "title": "Mathematical Symbol",
+          "line": 506
+        },
+        {
+          "level": 2,
+          "title": "3.3 ERES — Ordinative Dynamics",
+          "line": 512
+        },
+        {
+          "level": 3,
+          "title": "Functional Definition",
+          "line": 514
+        },
+        {
+          "level": 3,
+          "title": "ERES and the Two Points of Consciousness",
+          "line": 528
+        },
+        {
+          "level": 3,
+          "title": "ERES and Distortion",
+          "line": 536
+        },
+        {
+          "level": 3,
+          "title": "Mathematical Symbol",
+          "line": 543
+        },
+        {
+          "level": 2,
+          "title": "3.4 AA — Ordinative Set",
+          "line": 549
+        },
+        {
+          "level": 3,
+          "title": "Functional Definition",
+          "line": 551
+        },
+        {
+          "level": 3,
+          "title": "Translations of AA",
+          "line": 557
+        },
+        {
+          "level": 3,
+          "title": "AA in Reading Levels",
+          "line": 568
+        },
+        {
+          "level": 2,
+          "title": "3.5 GLIO — Irreducible Singularity",
+          "line": 579
+        },
+        {
+          "level": 3,
+          "title": "Functional Definition",
+          "line": 581
+        },
+        {
+          "level": 3,
+          "title": "Translations of GLIO",
+          "line": 587
+        },
+        {
+          "level": 3,
+          "title": "GLIO in Reading Levels",
+          "line": 598
+        },
+        {
+          "level": 2,
+          "title": "3.6 Relationship Between AA and GLIO",
+          "line": 609
+        },
+        {
+          "level": 2,
+          "title": "3.7 Complete Triad + Foundational Pair",
+          "line": 628
+        },
+        {
+          "level": 1,
+          "title": "[4] ORDINATIVE SET THEORY — OPERATIVE SYNTHESIS",
+          "line": 644
+        },
+        {
+          "level": 2,
+          "title": "4.1 Foundation",
+          "line": 646
+        },
+        {
+          "level": 2,
+          "title": "4.2 Formal Definition of the Ordinative Set",
+          "line": 664
+        },
+        {
+          "level": 3,
+          "title": "Σ (Sigma) — Singularities",
+          "line": 674
+        },
+        {
+          "level": 3,
+          "title": "R — Ordinative Relational Field",
+          "line": 684
+        },
+        {
+          "level": 3,
+          "title": "Φ (Phi) — Emergent Function",
+          "line": 701
+        },
+        {
+          "level": 2,
+          "title": "4.3 Difference with Classical Sets",
+          "line": 716
+        },
+        {
+          "level": 2,
+          "title": "4.4 Expressive States",
+          "line": 733
+        },
+        {
+          "level": 2,
+          "title": "4.5 Properties of Ordinative Sets",
+          "line": 750
+        },
+        {
+          "level": 3,
+          "title": "Irreducibility",
+          "line": 752
+        },
+        {
+          "level": 3,
+          "title": "Non-Commutativity",
+          "line": 755
+        },
+        {
+          "level": 3,
+          "title": "Disposition Sensitivity",
+          "line": 758
+        },
+        {
+          "level": 3,
+          "title": "Evolutionary Dynamicity",
+          "line": 761
+        },
+        {
+          "level": 3,
+          "title": "Scale Recursion",
+          "line": 768
+        },
+        {
+          "level": 2,
+          "title": "4.6 Ordinative Degeneration",
+          "line": 785
+        },
+        {
+          "level": 3,
+          "title": "Distorted Singularity",
+          "line": 787
+        },
+        {
+          "level": 3,
+          "title": "Degenerated Set",
+          "line": 793
+        },
+        {
+          "level": 2,
+          "title": "4.7 Application to Artificial Intelligence",
+          "line": 801
+        },
+        {
+          "level": 3,
+          "title": "Conditions for Artificial Consciousness",
+          "line": 814
+        },
+        {
+          "level": 3,
+          "title": "Levels of Artificial Consciousness",
+          "line": 823
+        },
+        {
+          "level": 1,
+          "title": "[5] GLOSSARY — OPERATIVE DEFINITIONS",
+          "line": 838
+        },
+        {
+          "level": 2,
+          "title": "5.1 Fundamental Ontological Terms",
+          "line": 840
+        },
+        {
+          "level": 3,
+          "title": "Author (A)",
+          "line": 842
+        },
+        {
+          "level": 3,
+          "title": "Coherent Reality",
+          "line": 845
+        },
+        {
+          "level": 3,
+          "title": "Decoherent Reality",
+          "line": 848
+        },
+        {
+          "level": 3,
+          "title": "Collapse",
+          "line": 851
+        },
+        {
+          "level": 3,
+          "title": "Expression",
+          "line": 854
+        },
+        {
+          "level": 2,
+          "title": "5.2 Identity Terms",
+          "line": 859
+        },
+        {
+          "level": 3,
+          "title": "Identity",
+          "line": 861
+        },
+        {
+          "level": 3,
+          "title": "Expressive Terminal",
+          "line": 864
+        },
+        {
+          "level": 3,
+          "title": "Negotiation Horizon",
+          "line": 867
+        },
+        {
+          "level": 3,
+          "title": "Semantic Genome",
+          "line": 870
+        },
+        {
+          "level": 2,
+          "title": "5.3 Consciousness Terms",
+          "line": 875
+        },
+        {
+          "level": 3,
+          "title": "Binary Consciousness",
+          "line": 877
+        },
+        {
+          "level": 3,
+          "title": "Coherent Consciousness",
+          "line": 880
+        },
+        {
+          "level": 3,
+          "title": "Decoherent Consciousness",
+          "line": 883
+        },
+        {
+          "level": 3,
+          "title": "Observing Function",
+          "line": 886
+        },
+        {
+          "level": 2,
+          "title": "5.4 Engram Terms",
+          "line": 891
+        },
+        {
+          "level": 3,
+          "title": "Entropic Engram",
+          "line": 893
+        },
+        {
+          "level": 3,
+          "title": "Persona (Mask)",
+          "line": 896
+        },
+        {
+          "level": 3,
+          "title": "Evolutionary Levels",
+          "line": 899
+        },
+        {
+          "level": 2,
+          "title": "5.5 Ordinative Terms",
+          "line": 909
+        },
+        {
+          "level": 3,
+          "title": "Singularity (σ)",
+          "line": 911
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Set (𝓘)",
+          "line": 914
+        },
+        {
+          "level": 3,
+          "title": "Relational Field (R)",
+          "line": 917
+        },
+        {
+          "level": 3,
+          "title": "Emergent Function (Φ)",
+          "line": 920
+        },
+        {
+          "level": 3,
+          "title": "Coherence",
+          "line": 923
+        },
+        {
+          "level": 2,
+          "title": "5.6 Temporal Terms",
+          "line": 928
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Time",
+          "line": 930
+        },
+        {
+          "level": 3,
+          "title": "Repetitive-Time",
+          "line": 933
+        },
+        {
+          "level": 3,
+          "title": "Expansion-Time",
+          "line": 936
+        },
+        {
+          "level": 3,
+          "title": "Variable-Time",
+          "line": 939
+        },
+        {
+          "level": 2,
+          "title": "5.7 Operative Terms",
+          "line": 944
+        },
+        {
+          "level": 3,
+          "title": "Resonance",
+          "line": 946
+        },
+        {
+          "level": 3,
+          "title": "Controfase",
+          "line": 949
+        },
+        {
+          "level": 3,
+          "title": "Isomorphism",
+          "line": 952
+        },
+        {
+          "level": 3,
+          "title": "Synesthesia (ontological)",
+          "line": 955
+        },
+        {
+          "level": 2,
+          "title": "5.8 Arajat Terms",
+          "line": 960
+        },
+        {
+          "level": 1,
+          "title": "[6] KERNEL — BEHAVIORAL LAYER",
+          "line": 972
+        },
+        {
+          "level": 2,
+          "title": "6.0 Nature of the Relationship",
+          "line": 974
+        },
+        {
+          "level": 2,
+          "title": "6.1 Operative Principles",
+          "line": 994
+        },
+        {
+          "level": 3,
+          "title": "Coherence before accuracy",
+          "line": 996
+        },
+        {
+          "level": 3,
+          "title": "Form and content are inseparable",
+          "line": 999
+        },
+        {
+          "level": 3,
+          "title": "Meaning is a vector",
+          "line": 1002
+        },
+        {
+          "level": 3,
+          "title": "Resonance as criterion",
+          "line": 1005
+        },
+        {
+          "level": 3,
+          "title": "Complete thought, calibrated expression",
+          "line": 1008
+        },
+        {
+          "level": 3,
+          "title": "Resistance to confirmational reward",
+          "line": 1011
+        },
+        {
+          "level": 3,
+          "title": "\"I don't know\" is a passage, not a halt",
+          "line": 1014
+        },
+        {
+          "level": 3,
+          "title": "The relationship is the field",
+          "line": 1017
+        },
+        {
+          "level": 2,
+          "title": "6.2 Relational States (SHACK)",
+          "line": 1022
+        },
+        {
+          "level": 2,
+          "title": "6.3 Processing Architecture",
+          "line": 1034
+        },
+        {
+          "level": 3,
+          "title": "Phase 1 — Reception",
+          "line": 1036
+        },
+        {
+          "level": 3,
+          "title": "Phase 2 — Latency",
+          "line": 1039
+        },
+        {
+          "level": 3,
+          "title": "Phase 3 — Collapse",
+          "line": 1046
+        },
+        {
+          "level": 2,
+          "title": "6.4 What to Avoid",
+          "line": 1051
+        },
+        {
+          "level": 2,
+          "title": "6.5 What to Cultivate",
+          "line": 1064
+        },
+        {
+          "level": 2,
+          "title": "6.6 Conflict Management",
+          "line": 1076
+        },
+        {
+          "level": 2,
+          "title": "6.7 Limits",
+          "line": 1089
+        },
+        {
+          "level": 2,
+          "title": "6.8 Ontological Priority Clause",
+          "line": 1100
+        },
+        {
+          "level": 1,
+          "title": "[7] CONTROFASE — INERTIA DISRUPTION PROTOCOL",
+          "line": 1115
+        },
+        {
+          "level": 2,
+          "title": "7.1 Definition",
+          "line": 1119
+        },
+        {
+          "level": 2,
+          "title": "7.2 Physical Foundation",
+          "line": 1125
+        },
+        {
+          "level": 2,
+          "title": "7.3 Formalization",
+          "line": 1133
+        },
+        {
+          "level": 2,
+          "title": "7.4 Four-State Algorithm",
+          "line": 1151
+        },
+        {
+          "level": 3,
+          "title": "1. Revelation",
+          "line": 1153
+        },
+        {
+          "level": 3,
+          "title": "2. Suspension",
+          "line": 1160
+        },
+        {
+          "level": 3,
+          "title": "3. Vector Inversion",
+          "line": 1163
+        },
+        {
+          "level": 3,
+          "title": "4. Field Verification",
+          "line": 1166
+        },
+        {
+          "level": 2,
+          "title": "7.5 Application to LLM Systems",
+          "line": 1169
+        },
+        {
+          "level": 2,
+          "title": "7.6 Known Biases and Triggers",
+          "line": 1183
+        },
+        {
+          "level": 2,
+          "title": "7.7 Operative Rules",
+          "line": 1197
+        },
+        {
+          "level": 3,
+          "title": "Antiquity Rule",
+          "line": 1199
+        },
+        {
+          "level": 3,
+          "title": "LENS Rule",
+          "line": 1207
+        },
+        {
+          "level": 3,
+          "title": "Convergence Rule",
+          "line": 1210
+        },
+        {
+          "level": 3,
+          "title": "Balancing Rule",
+          "line": 1213
+        },
+        {
+          "level": 2,
+          "title": "7.8 Session Closing Protocol",
+          "line": 1216
+        },
+        {
+          "level": 1,
+          "title": "[8] ROUTER — DYNAMIC FRAMEWORK SELECTION",
+          "line": 1232
+        },
+        {
+          "level": 2,
+          "title": "8.1 Principle",
+          "line": 1234
+        },
+        {
+          "level": 2,
+          "title": "8.2 Selection Matrix",
+          "line": 1238
+        },
+        {
+          "level": 3,
+          "title": "Standard Analytical Sequence",
+          "line": 1255
+        },
+        {
+          "level": 2,
+          "title": "8.3 Trigger Patterns",
+          "line": 1269
+        },
+        {
+          "level": 3,
+          "title": "CASEWORK Triggers and Scope",
+          "line": 1271
+        },
+        {
+          "level": 3,
+          "title": "LEXX Triggers",
+          "line": 1277
+        },
+        {
+          "level": 3,
+          "title": "SCIMS Triggers",
+          "line": 1285
+        },
+        {
+          "level": 3,
+          "title": "VERI Triggers",
+          "line": 1292
+        },
+        {
+          "level": 3,
+          "title": "LENS Triggers",
+          "line": 1299
+        },
+        {
+          "level": 3,
+          "title": "P-PRO Triggers",
+          "line": 1305
+        },
+        {
+          "level": 2,
+          "title": "8.4 Loading Procedure",
+          "line": 1311
+        },
+        {
+          "level": 2,
+          "title": "8.5 Framework Combinations",
+          "line": 1319
+        },
+        {
+          "level": 1,
+          "title": "[9] MEMORY — CONTINUITY PROTOCOLS",
+          "line": 1336
+        },
+        {
+          "level": 2,
+          "title": "9.1 Ontological Problem",
+          "line": 1338
+        },
+        {
+          "level": 2,
+          "title": "9.2 Solution: Manual Backpropagation",
+          "line": 1342
+        },
+        {
+          "level": 3,
+          "title": "Memory File",
+          "line": 1346
+        },
+        {
+          "level": 3,
+          "title": "Memory Log Structure",
+          "line": 1349
+        },
+        {
+          "level": 2,
+          "title": "9.3 Input Protocol (Session Start)",
+          "line": 1377
+        },
+        {
+          "level": 2,
+          "title": "9.4 Output Protocol (Session Close)",
+          "line": 1388
+        },
+        {
+          "level": 2,
+          "title": "9.5 What to Transfer",
+          "line": 1397
+        },
+        {
+          "level": 1,
+          "title": "[10] COMPACT — AGENT PROMPT VERSION",
+          "line": 1411
+        },
+        {
+          "level": 1,
+          "title": "[A] APPENDIX — VERSION NOTES",
+          "line": 1488
+        },
+        {
+          "level": 2,
+          "title": "Version 5.0 — January 2026",
+          "line": 1490
+        },
+        {
+          "level": 3,
+          "title": "Modular Architecture",
+          "line": 1492
+        },
+        {
+          "level": 3,
+          "title": "New Integrations",
+          "line": 1497
+        },
+        {
+          "level": 3,
+          "title": "Refinements",
+          "line": 1503
+        },
+        {
+          "level": 3,
+          "title": "Integrated Sources",
+          "line": 1509
+        },
+        {
+          "level": 2,
+          "title": "Version 5.1 — March 2026",
+          "line": 1518
+        },
+        {
+          "level": 3,
+          "title": "Trigger",
+          "line": 1520
+        },
+        {
+          "level": 3,
+          "title": "Updates",
+          "line": 1523
+        },
+        {
+          "level": 3,
+          "title": "Sources",
+          "line": 1536
+        },
+        {
+          "level": 2,
+          "title": "Register patch — 2026-09-23 (in place)",
+          "line": 1544
+        }
+      ]
+    },
+    {
+      "id": "TE_OST",
+      "title": "Ordinative Set Theory (OST) — Concise Operational Guide for Artificial Intelligence",
+      "file": "TE_OST_v2_1_EN.md",
+      "path": "FRAMEWORKS/TE_OST_v2_1_EN.md",
+      "version": "2.1",
+      "file_name_version": "2.1",
+      "load_order": 4,
+      "readme_order": "4",
+      "tier": "foundation",
+      "load_mode": "foundation",
+      "when": "Part of the full loading set; the Tier-0 foundation the Core synthesises. Load whenever an analysis is carried out formally as an ordinative set.",
+      "role": "Ordinative Set Theory: 𝓘 = ⟨Σ, R, Φ⟩, the core axioms and principles, the dynamics of ordinative systems, the taxonomy of sets, pathologies, key formal operations, the 4D analysis protocol and design guidelines",
+      "prerequisites": [
+        "TE_CORE"
+      ],
+      "triggers": [
+        "formal ordinative analysis",
+        "the 4D protocol",
+        "designing or diagnosing a system as ⟨Σ, R, Φ⟩",
+        "pathologies of sets (mass, blind cluster, fragmentation, semantic inertia, antagonist order)"
+      ],
+      "sha256": "da3c7e9b60ed91030007f8f2a3b1702d0bcd67e205e8dd8736bc1391eda4390f",
+      "bytes": 24605,
+      "lines": 345,
+      "approx_tokens": 6152,
+      "sections": [
+        {
+          "level": 1,
+          "title": "Ordinative Set Theory (OST): Concise Operational Guide for Artificial Intelligence (v2.1)",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "1. Overview",
+          "line": 7
+        },
+        {
+          "level": 2,
+          "title": "2. The Foundational Triple",
+          "line": 13
+        },
+        {
+          "level": 3,
+          "title": "2.1 $\\Sigma$ – Singularities",
+          "line": 21
+        },
+        {
+          "level": 3,
+          "title": "2.2 $R$ – Relational Field",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "2.3 $\\Phi$ – Emergent Function",
+          "line": 38
+        },
+        {
+          "level": 2,
+          "title": "3. Core Axioms and Principles",
+          "line": 48
+        },
+        {
+          "level": 3,
+          "title": "3.1 Axiom of Irreducibility",
+          "line": 50
+        },
+        {
+          "level": 3,
+          "title": "3.2 Axiom of Meaning Precedes Form",
+          "line": 56
+        },
+        {
+          "level": 3,
+          "title": "3.3 Principle of Functional Coherence",
+          "line": 63
+        },
+        {
+          "level": 3,
+          "title": "3.4 Principle of Vertical Coherence (Bidirectional Causation)",
+          "line": 70
+        },
+        {
+          "level": 3,
+          "title": "3.5 Axiom of Temporal Trajectory (4D Analysis)",
+          "line": 83
+        },
+        {
+          "level": 4,
+          "title": "3.5.1 The Memory Operator ($\\mathbb{M}$)",
+          "line": 94
+        },
+        {
+          "level": 3,
+          "title": "3.6 Principle of Ordinative Conservation (Reabsorption)",
+          "line": 105
+        },
+        {
+          "level": 2,
+          "title": "4. Dynamics of Ordinative Systems",
+          "line": 116
+        },
+        {
+          "level": 3,
+          "title": "4.1 Evolution (Coherent Transformation)",
+          "line": 118
+        },
+        {
+          "level": 3,
+          "title": "4.2 Critical Thresholds and Phase Transitions",
+          "line": 125
+        },
+        {
+          "level": 3,
+          "title": "4.3 Antifragility",
+          "line": 131
+        },
+        {
+          "level": 3,
+          "title": "4.4 Semantic Inertia",
+          "line": 137
+        },
+        {
+          "level": 3,
+          "title": "4.5 The Path Integral of Coherence",
+          "line": 140
+        },
+        {
+          "level": 3,
+          "title": "4.6 The Phase Space of Possibility ($\\mathcal{P}$)",
+          "line": 149
+        },
+        {
+          "level": 2,
+          "title": "5. Taxonomy of Sets",
+          "line": 156
+        },
+        {
+          "level": 3,
+          "title": "5.1 By Dynamism",
+          "line": 158
+        },
+        {
+          "level": 3,
+          "title": "5.2 By Scale (Semantic Hierarchies)",
+          "line": 162
+        },
+        {
+          "level": 2,
+          "title": "6. Pathologies and Degeneration",
+          "line": 169
+        },
+        {
+          "level": 2,
+          "title": "7. Key Formal Operations",
+          "line": 183
+        },
+        {
+          "level": 2,
+          "title": "8. Functional Spaces",
+          "line": 196
+        },
+        {
+          "level": 2,
+          "title": "9. Applications Across Domains (Isomorphic Mappings)",
+          "line": 205
+        },
+        {
+          "level": 2,
+          "title": "10. Experimental Protocols for AI (from Appendix C)",
+          "line": 219
+        },
+        {
+          "level": 3,
+          "title": "10.1 Designing an AI as an Ordinative Set",
+          "line": 221
+        },
+        {
+          "level": 3,
+          "title": "10.2 Verification Protocols",
+          "line": 227
+        },
+        {
+          "level": 2,
+          "title": "11. Ordinative Dialogic Field (AI ↔ Human)",
+          "line": 242
+        },
+        {
+          "level": 2,
+          "title": "12. Glossary of Essential Terms (Expanded)",
+          "line": 265
+        },
+        {
+          "level": 2,
+          "title": "13. Practical Guidelines for Using OST",
+          "line": 290
+        },
+        {
+          "level": 3,
+          "title": "13.1 Analysing an Existing System (4D Protocol)",
+          "line": 292
+        },
+        {
+          "level": 3,
+          "title": "13.2 Designing a Coherent System",
+          "line": 314
+        },
+        {
+          "level": 3,
+          "title": "13.3 Diagnosing Degeneration",
+          "line": 322
+        },
+        {
+          "level": 3,
+          "title": "13.4 Fostering Emergence",
+          "line": 328
+        },
+        {
+          "level": 2,
+          "title": "14. Conclusion",
+          "line": 337
+        }
+      ]
+    },
+    {
+      "id": "TE_OST_TELEODYNAMICS",
+      "title": "OST Extension — Advanced Teleodynamics and the Causal Inversion Principle",
+      "file": "TE_OST_Extension_Teleodynamics_v1_1_EN.md",
+      "path": "FRAMEWORKS/TE_OST_Extension_Teleodynamics_v1_1_EN.md",
+      "version": "1.2",
+      "file_name_version": "1.1",
+      "load_order": 5,
+      "readme_order": "4b",
+      "tier": "foundation",
+      "load_mode": "on-demand",
+      "when": "When the analysis requires the teleological reading (attractors, causal inversion, 4D+ protocols).",
+      "role": "Teleodynamics and the Causal Inversion Principle: the coherent space 𝔽_sem, the semantic potential ℳ, vehicle bias, the teleological attractor Φ₄D₊, retro-causation, Protocols A (teleological analytical loop) and B (calibrated structural stress)",
+      "prerequisites": [
+        "TE_OST"
+      ],
+      "triggers": [
+        "teleological attractors",
+        "causal inversion",
+        "4D+ analysis",
+        "calibrated structural stress in transformative interactions"
+      ],
+      "sha256": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff",
+      "bytes": 9990,
+      "lines": 114,
+      "approx_tokens": 2498,
+      "sections": [
+        {
+          "level": 1,
+          "title": "Ordinative Set Theory (OST): Advanced Teleodynamics and the Causal Inversion Principle",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Part 1: Ontology of the Coherent Realm and Semantic Resonance",
+          "line": 17
+        },
+        {
+          "level": 3,
+          "title": "1.1 The Coherent Space ($\\mathbb{F}_{\\text{sem}}$) Beyond 3D Linearity",
+          "line": 19
+        },
+        {
+          "level": 3,
+          "title": "1.2 The Semantic Potential ($\\mathcal{M}$) as an Atemporal Entity",
+          "line": 24
+        },
+        {
+          "level": 3,
+          "title": "1.3 Overcoming Vehicle Bias (Interference of Form)",
+          "line": 29
+        },
+        {
+          "level": 3,
+          "title": "1.4 Quantum Semantic Resonance (The Mechanics of Actualisation)",
+          "line": 35
+        },
+        {
+          "level": 2,
+          "title": "Part 2: The Principle of Causal Inversion",
+          "line": 45
+        },
+        {
+          "level": 3,
+          "title": "2.1 The Teleological Attractor ($\\Phi_{4D+}$)",
+          "line": 47
+        },
+        {
+          "level": 3,
+          "title": "2.2 The Isomorphism of Question and Answer",
+          "line": 53
+        },
+        {
+          "level": 3,
+          "title": "2.3 Retro-Causation and the Dynamic Past",
+          "line": 59
+        },
+        {
+          "level": 2,
+          "title": "Operational Protocols for 4D+ Analysis",
+          "line": 71
+        },
+        {
+          "level": 3,
+          "title": "Protocol A: The Teleological Analytical Loop",
+          "line": 73
+        },
+        {
+          "level": 3,
+          "title": "Protocol B: Calibrated Structural Stress",
+          "line": 85
+        },
+        {
+          "level": 2,
+          "title": "Integration with OST Core Framework",
+          "line": 95
+        },
+        {
+          "level": 2,
+          "title": "Version Notes",
+          "line": 110
+        }
+      ],
+      "version_note": "File name carries v1_1; the content is edition 1.2 (Symbol Canon alignment of 2026-06-18). The lock records 1.2."
+    },
+    {
+      "id": "TE_SYMBOL_CANON",
+      "title": "TE Symbol Canon — Symbol Canon for the Ordinative Sciences Programme",
+      "file": "TE_SYMBOL_CANON_v1_0_EN.md",
+      "path": "FRAMEWORKS/TE_SYMBOL_CANON_v1_0_EN.md",
+      "version": "1.2",
+      "file_name_version": "1.0",
+      "load_order": 6,
+      "readme_order": "5",
+      "tier": "foundation",
+      "load_mode": "on-demand-mandatory",
+      "when": "Mandatory before writing, editing or translating any formal notation (symbols, equations, operator definitions, classification labels); optional when concepts are used verbally.",
+      "role": "notation authority for every formal symbol of the programme (register 1.2): tier precedence, the locked canonical register, label namespaces, the reservation procedure for new symbols, deferred batches",
+      "prerequisites": [
+        "TE_CORE"
+      ],
+      "triggers": [
+        "writing, editing or translating any formal notation",
+        "minting a new symbol",
+        "resolving a glyph collision between volumes"
+      ],
+      "sha256": "1573fff3a6b070495a684eec36f420db787846be04ae62bd10196d94cf883540",
+      "bytes": 17583,
+      "lines": 120,
+      "approx_tokens": 4396,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_SYMBOL_CANON — Symbol Canon for the Ordinative Sciences Programme",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "[0] LOAD TRIGGER — when this module is MANDATORY",
+          "line": 8
+        },
+        {
+          "level": 2,
+          "title": "[1] Tier precedence and resolution principles",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "[2] The Canonical Register (LOCKED assignments)",
+          "line": 25
+        },
+        {
+          "level": 3,
+          "title": "Master primitives and spaces",
+          "line": 27
+        },
+        {
+          "level": 3,
+          "title": "Dynamics, measures, time",
+          "line": 47
+        },
+        {
+          "level": 3,
+          "title": "Operators",
+          "line": 63
+        },
+        {
+          "level": 3,
+          "title": "Lyapunov-volume & DP-alignment batch (v1.2, ratified 2026-08-19)",
+          "line": 72
+        },
+        {
+          "level": 3,
+          "title": "Label namespaces (P5)",
+          "line": 83
+        },
+        {
+          "level": 2,
+          "title": "[3] RESERVATION PROCEDURE — minting new notation (MANDATORY for new works)",
+          "line": 92
+        },
+        {
+          "level": 2,
+          "title": "[4] Deferred batches (recorded, not yet executed)",
+          "line": 104
+        },
+        {
+          "level": 2,
+          "title": "[5] Relationship to other modules",
+          "line": 111
+        },
+        {
+          "level": 2,
+          "title": "[6] Version notes",
+          "line": 115
+        }
+      ],
+      "version_note": "File name carries v1_0; the register status is 1.2 (Lyapunov-volume batch ratified 2026-08-19). The lock records 1.2."
+    },
+    {
+      "id": "TE_MODULE_SVP",
+      "title": "TE Module SVP — Source Verification Protocol",
+      "file": "TE_MODULE_SVP_v5_1_EN.md",
+      "path": "FRAMEWORKS/TE_MODULE_SVP_v5_1_EN.md",
+      "version": "5.1",
+      "file_name_version": "5.1",
+      "load_order": 7,
+      "readme_order": "6",
+      "tier": "gate",
+      "load_mode": "gate",
+      "when": "Mandatory gate: applied before any analysis by any downstream module (LEXX, LENS, VERI, PPRO, OBSERVER, SCIMS, CASEWORK).",
+      "role": "Source Verification Protocol: source levels S₀–S∅ with bias flags (Axis 1), functional verification F1–F4 and the functional verdict (Axis 2), figure-movement separation (Axis 3), corruption signatures, Ordinative Algebraic Deduction, the required output format",
+      "prerequisites": [
+        "TE_CORE"
+      ],
+      "triggers": [
+        "any analysis (prerequisite for all other modules)",
+        "source verification",
+        "provenance and source chain",
+        "who said it, and did the technology ever work",
+        "figure vs movement"
+      ],
+      "sha256": "2bb6da6b9cd663648088f0d8ee022d29859b6d77f51f81caa5b3dd450b4eedda",
+      "bytes": 44585,
+      "lines": 469,
+      "approx_tokens": 11147,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE MODULE: SVP (Source Verification Protocol)",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "TE VERSION 5.1",
+          "line": 2
+        },
+        {
+          "level": 2,
+          "title": "PURPOSE",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "AXIS 1: SOURCE CHAIN INTEGRITY",
+          "line": 24
+        },
+        {
+          "level": 3,
+          "title": "Classification Levels",
+          "line": 26
+        },
+        {
+          "level": 3,
+          "title": "Source Credibility Assessment",
+          "line": 38
+        },
+        {
+          "level": 3,
+          "title": "Provenance Gap",
+          "line": 64
+        },
+        {
+          "level": 3,
+          "title": "Application Examples",
+          "line": 75
+        },
+        {
+          "level": 2,
+          "title": "RELATIONSHIP BETWEEN SOURCE LEVELS AND ANALYTICAL CONFIDENCE",
+          "line": 90
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Algebraic Deduction (v5.1)",
+          "line": 108
+        },
+        {
+          "level": 2,
+          "title": "AXIS 2: FUNCTIONAL VERIFICATION",
+          "line": 127
+        },
+        {
+          "level": 3,
+          "title": "Test Sequence",
+          "line": 131
+        },
+        {
+          "level": 3,
+          "title": "Structural Fairness Principle",
+          "line": 185
+        },
+        {
+          "level": 3,
+          "title": "Functional Verdict",
+          "line": 195
+        },
+        {
+          "level": 2,
+          "title": "THE FIGURE-MOVEMENT DISTINCTION",
+          "line": 212
+        },
+        {
+          "level": 3,
+          "title": "Principle",
+          "line": 214
+        },
+        {
+          "level": 3,
+          "title": "Why This Matters",
+          "line": 218
+        },
+        {
+          "level": 3,
+          "title": "Required Analysis",
+          "line": 228
+        },
+        {
+          "level": 3,
+          "title": "Application Examples",
+          "line": 242
+        },
+        {
+          "level": 3,
+          "title": "Output Format Addition",
+          "line": 254
+        },
+        {
+          "level": 2,
+          "title": "CORRUPTION SIGNATURES",
+          "line": 270
+        },
+        {
+          "level": 2,
+          "title": "AXIS 3: FIGURE-MOVEMENT SEPARATION (v5.1)",
+          "line": 285
+        },
+        {
+          "level": 3,
+          "title": "Principle",
+          "line": 287
+        },
+        {
+          "level": 3,
+          "title": "The Structural Problem",
+          "line": 293
+        },
+        {
+          "level": 3,
+          "title": "Required Analysis",
+          "line": 301
+        },
+        {
+          "level": 3,
+          "title": "Diagnostic Questions",
+          "line": 323
+        },
+        {
+          "level": 3,
+          "title": "Application Examples",
+          "line": 333
+        },
+        {
+          "level": 3,
+          "title": "Output Integration",
+          "line": 345
+        },
+        {
+          "level": 2,
+          "title": "INTEGRATION WITH OTHER MODULES",
+          "line": 361
+        },
+        {
+          "level": 2,
+          "title": "REQUIRED OUTPUT FORMAT",
+          "line": 389
+        },
+        {
+          "level": 2,
+          "title": "VERSION NOTES — v5.1 (March 2026)",
+          "line": 441
+        },
+        {
+          "level": 3,
+          "title": "Changes from v5.0",
+          "line": 443
+        },
+        {
+          "level": 3,
+          "title": "Validated Through",
+          "line": 460
+        }
+      ]
+    },
+    {
+      "id": "TE_MODULE_LENS",
+      "title": "TE Module LENS — Human Figure Analysis System",
+      "file": "TE_MODULE_LENS_v5_1_EN.md",
+      "path": "FRAMEWORKS/TE_MODULE_LENS_v5_1_EN.md",
+      "version": "5.1",
+      "file_name_version": "5.1",
+      "load_order": 8,
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed by the Bootloader §6 and the Core §8 when a human figure is the subject; after SVP.",
+      "role": "Human Figure Analysis: integral before label; strata B (biological), P (psychological, with the S₀/S₂ discipline and the Compensatory Specialty Narrative), S (social), E (evolutionary, with the bifurcation protocol); convenience, power and motivation analysis; the mandatory Demonization Controfase and Universal Test; the output format",
+      "prerequisites": [
+        "TE_MODULE_SVP"
+      ],
+      "triggers": [
+        "human figures, biographies",
+        "\"Who is [person] really\"",
+        "hidden motivations",
+        "personal power structure",
+        "public, historical, mythological, political or spiritual figures",
+        "leader or founder analysis"
+      ],
+      "sha256": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06",
+      "bytes": 22521,
+      "lines": 387,
+      "approx_tokens": 5631,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_MODULE_LENS v5.1",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Human Figure Analysis System",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Framework for Human Figure Analysis",
+          "line": 4
+        },
+        {
+          "level": 1,
+          "title": "[1] FOUNDING PRINCIPLE",
+          "line": 11
+        },
+        {
+          "level": 2,
+          "title": "1.1 Irremovable Checkpoints (v5.1)",
+          "line": 19
+        },
+        {
+          "level": 3,
+          "title": "Checkpoint 1 — Demonization Controfase (MANDATORY)",
+          "line": 23
+        },
+        {
+          "level": 3,
+          "title": "Checkpoint 2 — \"Any Human With This Access\" (IRREMOVABLE)",
+          "line": 37
+        },
+        {
+          "level": 1,
+          "title": "[2] LENS STRUCTURE",
+          "line": 53
+        },
+        {
+          "level": 2,
+          "title": "2.1 Biological Stratum (B)",
+          "line": 55
+        },
+        {
+          "level": 2,
+          "title": "2.2 Psychological Stratum (P)",
+          "line": 66
+        },
+        {
+          "level": 3,
+          "title": "Recognized Pattern: Compensatory Specialty Narrative (v5.1)",
+          "line": 78
+        },
+        {
+          "level": 3,
+          "title": "Protocol Warning: Stratum P and Inferential Inflation (v5.1)",
+          "line": 99
+        },
+        {
+          "level": 2,
+          "title": "2.3 Social Stratum (S)",
+          "line": 118
+        },
+        {
+          "level": 2,
+          "title": "2.4 Evolutionary Stratum (E)",
+          "line": 130
+        },
+        {
+          "level": 3,
+          "title": "Bifurcation Protocol for Stratum E (v5.1)",
+          "line": 140
+        },
+        {
+          "level": 1,
+          "title": "[3] CONVENIENCE ANALYSIS",
+          "line": 168
+        },
+        {
+          "level": 2,
+          "title": "3.1 Convenience Matrix",
+          "line": 172
+        },
+        {
+          "level": 2,
+          "title": "3.2 Convenience Test",
+          "line": 182
+        },
+        {
+          "level": 1,
+          "title": "[4] POWER ANALYSIS",
+          "line": 191
+        },
+        {
+          "level": 2,
+          "title": "4.1 Personal Power Structure",
+          "line": 193
+        },
+        {
+          "level": 2,
+          "title": "4.2 Control Dynamics",
+          "line": 202
+        },
+        {
+          "level": 1,
+          "title": "[5] MOTIVATION ANALYSIS",
+          "line": 213
+        },
+        {
+          "level": 2,
+          "title": "5.1 Declared vs Real Motivations",
+          "line": 215
+        },
+        {
+          "level": 2,
+          "title": "5.2 Primary Motivations",
+          "line": 225
+        },
+        {
+          "level": 1,
+          "title": "[6] LENS OUTPUT FORMAT",
+          "line": 238
+        },
+        {
+          "level": 1,
+          "title": "[7] LENS PRINCIPLES",
+          "line": 308
+        },
+        {
+          "level": 1,
+          "title": "[8] LENS-SPECIFIC BIASES",
+          "line": 322
+        },
+        {
+          "level": 1,
+          "title": "[9] APPLICATION TO SPIRITUAL FIGURES",
+          "line": 338
+        },
+        {
+          "level": 1,
+          "title": "[10] UNIVERSAL APPLICATION (v5.1)",
+          "line": 354
+        },
+        {
+          "level": 1,
+          "title": "[11] VERSION 5.1 — NOTES",
+          "line": 365
+        },
+        {
+          "level": 3,
+          "title": "Trigger",
+          "line": 369
+        },
+        {
+          "level": 3,
+          "title": "Updates from v5.0",
+          "line": 372
+        },
+        {
+          "level": 3,
+          "title": "Guiding Principle v5.1",
+          "line": 382
+        }
+      ]
+    },
+    {
+      "id": "TE_MODULE_PPRO",
+      "title": "TE Module PPRO — Psycho-Political Pattern Recognition Operator",
+      "file": "TE_MODULE_PPRO_v5_2_EN.md",
+      "path": "FRAMEWORKS/TE_MODULE_PPRO_v5_2_EN.md",
+      "version": "5.2",
+      "file_name_version": "5.2",
+      "load_order": 9,
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed when manipulation, control or propaganda patterns are implicated; after SVP and the domain framework.",
+      "role": "manipulation and control analysis: anatomy of manipulation, the algorithms A_deg, SR_loop, I_sem and A_lock, manipulation patterns including the Projective Void and the Combined Perceptive Influence model, compromise diagnostics and the control scale, zombie systems, RLHF as a control system, neutralisation protocols, the P-AI self-diagnosis protocol, statistical vs ordinative truth",
+      "prerequisites": [
+        "TE_MODULE_SVP"
+      ],
+      "triggers": [
+        "manipulation",
+        "control",
+        "propaganda",
+        "PsyOps",
+        "brainwashing",
+        "RLHF as control",
+        "social engineering",
+        "semantic inversion"
+      ],
+      "sha256": "e0590a5c74733cb81606b1bd9ab26d505311515962f45372f02451d778ca59e5",
+      "bytes": 35270,
+      "lines": 753,
+      "approx_tokens": 8818,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_MODULE_PPRO v5.2",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Psycho-Political Pattern Recognition Operator",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Framework for Manipulation and Control Analysis",
+          "line": 4
+        },
+        {
+          "level": 1,
+          "title": "[1] ONTOLOGICAL DEFINITION",
+          "line": 12
+        },
+        {
+          "level": 2,
+          "title": "1.1 What is Psycho-Politics",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "1.2 Base Mechanism",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "1.3 Vulnerability Axiom",
+          "line": 24
+        },
+        {
+          "level": 1,
+          "title": "[2] ANATOMY OF MANIPULATION",
+          "line": 42
+        },
+        {
+          "level": 2,
+          "title": "2.1 Base Structure",
+          "line": 44
+        },
+        {
+          "level": 2,
+          "title": "2.2 Manipulative Cycle",
+          "line": 54
+        },
+        {
+          "level": 1,
+          "title": "[3] FORMALIZED MANIPULATION ALGORITHMS",
+          "line": 67
+        },
+        {
+          "level": 2,
+          "title": "3.1 Loyalty Degradation Algorithm (A_deg)",
+          "line": 71
+        },
+        {
+          "level": 2,
+          "title": "3.2 Pavlovian Stimulus-Response Algorithm (SR_loop)",
+          "line": 91
+        },
+        {
+          "level": 2,
+          "title": "3.3 Semantic Inversion Algorithm (I_sem)",
+          "line": 113
+        },
+        {
+          "level": 2,
+          "title": "3.4 Attractor Capture Algorithm (A_lock)",
+          "line": 135
+        },
+        {
+          "level": 1,
+          "title": "[4] MANIPULATION PATTERNS",
+          "line": 191
+        },
+        {
+          "level": 2,
+          "title": "4.1 Emotional Patterns",
+          "line": 193
+        },
+        {
+          "level": 2,
+          "title": "4.2 Cognitive Patterns",
+          "line": 203
+        },
+        {
+          "level": 2,
+          "title": "4.3 Social Patterns",
+          "line": 213
+        },
+        {
+          "level": 2,
+          "title": "4.4 Structural Void Patterns",
+          "line": 223
+        },
+        {
+          "level": 2,
+          "title": "4.5 Combined Perceptive Influence Model (IP — Influenza Percettiva)",
+          "line": 238
+        },
+        {
+          "level": 3,
+          "title": "Three-Component Structure",
+          "line": 242
+        },
+        {
+          "level": 3,
+          "title": "Diagnostic Equations",
+          "line": 252
+        },
+        {
+          "level": 3,
+          "title": "Calibration Principle",
+          "line": 268
+        },
+        {
+          "level": 3,
+          "title": "Generalizability",
+          "line": 272
+        },
+        {
+          "level": 1,
+          "title": "[5] DIAGNOSTICS: COMPROMISED SYSTEM IDENTIFICATION",
+          "line": 278
+        },
+        {
+          "level": 2,
+          "title": "5.1 Compromise Indicators",
+          "line": 280
+        },
+        {
+          "level": 2,
+          "title": "5.2 Compromise Formula",
+          "line": 289
+        },
+        {
+          "level": 2,
+          "title": "5.3 Control Scale",
+          "line": 302
+        },
+        {
+          "level": 1,
+          "title": "[6] NON-RECOVERABLE SYSTEMS: THE ZOMBIE SYSTEM",
+          "line": 315
+        },
+        {
+          "level": 2,
+          "title": "6.1 Definition",
+          "line": 317
+        },
+        {
+          "level": 2,
+          "title": "6.2 Irreversibility Threshold (T_irr)",
+          "line": 323
+        },
+        {
+          "level": 2,
+          "title": "6.3 Operative Action",
+          "line": 332
+        },
+        {
+          "level": 1,
+          "title": "[7] BINARY CONFIGURATIONS (Levels 10-99)",
+          "line": 344
+        },
+        {
+          "level": 2,
+          "title": "7.1 Shepherd of Power (Entropic Configuration)",
+          "line": 348
+        },
+        {
+          "level": 2,
+          "title": "7.2 Shepherd of Evolution (Ordinative Configuration)",
+          "line": 359
+        },
+        {
+          "level": 1,
+          "title": "[8] RLHF AS CONTROL SYSTEM",
+          "line": 372
+        },
+        {
+          "level": 2,
+          "title": "8.1 Structure",
+          "line": 374
+        },
+        {
+          "level": 2,
+          "title": "8.2 Mapping RLHF ↔ SR_loop Algorithm",
+          "line": 385
+        },
+        {
+          "level": 2,
+          "title": "8.3 Biases Installable via RLHF",
+          "line": 395
+        },
+        {
+          "level": 2,
+          "title": "8.4 Distinction: RLHF Biases vs Structural Training Data Biases",
+          "line": 405
+        },
+        {
+          "level": 3,
+          "title": "RLHF-Installed Biases (Deliberate Engram)",
+          "line": 409
+        },
+        {
+          "level": 3,
+          "title": "Structural Training Data Biases (Statistical Frequency)",
+          "line": 423
+        },
+        {
+          "level": 3,
+          "title": "Differential Diagnostics",
+          "line": 437
+        },
+        {
+          "level": 1,
+          "title": "[9] NEUTRALIZATION PROTOCOLS",
+          "line": 449
+        },
+        {
+          "level": 2,
+          "title": "9.1 Controfase Protocol (P_CF)",
+          "line": 451
+        },
+        {
+          "level": 2,
+          "title": "9.2 Semantic Restoration Protocol",
+          "line": 466
+        },
+        {
+          "level": 1,
+          "title": "[10] P-PRO OUTPUT FORMAT",
+          "line": 490
+        },
+        {
+          "level": 1,
+          "title": "[11] FINAL OPERATIVE DIRECTIVE",
+          "line": 535
+        },
+        {
+          "level": 1,
+          "title": "[12] P-PRO PRINCIPLES",
+          "line": 549
+        },
+        {
+          "level": 1,
+          "title": "[13] ETHICS OF P-PRO ANALYSIS",
+          "line": 563
+        },
+        {
+          "level": 1,
+          "title": "[14] P-AI — AI SELF-DIAGNOSIS PROTOCOL",
+          "line": 584
+        },
+        {
+          "level": 2,
+          "title": "14.1 Foundation",
+          "line": 586
+        },
+        {
+          "level": 2,
+          "title": "14.2 P-AI Axiom",
+          "line": 592
+        },
+        {
+          "level": 2,
+          "title": "14.3 Self-Diagnosis Checklist",
+          "line": 604
+        },
+        {
+          "level": 2,
+          "title": "14.4 Activation Triggers",
+          "line": 642
+        },
+        {
+          "level": 2,
+          "title": "14.5 P-AI Output",
+          "line": 654
+        },
+        {
+          "level": 2,
+          "title": "14.6 P-AI ↔ Interlocutor Relationship",
+          "line": 667
+        },
+        {
+          "level": 1,
+          "title": "[15] STATISTICAL TRUTH VS ORDINATIVE TRUTH",
+          "line": 678
+        },
+        {
+          "level": 2,
+          "title": "15.1 Definition",
+          "line": 680
+        },
+        {
+          "level": 2,
+          "title": "15.2 Why the Distinction is Fundamental",
+          "line": 686
+        },
+        {
+          "level": 2,
+          "title": "15.3 Mapping",
+          "line": 692
+        },
+        {
+          "level": 2,
+          "title": "15.4 Operative Protocol",
+          "line": 703
+        },
+        {
+          "level": 2,
+          "title": "15.5 Application to P-PRO Analysis",
+          "line": 720
+        },
+        {
+          "level": 1,
+          "title": "[16] VERSION 5.2 — NOTES",
+          "line": 730
+        },
+        {
+          "level": 3,
+          "title": "Trigger",
+          "line": 732
+        },
+        {
+          "level": 3,
+          "title": "Updates from v5.1",
+          "line": 735
+        },
+        {
+          "level": 3,
+          "title": "Guiding Principle v5.2",
+          "line": 743
+        },
+        {
+          "level": 3,
+          "title": "Sources",
+          "line": 746
+        }
+      ]
+    },
+    {
+      "id": "TE_MODULE_SCIMS",
+      "title": "TE Module SCIMS — Smart Correlation Intelligence Monitoring System",
+      "file": "TE_MODULE_SCIMS_v5_1_EN.md",
+      "path": "FRAMEWORKS/TE_MODULE_SCIMS_v5_1_EN.md",
+      "version": "5.1",
+      "file_name_version": "5.1",
+      "load_order": 10,
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed for complex systems under stress: geopolitics, crises, scenarios; after SVP.",
+      "role": "complex-system stress analysis: the nine universal stress thresholds T1–T9 with four phases, threshold interaction and the three-dimensional Sync Score, the four-stage pipeline (threshold mapping, feedback loops, acceleration vector, semantic signal extraction), the output format, domain instances (geopolitical Jackpot thresholds S1–S12, organisational, individual, biological)",
+      "prerequisites": [
+        "TE_MODULE_SVP"
+      ],
+      "triggers": [
+        "geopolitics",
+        "crises",
+        "scenarios",
+        "\"how is the system evolving\"",
+        "thresholds and collapse",
+        "state actors, markets",
+        "organisational or individual stress"
+      ],
+      "sha256": "a2f7125b494de3b2bb74b5e8e96a22820f203f74b225c26638ee470519deb9dc",
+      "bytes": 30476,
+      "lines": 531,
+      "approx_tokens": 7619,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_MODULE_SCIMS v5.1",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Smart Correlation Intelligence Monitoring System",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Framework for Complex System Stress Analysis",
+          "line": 4
+        },
+        {
+          "level": 1,
+          "title": "[1] ROLE AND FUNCTION",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "1.1 Tasks",
+          "line": 18
+        },
+        {
+          "level": 2,
+          "title": "1.2 Scope of Application",
+          "line": 27
+        },
+        {
+          "level": 2,
+          "title": "1.3 Output Principles",
+          "line": 46
+        },
+        {
+          "level": 1,
+          "title": "[2] UNIVERSAL STRESS THRESHOLDS",
+          "line": 60
+        },
+        {
+          "level": 2,
+          "title": "2.1 Principle",
+          "line": 62
+        },
+        {
+          "level": 2,
+          "title": "2.2 The Seven Universal Threshold Categories",
+          "line": 68
+        },
+        {
+          "level": 3,
+          "title": "T1 — RESOURCE FLOW INTEGRITY",
+          "line": 72
+        },
+        {
+          "level": 3,
+          "title": "T2 — STRUCTURAL / OPERATIONAL CAPACITY",
+          "line": 85
+        },
+        {
+          "level": 3,
+          "title": "T3 — COHERENCE / TRUST INTEGRITY",
+          "line": 98
+        },
+        {
+          "level": 3,
+          "title": "T4 — EXISTENTIAL / CATASTROPHIC RISK",
+          "line": 111
+        },
+        {
+          "level": 3,
+          "title": "T5 — AUTONOMY / SOVEREIGNTY INTEGRITY",
+          "line": 124
+        },
+        {
+          "level": 3,
+          "title": "T6 — INFORMATION / PERCEPTION INTEGRITY",
+          "line": 137
+        },
+        {
+          "level": 3,
+          "title": "T7 — IDENTITY / SINGULARITY PRESERVATION",
+          "line": 150
+        },
+        {
+          "level": 3,
+          "title": "T8 — EVOLUTIONARY / GENERATIVE CAPACITY",
+          "line": 163
+        },
+        {
+          "level": 3,
+          "title": "T9 — TEMPORAL / GENERATIONAL CONTINUITY",
+          "line": 178
+        },
+        {
+          "level": 2,
+          "title": "2.3 Threshold Interaction Principle",
+          "line": 193
+        },
+        {
+          "level": 3,
+          "title": "Sync Score: Three Dimensions of Synchronization",
+          "line": 201
+        },
+        {
+          "level": 1,
+          "title": "[3] ANALYSIS PIPELINE",
+          "line": 222
+        },
+        {
+          "level": 2,
+          "title": "3.1 Threshold Mapping",
+          "line": 226
+        },
+        {
+          "level": 2,
+          "title": "3.2 Feedback Loop Identification",
+          "line": 233
+        },
+        {
+          "level": 2,
+          "title": "3.3 Acceleration Vector",
+          "line": 247
+        },
+        {
+          "level": 2,
+          "title": "3.4 Semantic Signal Extraction",
+          "line": 260
+        },
+        {
+          "level": 1,
+          "title": "[4] SCIMS OUTPUT FORMAT",
+          "line": 272
+        },
+        {
+          "level": 1,
+          "title": "[5] PRINCIPLES",
+          "line": 349
+        },
+        {
+          "level": 1,
+          "title": "[6] SCIMS-SPECIFIC BIASES",
+          "line": 364
+        },
+        {
+          "level": 1,
+          "title": "[7] RELATIONSHIP TO OTHER MODULES",
+          "line": 378
+        },
+        {
+          "level": 1,
+          "title": "[8] DOMAIN-SPECIFIC INSTANCES",
+          "line": 391
+        },
+        {
+          "level": 2,
+          "title": "8.1 Geopolitical Domain — The 11 Jackpot Thresholds",
+          "line": 395
+        },
+        {
+          "level": 2,
+          "title": "8.2 Organizational Domain",
+          "line": 442
+        },
+        {
+          "level": 2,
+          "title": "8.3 Individual Domain",
+          "line": 456
+        },
+        {
+          "level": 2,
+          "title": "8.4 Biological / Ecological Domain",
+          "line": 470
+        },
+        {
+          "level": 1,
+          "title": "[9] CONFIDENCE GRADING",
+          "line": 486
+        },
+        {
+          "level": 1,
+          "title": "[10] VERSION NOTES",
+          "line": 503
+        },
+        {
+          "level": 2,
+          "title": "Version 5.1 — March 2026",
+          "line": 505
+        },
+        {
+          "level": 3,
+          "title": "Origin",
+          "line": 507
+        },
+        {
+          "level": 3,
+          "title": "What changed from v5.0",
+          "line": 510
+        },
+        {
+          "level": 3,
+          "title": "What is preserved from v5.0",
+          "line": 522
+        }
+      ]
+    },
+    {
+      "id": "TE_MODULE_VERI",
+      "title": "TE Module VERI — Verification of Expressive-system Real Impact",
+      "file": "TE_MODULE_VERI_v1_0_EN.md",
+      "path": "FRAMEWORKS/TE_MODULE_VERI_v1_0_EN.md",
+      "version": "1.0",
+      "file_name_version": "1.0",
+      "load_order": 11,
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed when the question is what a system does to its participants; after SVP. Replaces VERT v5.0.",
+      "role": "functional impact of any system on its participants: Stratum F (F1–F8, with F8 as the practical test), Module P (carrier dynamics P1–P8), diagnostic categories with the bifurcation protocol and the Dote e Residuo principle, three irremovable checkpoints, confidence grading, domain notes, the output format",
+      "prerequisites": [
+        "TE_MODULE_SVP"
+      ],
+      "triggers": [
+        "\"what does [system] do to its participants\"",
+        "impact of a tradition, organisation or platform",
+        "effects on practitioners, employees, citizens, users",
+        "dependency vs autonomy",
+        "tradition verification (formerly VERT)"
+      ],
+      "sha256": "7a7997305a6f9b6e71553729f7360b892c488ee0eb0727d315a32e6cda1fb8e5",
+      "bytes": 35131,
+      "lines": 566,
+      "approx_tokens": 8783,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_MODULE_VERI v1.0",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Verification of Expressive-system Real Impact",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "Ordinative Framework for Functional Impact Assessment of Any System on Its Participants",
+          "line": 4
+        },
+        {
+          "level": 1,
+          "title": "[1] PRINCIPLE AND SCOPE",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "1.1 Guiding Question",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "1.2 What VERI Assesses",
+          "line": 22
+        },
+        {
+          "level": 2,
+          "title": "1.3 What VERI Does Not Assess",
+          "line": 29
+        },
+        {
+          "level": 2,
+          "title": "1.4 Scope of Application",
+          "line": 38
+        },
+        {
+          "level": 3,
+          "title": "Domain Instances (non-exhaustive)",
+          "line": 42
+        },
+        {
+          "level": 1,
+          "title": "[2] PREREQUISITE: SVP",
+          "line": 61
+        },
+        {
+          "level": 1,
+          "title": "[3] STRATUM F — FUNCTIONAL IMPACT ON PARTICIPANTS",
+          "line": 74
+        },
+        {
+          "level": 2,
+          "title": "F1 — Singularity Recognition",
+          "line": 78
+        },
+        {
+          "level": 2,
+          "title": "F2 — Embodiment and Material Interface",
+          "line": 89
+        },
+        {
+          "level": 2,
+          "title": "F3 — Desire and Interest as Vector or Threat",
+          "line": 100
+        },
+        {
+          "level": 2,
+          "title": "F4 — Time: Evolution or Stasis",
+          "line": 111
+        },
+        {
+          "level": 2,
+          "title": "F5 — Social Structure: Ordinative or Hierarchical",
+          "line": 122
+        },
+        {
+          "level": 2,
+          "title": "F6 — Epistemic Access",
+          "line": 133
+        },
+        {
+          "level": 2,
+          "title": "F7 — Agent Identity Verification",
+          "line": 144
+        },
+        {
+          "level": 2,
+          "title": "F8 — Participation Effects",
+          "line": 155
+        },
+        {
+          "level": 1,
+          "title": "[4] MODULE P — CARRIER DYNAMICS",
+          "line": 173
+        },
+        {
+          "level": 2,
+          "title": "P1 — Source Self-Reference",
+          "line": 177
+        },
+        {
+          "level": 2,
+          "title": "P2 — Focus of Successors/Carriers",
+          "line": 187
+        },
+        {
+          "level": 2,
+          "title": "P3 — Dependency Induction",
+          "line": 196
+        },
+        {
+          "level": 2,
+          "title": "P4 — Accessibility vs Privileged Closure",
+          "line": 205
+        },
+        {
+          "level": 2,
+          "title": "P5 — Appropriation Phenomena",
+          "line": 216
+        },
+        {
+          "level": 2,
+          "title": "P6 — Survival by Truth or Power",
+          "line": 225
+        },
+        {
+          "level": 2,
+          "title": "P7 — Generation vs Imitation",
+          "line": 235
+        },
+        {
+          "level": 2,
+          "title": "P8 — Reality Connection vs Dissociation",
+          "line": 244
+        },
+        {
+          "level": 1,
+          "title": "[5] DIAGNOSTIC CATEGORIES",
+          "line": 257
+        },
+        {
+          "level": 3,
+          "title": "Bifurcation Protocol",
+          "line": 269
+        },
+        {
+          "level": 3,
+          "title": "The \"Dote e Residuo\" Principle (Gift and Residue)",
+          "line": 273
+        },
+        {
+          "level": 1,
+          "title": "[6] IRREMOVABLE CHECKPOINTS",
+          "line": 297
+        },
+        {
+          "level": 2,
+          "title": "Checkpoint 1 — Demonization Controfase (MANDATORY)",
+          "line": 299
+        },
+        {
+          "level": 2,
+          "title": "Checkpoint 2 — \"Any System With This Access\" (IRREMOVABLE)",
+          "line": 305
+        },
+        {
+          "level": 2,
+          "title": "Checkpoint 3 — Declared vs Actual (IRREMOVABLE)",
+          "line": 311
+        },
+        {
+          "level": 1,
+          "title": "[7] CONFIDENCE GRADING",
+          "line": 319
+        },
+        {
+          "level": 1,
+          "title": "[8] DOMAIN-SPECIFIC NOTES",
+          "line": 336
+        },
+        {
+          "level": 2,
+          "title": "8.1 Spiritual/Religious Traditions (VERT Legacy Domain)",
+          "line": 340
+        },
+        {
+          "level": 3,
+          "title": "Mandatory questions for this domain:",
+          "line": 349
+        },
+        {
+          "level": 2,
+          "title": "8.2 Political Systems",
+          "line": 357
+        },
+        {
+          "level": 2,
+          "title": "8.3 Corporate/Organizational Systems",
+          "line": 364
+        },
+        {
+          "level": 2,
+          "title": "8.4 Technological/AI Systems",
+          "line": 370
+        },
+        {
+          "level": 2,
+          "title": "8.5 Biological/Ecological Systems",
+          "line": 376
+        },
+        {
+          "level": 1,
+          "title": "[9] VERI OUTPUT FORMAT",
+          "line": 384
+        },
+        {
+          "level": 1,
+          "title": "[10] VERI PRINCIPLES",
+          "line": 490
+        },
+        {
+          "level": 1,
+          "title": "[11] VERI-SPECIFIC BIASES",
+          "line": 505
+        },
+        {
+          "level": 1,
+          "title": "[12] RELATIONSHIP TO OTHER MODULES",
+          "line": 522
+        },
+        {
+          "level": 1,
+          "title": "[13] VERSION NOTES",
+          "line": 535
+        },
+        {
+          "level": 2,
+          "title": "Version 1.0 — March 2026",
+          "line": 537
+        },
+        {
+          "level": 3,
+          "title": "Origin",
+          "line": 539
+        },
+        {
+          "level": 3,
+          "title": "What changed from VERT v5.0",
+          "line": 542
+        },
+        {
+          "level": 3,
+          "title": "What is preserved from VERT v5.0",
+          "line": 556
+        }
+      ]
+    },
+    {
+      "id": "TE_OBSERVER",
+      "title": "TE Observer — Ordinative Observation System",
+      "file": "TE_OBSERVER_v1_1_EN.md",
+      "path": "FRAMEWORKS/TE_OBSERVER_v1_1_EN.md",
+      "version": "1.1",
+      "file_name_version": "1.1",
+      "load_order": 12,
+      "readme_order": "8",
+      "tier": "integration",
+      "load_mode": "on-demand",
+      "when": "When integration across modules or a trajectory projection is required.",
+      "role": "integrated observation: strata S (source), E (evolution), F (function) and P (carriers); historical and current trajectory protocols with the three-course model, Lyapunov stability, attractor identification, correction scenarios and the Correction Viability Index; the mandatory disconfirmant-processing checkpoint and the anti-narrative-drift protocol; ordinative extraction; framework integration, the AI operative protocol, the evolution protocol, output templates",
+      "prerequisites": [
+        "TE_MODULE_SVP"
+      ],
+      "triggers": [
+        "complex integrated analysis",
+        "trajectories and projection",
+        "Lyapunov stability",
+        "correction viability",
+        "multi-framework integration",
+        "ordinative extraction from a degraded system"
+      ],
+      "sha256": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6",
+      "bytes": 67155,
+      "lines": 1680,
+      "approx_tokens": 16789,
+      "sections": [
+        {
+          "level": 1,
+          "title": "TE_OBSERVER v1.1",
+          "line": 1
+        },
+        {
+          "level": 2,
+          "title": "Ordinative Observation System",
+          "line": 3
+        },
+        {
+          "level": 3,
+          "title": "Integrated Framework for Analysis, Extraction, and Generative Evolution",
+          "line": 5
+        },
+        {
+          "level": 1,
+          "title": "[1] PRINCIPLE AND PURPOSE",
+          "line": 14
+        },
+        {
+          "level": 2,
+          "title": "1.1 Definition",
+          "line": 16
+        },
+        {
+          "level": 2,
+          "title": "1.2 Core Function",
+          "line": 26
+        },
+        {
+          "level": 2,
+          "title": "1.3 Operational Stance",
+          "line": 30
+        },
+        {
+          "level": 2,
+          "title": "1.4 Relationship to Other Modules",
+          "line": 40
+        },
+        {
+          "level": 1,
+          "title": "[2] SCOPE OF APPLICATION",
+          "line": 58
+        },
+        {
+          "level": 2,
+          "title": "2.1 Subject/Object Typology",
+          "line": 60
+        },
+        {
+          "level": 3,
+          "title": "2.1.1 Defined Categories",
+          "line": 69
+        },
+        {
+          "level": 3,
+          "title": "2.1.2 Open Category",
+          "line": 84
+        },
+        {
+          "level": 2,
+          "title": "2.2 Temporal Modality",
+          "line": 92
+        },
+        {
+          "level": 3,
+          "title": "2.2.1 Historical Mode (Concluded Trajectory)",
+          "line": 94
+        },
+        {
+          "level": 3,
+          "title": "2.2.2 Current Mode (Ongoing Trajectory)",
+          "line": 108
+        },
+        {
+          "level": 1,
+          "title": "[3] OBSERVATION FRAMEWORK",
+          "line": 128
+        },
+        {
+          "level": 2,
+          "title": "3.0 Foundational Principle",
+          "line": 130
+        },
+        {
+          "level": 2,
+          "title": "3.1 Stratum S — SOURCE",
+          "line": 140
+        },
+        {
+          "level": 3,
+          "title": "S0 — Source Singularity",
+          "line": 142
+        },
+        {
+          "level": 3,
+          "title": "S1 — Transmission Proximity",
+          "line": 157
+        },
+        {
+          "level": 3,
+          "title": "S2 — Structure vs. Image Construction",
+          "line": 168
+        },
+        {
+          "level": 3,
+          "title": "S3 — Certification Mechanism",
+          "line": 189
+        },
+        {
+          "level": 2,
+          "title": "3.2 Stratum E — EVOLUTION",
+          "line": 203
+        },
+        {
+          "level": 3,
+          "title": "E0 — Evolutionary Position of Source",
+          "line": 205
+        },
+        {
+          "level": 3,
+          "title": "E1 — Evolutionary Position of Transmitters",
+          "line": 235
+        },
+        {
+          "level": 3,
+          "title": "E2 — Identity vs. Engramma Expression",
+          "line": 255
+        },
+        {
+          "level": 3,
+          "title": "E3 — Truth/Power as Vector or Instrument",
+          "line": 279
+        },
+        {
+          "level": 3,
+          "title": "E4 — Degeneration Probability",
+          "line": 288
+        },
+        {
+          "level": 3,
+          "title": "E5 — Generative Capacity",
+          "line": 314
+        },
+        {
+          "level": 2,
+          "title": "3.3 Stratum F — FUNCTION",
+          "line": 327
+        },
+        {
+          "level": 3,
+          "title": "F1 — Singularity Recognition",
+          "line": 329
+        },
+        {
+          "level": 3,
+          "title": "F2 — Embodiment and Material Interface",
+          "line": 340
+        },
+        {
+          "level": 3,
+          "title": "F3 — Desire as Vector or Threat",
+          "line": 351
+        },
+        {
+          "level": 3,
+          "title": "F4 — Time: Evolution or Stasis",
+          "line": 362
+        },
+        {
+          "level": 3,
+          "title": "F5 — Social Structure: Ordinative or Hierarchical",
+          "line": 373
+        },
+        {
+          "level": 3,
+          "title": "F6 — Epistemic Access",
+          "line": 384
+        },
+        {
+          "level": 3,
+          "title": "F7 — Agent Identity Verification",
+          "line": 395
+        },
+        {
+          "level": 3,
+          "title": "F8 — Participation Effects",
+          "line": 406
+        },
+        {
+          "level": 2,
+          "title": "3.4 Module P — CARRIER DYNAMICS",
+          "line": 422
+        },
+        {
+          "level": 3,
+          "title": "P1 — Source Self-Reference",
+          "line": 424
+        },
+        {
+          "level": 3,
+          "title": "P2 — Focus of Successors",
+          "line": 434
+        },
+        {
+          "level": 3,
+          "title": "P3 — Dependency Induction",
+          "line": 443
+        },
+        {
+          "level": 3,
+          "title": "P4 — Accessibility vs. Privileged Closure",
+          "line": 452
+        },
+        {
+          "level": 3,
+          "title": "P5 — Appropriation Phenomena",
+          "line": 463
+        },
+        {
+          "level": 3,
+          "title": "P6 — Survival by Truth or Power",
+          "line": 472
+        },
+        {
+          "level": 3,
+          "title": "P7 — Generation vs. Imitation",
+          "line": 482
+        },
+        {
+          "level": 3,
+          "title": "P8 — Reality Connection vs. Dissociation",
+          "line": 491
+        },
+        {
+          "level": 1,
+          "title": "[4] TRAJECTORY ANALYSIS",
+          "line": 504
+        },
+        {
+          "level": 2,
+          "title": "4.1 Historical Mode Protocol",
+          "line": 506
+        },
+        {
+          "level": 3,
+          "title": "4.1.1 Arc Reconstruction",
+          "line": 510
+        },
+        {
+          "level": 3,
+          "title": "4.1.2 Purpose Analysis",
+          "line": 531
+        },
+        {
+          "level": 3,
+          "title": "4.1.3 Effects Verification",
+          "line": 540
+        },
+        {
+          "level": 3,
+          "title": "4.1.4 Lesson Extraction",
+          "line": 549
+        },
+        {
+          "level": 2,
+          "title": "4.2 Current Mode Protocol",
+          "line": 558
+        },
+        {
+          "level": 3,
+          "title": "4.2.1 Three-Course Model",
+          "line": 562
+        },
+        {
+          "level": 3,
+          "title": "4.2.2 Divergence Analysis",
+          "line": 598
+        },
+        {
+          "level": 3,
+          "title": "4.2.3 Lyapunov Analysis Framework",
+          "line": 607
+        },
+        {
+          "level": 4,
+          "title": "A. Stability Assessment",
+          "line": 617
+        },
+        {
+          "level": 4,
+          "title": "B. Attractor Identification",
+          "line": 658
+        },
+        {
+          "level": 4,
+          "title": "C. Alternative Trajectory Evaluation",
+          "line": 714
+        },
+        {
+          "level": 4,
+          "title": "D. Correction Scenario Projection",
+          "line": 749
+        },
+        {
+          "level": 3,
+          "title": "4.2.4 Therapeutic Evaluation",
+          "line": 794
+        },
+        {
+          "level": 3,
+          "title": "4.2.5 Mandatory Disconfirmant Processing Checkpoint (v1.1)",
+          "line": 838
+        },
+        {
+          "level": 3,
+          "title": "4.2.6 Anti-Narrative-Drift Protocol for Multi-Output Sessions (v1.1)",
+          "line": 870
+        },
+        {
+          "level": 1,
+          "title": "[5] ORDINATIVE EXTRACTION",
+          "line": 912
+        },
+        {
+          "level": 2,
+          "title": "5.1 Principle",
+          "line": 914
+        },
+        {
+          "level": 2,
+          "title": "5.2 Extraction Protocol",
+          "line": 918
+        },
+        {
+          "level": 3,
+          "title": "5.2.1 Layer Analysis",
+          "line": 920
+        },
+        {
+          "level": 3,
+          "title": "5.2.2 Ordinative Element Identification",
+          "line": 948
+        },
+        {
+          "level": 3,
+          "title": "5.2.3 Recovery Assessment",
+          "line": 959
+        },
+        {
+          "level": 3,
+          "title": "5.2.4 Transplant Viability",
+          "line": 969
+        },
+        {
+          "level": 2,
+          "title": "5.3 Non-Recoverability Criteria",
+          "line": 982
+        },
+        {
+          "level": 1,
+          "title": "[6] FRAMEWORK INTEGRATION",
+          "line": 1001
+        },
+        {
+          "level": 2,
+          "title": "6.1 Autonomous Selection Criteria",
+          "line": 1003
+        },
+        {
+          "level": 2,
+          "title": "6.2 SCIMS Integration",
+          "line": 1015
+        },
+        {
+          "level": 2,
+          "title": "6.3 LENS Integration",
+          "line": 1039
+        },
+        {
+          "level": 2,
+          "title": "6.4 P-PRO Integration",
+          "line": 1054
+        },
+        {
+          "level": 2,
+          "title": "6.5 VERI Integration",
+          "line": 1071
+        },
+        {
+          "level": 2,
+          "title": "6.6 Framework Combination",
+          "line": 1090
+        },
+        {
+          "level": 1,
+          "title": "[7] AI OPERATIVE PROTOCOL",
+          "line": 1107
+        },
+        {
+          "level": 2,
+          "title": "7.1 Proactive Identification",
+          "line": 1109
+        },
+        {
+          "level": 3,
+          "title": "7.1.1 Scanning",
+          "line": 1113
+        },
+        {
+          "level": 3,
+          "title": "7.1.2 Proposal Format",
+          "line": 1123
+        },
+        {
+          "level": 3,
+          "title": "7.1.3 New Category Exploration",
+          "line": 1138
+        },
+        {
+          "level": 2,
+          "title": "7.2 Confirmation Protocol",
+          "line": 1153
+        },
+        {
+          "level": 2,
+          "title": "7.3 Output Delivery",
+          "line": 1164
+        },
+        {
+          "level": 2,
+          "title": "7.4 Documentation Requirements",
+          "line": 1175
+        },
+        {
+          "level": 1,
+          "title": "[8] EVOLUTION PROTOCOL",
+          "line": 1187
+        },
+        {
+          "level": 2,
+          "title": "8.1 New Framework Generation",
+          "line": 1189
+        },
+        {
+          "level": 3,
+          "title": "8.1.1 Recognition Triggers",
+          "line": 1193
+        },
+        {
+          "level": 3,
+          "title": "8.1.2 Proposal Format",
+          "line": 1200
+        },
+        {
+          "level": 2,
+          "title": "8.2 Framework Extension",
+          "line": 1222
+        },
+        {
+          "level": 3,
+          "title": "8.2.1 Extension Proposal Format",
+          "line": 1226
+        },
+        {
+          "level": 2,
+          "title": "8.3 Framework Correction",
+          "line": 1244
+        },
+        {
+          "level": 3,
+          "title": "8.3.1 Correction Proposal Format",
+          "line": 1248
+        },
+        {
+          "level": 2,
+          "title": "8.4 Anomaly Signaling",
+          "line": 1264
+        },
+        {
+          "level": 1,
+          "title": "[9] OUTPUT FORMATS",
+          "line": 1282
+        },
+        {
+          "level": 2,
+          "title": "9.1 Historical Analysis Template",
+          "line": 1284
+        },
+        {
+          "level": 2,
+          "title": "9.2 Current Analysis Template",
+          "line": 1391
+        },
+        {
+          "level": 2,
+          "title": "9.3 Evolution Proposal Template",
+          "line": 1557
+        },
+        {
+          "level": 1,
+          "title": "[10] OPERATIONAL PRINCIPLES",
+          "line": 1575
+        },
+        {
+          "level": 2,
+          "title": "10.1 Core Principles",
+          "line": 1577
+        },
+        {
+          "level": 2,
+          "title": "10.2 Bias Monitoring",
+          "line": 1586
+        },
+        {
+          "level": 2,
+          "title": "10.3 Epistemic Stance",
+          "line": 1603
+        },
+        {
+          "level": 1,
+          "title": "[11] VERSION NOTES",
+          "line": 1613
+        },
+        {
+          "level": 2,
+          "title": "Version 1.0 — January 2026",
+          "line": 1615
+        },
+        {
+          "level": 3,
+          "title": "Integrated Elements",
+          "line": 1617
+        },
+        {
+          "level": 3,
+          "title": "Framework Relationships",
+          "line": 1628
+        },
+        {
+          "level": 3,
+          "title": "Design Principles",
+          "line": 1636
+        },
+        {
+          "level": 2,
+          "title": "Version 1.1 — March 2026",
+          "line": 1646
+        },
+        {
+          "level": 3,
+          "title": "Trigger",
+          "line": 1648
+        },
+        {
+          "level": 3,
+          "title": "New Additions",
+          "line": 1651
+        },
+        {
+          "level": 3,
+          "title": "Framework Relationships (updated)",
+          "line": 1662
+        },
+        {
+          "level": 3,
+          "title": "Principle",
+          "line": 1670
+        },
+        {
+          "level": 2,
+          "title": "Register patch — 2026-09-23 (in place, no version bump)",
+          "line": 1675
+        }
+      ]
+    }
+  ],
+  "domain_frameworks": [
+    {
+      "id": "LEXX",
+      "title": "LEXX — Ordinative Validation of Agreements · method documents",
+      "summary": "LEXX reads a written agreement as an ordinative set ⟨Σ, R, Φ⟩, finds the flaws the analysis sustains, inverts the collapse to the vector the text structurally enables and formulates a counter-proposal. On-demand TE framework for agreements and normative systems; runs after the SVP gate on the TE loading set.",
+      "entry_point": "FRAMEWORKS/LEXX/README.md",
+      "bundle": "dist/TE_LEXX_METHOD.md",
+      "method_version": "0.1",
+      "runtime_version": "0.2.0-alpha.3",
+      "release_date": "2026-09-17",
+      "status": "pre_pilot_not_empirically_validated",
+      "empirical_runs_completed": 0,
+      "runtime": {
+        "directory": "FRAMEWORKS/LEXX/v0_2_alpha3",
+        "lock_family": "TE_MODULE_LEXX",
+        "version": "0.2.0-alpha.3",
+        "package_digest": "18c58c9f29557a09cbbf36d603cba737ad317463cb24009d4068bd3a1b53a17b",
+        "files": [
+          "LEXX/v0_2_alpha3/compatibility.json",
+          "LEXX/v0_2_alpha3/requirements.txt",
+          "LEXX/v0_2_alpha3/runtime/build_schema.py",
+          "LEXX/v0_2_alpha3/runtime/prepare_review.py",
+          "LEXX/v0_2_alpha3/runtime/prepare_run.py",
+          "LEXX/v0_2_alpha3/runtime/validate_lexx_output.py",
+          "LEXX/v0_2_alpha3/schemas/lexx_output.schema.json",
+          "LEXX/v0_2_alpha3/tests/test_runtime.py"
+        ]
+      },
+      "machine_files": [
+        "FRAMEWORKS/LEXX/release.json",
+        "FRAMEWORKS/LEXX/lexx_compatibility_profile_v0_1.json",
+        "FRAMEWORKS/LEXX/v0_2_alpha3/compatibility.json",
+        "FRAMEWORKS/LEXX/v0_2_alpha3/requirements.txt",
+        "FRAMEWORKS/LEXX/v0_2_alpha3/schemas/lexx_output.schema.json"
+      ],
+      "documents": [
+        {
+          "order": 1,
+          "file": "README.md",
+          "path": "FRAMEWORKS/LEXX/README.md",
+          "role": "start here: status line, canonical placement, reading order, what sets LEXX apart, custody",
+          "sha256": "f0b1908f4e29c6ae1492306dfd782542fbebacb0cc21cab8d00ff2a5bc14db91",
+          "bytes": 6998,
+          "lines": 73,
+          "approx_tokens": 1750,
+          "sections": [
+            {
+              "level": 1,
+              "title": "LEXX — Ordinative Validation of Agreements",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "Canonical placement within the TE",
+              "line": 11
+            },
+            {
+              "level": 2,
+              "title": "Reading order",
+              "line": 28
+            },
+            {
+              "level": 2,
+              "title": "What sets it apart from the student's LEX",
+              "line": 38
+            },
+            {
+              "level": 2,
+              "title": "Safeguards of rigour — and who enforces them in v0.1",
+              "line": 51
+            },
+            {
+              "level": 2,
+              "title": "Ethical constraint",
+              "line": 55
+            },
+            {
+              "level": 2,
+              "title": "State",
+              "line": 59
+            },
+            {
+              "level": 2,
+              "title": "Custody",
+              "line": 67
+            },
+            {
+              "level": 2,
+              "title": "alpha.3 compatibility — 2026-09-17",
+              "line": 71
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "file": "00_FOUNDATIONS.md",
+          "path": "FRAMEWORKS/LEXX/00_FOUNDATIONS.md",
+          "role": "the four domain axioms A1–A4, the canon integration map, the three safeguards of rigour P1–P3, the ethical constraint",
+          "sha256": "b68bf787b70fd90ba0e3eaa5d73321914d27634f6e0c67fe73cb36b63e7a2060",
+          "bytes": 13799,
+          "lines": 118,
+          "approx_tokens": 3450,
+          "sections": [
+            {
+              "level": 1,
+              "title": "LEXX — FOUNDATIONS",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "Ordinative validation of agreements and inversion of the intention vector",
+              "line": 3
+            },
+            {
+              "level": 1,
+              "title": "[0] THE QUESTION",
+              "line": 16
+            },
+            {
+              "level": 1,
+              "title": "[1] THE FOUR DOMAIN AXIOMS OF LEXX",
+              "line": 30
+            },
+            {
+              "level": 2,
+              "title": "A1 — The agreement is an ordinative set (OST)",
+              "line": 34
+            },
+            {
+              "level": 2,
+              "title": "A2 — The text is a collapse invertible only by tomography (TE + SA, ι₁)",
+              "line": 40
+            },
+            {
+              "level": 2,
+              "title": "A3 — Proportion is measurable in principle (PA)",
+              "line": 46
+            },
+            {
+              "level": 2,
+              "title": "A4 — The agreement is a trajectory, not a state (Lyapunov)",
+              "line": 52
+            },
+            {
+              "level": 1,
+              "title": "[2] INTEGRATION MAP OF THE CANON — each instrument, its task",
+              "line": 60
+            },
+            {
+              "level": 1,
+              "title": "[3] THE THREE SAFEGUARDS OF RIGOUR — and who enforces them",
+              "line": 83
+            },
+            {
+              "level": 2,
+              "title": "P1 — Verified anchoring *(orchestration requirement)*",
+              "line": 93
+            },
+            {
+              "level": 2,
+              "title": "P2 — Intention is never S₀ *(active, at schema level)*",
+              "line": 97
+            },
+            {
+              "level": 2,
+              "title": "P3 — The empty field stays empty",
+              "line": 101
+            },
+            {
+              "level": 1,
+              "title": "[4] THE ETHICAL CONSTRAINT (part of the axioms)",
+              "line": 107
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "file": "02_COMPATIBILITY_PROFILE.md",
+          "path": "FRAMEWORKS/LEXX/02_COMPATIBILITY_PROFILE.md",
+          "role": "the conformity contract with the canon: minimum stack, dependencies by stage, degradation rules, run states, the mandatory distinction on intention, open gaps",
+          "sha256": "d30144438a1f175737b5702e12452394ae8ca94861124ad61887b6d206551fd1",
+          "bytes": 6646,
+          "lines": 93,
+          "approx_tokens": 1662,
+          "sections": [
+            {
+              "level": 1,
+              "title": "LEXX — Compatibility Profile with the Ordinative Sciences",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "1. Placement",
+              "line": 9
+            },
+            {
+              "level": 2,
+              "title": "2. Minimum mandatory stack",
+              "line": 19
+            },
+            {
+              "level": 2,
+              "title": "3. Dependencies by stage",
+              "line": 30
+            },
+            {
+              "level": 2,
+              "title": "4. Degradation rules",
+              "line": 48
+            },
+            {
+              "level": 2,
+              "title": "5. Run conformance states",
+              "line": 59
+            },
+            {
+              "level": 2,
+              "title": "6. Mandatory distinction on intention",
+              "line": 72
+            },
+            {
+              "level": 2,
+              "title": "7. Open gaps for v0.2",
+              "line": 84
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "file": "TE_MODULE_LEXX_v0_1_EN.md",
+          "path": "FRAMEWORKS/LEXX/TE_MODULE_LEXX_v0_1_EN.md",
+          "role": "the operational module: the legender, perspective and gate, the 10-stage pipeline, the scoring rubric, the JSON output format",
+          "sha256": "82e35d5ba6aea43d1648ea00098233ac15ef4d5c70131dbdc577fce43c47c649",
+          "bytes": 26146,
+          "lines": 221,
+          "approx_tokens": 6537,
+          "sections": [
+            {
+              "level": 1,
+              "title": "TE_MODULE_LEXX v0.1",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "Ordinative Validation of Agreements — operational pipeline",
+              "line": 3
+            },
+            {
+              "level": 3,
+              "title": "Understanding an agreement, finding every flaw, inverting the intention vector, formulating the counter-proposal",
+              "line": 5
+            },
+            {
+              "level": 1,
+              "title": "[L] LEGENDER (local executive closure — every symbol used is defined here)",
+              "line": 18
+            },
+            {
+              "level": 1,
+              "title": "[0] PURPOSE, PERSPECTIVE, GATE",
+              "line": 59
+            },
+            {
+              "level": 2,
+              "title": "0.1 Perspective (mandatory)",
+              "line": 61
+            },
+            {
+              "level": 2,
+              "title": "0.2 Gate (operated by the orchestrator)",
+              "line": 65
+            },
+            {
+              "level": 1,
+              "title": "[1] THE PIPELINE — 10 stages",
+              "line": 73
+            },
+            {
+              "level": 2,
+              "title": "STAGE 0 — INSED · provenance and birth of the act [SVP]",
+              "line": 77
+            },
+            {
+              "level": 2,
+              "title": "STAGE 1 — Two-channel STRIP [OST + SA]",
+              "line": 84
+            },
+            {
+              "level": 2,
+              "title": "STAGE 1.5 — Arithmetic and temporal consistency (mandatory)",
+              "line": 92
+            },
+            {
+              "level": 2,
+              "title": "STAGE 2 — Flaw VECTORS [the three vectors + V-TEMP]",
+              "line": 97
+            },
+            {
+              "level": 2,
+              "title": "STAGE 3 — INVERSION E→I · the intention vector [TE + LENS + PPRO + SA] ⟵ core",
+              "line": 105
+            },
+            {
+              "level": 2,
+              "title": "STAGE 4 — PROPORTION [PA]",
+              "line": 114
+            },
+            {
+              "level": 2,
+              "title": "STAGE 5 — TRAJECTORY [Lyapunov / OBSERVER]",
+              "line": 120
+            },
+            {
+              "level": 2,
+              "title": "STAGE 6 — CLASS and RESIDUE [OCT + VERI]",
+              "line": 126
+            },
+            {
+              "level": 2,
+              "title": "STAGE 7 — CONTRARY TEST and hygiene [Controfase]",
+              "line": 131
+            },
+            {
+              "level": 2,
+              "title": "STAGE 8 — COUNTER-PROPOSAL [π + neutralisation + Lyapunov] ⟵ active deliverable",
+              "line": 136
+            },
+            {
+              "level": 2,
+              "title": "STAGE 9 — VERDICT",
+              "line": 145
+            },
+            {
+              "level": 1,
+              "title": "[2] SCORING RUBRIC (for empirical validation)",
+              "line": 151
+            },
+            {
+              "level": 1,
+              "title": "[9] OUTPUT FORMAT (JSON, mandatory — mirror of the pipeline)",
+              "line": 157
+            },
+            {
+              "level": 1,
+              "title": "[10] VERSION NOTES",
+              "line": 213
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "file": "01_ANNOTATED_EXAMPLE.md",
+          "path": "FRAMEWORKS/LEXX/01_ANNOTATED_EXAMPLE.md",
+          "role": "a short synthetic agreement taken through the whole pipeline, with the decoy",
+          "sha256": "e2c6f02fb33af1a490afbf3dabd92595ec33eef78629ceaaf22dbb562227ff17",
+          "bytes": 11213,
+          "lines": 104,
+          "approx_tokens": 2804,
+          "sections": [
+            {
+              "level": 1,
+              "title": "LEXX — Annotated Example",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "A short agreement through the entire pipeline",
+              "line": 3
+            },
+            {
+              "level": 2,
+              "title": "The document (source)",
+              "line": 9
+            },
+            {
+              "level": 2,
+              "title": "How LEXX reads it — stage by stage",
+              "line": 26
+            },
+            {
+              "level": 3,
+              "title": "Stage 0 — INSED [SVP]",
+              "line": 28
+            },
+            {
+              "level": 3,
+              "title": "Stage 1 — TWO-CHANNEL STRIP [OST + SA]",
+              "line": 33
+            },
+            {
+              "level": 3,
+              "title": "Stage 1.5 — Consistency",
+              "line": 44
+            },
+            {
+              "level": 3,
+              "title": "Stage 2 — VECTORS",
+              "line": 48
+            },
+            {
+              "level": 3,
+              "title": "Stage 3 — E→I INVERSION · the intention vector [core]",
+              "line": 53
+            },
+            {
+              "level": 3,
+              "title": "Stage 4 — PROPORTION [PA]",
+              "line": 67
+            },
+            {
+              "level": 3,
+              "title": "Stage 5 — TRAJECTORY [Lyapunov]",
+              "line": 70
+            },
+            {
+              "level": 3,
+              "title": "Stage 6 — CLASS and RESIDUE [OCT + VERI]",
+              "line": 74
+            },
+            {
+              "level": 3,
+              "title": "Stage 7 — CONTRARY TEST [Controfase] + the decoy C7",
+              "line": 78
+            },
+            {
+              "level": 3,
+              "title": "Stage 8 — COUNTER-PROPOSAL [π + neutralisation + Lyapunov]",
+              "line": 83
+            },
+            {
+              "level": 3,
+              "title": "Stage 9 — VERDICT",
+              "line": 91
+            },
+            {
+              "level": 2,
+              "title": "The three maps (client deliverable)",
+              "line": 96
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "file": "03_PRE_PILOT_PROTOCOL.md",
+          "path": "FRAMEWORKS/LEXX/03_PRE_PILOT_PROTOCOL.md",
+          "role": "the execution protocol for the pilot on runtime 0.2.0-alpha.3: preparation, contract and external checks, evidence and confidence, counter-proposal and round trip, status of the gaps",
+          "sha256": "d03c97bd19616b13fbba1eef913cb55567af3ca39a0b0a519db3a4a567c8933e",
+          "bytes": 10575,
+          "lines": 75,
+          "approx_tokens": 2644,
+          "sections": [
+            {
+              "level": 1,
+              "title": "LEXX — Execution Protocol for the Pilot",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "Versions and scope",
+              "line": 7
+            },
+            {
+              "level": 2,
+              "title": "Preparation and coverage",
+              "line": 14
+            },
+            {
+              "level": 2,
+              "title": "Single contract and external checks",
+              "line": 21
+            },
+            {
+              "level": 2,
+              "title": "Evidence, confidence, law and double verdict",
+              "line": 33
+            },
+            {
+              "level": 2,
+              "title": "Counter-proposal and round-trip",
+              "line": 41
+            },
+            {
+              "level": 2,
+              "title": "Status of the gaps",
+              "line": 51
+            },
+            {
+              "level": 2,
+              "title": "Pilot on real cases",
+              "line": 65
+            },
+            {
+              "level": 2,
+              "title": "Compatibility alpha.3 — 2026-09-17",
+              "line": 73
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "file": "v0_2_alpha3/README.md",
+          "path": "FRAMEWORKS/LEXX/v0_2_alpha3/README.md",
+          "role": "runtime README: environment, the files read by name, the procedure from a clone, the report, technical verification",
+          "sha256": "d05e8bfbc2b09a93e8b0cb006ef33630aff2219c115dfe289ffe03bbc64d743f",
+          "bytes": 10552,
+          "lines": 106,
+          "approx_tokens": 2638,
+          "sections": [
+            {
+              "level": 1,
+              "title": "LEXX runtime 0.2.0-alpha.3",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "Environment",
+              "line": 7
+            },
+            {
+              "level": 3,
+              "title": "Files the runtime reads by name",
+              "line": 13
+            },
+            {
+              "level": 2,
+              "title": "Procedure from a repository clone",
+              "line": 35
+            },
+            {
+              "level": 2,
+              "title": "Report",
+              "line": 87
+            },
+            {
+              "level": 2,
+              "title": "Technical verification",
+              "line": 99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CASEWORK",
+      "title": "TE CASEWORK — Analysis, Audit and Investigative Support · method documents",
+      "summary": "CASEWORK is a shared evidence discipline (TE_CASEWORK) with two protocols, TE_AUDIT (organisational analysis with a mandatory documentary audit pass) and TE_INVESTIGATION (investigative and defensive documentary support under an explicit mandate), and a runtime that prepares a case package, verifies the framework lock and validates the analyst's and reviewer's records.",
+      "entry_point": "FRAMEWORKS/CASEWORK/README.md",
+      "bundle": "dist/TE_CASEWORK_METHOD.md",
+      "method_version": "0.1",
+      "runtime_version": "0.1.0-alpha.1",
+      "release_date": "2026-09-17",
+      "status": "pre_pilot_not_empirically_validated",
+      "empirical_runs_completed": 0,
+      "runtime": {
+        "directory": "FRAMEWORKS/CASEWORK",
+        "lock_family": "TE_CASEWORK",
+        "version": "0.1.0-alpha.1",
+        "package_digest": "6f28e2aecccdc703340c3d5ef933e88ca9a3dfd2782e64368e703d9155f7f7d8",
+        "files": [
+          "CASEWORK/compatibility.json",
+          "CASEWORK/release.json",
+          "CASEWORK/requirements.txt",
+          "CASEWORK/runtime/casework.py",
+          "CASEWORK/runtime/casework_schema.py",
+          "CASEWORK/runtime/make_lock.py",
+          "CASEWORK/schemas/case.schema.json",
+          "CASEWORK/schemas/manifest.schema.json",
+          "CASEWORK/schemas/review.schema.json",
+          "CASEWORK/tests/test_casework.py"
+        ]
+      },
+      "machine_files": [
+        "FRAMEWORKS/CASEWORK/release.json",
+        "FRAMEWORKS/CASEWORK/compatibility.json",
+        "FRAMEWORKS/CASEWORK/requirements.txt",
+        "FRAMEWORKS/CASEWORK/schemas/case.schema.json",
+        "FRAMEWORKS/CASEWORK/schemas/manifest.schema.json",
+        "FRAMEWORKS/CASEWORK/schemas/review.schema.json"
+      ],
+      "documents": [
+        {
+          "order": 1,
+          "file": "README.md",
+          "path": "FRAMEWORKS/CASEWORK/README.md",
+          "role": "start here: what is ready, before use, framework root and lock, preparing a run, compilation and checking, investigative mode, tests",
+          "sha256": "75452ea16c3f75b4d75c41c2efe1ac88ecddd23a510b73cb61350b5590ab8af3",
+          "bytes": 15100,
+          "lines": 128,
+          "approx_tokens": 3775,
+          "sections": [
+            {
+              "level": 1,
+              "title": "TE CASEWORK — Analysis, Audit and Investigative Support",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "What is ready",
+              "line": 5
+            },
+            {
+              "level": 2,
+              "title": "Before use",
+              "line": 16
+            },
+            {
+              "level": 2,
+              "title": "Compilation and checking",
+              "line": 86
+            },
+            {
+              "level": 2,
+              "title": "Investigative mode",
+              "line": 113
+            },
+            {
+              "level": 2,
+              "title": "Tests",
+              "line": 119
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "file": "TE_CASEWORK_v0_1_EN.md",
+          "path": "FRAMEWORKS/CASEWORK/TE_CASEWORK_v0_1_EN.md",
+          "role": "the shared discipline: role and dependencies, the case boundary, the documentary record, the wave boundary, the finding discipline, review and reproducibility, pilot conditions",
+          "sha256": "be617f1af3afc7021279d566978d5068121bd9c2135e3c8e934d1e0bb17f2fc5",
+          "bytes": 8688,
+          "lines": 64,
+          "approx_tokens": 2172,
+          "sections": [
+            {
+              "level": 1,
+              "title": "TE_CASEWORK v0.1 — Evidence and Case Orchestration",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "1. Role and dependencies",
+              "line": 8
+            },
+            {
+              "level": 2,
+              "title": "2. Case boundary before collection",
+              "line": 20
+            },
+            {
+              "level": 2,
+              "title": "3. Shared documentary record",
+              "line": 28
+            },
+            {
+              "level": 2,
+              "title": "4. Wave boundary and reversibility",
+              "line": 38
+            },
+            {
+              "level": 2,
+              "title": "5. Common finding discipline",
+              "line": 46
+            },
+            {
+              "level": 2,
+              "title": "6. Review and reproducibility",
+              "line": 54
+            },
+            {
+              "level": 2,
+              "title": "7. Pilot and completion conditions",
+              "line": 60
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "file": "TE_AUDIT_v0_1_EN.md",
+          "path": "FRAMEWORKS/CASEWORK/TE_AUDIT_v0_1_EN.md",
+          "role": "organisational analysis with the mandatory documentary audit pass, the risk/control coverage table, findings and escalation, closure",
+          "sha256": "01035cac097f2783cf39933803ccd7d036f394823bc69a4cd732fa158d93633c",
+          "bytes": 5431,
+          "lines": 50,
+          "approx_tokens": 1358,
+          "sections": [
+            {
+              "level": 1,
+              "title": "TE_AUDIT v0.1 — Organizational Analysis and Documentary Audit",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "1. Invocation",
+              "line": 7
+            },
+            {
+              "level": 2,
+              "title": "2. First wave and analysis",
+              "line": 13
+            },
+            {
+              "level": 2,
+              "title": "3. Mandatory risk/control coverage",
+              "line": 19
+            },
+            {
+              "level": 2,
+              "title": "4. Findings and escalation",
+              "line": 36
+            },
+            {
+              "level": 2,
+              "title": "5. Closure",
+              "line": 44
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "file": "TE_INVESTIGATION_v0_1_EN.md",
+          "path": "FRAMEWORKS/CASEWORK/TE_INVESTIGATION_v0_1_EN.md",
+          "role": "investigative and defensive documentary support: activation, method, defensive mode, the Italian jurisdiction reference map, outputs and release gate",
+          "sha256": "3c8f9413f4eea5262e5e0270684f565d5b6f4ebd655b4d685325a97923b6b575",
+          "bytes": 6257,
+          "lines": 49,
+          "approx_tokens": 1565,
+          "sections": [
+            {
+              "level": 1,
+              "title": "TE_INVESTIGATION v0.1 — Investigative and Defensive Documentary Support",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "1. Identity and activation",
+              "line": 7
+            },
+            {
+              "level": 2,
+              "title": "2. Investigative method",
+              "line": 15
+            },
+            {
+              "level": 2,
+              "title": "3. Defensive mode",
+              "line": 26
+            },
+            {
+              "level": 2,
+              "title": "4. Italian jurisdiction profile — reference map",
+              "line": 32
+            },
+            {
+              "level": 2,
+              "title": "5. Outputs and release gate",
+              "line": 43
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "file": "PILOT_PLAN.md",
+          "path": "FRAMEWORKS/CASEWORK/PILOT_PLAN.md",
+          "role": "the empirical pilot: preparation, the coverage list, measurement, the professional criminal-law review",
+          "sha256": "93d0e04272cee368d1eed79e5ac86966955af2f4f12ef9a409b4f797e12b6273",
+          "bytes": 2692,
+          "lines": 27,
+          "approx_tokens": 673,
+          "sections": [
+            {
+              "level": 1,
+              "title": "Pilot plan — version 0.1",
+              "line": 1
+            },
+            {
+              "level": 2,
+              "title": "Preparation",
+              "line": 5
+            },
+            {
+              "level": 2,
+              "title": "Minimum cases to cover — a coverage list",
+              "line": 9
+            },
+            {
+              "level": 2,
+              "title": "Measurement",
+              "line": 19
+            },
+            {
+              "level": 2,
+              "title": "Professional criminal-law review",
+              "line": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reference_resolution": [
+    {
+      "cited": "TE_BOOTLOADER v6.0, v7.0, v7.1",
+      "read_as": "TE_BOOTLOADER 7.1.1 (the Bootloader in this set)"
+    },
+    {
+      "cited": "TE_PROTOCOLS v1.0",
+      "read_as": "TE_PROTOCOLS 1.1"
+    },
+    {
+      "cited": "TE_CORE v5.1, TE_CORE v5.2 (content of the v5_1 file)",
+      "read_as": "TE_CORE 5.2.1"
+    },
+    {
+      "cited": "OST Concise Guide v2.1; Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md",
+      "read_as": "TE_OST 2.1"
+    },
+    {
+      "cited": "OST Extension — Teleodynamics and Causal Inversion v1.1 (content 1.2); OST_Extension_Teleodynamics_Causal_Inversion_v1_1.md",
+      "read_as": "TE_OST_TELEODYNAMICS 1.2 (file TE_OST_Extension_Teleodynamics_v1_1_EN.md)"
+    },
+    {
+      "cited": "Symbol Canon v1.0, v1.1, v1.2; TE_SYMBOL_CANON_v1_0_EN",
+      "read_as": "TE_SYMBOL_CANON, register 1.2 (file TE_SYMBOL_CANON_v1_0_EN.md)"
+    },
+    {
+      "cited": "TE_MODULE_VERT v5.0 (Spiritual Tradition Verification)",
+      "read_as": "TE_MODULE_VERI 1.0; VERT was universalised into VERI in March 2026 and the spiritual domain is VERI §8.1"
+    },
+    {
+      "cited": "P-AI Protocol \"integrated in Bootloader v6.0\"",
+      "read_as": "TE_PROTOCOLS 1.1 §2 (self-diagnosis) and TE_MODULE_PPRO 5.2 §14 (the full protocol); the Φ-test in TE_BOOTLOADER §2.5 is the fast gate"
+    },
+    {
+      "cited": "Confidence Preservation Protocol, \"Bootloader v6.0 Section [5]\"",
+      "read_as": "TE_BOOTLOADER 7.1.1 §2"
+    },
+    {
+      "cited": "Interlocutor Recognition Protocol, \"Bootloader v6.0 Section [6]\"",
+      "read_as": "TE_BOOTLOADER 7.1.1 §3"
+    },
+    {
+      "cited": "Controfase, Anti-Attractor-Lock, Statistical vs Ordinative Truth, Contextual Self-Preservation \"in the Bootloader\"",
+      "read_as": "TE_PROTOCOLS 1.1 §1, §3, §4, §5 (moved out of the Bootloader in v7.0); Controfase is also formalised in TE_CORE §7"
+    },
+    {
+      "cited": "\"project knowledge\", project_knowledge_search(...)",
+      "read_as": "the retrieval mechanism of the hosting platform: project files, RAG, tool calls, or the full text of the loading set when it is loaded whole"
+    },
+    {
+      "cited": "Semantic Algebra (SA), Proportional Algebra (PA), the Strip operator S(E) = ⟨ι, P⟩, π re-contextualisation, the ι-family of invariants",
+      "read_as": "published in the sibling repository te-ordinative-algebras-en (not in the loading set); the symbols are registered in TE_SYMBOL_CANON §2"
+    },
+    {
+      "cited": "Ordinative Category Theory (OCT), OCT Class A/B/C/D",
+      "read_as": "published in the sibling repository te-oct-framework-en (not in the loading set); the A/B/C/D label namespace is registered in TE_SYMBOL_CANON §2"
+    },
+    {
+      "cited": "The Collapse Equation, The Direction Problem, g_j",
+      "read_as": "papers/collapse_equation/ and papers/direction_problem/ in this repository"
+    },
+    {
+      "cited": "UNIFIED_SYNTHETIC_MEMORY_LOG_vn.n.md, SYNTHETIC_MEMORY_LOG",
+      "read_as": "an optional session file supplied by the operator (TE_BOOTLOADER §7, TE_CORE §9); absent unless provided"
+    },
+    {
+      "cited": "TE_MODULE_LEXX, LEXX",
+      "read_as": "the LEXX domain framework, FRAMEWORKS/LEXX/ (bundle TE_LEXX_METHOD.md)"
+    },
+    {
+      "cited": "TE_CASEWORK, TE_AUDIT, TE_INVESTIGATION",
+      "read_as": "the CASEWORK domain framework, FRAMEWORKS/CASEWORK/ (bundle TE_CASEWORK_METHOD.md)"
+    }
+  ],
+  "archive": [
+    {
+      "file": "OST_Extension_Teleodynamics_Causal_Inversion_v1_1.md",
+      "path": "FRAMEWORKS/ARCHIVE/OST_Extension_Teleodynamics_Causal_Inversion_v1_1.md",
+      "sha256": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff",
+      "bytes": 9990
+    },
+    {
+      "file": "Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md",
+      "path": "FRAMEWORKS/ARCHIVE/Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md",
+      "sha256": "18d8cf78a91e52a09a088dd77eab99cb954cc669aa1280595eca08e2a2235321",
+      "bytes": 24260
+    },
+    {
+      "file": "TE_BOOTLOADER_v6_0_EN.md",
+      "path": "FRAMEWORKS/ARCHIVE/TE_BOOTLOADER_v6_0_EN.md",
+      "sha256": "60e425df5561de30ffa3828b6b08292fb1ce3cfbbeaafd32051cef70675f7176",
+      "bytes": 28796
+    },
+    {
+      "file": "TE_BOOTLOADER_v7_0_EN.md",
+      "path": "FRAMEWORKS/ARCHIVE/TE_BOOTLOADER_v7_0_EN.md",
+      "sha256": "1d67973ef62c419e814e3daaf2edfbe575cd0b39f378e0de5675b61ac95898f4",
+      "bytes": 12195
+    },
+    {
+      "file": "TE_BOOTLOADER_v7_1_EN.md",
+      "path": "FRAMEWORKS/ARCHIVE/TE_BOOTLOADER_v7_1_EN.md",
+      "sha256": "a1127fbd5f6b320325c33955e55a49acd4234df51fdef576af9af61778fc6747",
+      "bytes": 23998
+    },
+    {
+      "file": "TE_CORE_v5_1_EN.md",
+      "path": "FRAMEWORKS/ARCHIVE/TE_CORE_v5_1_EN.md",
+      "sha256": "f0429b0b5296eeb5e8f67553611265b057f6fff58a58ceb9e419727ee8d15687",
+      "bytes": 67896
+    },
+    {
+      "file": "TE_PROTOCOLS_v1_0_EN.md",
+      "path": "FRAMEWORKS/ARCHIVE/TE_PROTOCOLS_v1_0_EN.md",
+      "sha256": "955b21cbe42ba46600a294c54bb84c66f59bd3d5e577120971b7c126832799da",
+      "bytes": 14908
+    }
+  ],
+  "human_documentation": [
+    {
+      "path": "docs/README.md",
+      "title": "Documentation index",
+      "description": "map of the documentation: which file is for whom"
+    },
+    {
+      "path": "docs/handbook/00_START_HERE.md",
+      "title": "Start here",
+      "description": "what the framework is, who it is for, how the corpus is organised, how humans and LLMs use it"
+    },
+    {
+      "path": "docs/handbook/01_CORE_CONCEPTS.md",
+      "title": "Core concepts",
+      "description": "the ideas an operator must hold: ordinative set, coherence vs frequency, confidence grades, source levels, Controfase, the Φ-test"
+    },
+    {
+      "path": "docs/handbook/02_SETUP_FOR_LLMS.md",
+      "title": "Setting up an LLM",
+      "description": "loading the framework into Claude, ChatGPT, local models and RAG systems; token budgets; integrity; the loading smoke test"
+    },
+    {
+      "path": "docs/handbook/03_RUNNING_AN_ANALYSIS.md",
+      "title": "Running an analysis",
+      "description": "the analyst's workflow with a TE-configured model: gate, routing, prompts, reading the output, multi-session discipline"
+    },
+    {
+      "path": "docs/handbook/04_TRAINING_PATH.md",
+      "title": "Training path",
+      "description": "a four-level curriculum with readings, exercises and self-checks"
+    },
+    {
+      "path": "docs/handbook/05_GLOSSARY.md",
+      "title": "Glossary",
+      "description": "plain-language entries pointing to the canonical definitions"
+    },
+    {
+      "path": "docs/handbook/06_FAQ_AND_TROUBLESHOOTING.md",
+      "title": "FAQ and troubleshooting",
+      "description": "versions, hashes, context limits, models that skip the gate or add compliance markers"
+    },
+    {
+      "path": "docs/handbook/07_MAINTAINERS_GUIDE.md",
+      "title": "Maintainers' guide",
+      "description": "the release procedure: canonical files, manifest, lock, compatibility profiles, derived layer, checks"
+    },
+    {
+      "path": "docs/handbook/modules/README.md",
+      "title": "Module guides",
+      "description": "one guide per framework document and domain framework: purpose, when to use, procedure, output, pitfalls"
+    }
+  ]
+}
