@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  check:
+    name: Tests and repository checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the runtime requirements
+        run: pip install -r FRAMEWORKS/CASEWORK/requirements.txt
+      - name: Run the LEXX and CASEWORK test suites
+        run: make test
+      - name: Verify manifest, lock, compatibility profiles, derived files, docs and links
+        run: make check

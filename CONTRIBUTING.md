@@ -33,3 +33,16 @@ If you find a contradiction, a semantic vulnerability, or a case where the Route
 
 > *To know who you are, you must recognize who you are not.* (Axiom 23). 
 > Build functional coherence, not unverified consensus.
+
+## Before opening a pull request
+
+The framework documents in `FRAMEWORKS/` are canonical and byte-exact: they change with a release, from the author's canonical corpus, and the LEXX and CASEWORK runtimes pin their hashes. Documentation (`docs/`), tooling (`tools/`) and the generated layer (`dist/`, `llms.txt`) change freely, as long as the checks stay green:
+
+```bash
+pip install -r FRAMEWORKS/CASEWORK/requirements.txt
+make test    # the LEXX and CASEWORK test suites
+make check   # manifest, lock, compatibility profiles, derived files, documentation links
+make dist    # regenerate dist/ and llms.txt after any change under FRAMEWORKS/ or to tools/loading_set.json
+```
+
+The release procedure, and what to regenerate after which change, is in `docs/handbook/07_MAINTAINERS_GUIDE.md`.

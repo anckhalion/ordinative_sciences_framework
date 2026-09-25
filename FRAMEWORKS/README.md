@@ -41,6 +41,10 @@ The hashes pinned by `LEXX/v0_2_alpha3/compatibility.json` and `CASEWORK/compati
 
 `te_frameworks.lock.json` is the framework lock the CASEWORK runtime consumes: one entry per framework family, single files by SHA-256 and the two runtime packages (`LEXX/v0_2_alpha3/`, `CASEWORK/`) by file list and `package_digest`. It is built by `CASEWORK/runtime/make_lock.py`, which writes the digest algorithm into the lock as `package_digest_algorithm`; regenerate it from the repository root with `python FRAMEWORKS/CASEWORK/runtime/make_lock.py --framework-root FRAMEWORKS --out FRAMEWORKS/te_frameworks.lock.json --force` after any change to a listed file.
 
+## Derived files and checks
+
+`dist/` at the repository root holds single-file concatenations of this loading set (`TE_LOADING_SET_FULL.md`, `TE_LOADING_SET_MINIMAL.md`) and of the LEXX and CASEWORK method documents, a machine-readable `catalog.json` (documents, versions from the lock, roles, triggers, section outlines, hashes, token estimates, reference resolution) and `SHA256SUMS.txt`; `llms.txt` indexes the repository for LLM tools. They are generated from the files in this directory by `tools/build_dist.py` (`make dist`) and are never edited by hand. `tools/check_repo.py` (`make check`) verifies the manifest, the lock against `make_lock.py`, the hashes pinned by the two compatibility profiles, the derived files and the documentation links; it runs in CI. The manual for people who use the framework is `docs/handbook/`.
+
 ## Register patch of 2026-09-23
 
 `TE_CORE_v5_2_1_EN.md`, `TE_BOOTLOADER_v7_1_1_EN.md`, `TE_MODULE_LENS_v5_1_EN.md` and `TE_OBSERVER_v1_1_EN.md` carry an in-place wording patch (no version bump): prescriptive uses of «honest / honestly / honesty» were restated as operations, in accordance with Bootloader §2.5.2 where such words are listed among the compliance markers. Each file carries a dated patch note; dependent runtimes re-pinned the file hashes.

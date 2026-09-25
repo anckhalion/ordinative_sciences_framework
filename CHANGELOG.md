@@ -6,6 +6,25 @@ The format is inspired by Keep a Changelog and semantic versioning principles fo
 
 > **Note**: This changelog was added on 2026-05-06. Entries before that date are reconstructed retrospectively from git history; full diff context lives in `git log`. Future entries are written at the time of the change.
 
+## [Unreleased]
+
+### Added
+- `dist/` — derived single-file loading sets (`TE_LOADING_SET_FULL.md`: the twelve active documents in loading order; `TE_LOADING_SET_MINIMAL.md`: Bootloader, Protocols, Core, SVP), the LEXX and CASEWORK method bundles (`TE_LEXX_METHOD.md`, `TE_CASEWORK_METHOD.md`), a machine-readable `catalog.json` (documents, versions from the lock, roles, triggers, section outlines, hashes, token estimates, a table resolving references to earlier editions), `SHA256SUMS.txt` and a README. Every document is reproduced byte for byte between delimiters that carry its SHA-256.
+- `llms.txt` — index of the repository for LLM tools.
+- `tools/build_dist.py` (builds `dist/` and `llms.txt`, regenerates the manifest, builds the release archive), `tools/check_repo.py` (manifest, lock, compatibility profiles, derived files, handbook files, Markdown links), `tools/loading_set.json` (loading order, roles, triggers, profiles, reference resolution), `Makefile` (`test`, `check`, `dist`, `manifest`, `lock`, `package`).
+- `docs/handbook/` — documentation for people who use the framework: start here, core concepts, setup for LLMs with a loading smoke test, running an analysis, a four-level training path, glossary, FAQ and troubleshooting, maintainers' guide, and one guide per framework document and domain framework (`modules/`). `docs/README.md` indexes it.
+- `.github/workflows/ci.yml` (tests and checks on every push and pull request) and `release.yml` (builds and attaches `te-frameworks-<version>.zip` on a `v*` tag).
+- `LICENSE` (MIT), referenced by the README and previously absent; `.gitignore`.
+
+### Fixed
+- `FRAMEWORKS/MANIFEST_SHA256.txt` — the entry for `CASEWORK/README.md` still carried the hash from before the "acquisition authority is verified by the case owner" revision; regenerated. The lock and the compatibility profiles were unaffected (Markdown is excluded from package digests).
+
+### Updated
+- `README.md` — "Download and load" section, the handbook, the repository tree, the license statement; `FRAMEWORKS/README.md` — derived files and checks; `CONTRIBUTING.md` — the checks to run before a pull request; `.gitattributes` — `dist/**` and `llms.txt` stored byte-exact.
+
+### Notes
+- No framework document changed: `FRAMEWORKS/` is byte-identical to release 2.0.0 apart from the regenerated manifest and the added section in its README. Observations on the canonical files (stale section references, historical profile paths, platform-specific wording, the weight of version histories) are recorded in `docs/handbook/07_MAINTAINERS_GUIDE.md` for the canonical corpus.
+
 ## [2.0.0] - 2026-09-23
 
 ### Added

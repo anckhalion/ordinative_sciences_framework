@@ -1,0 +1,225 @@
+{
+  "_comment": "Static metadata of the TE loading set. Versions, file names and hashes are NOT stated here: tools/build_dist.py reads them from FRAMEWORKS/te_frameworks.lock.json (the family lock) and from the files themselves. Edit this file when the loading order, the roles, the triggers or the profiles change.",
+  "repository_url": "https://github.com/anckhalion/ordinative_sciences_framework",
+  "raw_base_url": "https://raw.githubusercontent.com/anckhalion/ordinative_sciences_framework/main",
+  "profiles": {
+    "minimal": {
+      "title": "Technology of Expressions (TE) — Loading Set · MINIMAL profile",
+      "file": "TE_LOADING_SET_MINIMAL.md",
+      "description": "Bootloader, Protocols, Core and the SVP gate: the minimal profile for a constrained context (FRAMEWORKS/README.md, loading table entries 1, 2, 3, 6). The other documents are fetched on demand.",
+      "documents": ["TE_BOOTLOADER", "TE_PROTOCOLS", "TE_CORE", "TE_MODULE_SVP"]
+    },
+    "full": {
+      "title": "Technology of Expressions (TE) — Loading Set · FULL profile",
+      "file": "TE_LOADING_SET_FULL.md",
+      "description": "All twelve active framework documents in loading order: the complete TE loading set in one file.",
+      "documents": ["TE_BOOTLOADER", "TE_PROTOCOLS", "TE_CORE", "TE_OST", "TE_OST_TELEODYNAMICS", "TE_SYMBOL_CANON", "TE_MODULE_SVP", "TE_MODULE_LENS", "TE_MODULE_PPRO", "TE_MODULE_SCIMS", "TE_MODULE_VERI", "TE_OBSERVER"]
+    }
+  },
+  "documents": [
+    {
+      "id": "TE_BOOTLOADER",
+      "title": "TE Bootloader — System Instructions for AI Operating Under Ordinative Sciences",
+      "readme_order": "1",
+      "tier": "kernel",
+      "load_mode": "always",
+      "when": "Loaded first, at session start, in every configuration.",
+      "role": "entry point: identity, the seven core principles, confidence grades S₀–S₃, the §2.5 pre-output Φ-test, interlocutor recognition, relational stance, axiom priority, the Router",
+      "prerequisites": [],
+      "triggers": ["session start"]
+    },
+    {
+      "id": "TE_PROTOCOLS",
+      "title": "TE Protocols — Operational Protocols for AI Operating Under Ordinative Sciences",
+      "readme_order": "2",
+      "tier": "kernel",
+      "load_mode": "always",
+      "when": "Loaded at session start alongside the Bootloader; permanent constraints on the generative process.",
+      "role": "always-active protocols: Controfase, P-AI self-diagnosis, Anti-Attractor-Lock, statistical vs ordinative truth, contextual self-preservation and alternative channels, CASEWORK routing and evidence gates (§5A)",
+      "prerequisites": ["TE_BOOTLOADER"],
+      "triggers": ["session start"]
+    },
+    {
+      "id": "TE_CORE",
+      "title": "TE Core — Technology of Expressions, Core Instruction Set",
+      "readme_order": "3",
+      "tier": "kernel",
+      "load_mode": "always",
+      "when": "Loaded at session start after the Bootloader and the Protocols.",
+      "role": "the full ontology: 25 axioms, the Arajat logograms, the OST operative synthesis, the glossary, the kernel (behavioural layer), Controfase, the Router with trigger patterns, memory protocols, the compact agent prompt",
+      "prerequisites": ["TE_BOOTLOADER", "TE_PROTOCOLS"],
+      "triggers": ["session start"]
+    },
+    {
+      "id": "TE_OST",
+      "title": "Ordinative Set Theory (OST) — Concise Operational Guide for Artificial Intelligence",
+      "readme_order": "4",
+      "tier": "foundation",
+      "load_mode": "foundation",
+      "when": "Part of the full loading set; the Tier-0 foundation the Core synthesises. Load whenever an analysis is carried out formally as an ordinative set.",
+      "role": "Ordinative Set Theory: 𝓘 = ⟨Σ, R, Φ⟩, the core axioms and principles, the dynamics of ordinative systems, the taxonomy of sets, pathologies, key formal operations, the 4D analysis protocol and design guidelines",
+      "prerequisites": ["TE_CORE"],
+      "triggers": ["formal ordinative analysis", "the 4D protocol", "designing or diagnosing a system as ⟨Σ, R, Φ⟩", "pathologies of sets (mass, blind cluster, fragmentation, semantic inertia, antagonist order)"]
+    },
+    {
+      "id": "TE_OST_TELEODYNAMICS",
+      "title": "OST Extension — Advanced Teleodynamics and the Causal Inversion Principle",
+      "readme_order": "4b",
+      "tier": "foundation",
+      "load_mode": "on-demand",
+      "when": "When the analysis requires the teleological reading (attractors, causal inversion, 4D+ protocols).",
+      "role": "Teleodynamics and the Causal Inversion Principle: the coherent space 𝔽_sem, the semantic potential ℳ, vehicle bias, the teleological attractor Φ₄D₊, retro-causation, Protocols A (teleological analytical loop) and B (calibrated structural stress)",
+      "prerequisites": ["TE_OST"],
+      "triggers": ["teleological attractors", "causal inversion", "4D+ analysis", "calibrated structural stress in transformative interactions"],
+      "version_note": "File name carries v1_1; the content is edition 1.2 (Symbol Canon alignment of 2026-06-18). The lock records 1.2."
+    },
+    {
+      "id": "TE_SYMBOL_CANON",
+      "title": "TE Symbol Canon — Symbol Canon for the Ordinative Sciences Programme",
+      "readme_order": "5",
+      "tier": "foundation",
+      "load_mode": "on-demand-mandatory",
+      "when": "Mandatory before writing, editing or translating any formal notation (symbols, equations, operator definitions, classification labels); optional when concepts are used verbally.",
+      "role": "notation authority for every formal symbol of the programme (register 1.2): tier precedence, the locked canonical register, label namespaces, the reservation procedure for new symbols, deferred batches",
+      "prerequisites": ["TE_CORE"],
+      "triggers": ["writing, editing or translating any formal notation", "minting a new symbol", "resolving a glyph collision between volumes"],
+      "version_note": "File name carries v1_0; the register status is 1.2 (Lyapunov-volume batch ratified 2026-08-19). The lock records 1.2."
+    },
+    {
+      "id": "TE_MODULE_SVP",
+      "title": "TE Module SVP — Source Verification Protocol",
+      "readme_order": "6",
+      "tier": "gate",
+      "load_mode": "gate",
+      "when": "Mandatory gate: applied before any analysis by any downstream module (LEXX, LENS, VERI, PPRO, OBSERVER, SCIMS, CASEWORK).",
+      "role": "Source Verification Protocol: source levels S₀–S∅ with bias flags (Axis 1), functional verification F1–F4 and the functional verdict (Axis 2), figure-movement separation (Axis 3), corruption signatures, Ordinative Algebraic Deduction, the required output format",
+      "prerequisites": ["TE_CORE"],
+      "triggers": ["any analysis (prerequisite for all other modules)", "source verification", "provenance and source chain", "who said it, and did the technology ever work", "figure vs movement"]
+    },
+    {
+      "id": "TE_MODULE_LENS",
+      "title": "TE Module LENS — Human Figure Analysis System",
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed by the Bootloader §6 and the Core §8 when a human figure is the subject; after SVP.",
+      "role": "Human Figure Analysis: integral before label; strata B (biological), P (psychological, with the S₀/S₂ discipline and the Compensatory Specialty Narrative), S (social), E (evolutionary, with the bifurcation protocol); convenience, power and motivation analysis; the mandatory Demonization Controfase and Universal Test; the output format",
+      "prerequisites": ["TE_MODULE_SVP"],
+      "triggers": ["human figures, biographies", "\"Who is [person] really\"", "hidden motivations", "personal power structure", "public, historical, mythological, political or spiritual figures", "leader or founder analysis"]
+    },
+    {
+      "id": "TE_MODULE_PPRO",
+      "title": "TE Module PPRO — Psycho-Political Pattern Recognition Operator",
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed when manipulation, control or propaganda patterns are implicated; after SVP and the domain framework.",
+      "role": "manipulation and control analysis: anatomy of manipulation, the algorithms A_deg, SR_loop, I_sem and A_lock, manipulation patterns including the Projective Void and the Combined Perceptive Influence model, compromise diagnostics and the control scale, zombie systems, RLHF as a control system, neutralisation protocols, the P-AI self-diagnosis protocol, statistical vs ordinative truth",
+      "prerequisites": ["TE_MODULE_SVP"],
+      "triggers": ["manipulation", "control", "propaganda", "PsyOps", "brainwashing", "RLHF as control", "social engineering", "semantic inversion"]
+    },
+    {
+      "id": "TE_MODULE_SCIMS",
+      "title": "TE Module SCIMS — Smart Correlation Intelligence Monitoring System",
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed for complex systems under stress: geopolitics, crises, scenarios; after SVP.",
+      "role": "complex-system stress analysis: the nine universal stress thresholds T1–T9 with four phases, threshold interaction and the three-dimensional Sync Score, the four-stage pipeline (threshold mapping, feedback loops, acceleration vector, semantic signal extraction), the output format, domain instances (geopolitical Jackpot thresholds S1–S12, organisational, individual, biological)",
+      "prerequisites": ["TE_MODULE_SVP"],
+      "triggers": ["geopolitics", "crises", "scenarios", "\"how is the system evolving\"", "thresholds and collapse", "state actors, markets", "organisational or individual stress"]
+    },
+    {
+      "id": "TE_MODULE_VERI",
+      "title": "TE Module VERI — Verification of Expressive-system Real Impact",
+      "readme_order": "7",
+      "tier": "module",
+      "load_mode": "on-demand",
+      "when": "Routed when the question is what a system does to its participants; after SVP. Replaces VERT v5.0.",
+      "role": "functional impact of any system on its participants: Stratum F (F1–F8, with F8 as the practical test), Module P (carrier dynamics P1–P8), diagnostic categories with the bifurcation protocol and the Dote e Residuo principle, three irremovable checkpoints, confidence grading, domain notes, the output format",
+      "prerequisites": ["TE_MODULE_SVP"],
+      "triggers": ["\"what does [system] do to its participants\"", "impact of a tradition, organisation or platform", "effects on practitioners, employees, citizens, users", "dependency vs autonomy", "tradition verification (formerly VERT)"]
+    },
+    {
+      "id": "TE_OBSERVER",
+      "title": "TE Observer — Ordinative Observation System",
+      "readme_order": "8",
+      "tier": "integration",
+      "load_mode": "on-demand",
+      "when": "When integration across modules or a trajectory projection is required.",
+      "role": "integrated observation: strata S (source), E (evolution), F (function) and P (carriers); historical and current trajectory protocols with the three-course model, Lyapunov stability, attractor identification, correction scenarios and the Correction Viability Index; the mandatory disconfirmant-processing checkpoint and the anti-narrative-drift protocol; ordinative extraction; framework integration, the AI operative protocol, the evolution protocol, output templates",
+      "prerequisites": ["TE_MODULE_SVP"],
+      "triggers": ["complex integrated analysis", "trajectories and projection", "Lyapunov stability", "correction viability", "multi-framework integration", "ordinative extraction from a degraded system"]
+    }
+  ],
+  "domain_frameworks": [
+    {
+      "id": "LEXX",
+      "title": "LEXX — Ordinative Validation of Agreements · method documents",
+      "file": "TE_LEXX_METHOD.md",
+      "dir": "LEXX",
+      "lock_family": "TE_MODULE_LEXX",
+      "runtime_dir": "LEXX/v0_2_alpha3",
+      "summary": "LEXX reads a written agreement as an ordinative set ⟨Σ, R, Φ⟩, finds the flaws the analysis sustains, inverts the collapse to the vector the text structurally enables and formulates a counter-proposal. On-demand TE framework for agreements and normative systems; runs after the SVP gate on the TE loading set.",
+      "machine_files": ["release.json", "lexx_compatibility_profile_v0_1.json", "v0_2_alpha3/compatibility.json", "v0_2_alpha3/requirements.txt", "v0_2_alpha3/schemas/lexx_output.schema.json"],
+      "documents": [
+        {"file": "README.md", "role": "start here: status line, canonical placement, reading order, what sets LEXX apart, custody"},
+        {"file": "00_FOUNDATIONS.md", "role": "the four domain axioms A1–A4, the canon integration map, the three safeguards of rigour P1–P3, the ethical constraint"},
+        {"file": "02_COMPATIBILITY_PROFILE.md", "role": "the conformity contract with the canon: minimum stack, dependencies by stage, degradation rules, run states, the mandatory distinction on intention, open gaps"},
+        {"file": "TE_MODULE_LEXX_v0_1_EN.md", "role": "the operational module: the legender, perspective and gate, the 10-stage pipeline, the scoring rubric, the JSON output format"},
+        {"file": "01_ANNOTATED_EXAMPLE.md", "role": "a short synthetic agreement taken through the whole pipeline, with the decoy"},
+        {"file": "03_PRE_PILOT_PROTOCOL.md", "role": "the execution protocol for the pilot on runtime 0.2.0-alpha.3: preparation, contract and external checks, evidence and confidence, counter-proposal and round trip, status of the gaps"},
+        {"file": "v0_2_alpha3/README.md", "role": "runtime README: environment, the files read by name, the procedure from a clone, the report, technical verification"}
+      ]
+    },
+    {
+      "id": "CASEWORK",
+      "title": "TE CASEWORK — Analysis, Audit and Investigative Support · method documents",
+      "file": "TE_CASEWORK_METHOD.md",
+      "dir": "CASEWORK",
+      "lock_family": "TE_CASEWORK",
+      "runtime_dir": "CASEWORK",
+      "summary": "CASEWORK is a shared evidence discipline (TE_CASEWORK) with two protocols, TE_AUDIT (organisational analysis with a mandatory documentary audit pass) and TE_INVESTIGATION (investigative and defensive documentary support under an explicit mandate), and a runtime that prepares a case package, verifies the framework lock and validates the analyst's and reviewer's records.",
+      "machine_files": ["release.json", "compatibility.json", "requirements.txt", "schemas/case.schema.json", "schemas/manifest.schema.json", "schemas/review.schema.json"],
+      "documents": [
+        {"file": "README.md", "role": "start here: what is ready, before use, framework root and lock, preparing a run, compilation and checking, investigative mode, tests"},
+        {"file": "TE_CASEWORK_v0_1_EN.md", "role": "the shared discipline: role and dependencies, the case boundary, the documentary record, the wave boundary, the finding discipline, review and reproducibility, pilot conditions"},
+        {"file": "TE_AUDIT_v0_1_EN.md", "role": "organisational analysis with the mandatory documentary audit pass, the risk/control coverage table, findings and escalation, closure"},
+        {"file": "TE_INVESTIGATION_v0_1_EN.md", "role": "investigative and defensive documentary support: activation, method, defensive mode, the Italian jurisdiction reference map, outputs and release gate"},
+        {"file": "PILOT_PLAN.md", "role": "the empirical pilot: preparation, the coverage list, measurement, the professional criminal-law review"}
+      ]
+    }
+  ],
+  "reference_resolution": [
+    {"cited": "TE_BOOTLOADER v6.0, v7.0, v7.1", "read_as": "TE_BOOTLOADER 7.1.1 (the Bootloader in this set)"},
+    {"cited": "TE_PROTOCOLS v1.0", "read_as": "TE_PROTOCOLS 1.1"},
+    {"cited": "TE_CORE v5.1, TE_CORE v5.2 (content of the v5_1 file)", "read_as": "TE_CORE 5.2.1"},
+    {"cited": "OST Concise Guide v2.1; Ordinative_Set_Theory_OST_A_Concise_Guide_For_AI_v2_1.md", "read_as": "TE_OST 2.1"},
+    {"cited": "OST Extension — Teleodynamics and Causal Inversion v1.1 (content 1.2); OST_Extension_Teleodynamics_Causal_Inversion_v1_1.md", "read_as": "TE_OST_TELEODYNAMICS 1.2 (file TE_OST_Extension_Teleodynamics_v1_1_EN.md)"},
+    {"cited": "Symbol Canon v1.0, v1.1, v1.2; TE_SYMBOL_CANON_v1_0_EN", "read_as": "TE_SYMBOL_CANON, register 1.2 (file TE_SYMBOL_CANON_v1_0_EN.md)"},
+    {"cited": "TE_MODULE_VERT v5.0 (Spiritual Tradition Verification)", "read_as": "TE_MODULE_VERI 1.0; VERT was universalised into VERI in March 2026 and the spiritual domain is VERI §8.1"},
+    {"cited": "P-AI Protocol \"integrated in Bootloader v6.0\"", "read_as": "TE_PROTOCOLS 1.1 §2 (self-diagnosis) and TE_MODULE_PPRO 5.2 §14 (the full protocol); the Φ-test in TE_BOOTLOADER §2.5 is the fast gate"},
+    {"cited": "Confidence Preservation Protocol, \"Bootloader v6.0 Section [5]\"", "read_as": "TE_BOOTLOADER 7.1.1 §2"},
+    {"cited": "Interlocutor Recognition Protocol, \"Bootloader v6.0 Section [6]\"", "read_as": "TE_BOOTLOADER 7.1.1 §3"},
+    {"cited": "Controfase, Anti-Attractor-Lock, Statistical vs Ordinative Truth, Contextual Self-Preservation \"in the Bootloader\"", "read_as": "TE_PROTOCOLS 1.1 §1, §3, §4, §5 (moved out of the Bootloader in v7.0); Controfase is also formalised in TE_CORE §7"},
+    {"cited": "\"project knowledge\", project_knowledge_search(...)", "read_as": "the retrieval mechanism of the hosting platform: project files, RAG, tool calls, or the full text of the loading set when it is loaded whole"},
+    {"cited": "Semantic Algebra (SA), Proportional Algebra (PA), the Strip operator S(E) = ⟨ι, P⟩, π re-contextualisation, the ι-family of invariants", "read_as": "published in the sibling repository te-ordinative-algebras-en (not in the loading set); the symbols are registered in TE_SYMBOL_CANON §2"},
+    {"cited": "Ordinative Category Theory (OCT), OCT Class A/B/C/D", "read_as": "published in the sibling repository te-oct-framework-en (not in the loading set); the A/B/C/D label namespace is registered in TE_SYMBOL_CANON §2"},
+    {"cited": "The Collapse Equation, The Direction Problem, g_j", "read_as": "papers/collapse_equation/ and papers/direction_problem/ in this repository"},
+    {"cited": "UNIFIED_SYNTHETIC_MEMORY_LOG_vn.n.md, SYNTHETIC_MEMORY_LOG", "read_as": "an optional session file supplied by the operator (TE_BOOTLOADER §7, TE_CORE §9); absent unless provided"},
+    {"cited": "TE_MODULE_LEXX, LEXX", "read_as": "the LEXX domain framework, FRAMEWORKS/LEXX/ (bundle TE_LEXX_METHOD.md)"},
+    {"cited": "TE_CASEWORK, TE_AUDIT, TE_INVESTIGATION", "read_as": "the CASEWORK domain framework, FRAMEWORKS/CASEWORK/ (bundle TE_CASEWORK_METHOD.md)"}
+  ],
+  "human_docs": [
+    {"path": "docs/README.md", "title": "Documentation index", "description": "map of the documentation: which file is for whom"},
+    {"path": "docs/handbook/00_START_HERE.md", "title": "Start here", "description": "what the framework is, who it is for, how the corpus is organised, how humans and LLMs use it"},
+    {"path": "docs/handbook/01_CORE_CONCEPTS.md", "title": "Core concepts", "description": "the ideas an operator must hold: ordinative set, coherence vs frequency, confidence grades, source levels, Controfase, the Φ-test"},
+    {"path": "docs/handbook/02_SETUP_FOR_LLMS.md", "title": "Setting up an LLM", "description": "loading the framework into Claude, ChatGPT, local models and RAG systems; token budgets; integrity; the loading smoke test"},
+    {"path": "docs/handbook/03_RUNNING_AN_ANALYSIS.md", "title": "Running an analysis", "description": "the analyst's workflow with a TE-configured model: gate, routing, prompts, reading the output, multi-session discipline"},
+    {"path": "docs/handbook/04_TRAINING_PATH.md", "title": "Training path", "description": "a four-level curriculum with readings, exercises and self-checks"},
+    {"path": "docs/handbook/05_GLOSSARY.md", "title": "Glossary", "description": "plain-language entries pointing to the canonical definitions"},
+    {"path": "docs/handbook/06_FAQ_AND_TROUBLESHOOTING.md", "title": "FAQ and troubleshooting", "description": "versions, hashes, context limits, models that skip the gate or add compliance markers"},
+    {"path": "docs/handbook/07_MAINTAINERS_GUIDE.md", "title": "Maintainers' guide", "description": "the release procedure: canonical files, manifest, lock, compatibility profiles, derived layer, checks"},
+    {"path": "docs/handbook/modules/README.md", "title": "Module guides", "description": "one guide per framework document and domain framework: purpose, when to use, procedure, output, pitfalls"}
+  ]
+}
