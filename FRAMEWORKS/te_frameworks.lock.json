@@ -4,19 +4,19 @@
   "framework_root": "FRAMEWORKS",
   "families": {
     "TE_BOOTLOADER": {
-      "version": "7.1.1",
+      "version": "7.2",
       "snapshot_path": "TE_BOOTLOADER_v7_1_1_EN.md",
-      "sha256": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb"
+      "sha256": "0e81c9f268666027a78b1bba0e58e0c4d770d371cf563c5ba021845904f17c9c"
     },
     "TE_PROTOCOLS": {
-      "version": "1.1",
+      "version": "1.2",
       "snapshot_path": "TE_PROTOCOLS_v1_1_EN.md",
-      "sha256": "b5a425aaceb8f77e02cb873ddfcbdceeae77696629d0036ec03272c4832c506f"
+      "sha256": "e73dea6a6012760c4985ae512fbd4ef435629624b87a77d0ab222722846e16b5"
     },
     "TE_CORE": {
-      "version": "5.2.1",
+      "version": "5.3",
       "snapshot_path": "TE_CORE_v5_2_1_EN.md",
-      "sha256": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8"
+      "sha256": "cbb98d72d17c58ccd3a81906861909db515748b0aad4b23b3c4ec2db7ddf3bb3"
     },
     "TE_OST": {
       "version": "2.1",
@@ -24,9 +24,9 @@
       "sha256": "da3c7e9b60ed91030007f8f2a3b1702d0bcd67e205e8dd8736bc1391eda4390f"
     },
     "TE_OST_TELEODYNAMICS": {
-      "version": "1.2",
+      "version": "1.3",
       "snapshot_path": "TE_OST_Extension_Teleodynamics_v1_1_EN.md",
-      "sha256": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff"
+      "sha256": "754d3d96fbe40f238625b598dfbeadd8d02f5a4fc739c6883351b56089f339f1"
     },
     "TE_SYMBOL_CANON": {
       "version": "1.2",
@@ -39,36 +39,36 @@
       "sha256": "2bb6da6b9cd663648088f0d8ee022d29859b6d77f51f81caa5b3dd450b4eedda"
     },
     "TE_MODULE_LENS": {
-      "version": "5.1",
+      "version": "5.2",
       "snapshot_path": "TE_MODULE_LENS_v5_1_EN.md",
-      "sha256": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06"
+      "sha256": "feb198322bdc02dc3d6e3989492f998cf62489e2db96dc9a46c1c3d4ed3873bd"
     },
     "TE_MODULE_PPRO": {
-      "version": "5.2",
+      "version": "5.3",
       "snapshot_path": "TE_MODULE_PPRO_v5_2_EN.md",
-      "sha256": "e0590a5c74733cb81606b1bd9ab26d505311515962f45372f02451d778ca59e5"
+      "sha256": "5f89fae27060fea0b8c08013af6ad90ffc646139171f3567ecce6768760eb68b"
     },
     "TE_MODULE_SCIMS": {
-      "version": "5.1",
+      "version": "5.2",
       "snapshot_path": "TE_MODULE_SCIMS_v5_1_EN.md",
-      "sha256": "a2f7125b494de3b2bb74b5e8e96a22820f203f74b225c26638ee470519deb9dc"
+      "sha256": "c381cb18577792c70c69211441a5ba49fa8b32dbf44e7a0930de43fd97185135"
     },
     "TE_MODULE_VERI": {
-      "version": "1.0",
+      "version": "1.1",
       "snapshot_path": "TE_MODULE_VERI_v1_0_EN.md",
-      "sha256": "7a7997305a6f9b6e71553729f7360b892c488ee0eb0727d315a32e6cda1fb8e5"
+      "sha256": "63648db9f58c2121fbe6fc530eb58bc057d0de959e8d7a81af7f37327f31d3bb"
     },
     "TE_OBSERVER": {
-      "version": "1.1",
+      "version": "1.2",
       "snapshot_path": "TE_OBSERVER_v1_1_EN.md",
-      "sha256": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6"
+      "sha256": "2227092e51b6c0b4ba1f1dbefc995f15c02d4a07b03ad821cdf751572f239b0b"
     },
     "TE_MODULE_LEXX": {
       "version": "0.2.0-alpha.3",
       "files": [
         {
           "relative_path": "LEXX/v0_2_alpha3/compatibility.json",
-          "sha256": "ded9d8a7dab29be8f04f4d1e86039ec9cf049471c81cee3ef86330468b427402"
+          "sha256": "327d17d58fbb131bad07a43eef2d3a60a4b9dea151bce724b4eac1b566b77a1a"
         },
         {
           "relative_path": "LEXX/v0_2_alpha3/requirements.txt",
@@ -99,14 +99,14 @@
           "sha256": "eec1bc75b8334885f84ff5381522bee8ffc08f3c853e705c1d66bcb8b69d1f60"
         }
       ],
-      "package_digest": "18c58c9f29557a09cbbf36d603cba737ad317463cb24009d4068bd3a1b53a17b"
+      "package_digest": "150d130da0ac4c1cdd220bcc685d2c8ef8dc43a8e5a530041ed4b19488ecd8be"
     },
     "TE_CASEWORK": {
       "version": "0.1.0-alpha.1",
       "files": [
         {
           "relative_path": "CASEWORK/compatibility.json",
-          "sha256": "236bf7836c5a7cc8534860a868a9b8d53a35342bbc46a01ecfb3facbfb204dfa"
+          "sha256": "e2ebbf069717d0aa3f23ff1703cd0871b2be97abb5a03bf1b2761ef4ea8bef30"
         },
         {
           "relative_path": "CASEWORK/release.json",
@@ -145,7 +145,7 @@
           "sha256": "9dfc9fab7fcfa6dfbad7d995e4780c799129da72fe5d2b3d2c30f41f0d8773cb"
         }
       ],
-      "package_digest": "6f28e2aecccdc703340c3d5ef933e88ca9a3dfd2782e64368e703d9155f7f7d8"
+      "package_digest": "c6ff8ebb5d1b78d6520af0a42f6d46cd484663300646ad48d9d2980be4c39aa7"
     }
   }
 }

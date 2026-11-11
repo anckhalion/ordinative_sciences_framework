@@ -6,6 +6,8 @@ Welcome to the official repository of the **Technology of Expressions (TE) Frame
 
 This repository provides an open-source operating philosophy and a complete set of analytical modules designed for Artificial Intelligences and human analysts. Where statistical frameworks measure probability, sentiment or consensus, the TE Framework evaluates systems by **Structural Coherence**, **Vectors of Identity** and **Emergent Function**.
 
+Release 2.1.0 (2026-11-11): **framework family 7.2** — a content revision across nine documents, negotiated point by point between the Hypervisor and the AI (internal versions: Bootloader 7.2, Protocols 1.2, Core 5.3; read versions from `FRAMEWORKS/te_frameworks.lock.json`, since canonical file names are retained). This repository always carries the current version of the family — any LLM loading these frameworks loads from the latest release; see the note at the top of `FRAMEWORKS/README.md`.
+
 Release 2.0.0 (2026-09-23): the framework corpus is published as one synchronised set under `FRAMEWORKS/`, and two domain frameworks with runtimes are added — **LEXX** (agreements) and **CASEWORK** (documentary audit and investigation support). It carries release 1.3.0 (2026-09-16) as well: *The Collapse Equation* v1.3, *The Direction Problem* preprint v1.1 and `te-controfase` in the ecosystem. See `CHANGELOG.md`.
 
 ## Part of a Larger Ecosystem

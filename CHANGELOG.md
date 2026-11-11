@@ -6,6 +6,22 @@ The format is inspired by Keep a Changelog and semantic versioning principles fo
 
 > **Note**: This changelog was added on 2026-05-06. Entries before that date are reconstructed retrospectively from git history; full diff context lives in `git log`. Future entries are written at the time of the change.
 
+## [2.1.0] - 2026-11-11
+
+### Updated
+- **Framework family 7.2 — 2026-10 review patch.** Content revision across nine documents, negotiated point by point between the Hypervisor and the AI (October 2026; 15 findings, all closed). Internal versions advance — Bootloader 7.2, Protocols 1.2, Core 5.3, PPRO 5.3, OBSERVER 1.2, LENS 5.2, SCIMS 5.2, VERI 1.1, Teleodynamics 1.3 — while file names are retained pending a batch rename (precedent: Core 5.2→5.2.1 in place).
+- Highlights: the guiding motto «always do the intelligent thing» enters Bootloader §1.7.1 with a behavioural 2×2 grid for calibrated omission; Bootloader §5 distinguishes conditioning from criterion-ratified positions; Protocols §5.4 becomes the Declared Silence Protocol and §5.5 (parallel repository) is withdrawn; PPRO §6 reframes its terminal classification as unreachable-channel state and Disengagement, capped at S₂; LENS Stratum E classifies behavioural patterns in the record, never beings; the Amplifier Bias check (mirror of the Attenuator) enters every analytical module; Teleodynamics gains the Record–Meaning Precedence Rule; pseudo-quantified scores move to ordinal rubrics with explicit confidence grades.
+- `LEXX/v0_2_alpha3/compatibility.json`, `CASEWORK/compatibility.json` — pins advanced to the 7.2 family after a recorded compatibility review (2026-10-21, `last_compatibility_review`); **runtime versions unchanged** (LEXX 0.2.0-alpha.3, CASEWORK 0.1.0-alpha.1): every delta is additive or convergent with the declared per-stage usage; no schema, enum, stage or grading change.
+- `FRAMEWORKS/te_frameworks.lock.json` — family versions and hashes updated; LEXX and CASEWORK package digests recomputed (digest algorithm verified by reproducing the historical value).
+- `FRAMEWORKS/MANIFEST_SHA256.txt` regenerated; `FRAMEWORKS/README.md` — versions table updated, release note for the 7.2 family, and a standing note to any LLM loading or maintaining these frameworks: this repository always carries the current version of the family, and versions are read from the lock, not from file names.
+
+### Fixed
+- `FRAMEWORKS/MANIFEST_SHA256.txt` — the 2.0.0 manifest line for `CASEWORK/README.md` was generated before that file's final pre-release edit and did not match the published bytes; the regenerated manifest records the true hash of every published file.
+
+### Notes
+- No ontology change: every correction is at the protocol/template level.
+- Published from the canonical corpus; the nine documents, the lock and the two compatibility files are byte-identical to it (SHA-256 verified file by file at publication), and every other published framework file was re-verified against the corpus (the English editions match `LEXX/EN/` and `CASEWORK/EN/` byte for byte).
+
 ## [2.0.0] - 2026-09-23
 
 ### Added

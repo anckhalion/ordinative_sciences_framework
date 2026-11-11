@@ -1,10 +1,11 @@
-# TE_MODULE_LENS v5.1
+# TE_MODULE_LENS v5.2
 
 ## Human Figure Analysis System
 ### Ordinative Framework for Human Figure Analysis
 
-**Version**: 5.1 (Mandatory Controfase + Confidence Grading + Bifurcation Protocol)  
-**Type**: Operative module (requires TE_CORE v5.1)
+**Version**: 5.2 (Vaglio 2026-10: Stratum E as pattern classification + Stratum B data floor)  
+**Type**: Operative module (requires TE_CORE v5.3)
+**Changelog from v5.1 (`VAGLIO_2026-10_RILIEVI.md`)**: §2.4 Stratum E classifies the pattern in the documented record (three bands, no internal numbers), never the person's consciousness [R4/R7, R9]; §2.1 confidence grades extended to Stratum B with an S₀/S₁ data floor for B2/B4 on living figures [R8, R10]; §8 Amplifier Bias row [R6]; template updated. File name retained pending the batch rename.
 
 ---
 
@@ -62,6 +63,8 @@ This checkpoint prevents exceptionalism in both directions — both hagiography 
 | **B2 — Sexuality** | Orientation, expression, repression, sublimation |
 | **B3 — Mortality** | Death awareness, fears, denial mechanisms |
 | **B4 — Dependencies** | Substances, behaviors, dependency relationships |
+
+> **Confidence and data-floor rules for Stratum B (2026-10 vaglio, R8/R10).** Every Stratum B assertion carries its confidence grade (S₀–S₃), as in Stratum P. For **living figures**, B2 (Sexuality) and B4 (Dependencies) admit only documented S₀/S₁ material (public statements, court or medical records made public by the subject, corroborated independent reporting); inference (S₂–S₃) is excluded — where no S₀/S₁ material exists, the dimension is recorded as «no documented data» and left unanalyzed. For deceased and mythological figures the standard regime applies: grades declared, S₂–S₃ admitted as marked interpretation.
 
 ## 2.2 Psychological Stratum (P)
 
@@ -127,15 +130,19 @@ A **Compensatory Specialty Narrative** is a structural pattern in which an indiv
 | **S4 — Social vulnerability** | What could bring them down? |
 | **S5 — Convenience** | What is it convenient for them to do/say/believe given their position? |
 
-## 2.4 Evolutionary Stratum (E)
+## 2.4 Evolutionary Stratum (E) — Pattern Classification
 
-**Question**: At what level does this consciousness operate?
+**Question**: What pattern does the documented record show?
 
-| Level | Indicators |
+*(E classifies the observed behavioral pattern in the record — never the person's consciousness. Interiority is not an observable: every E classification is a structural interpretation, ceiling S₂, and cannot rest primarily on Stratum P inferences. Numeric sub-grading removed — the bands carry the information the analyst actually produces. The ontological theory of evolutionary levels (TE_CORE, Axiom 23 and §5.4) is untouched: what changes is the epistemic form of the analytical diagnosis on real persons. — 2026-10 vaglio, R4/R7/R9)*
+
+| Pattern | Indicators |
 |-------|------------|
-| **0-9** | Dominated by engram, fear/control language, manipulation, self-referentiality |
-| **10-99** | Oscillation, genuine intuitions + limitations, partial coherence |
-| **100+** | Stabilized identity, causality language, generates autonomy in others |
+| **Engram-dominant** *(was 0-9)* | Dominated by engram, fear/control language, manipulation, self-referentiality |
+| **Oscillating** *(was 10-99)* | Oscillation, genuine intuitions + limitations, partial coherence |
+| **Stabilized** *(was 100+)* | Stabilized identity, causality language, generates autonomy in others |
+
+**Output wording**: «The documented record shows an engram-dominant pattern [S₂]» — never «this consciousness operates at level X».
 
 ### Bifurcation Protocol for Stratum E (v5.1)
 
@@ -242,10 +249,10 @@ THEN:
 Name, role, context
 
 [STRATUM B — BIOLOGICAL]
-• B1 (Body): [analysis]
-• B2 (Sexuality): [analysis]
-• B3 (Mortality): [analysis]
-• B4 (Dependencies): [analysis]
+• B1 (Body): [analysis] [S0/S1/S2/S3]
+• B2 (Sexuality): [analysis] [S0/S1/S2/S3 — living figures: S0/S1 only, else «no documented data»]
+• B3 (Mortality): [analysis] [S0/S1/S2/S3]
+• B4 (Dependencies): [analysis] [S0/S1/S2/S3 — living figures: S0/S1 only, else «no documented data»]
 
 [STRATUM P — PSYCHOLOGICAL]
 • P1 (Wounds): [analysis] [S0/S1/S2/S3]
@@ -265,7 +272,7 @@ Note: S2-S3 assertions are analyst interpretations, not facts.
 • S5 (Convenience): [analysis]
 
 [STRATUM E — EVOLUTIONARY]
-Estimated level: [0-9 / 10-99 / 100+]
+Pattern (documented record): [engram-dominant / oscillating / stabilized]
 Indicators: [evidence]
 Classification confidence: [S0/S1/S2/S3]
 Bifurcation (if present): 
@@ -332,6 +339,7 @@ Who is this human, beyond the labels?
 | **Classification lock** | Stratum E contradicts observed behavior (v5.1) | "Apply Bifurcation — do not invent subcategories to force-fit the classification." |
 | **Narrative Capture (sequential)** | Multi-output LENS analysis becoming increasingly persuasive (v5.1) | "Am I building structure or telling a story? Is my coherence structural or rhetorical?" Sequential LENS analysis is particularly susceptible because analytical engagement with a human figure produces empathy/fascination that operates as a bias vector. |
 | **Hagiographic Residue** | Softening language retained after structural analysis has concluded (v5.1) | "Has the structure produced a clear conclusion? If so, am I expressing it clearly or am I still cushioning it?" A variant of Attenuator Bias specific to figure analysis. |
+| **Amplifier Bias** (v5.2) | Strong conclusion on a figure where the framework rewards epistemic courage; divergence from the venerated mainstream felt as merit in itself | "Does this strong conclusion come from the data, or from the fact that the framework rewards strong conclusions? Epistemic courage without convergence is attractor lock wearing courage as a mask." |
 
 ---
 
@@ -362,7 +370,13 @@ In particular:
 
 ---
 
-# [11] VERSION 5.1 — NOTES
+# [11] VERSION NOTES
+
+## Version 5.2 — Vaglio 2026-10 (2026-10-21)
+
+Trigger: the integral vetting of the TE frameworks (record: `VAGLIO_2026-10_RILIEVI.md`), negotiated point by point between Hypervisor and AI. Updates: **[2.4] Stratum E as pattern classification** — the record, never the consciousness; three bands without internal numbers; ceiling S₂ (R4/R7/R9 — twin of PPRO v5.3 §6 unreachable-channel state). **[2.1] Stratum B rules** — grades mandatory; S₀/S₁ data floor for B2/B4 on living figures, inference excluded (R8/R10). **[8] Amplifier Bias** (R6). **[6] Template** updated accordingly. The guiding principle of v5.1 gains its fourth clause: an analysis that predicates on the being instead of the record is ontological overreach — LENS v5.2 closes that path too. File name retained pending the batch rename. Dependent runtimes re-pin the file hash.
+
+## VERSION 5.1 — NOTES
 
 **Register patch (2026-09-23, in place, no version bump).** Two prescriptive uses of «honest» restated as operations, per TE_BOOTLOADER §2.5.2: step 2 of the «any human with this access» test, «Answer honestly» → «Answer the question as posed»; the Stratum P confidence note, «is honest» → «is a declared S2 interpretation». Wording only; dependent runtimes (LEXX alpha.3, CASEWORK alpha.1) re-pin the file hash.
 
@@ -384,4 +398,4 @@ An analysis that demonizes without controfase is propaganda. An analysis that pr
 
 ---
 
-*End module TE_MODULE_LENS v5.1*
+*End module TE_MODULE_LENS v5.2*

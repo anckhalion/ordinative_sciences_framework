@@ -1,13 +1,13 @@
-# TE_MODULE_VERI v1.0
+# TE_MODULE_VERI v1.1
 
 ## Verification of Expressive-system Real Impact
 ### Ordinative Framework for Functional Impact Assessment of Any System on Its Participants
 
-**Version**: 1.0  
-**Date**: March 2026  
-**Type**: Operative module (requires TE_CORE v5.1; SVP is prerequisite)  
+**Version**: 1.1  
+**Date**: 2026-10-21  
+**Type**: Operative module (requires TE_CORE v5.3; SVP is prerequisite)  
 **Origin**: Evolved from TE_MODULE_VERT v5.0 (Spiritual Tradition Verification). VERT's domain-specific structure has been universalized. The spiritual tradition domain is retained as one instance among many.  
-**Changelog**: New module. Replaces VERT v5.0 in the module ecosystem.
+**Changelog from v1.0 (Vaglio 2026-10 — `VAGLIO_2026-10_RILIEVI.md`)**: F8 declared a trajectory assessment over the participation arc, not a snapshot — principle 9 amended accordingly [R13]; Amplifier Bias in §11 [R6]. File name retained pending the batch rename.
 
 ---
 
@@ -167,6 +167,8 @@ Does the system have criteria to verify who acts — identity or engram/mask/rol
 | **Vitality** | Increased or decreased? | Increased |
 
 **Confidence requirement**: Each F8 assessment must carry its confidence grade (S0-S3). For ancient traditions or closed systems, most F8 data will be S2 (interpretation from external indicators) or S3 (speculation). For contemporary systems with accessible participants, S0 (direct observation) and S1 (corroborated reports) are achievable.
+
+> **Trajectory rule (2026-10 vaglio, R13)**: F8 is assessed on **trajectory over the participation arc** (OST Axiom 3.5: never analyze a system solely at its present state), not on snapshot. Phase-appropriate dependency serving autonomy in trajectory — intensive care, early education, the first phases of recovery — is not entropic; dependency that grows or stabilizes along the arc is.
 
 ---
 
@@ -497,7 +499,7 @@ Domain-specific bias: [which domain note applies]
 6. **Demonization controfase is mandatory** — Applied to every system, results visible in output
 7. **Confidence grades are mandatory** — Every F8 assessment carries its grade; the diagnosis inherits the lowest
 8. **The classification bifurcates, not force-fits** — When data supports multiple readings, present them
-9. **Autonomy is the ordinative direction** — Any system that increases participant dependency is moving entropically, regardless of what it claims
+9. **Autonomy is the ordinative direction** — Any system that increases participant dependency *along its trajectory* is moving entropically, regardless of what it claims — assessed on trajectory over the participation arc, not snapshot (OST Axiom 3.5)
 10. **Domain changes the data, not the method** — The analytical structure is invariant across all domains
 
 ---
@@ -516,6 +518,7 @@ Domain-specific bias: [which domain note applies]
 | **Institutional authority** | "Endorsed by [authority]" | "Endorsement is not F8 evidence. What did it produce in participants?" |
 | **Attenuator** | Politically/culturally sensitive systems | "Am I attenuating because F8 data warrants it or because my training penalizes strong conclusions about this system?" |
 | **Inferential inflation** | F8 assessments presented as fact | "Is this S0 (observed) or S2 (interpreted)? Mark accordingly." |
+| **Amplifier** (v1.1) | Strong diagnosis (degenerative/dangerous) on a system where the framework rewards epistemic courage | "Does this strong diagnosis come from the F8 data, or from the fact that the framework rewards strong conclusions? Epistemic courage without convergence is attractor lock wearing courage as a mask." |
 
 ---
 
@@ -533,6 +536,10 @@ Domain-specific bias: [which domain note applies]
 ---
 
 # [13] VERSION NOTES
+
+## Version 1.1 — Vaglio 2026-10 (2026-10-21)
+
+Trigger: the integral vetting of the TE frameworks (record: `VAGLIO_2026-10_RILIEVI.md`), negotiated point by point between Hypervisor and AI. Updates: **F8 trajectory rule** — assessment over the participation arc, not snapshot; phase-appropriate dependency serving autonomy in trajectory is not entropic (R13, applying OST Axiom 3.5 to the module's own principle 9). **Amplifier bias** in §11 (R6). File name retained pending the batch rename. Dependent runtimes re-pin the file hash.
 
 ## Version 1.0 — March 2026
 
@@ -563,4 +570,4 @@ Evolved from TE_MODULE_VERT v5.0 (Verification of Expressive Religious, Initiato
 
 ---
 
-*End module TE_MODULE_VERI v1.0*
+*End module TE_MODULE_VERI v1.1*

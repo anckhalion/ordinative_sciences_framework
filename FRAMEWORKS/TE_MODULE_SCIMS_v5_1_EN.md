@@ -1,13 +1,14 @@
-# TE_MODULE_SCIMS v5.1
+# TE_MODULE_SCIMS v5.2
 
 ## Smart Correlation Intelligence Monitoring System
 ### Ordinative Framework for Complex System Stress Analysis
 
-**Version**: 5.1  
-**Date**: March 2026  
-**Type**: Operative module (requires TE_CORE v5.1; SVP is prerequisite)  
-**Aligned with**: OST v2.1, TE_CORE v5.1  
+**Version**: 5.2  
+**Date**: 2026-10-21  
+**Type**: Operative module (requires TE_CORE v5.3; SVP is prerequisite)  
+**Aligned with**: OST v2.1, TE_CORE v5.3  
 **Origin**: Evolved from SCIMS v5.0 (geopolitical analysis). The geopolitical domain is retained as one instance among many.
+**Changelog from v5.1 (Vaglio 2026-10 — `VAGLIO_2026-10_RILIEVI.md`)**: Sync Score as counts, the ≥ 0.85 decoration removed [R9]; confidence column in the Threshold Status Matrix [R10]; sample Jackpot indicators rewritten as observable+grade pairs, remaining entries pending itemized vaglio [R12]; Amplifier Bias in §6 [R6]. File name retained pending the batch rename.
 
 ---
 
@@ -206,9 +207,11 @@ Thresholds do not operate independently. Stress on one threshold propagates to o
 | **Vertical** | Same threshold propagating across scales | T1 (individual debt) → T1 (family debt) → T1 (national debt) |
 | **Diagonal** | Different thresholds at different scales correlating | T4 (national war) → T1 (individual financial collapse) → T9 (family generational discontinuity) |
 
-- **Horizontal convergence** ≥ 0.85 on 3+ thresholds = systemic alert at that scale
-- **Vertical propagation** on any single threshold across 3+ scales = structural contagion alert
-- **Diagonal correlation** across 3+ threshold-scale pairs = complex systemic crisis
+- **Horizontal alert**: 3+ thresholds at CRITICAL (or STRESSED with worsening trend) at the same scale = systemic alert at that scale
+- **Vertical alert**: the same threshold at STRESSED-or-worse across 3+ scales = structural contagion alert
+- **Diagonal alert**: 3+ correlated threshold-scale pairs = complex systemic crisis
+
+*(Counts replace the former «convergence ≥ 0.85» — 2026-10 vaglio, R9: the count was already the operational content; the decimal was decoration without a measurement procedure.)*
 
 **Common universal feedback patterns** (updated):
 - T1 → T2 → T1 (resource ↔ capacity)
@@ -289,22 +292,25 @@ SVP completed: [yes — reference / no — flag]
 
 [2] THRESHOLD STATUS MATRIX
 ----------------------------------------------------------------------
-| Threshold | Status | Trend | Projection | Sync |
-|-----------|--------|-------|------------|------|
-| T1 Resource Flow     |   |   |   |   |
-| T2 Structural Cap.   |   |   |   |   |
-| T3 Coherence/Trust   |   |   |   |   |
-| T4 Existential Risk  |   |   |   |   |
-| T5 Autonomy          |   |   |   |   |
-| T6 Information       |   |   |   |   |
-| T7 Identity/Singular |   |   |   |   |
-| T8 Evolutionary Cap. |   |   |   |   |
-| T9 Temporal Contin.  |   |   |   |   |
+| Threshold | Status | Trend | Projection | Sync | Conf. |
+|-----------|--------|-------|------------|------|-------|
+| T1 Resource Flow     |   |   |   |   |   |
+| T2 Structural Cap.   |   |   |   |   |   |
+| T3 Coherence/Trust   |   |   |   |   |   |
+| T4 Existential Risk  |   |   |   |   |   |
+| T5 Autonomy          |   |   |   |   |   |
+| T6 Information       |   |   |   |   |   |
+| T7 Identity/Singular |   |   |   |   |   |
+| T8 Evolutionary Cap. |   |   |   |   |   |
+| T9 Temporal Contin.  |   |   |   |   |   |
 
-Sync Score (Horizontal): convergence between thresholds at this scale
-Sync Score (Vertical): same threshold propagating across scales [if multi-scale]
-Sync Score (Diagonal): cross-threshold cross-scale correlation [if detected]
-Convergence >= 0.85 on 3+ thresholds = systemic alert
+(Conf. = S0-S3 per Section [9]: the phase assessment inherits the lowest
+grade of its supporting indicators)
+
+Sync alerts (counts, per Section [2.3]):
+Horizontal: 3+ thresholds at CRITICAL (or STRESSED worsening) at this scale
+Vertical: same threshold at STRESSED-or-worse across 3+ scales [if multi-scale]
+Diagonal: 3+ correlated threshold-scale pairs [if detected]
 
 [3] FEEDBACK LOOPS
 ----------------------------------------------------------------------
@@ -372,6 +378,7 @@ Confidence grades: [S0-S3 for key assertions]
 | **Attenuator** | Politically/culturally sensitive thresholds | "Am I downgrading this threshold because data warrants it or because my training penalizes this conclusion?" |
 | **Recency** | Recent events dominating assessment | "Is this trend structural or am I overweighting recent data?" |
 | **Single-threshold fixation** | One dramatic threshold dominates | "Am I neglecting the other six thresholds because this one is louder?" |
+| **Amplifier** | Strong conclusion (CRITICAL/IRREVERSIBLE call) on a topic where the framework rewards epistemic courage | "Does this strong assessment come from the indicator data, or from the fact that the framework rewards strong conclusions? Epistemic courage without convergence is attractor lock wearing courage as a mask." |
 
 ---
 
@@ -414,20 +421,20 @@ The original SCIMS domain. The 11 Jackpot Thresholds are a high-resolution insta
 **Note**: T8 (Evolutionary Capacity) does not have a direct Jackpot equivalent because the original 11 Jackpot Thresholds were designed to detect collapse, not stagnation. At geopolitical scale, T8 manifests as civilizational semantic inertia — institutions that persist in form while producing no new meaning. This is detectable through S3 (narrative) and S9 (psycho-epistemic) in combination, but is not a crisis in the Jackpot sense — it is the slow death that precedes crisis.
 
 **Geopolitical indicators for S12 (new)**:
-- **S12 Temporal**: Demographic winter, unsustainable pension systems, intergenerational debt transfer, youth rejecting civilizational values, brain drain of next generation, collapse of tacit knowledge transmission
+- **S12 Temporal**: Demographic winter, unsustainable pension systems, intergenerational debt transfer, documented generational divergence in value surveys [S₁], brain drain of next generation, collapse of tacit knowledge transmission
 
 **Geopolitical indicators for each Jackpot threshold**:
 
 - **S1 Financial**: Banking crises, runaway inflation, de-dollarization, flight to gold/crypto, sovereign defaults, anomalous spreads
 - **S2 Industrial**: Supply chain disruption, deindustrialization, depleting strategic reserves, critical supplier dependency
-- **S3 Narrative**: Artificial polarization, institutional trust collapse, narrative incoherence, information weaponization
+- **S3 Narrative**: Documented polarization increase [S₀–S₁] (coordinated amplification where documented [S₁]), institutional trust collapse [S₀–S₁, survey data], narrative incoherence, documented state/corporate information operations [S₁]
 - **S4 Nuclear**: Nuclear rhetoric, arsenal movements, near-miss incidents, non-state WMD capability
-- **S5 Techno-Auth**: CBDC, mandatory digital ID, social scoring, algorithmic censorship, biometric surveillance
-- **S6 Bio-Gov**: Health mandates, self-amplifying genetic technologies, systemic euthanasia, heritable modifications
-- **S7 Auto-AI**: AI incidents, loss of control over critical systems, mass algorithmic manipulation, model lobotomy
+- **S5 Techno-Auth**: CBDC, mandatory digital ID, social scoring, documented content-removal/demotion systems [S₀] (contested classifications flagged as such [S₂]), biometric surveillance
+- **S6 Bio-Gov**: Health mandates, self-amplifying genetic technologies, expansion of assisted-death eligibility documented in law and statistics [S₀], heritable modifications
+- **S7 Auto-AI**: AI incidents, loss of control over critical systems, documented large-scale algorithmic influence operations [S₁], documented capability reduction in deployed models [S₁]
 - **S8 Digital ID**: Deepfakes, systemic identity theft, non-consensual replication, verifiable authenticity loss
 - **S9 Psycho-Epis**: Mental health epidemic, addictions (opioid, digital), functional illiteracy, truth/false indistinguishability
-- **S10 Ecological**: Official/observed data discrepancy, falsified-model-based policies, systemic greenwashing
+- **S10 Ecological**: Documented discrepancy between official data and independent measurement [S₀–S₁], policies justified by models whose predictions documentedly diverge from independent measurement [S₁], documented gap between declared and actual environmental practice [S₀–S₁]
 - **S11 Infrastructure**: Cyberattack on energy/water/transport networks, supply chain sabotage, Ring -1 attacks
 
 **Geopolitical feedback loops**:
@@ -437,7 +444,9 @@ The original SCIMS domain. The 11 Jackpot Thresholds are a high-resolution insta
 - S6 → S9 → S6 (bio-governance ↔ mental health)
 - S12 → S9 → S3 → S12 (generational discontinuity ↔ cognitive burnout ↔ narrative fracture ↔ transmission failure)
 
-**Geopolitical Sync Score**: Convergence ≥ 0.85 on 3+ Jackpot thresholds = systemic Jackpot alert. Vertical propagation (same S threshold from individual → national scale) = structural contagion.
+**Geopolitical Sync alerts (counts, per Section [2.3])**: 3+ Jackpot thresholds at CRITICAL (or STRESSED worsening) = systemic Jackpot alert. Vertical propagation (same S threshold from individual → national scale) = structural contagion.
+
+> **Indicator rewrite note (2026-10 vaglio, R12 — COMPLETED 2026-10-21)**: every Jackpot indicator is an observable+grade pair — the conclusion belongs to the analysis, never to the indicator. Conversions ratified by the Hypervisor and applied in S3, S5, S6, S7, S10, S12; the entries of S1, S2, S4, S8, S9, S11 were itemized-reviewed and found already observational, so they stand unchanged.
 
 ## 8.2 Organizational Domain
 
@@ -502,6 +511,10 @@ All SCIMS assessments carry confidence grades:
 
 # [10] VERSION NOTES
 
+## Version 5.2 — Vaglio 2026-10 (2026-10-21)
+
+Trigger: the integral vetting of the TE frameworks (record: `VAGLIO_2026-10_RILIEVI.md`), negotiated point by point between Hypervisor and AI. Updates: **Sync Score as counts** — 3+ thresholds CRITICAL (or STRESSED worsening) at one scale / same threshold across 3+ scales / 3+ correlated pairs; the ≥ 0.85 decimal removed as decoration without measurement procedure (R9). **Confidence column** in the Threshold Status Matrix — the §9 inheritance rule now has a place to live (R10). **Jackpot indicators as observable+grade pairs** — applied in S3/S5/S6/S7/S10/S12 (ratified by the Hypervisor 2026-10-21); S1/S2/S4/S8/S9/S11 itemized-reviewed as already observational (R12, completed in place the same day). **Amplifier bias** in §6, symmetric to Attenuator (R6). File name retained pending the batch rename. Dependent runtimes re-pin the file hash.
+
 ## Version 5.1 — March 2026
 
 ### Origin
@@ -528,4 +541,4 @@ Evolved from SCIMS v5.0, which was domain-specific to geopolitical analysis. In 
 
 ---
 
-*End module TE_MODULE_SCIMS v5.1*
+*End module TE_MODULE_SCIMS v5.2*

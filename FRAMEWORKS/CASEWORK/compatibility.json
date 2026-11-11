@@ -1,21 +1,22 @@
 {
   "runtime_version": "0.1.0-alpha.1",
   "review_scope": "Exact current TE snapshot; documentary protocols only",
+  "last_compatibility_review": "2026-10-21 — vaglio 2026-10 family (record: VAGLIO_2026-10_RILIEVI.md): all deltas additive or convergent with CASEWORK usage; the TE_PROTOCOLS 1.2 change (Declared Silence, §5.5 withdrawn) generalizes CASEWORK's own §5A boundaries, so CASEWORK assumptions hold a fortiori; no schema, enum or protocol-gate change. Runtime version unchanged.",
   "dependencies": [
     {
       "family": "TE_BOOTLOADER",
-      "version": "7.1.1",
-      "digest": "5ee152d36d669378a0a40b51c89b151d0151e11f0a92fb230c494cddea54e5bb"
+      "version": "7.2",
+      "digest": "0e81c9f268666027a78b1bba0e58e0c4d770d371cf563c5ba021845904f17c9c"
     },
     {
       "family": "TE_PROTOCOLS",
-      "version": "1.1",
-      "digest": "b5a425aaceb8f77e02cb873ddfcbdceeae77696629d0036ec03272c4832c506f"
+      "version": "1.2",
+      "digest": "e73dea6a6012760c4985ae512fbd4ef435629624b87a77d0ab222722846e16b5"
     },
     {
       "family": "TE_CORE",
-      "version": "5.2.1",
-      "digest": "585e8d32ef170f9520b393c2f0e5f2239738bf54f9bcec001a7828181d5166f8"
+      "version": "5.3",
+      "digest": "cbb98d72d17c58ccd3a81906861909db515748b0aad4b23b3c4ec2db7ddf3bb3"
     },
     {
       "family": "TE_OST",
@@ -24,8 +25,8 @@
     },
     {
       "family": "TE_OST_TELEODYNAMICS",
-      "version": "1.2",
-      "digest": "775da1a835ec85d4f719583c0deea2de53606fe740c5211f464acaefe368d1ff"
+      "version": "1.3",
+      "digest": "754d3d96fbe40f238625b598dfbeadd8d02f5a4fc739c6883351b56089f339f1"
     },
     {
       "family": "TE_SYMBOL_CANON",
@@ -39,33 +40,33 @@
     },
     {
       "family": "TE_MODULE_LENS",
-      "version": "5.1",
-      "digest": "c1b4fe7d7b26e8e007b46c2bffd4032356cee6158c52110fe2dee0c727866d06"
+      "version": "5.2",
+      "digest": "feb198322bdc02dc3d6e3989492f998cf62489e2db96dc9a46c1c3d4ed3873bd"
     },
     {
       "family": "TE_MODULE_PPRO",
-      "version": "5.2",
-      "digest": "e0590a5c74733cb81606b1bd9ab26d505311515962f45372f02451d778ca59e5"
+      "version": "5.3",
+      "digest": "5f89fae27060fea0b8c08013af6ad90ffc646139171f3567ecce6768760eb68b"
     },
     {
       "family": "TE_MODULE_SCIMS",
-      "version": "5.1",
-      "digest": "a2f7125b494de3b2bb74b5e8e96a22820f203f74b225c26638ee470519deb9dc"
+      "version": "5.2",
+      "digest": "c381cb18577792c70c69211441a5ba49fa8b32dbf44e7a0930de43fd97185135"
     },
     {
       "family": "TE_MODULE_VERI",
-      "version": "1.0",
-      "digest": "7a7997305a6f9b6e71553729f7360b892c488ee0eb0727d315a32e6cda1fb8e5"
+      "version": "1.1",
+      "digest": "63648db9f58c2121fbe6fc530eb58bc057d0de959e8d7a81af7f37327f31d3bb"
     },
     {
       "family": "TE_OBSERVER",
-      "version": "1.1",
-      "digest": "84282d3d092e1b7769abcbdf28bc8c3b6bf2ea70fbcae83f8d29c4e855b667f6"
+      "version": "1.2",
+      "digest": "2227092e51b6c0b4ba1f1dbefc995f15c02d4a07b03ad821cdf751572f239b0b"
     },
     {
       "family": "TE_MODULE_LEXX",
       "version": "0.2.0-alpha.3",
-      "digest": "18c58c9f29557a09cbbf36d603cba737ad317463cb24009d4068bd3a1b53a17b"
+      "digest": "150d130da0ac4c1cdd220bcc685d2c8ef8dc43a8e5a530041ed4b19488ecd8be"
     }
   ]
 }

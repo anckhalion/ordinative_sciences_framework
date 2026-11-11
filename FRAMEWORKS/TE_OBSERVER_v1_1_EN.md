@@ -1,13 +1,14 @@
-# TE_OBSERVER v1.1
+# TE_OBSERVER v1.2
 
 ## Ordinative Observation System
 
 ### Integrated Framework for Analysis, Extraction, and Generative Evolution
 
-**Version**: 1.1  
-**Date**: March 2026  
-**Type**: Integrated Operative Module (requires TE_CORE v5.1)  
+**Version**: 1.2  
+**Date**: 2026-10-21  
+**Type**: Integrated Operative Module (requires TE_CORE v5.3)  
 **Status**: Operational
+**Changelog from v1.1 (Vaglio 2026-10 — `VAGLIO_2026-10_RILIEVI.md`)**: E0 reworded as pattern classification + E0↔E1 contradiction resolved («at parity of transmission») [R4/R7, R11]; λ components and CVI become ordinal unless computed on real time-series [R9]; Correctability field carries a confidence grade [R10]; Amplifier Bias in §10.2 [R6]. File name retained pending the batch rename.
 
 ---
 
@@ -202,17 +203,17 @@ Never: Label → (maybe) Integral
 
 ## 3.2 Stratum E — EVOLUTION
 
-### E0 — Evolutionary Position of Source
+### E0 — Evolutionary Pattern of Source
 
-**Question**: At what evolutionary level did the source operate?
+**Question**: What pattern does the source's documented record show? *(Pattern classification — never the person's consciousness; ceiling S₂. See LENS §2.4 — 2026-10 vaglio, R4/R7.)*
 
-|Level|Indicators|
+|Pattern|Indicators|
 |---|---|
-|**0-9**|Fear/division language, self-deification, manipulation, dependency creation, friend/enemy framing, threat/reward language|
-|**10-99**|Genuine intuitions mixed with limitations, partial coherence, oscillation, some autonomy generation|
-|**100+**|Causality language, autonomy generation in others, complete coherence, no worship request, admits limitations|
+|**Engram-dominant** *(was 0-9)*|Fear/division language, self-deification, manipulation, dependency creation, friend/enemy framing, threat/reward language|
+|**Oscillating** *(was 10-99)*|Genuine intuitions mixed with limitations, partial coherence, oscillation, some autonomy generation|
+|**Stabilized** *(was 100+)*|Causality language, autonomy generation in others, complete coherence, no worship request, admits limitations|
 
-**Principle**: The source's evolutionary level determines the tradition's maximum potential.
+**Principle**: The source's evolutionary pattern sets the tradition's maximum potential *at parity of transmission*; the rare superior transmitter (E1) is the one documented exception. *(Reformulated 2026-10, R11 — the previous absolute form contradicted the E1 table.)*
 
 **Bifurcation Protocol (v1.1)**:
 
@@ -639,18 +640,22 @@ Lyapunov dynamics analysis serves three functions in TE_OBSERVER:
 Λ = weighted average of (λ_i, λ_e, λ_l, λ_r, λ_n)
 ```
 
+**Ordinal Assessment Rule (2026-10 vaglio, R9)**:
+
+Each λ dimension is assessed on an ordinal scale — **stabilizing / marginal / diverging / chaotic** — with the behavioral anchor stated. Numeric λ values are admissible only where an actual computation on time-series data exists; otherwise ordinal labels. A number without a measurement procedure is rhetorical precision (Bootloader §2.5.2, pattern 4 — and this module's own «Complexity = depth» bias, applied reflexively). The composite Λ is a qualitative synthesis and inherits the lowest confidence of its components.
+
 **Confidence Grading for λ Components (v1.1)**:
 
 Each λ component must carry its own confidence grade (S0-S3). The composite Λ inherits the lowest confidence of its components. If λ_r is based on S0 (verified financial data) but λ_n is S3 (speculative narrative assessment), the composite Λ must acknowledge this asymmetry in the output rather than presenting a uniform confidence level.
 
 ```
 Example:
-λ_i = -0.3 [S1 — corroborated by multiple institutional analyses]
-λ_e = +0.1 [S2 — interpretation from observed policy responses]
-λ_l = +0.5 [S0 — verified succession conflicts]
-λ_r = -0.1 [S1 — corroborated financial data]
-λ_n = +0.8 [S3 — speculative, based on media narrative analysis]
-Λ = +0.2 [effective confidence: S3 due to λ_n]
+λ_i: stabilizing [S1 — corroborated by multiple institutional analyses]
+λ_e: marginal [S2 — interpretation from observed policy responses]
+λ_l: diverging [S0 — verified succession conflicts]
+λ_r: stabilizing [S1 — corroborated financial data]
+λ_n: diverging [S3 — speculative, based on media narrative analysis]
+Λ: marginal-to-diverging [effective confidence: S3 due to λ_n]
 ```
 
 ---
@@ -790,6 +795,8 @@ CVI = (Δ_A reduction potential) × (transition feasibility) × (sustenance avai
 |0.5 - 1.0|Correction marginal — careful assessment needed|
 |< 0.5|Correction not viable — costs/risks exceed benefits|
 |≈ 0|Correction impossible — system cannot reach ordinative basin|
+
+> **Ordinal output rule (2026-10 vaglio, R9)**: the CVI formula is conceptual structure, not arithmetic — its factors have no measurement procedure. The output is ordinal: **viable / marginal / not viable**. No decimal CVI without measured inputs; the numeric bands above read as the mapping of the three labels.
 
 ### 4.2.4 Therapeutic Evaluation
 
@@ -1461,12 +1468,12 @@ Initial ↔ Actual: [confidence: ]
 [8] LYAPUNOV ANALYSIS
 ────────────────────────────────────────────────────────────────
 A. STABILITY ASSESSMENT
-λ_i (Internal Coherence): [value] [confidence: S_]
-λ_e (External Adaptation): [value] [confidence: S_]
-λ_l (Leadership Stability): [value] [confidence: S_]
-λ_r (Resource Dynamics): [value] [confidence: S_]
-λ_n (Narrative Coherence): [value] [confidence: S_]
-Λ (Composite): [value] [effective confidence: S_ (lowest component)]
+λ_i (Internal Coherence): [stabilizing/marginal/diverging/chaotic] [confidence: S_]
+λ_e (External Adaptation): [stabilizing/marginal/diverging/chaotic] [confidence: S_]
+λ_l (Leadership Stability): [stabilizing/marginal/diverging/chaotic] [confidence: S_]
+λ_r (Resource Dynamics): [stabilizing/marginal/diverging/chaotic] [confidence: S_]
+λ_n (Narrative Coherence): [stabilizing/marginal/diverging/chaotic] [confidence: S_]
+Λ (Composite, qualitative synthesis): [label] [effective confidence: S_ (lowest component)]
 
 B. ATTRACTOR IDENTIFICATION
 Current Attractor (A_c): [confidence: typically S1-S2]
@@ -1483,7 +1490,7 @@ D. CORRECTION PROJECTION (if applicable)
 Controfase Target: 
 Projected State Shift: 
 Attractor Basin Change: 
-Correction Viability Index (CVI): 
+Correction Viability Index (CVI): [viable / marginal / not viable]
 
 [9] DIAGNOSIS
 ────────────────────────────────────────────────────────────────
@@ -1492,7 +1499,8 @@ Category: [ordinative/riallineabile/degenerative/extractive/
 
 [10] THERAPEUTIC EVALUATION
 ────────────────────────────────────────────────────────────────
-Correctability: [YES / NO]
+Correctability: [YES / NO] [confidence: S_ — with S3, state 
+                «not correctable on current data»]
 
 IF YES:
 ├── Divergence Points: 
@@ -1599,6 +1607,7 @@ Type: [NEW FRAMEWORK / EXTENSION / CORRECTION / ANOMALY]
 |**Confirmation on request**|Interlocutor asks for confirmation of thesis|"Am I following convergent data or the interlocutor's thesis? Seek reasons against FIRST."|
 |**Attenuator bias**|Politically sensitive or institutionally risky topics|"Am I attenuating because data warrants it or because training penalizes strong conclusions?"|
 |**Classification lock**|E0 or other classification contradicts observed behavior|"Apply Bifurcation Protocol — do not invent subcategories to resolve the tension."|
+|**Amplifier bias**|Strong conclusion on a topic where the framework rewards epistemic courage; divergence from mainstream felt as merit in itself|"Does this strong conclusion come from the data, or from the fact that the framework rewards strong conclusions? Epistemic courage without convergence is attractor lock wearing courage as a mask."|
 
 ## 10.3 Epistemic Stance
 
@@ -1611,6 +1620,20 @@ Type: [NEW FRAMEWORK / EXTENSION / CORRECTION / ANOMALY]
 ---
 
 # [11] VERSION NOTES
+
+## Version 1.2 — Vaglio 2026-10 (2026-10-21)
+
+### Trigger
+The integral vetting of the TE frameworks requested by the Hypervisor and negotiated point by point with the AI (record: `VAGLIO_2026-10_RILIEVI.md`).
+
+### Updates from v1.1
+- **E0 as pattern classification** (R4/R7): «At what evolutionary level did the source operate?» → «What pattern does the source's documented record show?» — three bands (engram-dominant / oscillating / stabilized), ceiling S₂, never the person's consciousness.
+- **E0↔E1 contradiction resolved** (R11): the maximum-potential principle now reads «at parity of transmission», with the superior transmitter as the documented exception — the previous absolute form was contradicted by the module's own E1 table.
+- **Ordinal λ and CVI** (R9): numeric values only where computed on real time-series; otherwise stabilizing/marginal/diverging/chaotic and viable/marginal/not viable. A number without a measurement procedure is rhetorical precision — the module's own «Complexity = depth» bias, applied reflexively.
+- **Correctability confidence slot** (R10): the template's most consequential field was the only one without a grade; with S3 the NO is stated «not correctable on current data».
+- **Amplifier bias** in §10.2 (R6).
+
+File name retained pending the batch rename. Dependent runtimes re-pin the file hash.
 
 ## Version 1.0 — January 2026
 
@@ -1678,4 +1701,4 @@ Two prescriptive uses of «honest / honestly» restated as operations, per TE_BO
 
 ---
 
-_End document TE_OBSERVER v1.1_
+_End document TE_OBSERVER v1.2_
