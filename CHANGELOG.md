@@ -6,6 +6,13 @@ The format is inspired by Keep a Changelog and semantic versioning principles fo
 
 > **Note**: This changelog was added on 2026-05-06. Entries before that date are reconstructed retrospectively from git history; full diff context lives in `git log`. Future entries are written at the time of the change.
 
+## [Unreleased] - 2026-11-21
+
+### Fixed
+- `FRAMEWORKS/TE_MODULE_SCIMS_v5_1_EN.md` — module name corrected by the Hypervisor: SCIMS stands for **Strategic** Correlation Intelligence Monitoring System (the heading read "Smart"). Internal version unchanged (5.2); the module's changelog line records the correction.
+- `FRAMEWORKS/te_frameworks.lock.json` and `FRAMEWORKS/MANIFEST_SHA256.txt` — SCIMS hash updated; the lock is byte-identical to the canonical corpus.
+- `README.md` — the DOI badge now points to the concept DOI `10.5281/zenodo.19337544`, which always resolves to the latest version (it pointed to the first version's DOI, `10.5281/zenodo.19337545`).
+
 ## [2.1.0] - 2026-11-11
 
 ### Updated

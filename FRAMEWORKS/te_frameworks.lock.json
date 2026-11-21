@@ -51,7 +51,7 @@
     "TE_MODULE_SCIMS": {
       "version": "5.2",
       "snapshot_path": "TE_MODULE_SCIMS_v5_1_EN.md",
-      "sha256": "c381cb18577792c70c69211441a5ba49fa8b32dbf44e7a0930de43fd97185135"
+      "sha256": "ebd2f31ac93772d94515d9eed38752659870c978e74ceebbf9bdcbd383f5757e"
     },
     "TE_MODULE_VERI": {
       "version": "1.1",

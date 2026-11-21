@@ -1,6 +1,6 @@
 # TE_MODULE_SCIMS v5.2
 
-## Smart Correlation Intelligence Monitoring System
+## Strategic Correlation Intelligence Monitoring System
 ### Ordinative Framework for Complex System Stress Analysis
 
 **Version**: 5.2  
@@ -8,7 +8,7 @@
 **Type**: Operative module (requires TE_CORE v5.3; SVP is prerequisite)  
 **Aligned with**: OST v2.1, TE_CORE v5.3  
 **Origin**: Evolved from SCIMS v5.0 (geopolitical analysis). The geopolitical domain is retained as one instance among many.
-**Changelog from v5.1 (Vaglio 2026-10 — `VAGLIO_2026-10_RILIEVI.md`)**: Sync Score as counts, the ≥ 0.85 decoration removed [R9]; confidence column in the Threshold Status Matrix [R10]; sample Jackpot indicators rewritten as observable+grade pairs, remaining entries pending itemized vaglio [R12]; Amplifier Bias in §6 [R6]. File name retained pending the batch rename.
+**Changelog from v5.1 (Vaglio 2026-10 — `VAGLIO_2026-10_RILIEVI.md`)**: Sync Score as counts, the ≥ 0.85 decoration removed [R9]; confidence column in the Threshold Status Matrix [R10]; sample Jackpot indicators rewritten as observable+grade pairs, remaining entries pending itemized vaglio [R12]; Amplifier Bias in §6 [R6]. File name retained pending the batch rename. Name corrected to *Strategic* Correlation Intelligence Monitoring System (Hypervisor, 2026-11-21).
 
 ---
 
